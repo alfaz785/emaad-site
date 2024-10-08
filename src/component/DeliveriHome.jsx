@@ -2,6 +2,13 @@
 
 import gsap from "gsap";
 import React, { useEffect } from "react";
+import mobileAppImg from "../assets/images/mobile-app.svg";
+import appleImg from "../assets/images/apple.svg";
+import webImg from "../assets/images/web.svg";
+import productImg from "../assets/images/Product.svg";
+import digitalImg from "../assets/images/Digital.svg";
+import leafImg from "../assets/images/leaf.svg";
+import Image from "next/image";
 
 const DeliveriHome = () => {
   useEffect(() => {
@@ -109,7 +116,7 @@ const DeliveriHome = () => {
             <span className="position-relative">
               thrives
               <div className="text-img-leaf">
-                <img src="../assets/images/leaf.svg" alt="" />
+                <Image src={leafImg} alt="" />
               </div>
             </span>
             <br />
@@ -120,7 +127,7 @@ const DeliveriHome = () => {
         <div className="cards" id="card-one">
           <div className="title-icon">
             <div className="d-flex align-items-center gap-3">
-              <img src="../assets/images/mobile-app.svg" alt="" />
+              <Image src={mobileAppImg} alt="" />
               <h6 className="mb-0">Mobile App Development</h6>
             </div>
 
@@ -143,7 +150,7 @@ const DeliveriHome = () => {
             </div>
             <div className="app-development">
               <div className="app-development-back">
-                <img src="../assets/images//apple.svg" alt="" />
+                <Image src={appleImg} alt="" />
               </div>
               <p className="mb-0">iOS App Development</p>
             </div>
@@ -162,7 +169,7 @@ const DeliveriHome = () => {
         <div className="cards" id="card-two">
           <div className="title-icon">
             <div className="d-flex align-items-center gap-3">
-              <img src="../assets/images/web.svg" alt="" />
+              <Image src={webImg} alt="" />
               <h6 className="mb-0">Web Development</h6>
             </div>
 
@@ -186,7 +193,7 @@ const DeliveriHome = () => {
             </div>
             <div className="app-development">
               <div className="app-development-back">
-                <img src="../assets/images//apple.svg" alt="" />
+                <Image src={appleImg} alt="" />
               </div>
               <p className="mb-0">PWA Development</p>
             </div>
@@ -205,7 +212,7 @@ const DeliveriHome = () => {
         <div className="cards" id="card-three">
           <div className="title-icon">
             <div className="d-flex align-items-center gap-3">
-              <img src="../assets/images/Product.svg" alt="" />
+              <Image src={productImg} alt="" />
               <h6 className="mb-0">Product Design & Strategy</h6>
             </div>
 
@@ -228,7 +235,7 @@ const DeliveriHome = () => {
             </div>
             <div className="app-development">
               <div className="app-development-back">
-                <img src="../assets/images//apple.svg" alt="" />
+                <Image src={appleImg} alt="" />
               </div>
               <p className="mb-0">Digital Product Development</p>
             </div>
@@ -247,7 +254,7 @@ const DeliveriHome = () => {
         <div className="cards" id="card-four">
           <div className="title-icon">
             <div className="d-flex align-items-center gap-3">
-              <img src="../assets/images/Digital.svg" alt="" />
+              <Image src={digitalImg} alt="" />
               <h6 className="mb-0">Digital Marketing</h6>
             </div>
 
@@ -270,7 +277,7 @@ const DeliveriHome = () => {
             </div>
             <div className="app-development">
               <div className="app-development-back">
-                <img src="../assets/images//apple.svg" alt="" />
+                <Image src={appleImg} alt="" />
               </div>
               <p className="mb-0">Social Media Marketing</p>
             </div>
