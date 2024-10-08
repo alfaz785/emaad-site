@@ -1,0 +1,210 @@
+import React from "react";
+import Image from "next/image";
+import ulStar from "../../assets/images/ul-star.svg";
+import ourProcessImg from "../../assets/images/Our-process-img.svg";
+import ProcessImg from "@/component/ProcessImg";
+
+const Process = () => {
+  return (
+    <>
+      {" "}
+      <ProcessImg />
+      {/* <!-- process-section-data start --> */}
+      <div className="container">
+        <div className="process-section-data">
+          <h3 className="mb-0">
+            Our
+            <Image
+              width={"100%"}
+              height={"100%"}
+              src={ourProcessImg}
+              alt="arrow"
+            />{" "}
+            Process
+          </h3>
+          <p className="lead">
+            At <span className="company-name">Emaad Infotech</span>, we follow a
+            systematic approach to ensure the success of your web development
+            project. Our process is designed to deliver high-quality results
+            while maintaining transparency and collaboration throughout the
+            journey.
+          </p>
+
+          <div className="row phase-text-main">
+            <div className="col-md-4">
+              <div className="d-flex align-items-start phase-title-img">
+                <Image src={ulStar} width={"100%"} height={"100%"} alt="star" />
+                <h4 className="phase-title mb-0">Discovery Phase</h4>
+              </div>
+            </div>
+
+            <div className="col-md-8">
+              <ul>
+                <li>
+                  Initial Consultation:
+                  <span>
+                    We start by understanding your goals, target audience, and
+                    project requirements through in-depth discussions.
+                  </span>
+                </li>
+                <li>
+                  Research and Analysis:
+                  <span>
+                    Our team conducts market research and competitor analysis to
+                    identify opportunities and challenges.
+                  </span>
+                </li>
+                <li>
+                  Define Project Scope:
+                  <span>
+                    Based on our findings, we outline the project scope,
+                    timeline, and deliverables to set clear expectations.
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="row phase-text-main">
+            <div className="col-md-4">
+              <div className="d-flex align-items-start phase-title-img">
+                <Image src={ulStar} width={"100%"} height={"100%"} alt="star" />
+                <h4 className="phase-title mb-0">Design Phase</h4>
+              </div>
+            </div>
+
+            <div className="col-md-8">
+              <ul>
+                <li>
+                  Wireframing:
+                  <span>
+                    We create wireframes to outline the layout and structure of
+                    your website, focusing on user experience and navigation.
+                  </span>
+                </li>
+                <li>
+                  Visual Design:
+                  <span>
+                    Our designers work on creating mockups and visual concepts
+                    that align with your brand identity and preferences.
+                  </span>
+                </li>
+                <li>
+                  Feedback and Iteration:
+                  <span>
+                    We gather feedback from you and iterate on the designs until
+                    they meet your expectations.
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="row phase-text-main">
+            <div className="col-md-4">
+              <div className="d-flex align-items-start phase-title-img">
+                <Image src={ulStar} width={"100%"} height={"100%"} alt="star" />
+                <h4 className="phase-title mb-0">Development Phase</h4>
+              </div>
+            </div>
+
+            <div className="col-md-8">
+              <ul>
+                <li>
+                  Front-End Development:
+                  <span>
+                    Our front-end developers bring the designs to life using
+                    HTML, CSS, and JavaScript, ensuring responsiveness and
+                    cross-browser compatibility.
+                  </span>
+                </li>
+                <li>
+                  Back-End Development:
+                  <span>
+                    Our back-end developers build the server-side logic and
+                    database architecture using technologies like PHP, Node.js.
+                  </span>
+                </li>
+                <li>
+                  Integration and Testing:
+                  <span>
+                    We integrate third-party services, APIs, and
+                    functionalities, rigorously testing the website for
+                    performance, security, and functionality.
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="row phase-text-main">
+            <div className="col-md-4">
+              <div className="d-flex align-items-start phase-title-img">
+                <Image src={ulStar} width={"100%"} height={"100%"} alt="star" />
+                <h4 className="phase-title mb-0">Deployment Phase</h4>
+              </div>
+            </div>
+
+            <div className="col-md-8">
+              <ul>
+                <li>
+                  Launch Preparation:
+                  <span>
+                    We prepare for the website launch by setting up hosting,
+                    domain configuration, and SSL certificates.
+                  </span>
+                </li>
+                <li>
+                  Deployment:
+                  <span>
+                    We deploy the website to the live server, ensuring a smooth
+                    transition from development to production.
+                  </span>
+                </li>
+                <li>
+                  Post-Launch Testing:
+                  <span>
+                    We conduct final testing to verify that everything is
+                    working as expected in the live environment.
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="row phase-text-main border-bottom-0">
+            <div className="col-md-4">
+              <div className="d-flex align-items-start phase-title-img">
+                <Image src={ulStar} width={"100%"} height={"100%"} alt="star" />
+                <h4 className="phase-title mb-0">Maintenance and Support</h4>
+              </div>
+            </div>
+
+            <div className="col-md-8">
+              <ul>
+                <li>
+                  Ongoing Support:
+                  <span>
+                    We provide post-launch support and maintenance services to
+                    address any issues and ensure the website's continued
+                    performance.
+                  </span>
+                </li>
+                <li>
+                  Updates and Enhancements:
+                  <span>
+                    We work with you to implement updates, enhancements, and new
+                    features based on user feedback and changing business needs.
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <!-- /* ==========process section End ============ */}
+    </>
+  );
+};
+
+export default Process;

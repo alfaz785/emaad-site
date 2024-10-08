@@ -1,0 +1,2387 @@
+/* <!-- Delivering Innovation that thrives your business start --> */
+
+@media (max-width: 1390px) {
+  .expertice-choose-titel h4 {
+    font-size: 72px;
+  }
+  .expertice-choose-titel h3 {
+    font-size: 72px;
+  }
+  /* why choose css */
+  .design-software img {
+    width: 467px;
+    height: 344px;
+  }
+  .Expertise-and-Experience-card2 {
+    min-width: 100%;
+  }
+  .card-technology-pricing {
+    margin-top: 25px;
+  }
+
+  .Expertise-and-Experience-card {
+    width: 100%;
+    min-width: 304px;
+  }
+  .cutting-edge-tech-card2 {
+    max-width: 100%;
+    height: 344px;
+  }
+  .Expertise-and-Experience-card {
+    width: 100%;
+    min-width: 100%;
+  }
+  .product-title h5 {
+    font-size: 77px;
+  }
+  .our-work-pere p {
+    font-size: 19px;
+    margin-top: 28px;
+  }
+  .brilliant-previews-title h1 {
+    font-size: 60px;
+  }
+  .brilliant-img {
+    top: -12px;
+  }
+  .brilliant-previews-title p {
+    font-size: 17px;
+  }
+  .web-app-toggel h3 {
+    font-size: 50px;
+  }
+  .web-app-toggel .checkbox-label::before {
+    width: 182px;
+    height: 74px;
+  }
+  .web-app-toggel .checkbox-label .web-ball {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 12px;
+  }
+  /* web design process section  start */
+  .design-tabs-process {
+    flex-wrap: wrap;
+  }
+  .process-card-tab {
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+  }
+  .process-tab-design {
+    margin-top: 74.73px;
+  }
+
+  /* bulk services page */
+  /* digital typing effect section  */
+  .bulk-sms-email-marketing .boost-your-success {
+    max-width: 65%;
+  }
+  .bulk-sms-email-marketing {
+    padding: 77px 0;
+  }
+  .text-item-service {
+    flex-wrap: wrap;
+  }
+  /* why choose our services */
+
+  .bulk-text h1 {
+    font-size: 80px;
+    line-height: 98px;
+  }
+  .bulk-desc p {
+    font-size: 21px;
+  }
+  .discover-capabilites .discover-title h4 {
+    font-size: 59px;
+    line-height: 67.2px;
+    font-family: "Syne-Bold";
+  }
+  .discover-capabilites .discover-title h5 {
+    font-size: 59px;
+    line-height: 67.2px;
+    font-family: "Syne-Bold";
+  }
+  .discover-capabilites .discover-title h5 {
+    font-size: 59px;
+    line-height: 67.2px;
+    font-family: "Syne-Bold";
+  }
+  .why-choose-our-service {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .service-card-grabe {
+    /* width: 100%; */
+    height: 100vh;
+    display: flex;
+    margin-top: 40px;
+  }
+  .service-design-card {
+    position: absolute;
+    z-index: 1;
+    right: auto;
+    top: auto;
+  }
+  /* our work */
+  .our-work-titel h3 {
+    font-size: 96px;
+    line-height: 89px;
+  }
+}
+
+@media (max-width: 1350px) {
+  /* Customers Experiences section */
+  .customer-experiences h3 {
+    font-size: 110px;
+  }
+  .vision-text {
+    font-size: 60px;
+  }
+  .expertise-text-choose {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .card-technology-pricing {
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .design-why-Choose {
+    padding: 0px;
+  }
+
+  .software-experience {
+    display: none;
+  }
+  .design-software {
+    display: block;
+    margin-top: 60px;
+  }
+  .design-software img {
+    width: 100%;
+  }
+  .expertice-choose-titel h4 {
+    font-size: 60px;
+  }
+  .expertise-choose-text p {
+    font-size: 15px;
+  }
+
+  .customer-experiences h3 {
+    font-size: 110px;
+  }
+  .why-Work-left-title {
+    right: -90px;
+    top: 120px;
+  }
+  .why-Work-left-title h2 {
+    font-size: 30px;
+  }
+  .standard-gallery h3 {
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 1200px) {
+  /* navbar */
+  .dropdown {
+    position: unset;
+    top: 100%;
+    right: 0;
+    background: #111;
+    border-radius: 12px;
+    padding: 15px;
+    /* right: 57%; */
+    z-index: 1;
+  }
+
+  .product-drowpdown {
+    position: unset;
+    top: 100%;
+    right: 0;
+    left: 0;
+    background: #111;
+    padding: 15px;
+    border-radius: 12px;
+    z-index: 1;
+  }
+  .company-dropdown {
+    position: unset;
+    top: 100%;
+    right: 0;
+    padding: 15px;
+    width: 100%;
+    border-radius: 12px;
+    background: #111;
+    /* z-index: 1; */
+  }
+  .nav-text {
+    display: block;
+  }
+  /* drwopdown click */
+  .main-drowpdown {
+    display: none;
+  }
+
+  .main-drowpdown.active {
+    display: block;
+  }
+  .title-icon h5 {
+    font-size: 8vw;
+  }
+  .why-choose-box_text h5 {
+    font-size: 16px;
+  }
+  .app-development p {
+    font-size: 15px;
+  }
+  .text h2 {
+    font-size: 50px;
+  }
+  .grow-with-info p {
+    width: 47%;
+  }
+  /* We Have Some Easy Steps */
+
+  .intro-text h4 {
+    font-size: 69px;
+  }
+  /* Leading eCommerce Software  */
+  .thumbs {
+    width: 50%;
+    bottom: 0%;
+    right: 10px;
+  }
+  .thumbs .swiper-slide {
+    width: 300px !important;
+    height: 130px;
+  }
+  .main-slider .swiper-slide img {
+    right: 0;
+  }
+  .slider-text {
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  .slider-btn {
+    bottom: 60px;
+    left: 40%;
+  }
+  /*  */
+  /* awesome section */
+  .sec-title-1 {
+    font-size: 60px;
+  }
+  /* Customers Experiences section */
+  .customer-experiences h3 {
+    font-size: 90px;
+  }
+  .experiences {
+    width: 70px;
+    height: 70px;
+  }
+  .ideas-wait-text h3 br {
+    display: none;
+  }
+  /* about page respionsive */
+  /* why emaad css */
+  .emmad-title-2 h1 {
+    padding-right: 0px;
+    font-size: 90px;
+  }
+  /* capabilities css */
+  .typing-container {
+    font-size: 72px;
+    line-height: 78px;
+  }
+  .talk-button h4 {
+    font-size: 77px;
+    line-height: 87px;
+  }
+  .discover-title h4 {
+    font-size: 63px;
+  }
+  .discover-notes p {
+    font-size: 16px;
+  }
+  .logo-title {
+    font-size: 28px;
+  }
+
+  .discover-text-swiper-button {
+    flex-wrap: wrap;
+    justify-content: end;
+  }
+  .tag-contetnt {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+  }
+
+  /* ui-ux-design page css */
+  .ui-text-design .ui-typing-text {
+    max-width: 100%;
+  }
+  .ui-text-design .ui-text {
+    font-size: 60px;
+  }
+  .ui-text-design .text1ui {
+    font-size: 60px;
+  }
+  .ui-to-info p {
+    width: 100%;
+  }
+  .why-choose-sec {
+    flex-wrap: wrap;
+  }
+  .why-choose-img img {
+    width: 100%;
+  }
+  /* why choose section ui ux */
+  .choose-title h4 {
+    font-size: 39px;
+    margin: 0;
+  }
+  /* Benefits of section ui ux */
+  .Benefits-title h4 {
+    font-size: 54px;
+    line-height: 66px;
+  }
+  .choose-text h5 {
+    font-size: 22px;
+  }
+  .Benefits-of-service-desc {
+    margin-top: 50px;
+  }
+  .Benefits-of-service {
+    padding-top: 0px;
+  }
+  .benifits-descripation p {
+    font-size: 22px;
+  }
+  /* Design Excellence section  */
+  .design-text h4 {
+    font-size: 47px;
+    line-height: 66px;
+  }
+  .design-text h4 {
+    width: 100%;
+  }
+
+  /* web development page */
+  .digital-potential-section .title h2 {
+    font-size: 48px;
+  }
+  .lats-start-project-section .project-text {
+    font-size: 85px;
+  }
+  /* web development page */
+  .digital-potential-section .title h2 {
+    font-size: 48px;
+  }
+  .lats-start-project-section .project-text {
+    font-size: 85px;
+  }
+  /* web development page */
+  .digital-potential-section .title h2 {
+    font-size: 48px;
+  }
+  .lats-start-project-section .project-text {
+    font-size: 85px;
+  }
+
+  /* digital marketing page */
+  /* boost your success css */
+
+  .bost-online-success .boost-your-success {
+    max-width: 70%;
+    padding-left: 32px;
+  }
+  /* conact information section */
+
+  .client-img {
+    padding: 61px 50px 0px 50px;
+  }
+  .client-img img {
+    width: 100%;
+  }
+  .call-recoard img {
+    width: 100%;
+  }
+  .contact-client-ques {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .client-info p {
+    margin-top: 50px;
+  }
+  /* our experse css */
+  .our-experse-title h4 {
+    font-size: 100px;
+  }
+  /* bulk sms service page */
+  /* digital text typing animation  */
+  .bulk-sms-email-marketing .boost-your-success {
+    max-width: 56%;
+  }
+  .bulk-sms-email-marketing {
+    padding: 39px 0;
+  }
+  .bulk-text h1 {
+    font-size: 71px;
+    line-height: 90px;
+  }
+  .why-choose-our-service {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .service-card-grabe {
+    justify-content: center;
+    display: flex;
+    margin-top: 40px;
+  }
+  .get-in-touch-title h1 {
+    width: 50%;
+  }
+
+  /* privacy policy page css */
+  /* information sharind section */
+  .information-titel h4 {
+    font-size: 75px;
+    line-height: 76px;
+  }
+  .information-titel h4 span::before {
+    width: 338px;
+  }
+
+  /* our-work page css */
+
+  .standard-gallery h3 {
+    font-size: 75px;
+  }
+  .our-journey-title h1 {
+    width: 70%;
+  }
+  /* service page */
+  .comprehensive-title .main-heading {
+    font-size: 45px;
+  }
+  .reveal-section .letters > div {
+    font-size: 185px;
+  }
+  /* web design css */
+  .design-software {
+    display: block;
+    margin-top: 39px;
+  }
+}
+@media (max-width: 1224px) {
+  .design-software {
+    display: block;
+    margin-top: 39px;
+  }
+  .design-software img {
+    margin-top: 0px;
+    width: 100%;
+    height: 342px;
+    object-fit: cover;
+  }
+}
+@media (max-width: 992px) {
+  /* navabar */
+  .nav-text {
+    display: block;
+  }
+  .nav-list a {
+    font-size: 70px;
+  }
+  .menu-drowpdown {
+    flex-wrap: wrap;
+  }
+
+  .menu-drowp-icons {
+    flex-wrap: wrap;
+  }
+
+  .menu-drowp-icon {
+    flex-wrap: wrap;
+  }
+  .title-icon h6 {
+    font-size: 35px;
+  }
+  .grow-with-info p {
+    width: 47%;
+  }
+  /* We Have Some Easy Steps */
+  .intro-text h4 {
+    font-size: 50px;
+  }
+  /* leading */
+  .slider-text h5 {
+    font-size: 30px;
+  }
+  .slider-text p {
+    font-size: 16px;
+  }
+  .slider-btn {
+    bottom: 60px;
+    left: 25%;
+  }
+  .slider-text p {
+    font-size: 16px;
+  }
+
+  .thumbs {
+    width: 60%;
+    bottom: 0%;
+    right: 5px;
+  }
+
+  .thumbs .swiper-slide {
+    width: 260px !important;
+    height: 110px;
+  }
+
+  .slider-btn-group {
+    bottom: -35px;
+  }
+  .why-choose-text-section {
+    padding: 20px;
+  }
+  /* awesome */
+  .awesome_section .pp-slide {
+    padding: 84px 0 87px 25px;
+  }
+  .awesome_section .pp-prev {
+    right: -65px;
+  }
+  .awesome_section .pp-next {
+    left: -35px;
+  }
+  .pin li {
+    width: 90vw !important;
+  }
+  /* why choose us section */
+  .why-choose-text-section h3 {
+    display: inline-flex;
+  }
+  .custom_display_none {
+    display: none;
+  }
+  .custom_display_block {
+    display: block !important;
+  }
+  .custom_display_block a {
+    margin: 25px auto 15px;
+  }
+
+  .cutting-edge-tech-card2 {
+    max-width: 100%;
+  }
+  .why-choose-text-section p {
+    font-size: 15px;
+  }
+  .cutting-edge-tech-card2 {
+    max-width: 100%;
+  }
+  .cutting-edge-tech-card2 {
+    max-width: 100%;
+    height: 342px;
+  }
+  .design-software {
+    margin-top: 58px;
+  }
+  /* Ideas can't wait end */
+  .ideas-wait-text h3 {
+    font-size: 40px;
+  }
+  .ideas-wait-main .header-text p {
+    font-size: 25px;
+  }
+  .lats-start-project-section .project-text {
+    font-size: 50px;
+  }
+  /* footer start */
+  .footer-main-right {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 60px;
+  }
+  .explore_main {
+    margin-top: 0;
+  }
+  .footer-main-right ul {
+    display: inline-block;
+    margin: 0 auto;
+  }
+  .footer-bottom-main {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-main-right {
+    padding: 50px 50px 50px 50px;
+  }
+  .footer-main-left {
+    padding: 50px 0px 80px 10px;
+  }
+  .footer-bottom h6 {
+    font-size: 130px;
+  }
+  .footer-bottom {
+    height: 190px;
+  }
+  /* about page responsive */
+  /* capabilities css */
+  .logo-title {
+    font-size: 32px;
+    line-height: 36.8px;
+  }
+  .discover-capabilites .card-discover {
+    margin-top: 30px;
+  }
+  .typing-container {
+    font-size: 62px;
+    line-height: 68px;
+    width: 100%;
+  }
+  /* why emaad css */
+  .emmad-title-2 h1 {
+    font-size: 65px;
+    padding-right: 23px;
+    line-height: 61px;
+  }
+  .emmad-section .content h2 {
+    font-size: 36px;
+    line-height: 53px;
+  }
+
+  /* let's go text css */
+  .lets-get-to-title {
+    background-image: none;
+  }
+  .lets-go-text h4 {
+    font-size: 87px;
+    width: 100%;
+  }
+  .got-to-info p {
+    font-size: 15px;
+  }
+  .talk-button h4 {
+    font-size: 68px;
+  }
+  /* why choose us   */
+  .vision {
+    font-size: 55px;
+  }
+  .vision-web-design-text {
+    max-width: 100%;
+  }
+  .expertise-design-text {
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+  .draggable-boxes-main {
+    margin-top: 50px;
+  }
+
+  .design-software img {
+    margin-top: 0px;
+    width: 100%;
+    height: 344px;
+    object-fit: cover;
+  }
+
+  .design-why-Choose {
+    padding: 0px 0px 0px 0px;
+  }
+
+  .Expertise-design-card- {
+    display: flex;
+  }
+  .Expertise-and-Experience-card {
+    width: 100%;
+    min-width: 50%;
+  }
+  .Expertise-and-Experience-card2 {
+    min-width: 50%;
+  }
+
+  /* web design process */
+  .process-design-title h1 {
+    font-size: 67px;
+    line-height: 62.6px;
+  }
+  .process-bg {
+    top: -20px;
+  }
+  .Technologies-text h4 {
+    font-size: 66px;
+  }
+  .Technologies-text h4 span::before {
+    width: 110%;
+    height: 72%;
+  }
+  .process-design-text p {
+    margin-top: 44px;
+    margin-left: 0;
+  }
+  .content h2 {
+    font-size: 36px;
+    line-height: 50px;
+  }
+  #content2,
+  #content3 {
+    margin-top: 65px;
+  }
+
+  /* ui-ux page  */
+  .ui-bg-img {
+    display: none;
+  }
+  .ui-text-design .text1ui {
+    font-size: 40px;
+    line-height: 57px;
+  }
+  .ui-text-design .ui-text {
+    font-size: 36px;
+    line-height: 59px;
+  }
+  .choose-title h1 {
+    font-size: 40px;
+  }
+  .design-text h4 {
+    font-size: 40px;
+  }
+
+  /* services page */
+  .discover-title h4 {
+    font-size: 63px;
+    line-height: 59.2px;
+  }
+  .card-discover {
+    margin-top: 60px;
+  }
+  .services-section-bg {
+    display: none;
+  }
+  .uiux-subtitle-main {
+    padding-left: 0;
+  }
+  .uiux-design-content .btn {
+    padding: 15px 30px;
+  }
+  .uiux-design-content h2 {
+    font-size: 100px;
+  }
+  .services_accordion {
+    margin-top: 50px;
+  }
+  .main-heading {
+    text-align: center; /* Center the text */
+  }
+  /* Web Development page start */
+  .trusted-hero-section {
+    background-image: none;
+  }
+  .go-mobile-section {
+    background-image: none;
+  }
+  .trusted-hero-section .hero-heading {
+    font-size: 60px;
+  }
+  .trusted-hero-section .hero-description {
+    width: 100%;
+  }
+  .responsive-br {
+    display: none;
+  }
+  .digital-potential-section .title h2 {
+    font-size: 38px;
+  }
+  .digital-potential-section .unlock-title h2 {
+    font-size: 40px;
+  }
+  .unlock-tab-container .tab-content h5 {
+    font-size: 28px;
+  }
+  .unlock-tab-container .tab-content .tap-para {
+    width: 100%;
+  }
+  .reveal-section .letters > div {
+    font-size: 140px;
+  }
+  .lats-start-project-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .phase-title {
+    font-size: 30px;
+  }
+
+  /* digital marketin page */
+  /* ===  Why Choose Our Digital Marketing css ====== */
+
+  .our-experse-title h4 {
+    font-size: 80px;
+    line-height: 92px;
+  }
+  /* boost your online section  */
+  .bost-online-success .boost-your-success {
+    max-width: 90%;
+    padding-left: 32px;
+  }
+  .bost-online-success .ui-to-info {
+    padding-bottom: 35px;
+  }
+  /* digital marketing section css */
+  .why-choose-digital-title h1 {
+    font-size: 50px;
+  }
+  .why-choose-digital-title h1 span::before {
+    width: 268.76px;
+    height: 60px;
+  }
+  .why-choose-digital-text p {
+    width: 100%;
+  }
+  /* our expertise section */
+  .out-expertise-section {
+    margin-top: 20px;
+  }
+  .our-experse-title img {
+    width: 50px;
+  }
+  /* bulk sms service page */
+
+  /* bulsk sms service image titel */
+
+  .bulk-sms-email-marketing .boost-your-success {
+    max-width: 100%;
+  }
+  .bulk-sms-email-marketing {
+    background-image: none;
+  }
+
+  .bulk-sms-email-marketing .bulksms {
+    font-size: 67px;
+  }
+  /* bulk email service */
+  .why-choose-our-service {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .bulk-desc p {
+    margin-top: 16px;
+  }
+  .why-choose-title-service h4 {
+    font-size: 62px;
+    line-height: 69.2px;
+  }
+  .why-choose-title-service img {
+    right: 0;
+    width: 264px;
+  }
+  .why-choose-title-service p {
+    margin-top: 14px;
+  }
+  /* app development page */
+  .go-mobile-title h1 {
+    width: 100%;
+  }
+  .go-mobile-section .description {
+    width: 100%;
+  }
+  .go-mobile-title .mobile-star {
+    width: 40px;
+    height: 40px;
+  }
+  .our-platforms-main .title h3 {
+    font-size: 40px;
+    font-family: "Syne-Semi-Bold";
+  }
+  .our-platforms-main .title-para {
+    width: 100%;
+  }
+  /* domain Hosting page start */
+  .elevate-online-title h1 {
+    width: 100%;
+    line-height: 70px;
+  }
+  .elevate-online-section {
+    background-image: none;
+  }
+  .advanced-security-right {
+    margin-left: 0px;
+  }
+  .hosting-solutions .border-right {
+    border-right: none;
+    border-bottom: 1px solid var(--dark-grey-color);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  .hosting-solutions .border-left {
+    border-left: none;
+    border-top: 1px solid var(--dark-grey-color);
+    padding-left: 0;
+    padding-top: 20px;
+  }
+  .hosting-solutions .custom-padding {
+    padding-left: 10px;
+  }
+  .domain-importance-para {
+    width: 100%;
+  }
+  .domain-importance h4 {
+    font-size: 40px;
+  }
+  /* careers page start */
+  .careers-section {
+    background-image: none;
+  }
+  .careers-section-title h1 {
+    font-size: 60px;
+    width: 100%;
+  }
+  .work-with-main-section {
+    margin-left: 0px;
+  }
+  .why-Work-left-title h2 {
+    font-size: 27px;
+  }
+  /* get-in-touch PAGE START */
+  .get-in-touch-title h1 {
+    font-size: 60px;
+    width: 100%;
+  }
+  .get-in-touch-section {
+    background-image: none;
+  }
+  .info-item-group {
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+
+  /* privacy policy page css */
+  /* privacy policy text */
+  .privacy-policy-section {
+    background: none;
+  }
+  .privacy-policy-pra {
+    width: 100%;
+  }
+  .privacy-policy-title h1 {
+    line-height: 61px;
+    font-size: 59px;
+  }
+  .information-titel h4 {
+    font-size: 45px;
+  }
+  .information-titel h4 span::before {
+    width: 205px;
+    height: 54px;
+  }
+  /* product feature section css */
+  .product-slider-content .slider-description {
+    border-top: 1px solid;
+  }
+  .border-end {
+    border-right: none !important;
+  }
+  .product-title h5 {
+    font-size: 68px;
+    line-height: 1.1;
+  }
+  /* brialinat previews section */
+  .brilliant-previews-title h1 {
+    font-size: 53px;
+  }
+  .brilliant-img {
+    left: 0;
+  }
+  .web-app-toggel {
+    flex-wrap: wrap;
+  }
+  .app-img img {
+    width: 100%;
+  }
+  /* privacy policy page css */
+  /* privacy policy text */
+  .privacy-policy-section {
+    background: none;
+  }
+  .privacy-policy-pra {
+    width: 100%;
+  }
+  .privacy-policy-title h1 {
+    line-height: 61px;
+    font-size: 59px;
+  }
+  .information-titel h4 {
+    font-size: 45px;
+  }
+  .information-titel h4 span::before {
+    width: 205px;
+    height: 54px;
+  }
+  /* product feature section css */
+
+  .border-end {
+    border-right: none !important;
+  }
+  .product-title h5 {
+    font-size: 68px;
+    line-height: 1.1;
+  }
+  /* brialinat previews section */
+  .brilliant-previews-title h1 {
+    font-size: 53px;
+  }
+  .brilliant-img {
+    left: 0;
+  }
+  .web-app-toggel {
+    flex-wrap: wrap;
+  }
+  .app-img img {
+    width: 100%;
+  }
+  /* terms & condition page start */
+  .terms-conditions-section {
+    background-image: none;
+  }
+  .terms-conditions-title h1 {
+    font-size: 60px;
+    width: 100%;
+  }
+  .terms-conditions-title p {
+    width: 100%;
+  }
+  /* refund policy page */
+  .refund-policy-section {
+    background-image: none;
+  }
+  .refund-policy-title h1 {
+    width: 100%;
+  }
+  .refund-policy-title p {
+    width: 100%;
+  }
+  .standard-gallery h3 {
+    font-size: 55px;
+  }
+  .our-journey-section {
+    background-image: none;
+  }
+  .our-journey-section p {
+    width: 100%;
+  }
+
+  .our-journey-title h1 {
+    font-size: 70px;
+  }
+
+  .our-journey-title h1 {
+    font-size: 70px;
+  }
+  /* terms & condition page start */
+  .terms-conditions-section {
+    background-image: none;
+  }
+  .terms-conditions-title h1 {
+    font-size: 60px;
+    width: 100%;
+  }
+  .terms-conditions-title p {
+    width: 100%;
+  }
+  /* refund policy page */
+  .refund-policy-section {
+    background-image: none;
+  }
+  .refund-policy-title h1 {
+    width: 100%;
+  }
+  .refund-policy-title p {
+    width: 100%;
+  }
+  .standard-gallery h3 {
+    font-size: 55px;
+  }
+  .our-journey-section {
+    background-image: none;
+  }
+  .our-journey-section p {
+    width: 100%;
+  }
+
+  .our-journey-title h1 {
+    font-size: 70px;
+  }
+}
+@media (max-width: 866px) {
+  .design-software {
+    margin-top: 36px;
+  }
+}
+
+@media (max-width: 866px) {
+  .design-software {
+    margin-top: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* navbar */
+  .menu-drowp {
+    flex-wrap: wrap;
+  }
+  .nav-list a {
+    font-size: 50px;
+  }
+  .dropdown li a {
+    font-size: 25px;
+  }
+  .product-drowpdown li a {
+    font-size: 25px;
+  }
+  .company-dropdown li a {
+    font-size: 25px;
+  }
+  .text h2 br {
+    display: none;
+  }
+  .text h2 {
+    font-size: 35px;
+  }
+  .title-icon h6 {
+    font-size: 25px;
+  }
+  .app-development-group {
+    flex-direction: column;
+  }
+  .reveal-section .letters > div {
+    font-size: 105px !important;
+  }
+  /* growth css */
+  .theme {
+    flex-wrap: wrap;
+  }
+  .theme h1 {
+    font-size: 90px;
+    line-height: 80px;
+  }
+  .checkbox-label::before {
+    padding: 13px;
+    width: 130px;
+    height: 68px;
+  }
+  .checkbox-label .ball {
+    width: 50px;
+    height: 50px;
+    right: -37px;
+    top: 8px;
+    bottom: 0;
+    right: 11px;
+  }
+  .checkbox:checked + .checkbox-label .ball {
+    transform: translateX(-58px);
+  }
+  .grow-text h1 {
+    font-size: 47px;
+  }
+  .grow-with-info {
+    margin-top: 18px;
+  }
+  .growth-contact-button {
+    margin-top: 0;
+  }
+  .business-text h1 {
+    font-size: 40px;
+  }
+  .grow-contact-button {
+    margin-top: 20px;
+  }
+  .awesome_section {
+    margin-top: 50px;
+  }
+  .uiux-design-section {
+    margin-top: 50px !important;
+  }
+  #cursor-circle {
+    display: none !important;
+  }
+  .standard-gallery .masonry {
+    column-count: 2;
+    column-gap: 20px;
+  }
+  /* We Have Some Easy Steps */
+  .intro-text h4 {
+    font-size: 37px;
+  }
+  .why-choose-text-section h3 {
+    font-size: 55px;
+  }
+
+  .lets-go-text h4 {
+    font-size: 57px;
+    line-height: 70px;
+  }
+  /* why emaad css */
+  .em-move-scroll {
+    padding: 0px 10px;
+  }
+  .emmad-section .content h2 {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .exprience-design-cards.d-flex {
+    flex-direction: column;
+  }
+  .emmad-title h5 {
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .emmad-title-2 h1 {
+    font-size: 60px;
+    line-height: 55px;
+  }
+  .content h2 {
+    font-size: 40px;
+    line-height: 3rem;
+  }
+  .talk-button h4 {
+    font-size: 57px;
+    line-height: 60px;
+  }
+  .star-text img {
+    width: 54px;
+    height: 44px;
+  }
+
+  .lets-go-text span {
+    margin-bottom: 12px;
+  }
+  /* discove capabilites css */
+  .discover-title h4 {
+    font-size: 55px;
+    line-height: 55.2px;
+  }
+  .discover-title h5 {
+    font-size: 56px;
+  }
+  .card-discover {
+    margin-top: 35px;
+  }
+  .logo-title {
+    font-size: 22px;
+  }
+  /* web design page 
+/* unvil your vision text section */
+  .vision {
+    font-size: 44px;
+    line-height: 50px;
+  }
+  .vision-text {
+    font-size: 40px;
+    line-height: 59px;
+  }
+
+  /* why choose us */
+  .choose-title h4 {
+    font-size: 30px;
+    line-height: 47px;
+  }
+  .choose-desc p {
+    font-size: 18px;
+  }
+  .expertise-design-text {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .expertise-text-choose {
+    flex-direction: column;
+  }
+
+  .cutting-edge-tech-card2 {
+    margin-top: 0;
+    height: 344px;
+    /* min-width: 287px; */
+  }
+  .design-software img {
+    width: 100%;
+  }
+  .Expertise-design-card- {
+    flex-direction: column;
+  }
+  /* benifits if section ui ux */
+  .Benefits-title h4 {
+    font-size: 42px;
+    line-height: 54px;
+  }
+
+  .benifits-descripation p {
+    line-height: 23.6px;
+    font-size: 17px;
+    margin-top: 18px;
+    width: 100%;
+  }
+  .hover-image {
+    width: 276.89px;
+    height: 301.59px;
+  }
+  .Benefits-hover-image {
+    width: 276.89px;
+    height: 301.59px;
+  }
+  .Benefits-of-service-desc {
+    margin-top: 0px;
+  }
+  .benifits-border-bottom {
+    margin-top: 10px;
+  }
+
+  /* Design Excellence section  */
+  .design-text h4 {
+    font-size: 28px;
+    line-height: 43px;
+    top: 22px;
+  }
+
+  /* didgital marketin page */
+  /*boost your online text  */
+  .bost-online-success .boost {
+    font-size: 50px;
+    line-height: 64px;
+  }
+  .bost-online-success .success {
+    font-size: 54px;
+    line-height: 64px;
+  }
+  .bost-online-success .ui-to-info {
+    margin-top: 0px;
+  }
+  .ui-to-info p {
+    font-size: 17px;
+  }
+  /* why choose marketing css */
+  .why-choose-digital-title h1 {
+    font-size: 40px;
+    line-height: 61.5px;
+  }
+  .why-choose-digital-title h1 span::before {
+    width: 212.76px;
+    height: 60px;
+  }
+  /* our expertise section */
+  .our-experse-title h4 {
+    font-size: 54px;
+  }
+  .our-experse-title img {
+    width: 33px;
+  }
+  .our-experse-title p {
+    font-size: 16px;
+  }
+  .out-expertise-section .accordion-header span {
+    font-size: 18px;
+  }
+  .our-expertise-text-accordian h4 {
+    font-size: 20px;
+  }
+  .out-expertise-section .accordion-content p {
+    font-size: 15px;
+  }
+  .our-expertise-text-accordian {
+    padding: 29px 0;
+  }
+  /* bulk sms service page */
+  /* digital text typing  */
+  .bulk-sms-email-marketing {
+    background-image: none;
+  }
+  .bulk-sms-email-marketing .bulksms {
+    font-size: 47px;
+    line-height: 60px;
+  }
+  .bulk-sms-email-marketing .bulkemail {
+    font-size: 50px;
+  }
+  .bulk-text h1 span::before {
+    width: 279.76px;
+    height: 57px;
+  }
+  .bulk-text h1 {
+    font-size: 55px;
+    line-height: 66px;
+  }
+  .why-choose-title-service img {
+    position: absolute;
+    right: 0;
+    bottom: 65px;
+    width: 50%;
+  }
+  /* buls sms email service section */
+  .discover-capabilites .discover-title h4 {
+    font-size: 42px;
+    line-height: 47.2px;
+  }
+  .discover-capabilites .discover-title h5 {
+    font-size: 42px;
+    line-height: 47.2px;
+  }
+  .why-choose-title-service p {
+    margin-left: 0px;
+  }
+  .why-choose-title-service h4 {
+    font-size: 50px;
+    line-height: 59.2px;
+  }
+  /* why choose our service */
+  .text-item-service {
+    font-size: 31px;
+    line-height: 67px;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  /* app development page start */
+  .go-mobile-title h1 {
+    font-size: 50px;
+  }
+  .card-technology-pricing {
+    flex-direction: column;
+    margin-top: 0;
+  }
+  /* domain hosting page */
+  .elevate-online-title h1 {
+    font-size: 50px;
+  }
+  .elevate-online-title h1 span::before {
+    top: 29px;
+    height: 55px;
+  }
+  .careers-section-title h1 {
+    font-size: 45px;
+  }
+  .careers-section-title h2 {
+    font-size: 70px;
+  }
+  .current-openings h4 {
+    font-size: 50px;
+  }
+  .why-Work-left-title {
+    right: -25px;
+    top: 90px;
+  }
+  /* work left hide title */
+  .why-Work-left-title h2 {
+    display: none;
+  }
+  .work-with-main-section {
+    margin-top: 0px;
+  }
+  /* .title {
+    margin: 30px 10px;
+    display: block !important;
+  } */
+  /* work left hide title */
+  .terms-conditions-title h1 {
+    font-size: 48px;
+  }
+  /* REFUND POLICY PAGE */
+  .refund-policy-title h1 {
+    font-size: 60px;
+  }
+  .standard-gallery h3 {
+    font-size: 40px;
+  }
+  .our-journey-title h1 {
+    width: 100%;
+  }
+  .our-journey-title h1 {
+    font-size: 60px;
+  }
+  .error-code-section .error-code {
+    font-size: 350px;
+  }
+  .contact-touch-form {
+    margin-top: 50px;
+  }
+  .innovation .cards {
+    transform: translate(-50%, -40%);
+  }
+  .awesome_section .pp-next {
+    top: 100%;
+    left: 50px;
+  }
+  .pp-slide-thumb {
+    margin-top: 50px;
+  }
+  .awesome_section .pp-slide {
+    padding: 50px;
+  }
+  .awesome_section .pp-prev {
+    top: 100%;
+    right: 50px;
+
+    font-size: 20px;
+  }
+  /* our-work page */
+  .explour-our-demo-cards .card-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  /* why choose our service */
+  .overlay-text1 h4 {
+    font-size: 28px;
+    line-height: 29.8px;
+    left: 26px;
+  }
+  .service-card-grabe {
+    width: 100%;
+    margin-right: 0;
+    justify-content: start;
+  }
+  .overlay-text1 p,
+  .overlay-text2 p {
+    font-size: 15px;
+    top: auto;
+    line-height: 27.2px;
+  }
+  /* why choose our service */
+  /* why choose our service */
+  .overlay-text1 h4 {
+    font-size: 28px;
+    line-height: 29.8px;
+  }
+
+  .overlay-text1 p,
+  .overlay-text2 p {
+    font-size: 15px;
+    top: 78%;
+    line-height: 27.2px;
+  }
+  .services-section p {
+    max-width: 100%;
+  }
+  .circle-container {
+    display: none !important;
+  }
+  .uiux-design-content h2 {
+    font-size: 70px;
+  }
+  .uiux-design-img {
+    width: 180px;
+    height: 120px;
+  }
+  .uiux-subtitle {
+    font-size: 45px;
+  }
+  .uiux-design-content p {
+    font-size: 20px;
+  }
+  .uiux-title-main {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .nav-list a {
+    font-size: 30px;
+  }
+
+  /* why emaad css */
+  .emmad-title h5 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .emmad-title-2 h1 {
+    font-size: 36px;
+    line-height: 36px;
+  }
+  .emmad-title-2 img {
+    width: 42px;
+  }
+  .content h2 {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+  }
+  .content p {
+    font-size: 0.875rem;
+  }
+
+  /* Leading eCommerce start  */
+  .thumbs {
+    width: 61%;
+    bottom: 0%;
+    right: 5px;
+  }
+  .thumbs .swiper-slide {
+    width: 220px !important;
+    height: 90px;
+  }
+
+  .slider-btn .swiper-button-next,
+  .slider-btn .swiper-button-prev {
+    position: unset !important;
+    margin: unset !important;
+    min-width: 35px;
+    min-height: 35px;
+  }
+  .thumb-bottom {
+    margin-top: -60px;
+  }
+  .slider-btn {
+    gap: 13px;
+  }
+  .caption {
+    font-size: 18px;
+  }
+  .slider-btn {
+    bottom: 80px !important;
+    left: 11% !important;
+  }
+  .swiper-button-next,
+  .swiper-rtl .swiper-button-prev {
+    right: var(--swiper-navigation-sides-offset, 1px) !important;
+  }
+  /* why choose us section */
+  .why-choose-text-section {
+    padding: 20px;
+  }
+  .why-choose-text-section h3 {
+    display: inline-flex;
+  }
+  .why-choose-text-section h3 {
+    font-size: 50px;
+  }
+  .choose-bg {
+    display: none;
+  }
+  .standard-gallery .masonry {
+    column-count: 1;
+  }
+  /* awesome section */
+
+  .sec-title-1 {
+    font-size: 50px;
+  }
+  .sec-title-1 br {
+    display: none !important;
+  }
+  /* Customers Experiences section */
+  .customer-experiences h3 {
+    font-size: 60px;
+  }
+  .customer-experiences-title {
+    padding-left: 0px;
+  }
+  .experiences {
+    width: 55px;
+    height: 55px;
+  }
+  /*=Ideas can't wait end= */
+  .draggable-boxes {
+    flex-direction: column;
+  }
+  .draggable-boxes-main {
+    padding: 20px;
+  }
+  .draggable {
+    transform: none !important;
+    margin: 10px 0 !important;
+    position: unset;
+  }
+  /* footer start */
+  .footer-main-right {
+    padding: 0px 50px 50px 50px;
+  }
+  .footer-main-left {
+    padding: 50px 0px 40px 50px;
+  }
+  .footer-bottom h6 {
+    font-size: 100px;
+    text-align: center;
+  }
+  .footer-main-right h5 {
+    font-size: 33px;
+  }
+  .elevate-online-section {
+    padding: 50px 0;
+  }
+  .domain-extension {
+    margin-top: 10px;
+  }
+  .domain-importance .domain-extensions-group {
+    gap: 10px;
+  }
+  .pin li {
+    width: 90vw !important;
+  }
+  .slider-text h5 {
+    font-size: 20px;
+  }
+
+  .slider-text p {
+    font-size: 12px;
+  }
+
+  .thumbs {
+    width: 75%;
+    bottom: -2%;
+    right: 5px;
+  }
+  .thumbs .swiper-slide {
+    width: 180px !important;
+    height: 70px;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+  }
+  .caption {
+    font-size: 14px;
+  }
+
+  .sec-title-3 br {
+    display: none;
+  }
+  /* services page */
+  .uiux-subtitle {
+    font-size: 30px;
+  }
+  .services-section h1 {
+    font-size: 70px;
+    color: var(--white-color);
+    font-family: "Syne-Medium";
+  }
+
+  .services_accordion .accordion-button h4 {
+    font-size: 18px;
+    font-family: "Syne-Medium";
+  }
+  .services_accordion .accordion-button::after {
+    width: 2rem;
+    height: 2rem;
+    background-size: 1.25rem;
+  }
+  .comprehensive-title .main-heading {
+    font-size: 30px;
+    font-family: "Syne-bold";
+  }
+  .uiux-design-content .btn {
+    font-size: 15px;
+  }
+  /* Web Development page*/
+  .trusted-hero-section .hero-heading {
+    font-size: 35px;
+  }
+  .trusted-hero-section .trusted {
+    height: 30px;
+    width: 30px;
+  }
+  .trusted-hero-section .btn-schedule {
+    font-size: 18px;
+  }
+  .trusted-hero-section .btn-schedule:hover .btn-text {
+    transform: translateX(-45px);
+  }
+  .trusted-hero-section .btn-schedule:hover .icon-container {
+    transform: translateX(145px);
+  }
+  .trusted-hero-section .btn-schedule .icon-container {
+    width: 40px;
+    height: 40px;
+  }
+  .trusted-hero-section .btn-schedule .btn-text {
+    margin-left: 10px;
+  }
+  .trusted-hero-section .hero-description {
+    font-size: 20px;
+  }
+  .reveal-section .letters > div {
+    font-size: 55px !important;
+  }
+  .lats-start-project-section .project-text {
+    font-size: 40px;
+  }
+  /* ui-ux-design page css */
+  .text1ui {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .digital-potential-section .unlock-title h2 {
+    font-size: 25px;
+  }
+
+  .ui-text {
+    font-size: 40px;
+  }
+  /* why choose section ui ux */
+  .choose-text h5 {
+    font-size: 18px;
+  }
+  .choose-desc p {
+    font-size: 20px;
+  }
+  /* web design page */
+  /* unvil your vision text */
+  .vision {
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .vision-text {
+    font-size: 29px;
+    line-height: 43px;
+  }
+  /* why choose us section */
+  .expertice-choose-titel h3 {
+    font-size: 55px;
+  }
+  .expertice-choose-titel h4 {
+    font-size: 53px;
+  }
+  /* web design process section */
+  .process-design-title h1 {
+    font-size: 55px;
+    line-height: 62.6px;
+  }
+  .process-bg {
+    top: -11px;
+  }
+  .process-bg {
+    right: 106px;
+  }
+  /* technology css */
+  .Technologies-text h4 {
+    font-size: 51px;
+    line-height: 69px;
+  }
+  /* benifits of ui ux section */
+  .Benefits-title h4 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  /* digital marekitn page */
+  /* boost your online sucess sectio */
+  .bost-online-success .boost {
+    font-size: 50px;
+    line-height: 47px;
+  }
+  .bost-online-success .success {
+    font-size: 50px;
+    line-height: 64px;
+  }
+  /* app development page */
+  .go-mobile-title h1 {
+    font-size: 40px;
+  }
+  .go-mobile-section .description {
+    font-size: 18px;
+  }
+  /* domain hosting page */
+  .elevate-online-title h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  /* bulk sms email services page */
+  /* why choose our service section */
+  /* why choose our services section */
+  .overlay-text1 h4,
+  .overlay-text2 h4 {
+    margin-bottom: 0;
+    right: 1px;
+    font-size: 23px;
+    left: 23px;
+    bottom: 93px;
+  }
+  .why-choose-service-cards {
+    margin-top: 0px;
+  }
+  .overlay-text1 p,
+  .overlay-text2 p {
+    font-size: 14px;
+    top: 83%;
+    line-height: 22.2px;
+  }
+  .discover-capabilites .discover-title h4 {
+    font-size: 35px;
+    line-height: 39.2px;
+  }
+  .discover-capabilites .discover-title h5 {
+    font-size: 35px;
+    line-height: 47.2px;
+  }
+  .discover-capabilites .discover-notes p {
+    font-size: 13px;
+  }
+  .why-choose-title-service h4 {
+    font-size: 39px;
+    line-height: 41.2px;
+  }
+  .why-choose-title-service p {
+    margin-left: 0px;
+    margin-top: 12px;
+  }
+  .why-choose-title-service img {
+    top: 33px;
+    width: 50%;
+  }
+
+  /* domain hosting page */
+  .advanced-security-right h5 {
+    font-size: 28px;
+  }
+  .domain-importance h4 {
+    font-size: 28px;
+  }
+  /* our work page */
+  /* brialiant priviews */
+  .web-img img {
+    width: 100%;
+  }
+  /* product feature section */
+  .product-title h5 {
+    font-size: 38px;
+  }
+  .product-titel-image img {
+    display: none;
+  }
+  .explour-our-demo-cards .card-title h2 {
+    font-size: 37px;
+    line-height: 50.4px;
+  }
+  .brilliant-previews-title h1 {
+    font-size: 44px;
+    line-height: 53px;
+  }
+  .brilliant-img img {
+    display: none;
+  }
+  .terms-conditions-title h1 {
+    font-size: 40px;
+  }
+  .terms-conditions-title h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .text h2 {
+    font-size: 30px;
+  }
+  .title-icon h6 {
+    font-size: 20px;
+  }
+  .cards {
+    padding: 20px !important;
+  }
+  .text-img-leaf img {
+    display: none;
+  }
+  /* We Have Some Easy Steps */
+  .intro-text h4 {
+    font-size: 25px;
+  }
+  /* about page */
+  .typing-container {
+    font-size: 40px;
+    line-height: 56px;
+  }
+  .lets-go-text h4 {
+    font-size: 41px;
+    line-height: 59px;
+  }
+  .talk-button h4 {
+    font-size: 40px;
+  }
+  .lets-go-text span {
+    margin-bottom: 0px;
+  }
+  /* why emaad css */
+  .vision-why-choose-design {
+    margin-top: 28px;
+  }
+  .star-text img {
+    width: 51px;
+    height: 43px;
+  }
+  .talk-button {
+    flex-wrap: wrap;
+    gap: 0;
+  }
+
+  /* dicover capabilites css */
+  .discover-title h4 {
+    font-size: 36px;
+  }
+  .discover-title h5 {
+    font-size: 36px;
+  }
+
+  .planning-title {
+    font-size: 20px !important;
+  }
+  .discovery {
+    height: 21px;
+    width: 21px;
+  }
+  .steps span {
+    font-size: 16px !important;
+  }
+  .steps li {
+    font-size: 16px !important;
+  }
+  .why-choose-text-section h3 {
+    font-size: 50px !important;
+  }
+  .why-choose-text-section h3 {
+    flex-wrap: wrap;
+  }
+
+  /* awesome section start */
+  .sec-title-1 {
+    font-size: 37px;
+  }
+  .customer-experiences h3 {
+    font-size: 40px;
+  }
+  .experiences {
+    width: 40px;
+    height: 40px;
+  }
+  .overlay-text {
+    font-size: 16px;
+  }
+  /*Ideas can't wait end*/
+  .ideas-wait-text h3 {
+    font-size: 30px;
+  }
+  .ideas-wait-main .header-text p {
+    font-size: 15px;
+  }
+  .draggable-boxes p {
+    font-size: 20px;
+  }
+  .draggable-boxes span {
+    font-size: 28px;
+  }
+  .footer-main-right {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .footer-bottom {
+    height: 155px;
+  }
+  .footer-bottom h6 {
+    font-size: 60px;
+    text-align: center;
+  }
+  .swiper-slide .contact-button {
+    padding: 10px 10px;
+    font-size: 13px;
+    margin-top: 20px;
+  }
+  .slider-text h5 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  /* services page */
+  .services-section {
+    padding: 20px 20px;
+  }
+  .services-section h1 {
+    font-size: 60px;
+  }
+  /* web development page */
+  .digital-potential-section .title h2 {
+    font-size: 24px;
+  }
+
+  .unlock-tab-container .tab-link {
+    font-size: 14px;
+    padding: 10px 12px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .unlock-tab-container .tab-content h5 {
+    font-size: 24px;
+  }
+
+  .unlock-tab-container .tab-content p {
+    font-size: 14px;
+  }
+
+  .unlock-tab-container .services-list li {
+    font-size: 16px;
+  }
+  /* digital marketing page */
+  /* boost your online secton */
+  .bost-online-success .boost-your-success {
+    max-width: 100%;
+  }
+  .bost-online-success .success {
+    font-size: 45px;
+    line-height: 34px;
+  }
+  .bost-online-success .boost {
+    font-size: 45px;
+    line-height: 42px;
+  }
+  /* why choose our marketing section */
+  .why-choose-digital-title h1 {
+    font-size: 31px;
+    line-height: 50.5px;
+  }
+  .why-choose-digital-title h1 span::before {
+    width: 168.76px;
+    height: 50px;
+  }
+  .why-choose-digital-text p {
+    font-size: 17px;
+  }
+  .digital-card-title h4 {
+    font-size: 16px;
+  }
+  .digital-des {
+    margin-top: 0px;
+  }
+  /* our expertise section */
+  .our-experse-title h4 {
+    font-size: 34px;
+    line-height: 45px;
+  }
+  .our-experse-title img {
+    width: 23px;
+  }
+  .out-expertise-section .accordion-header span {
+    font-size: 13px;
+  }
+  .out-expertise-section .accordion-icon {
+    width: 40.43px;
+    min-width: 40.43px;
+    height: 40.43px;
+  }
+  .out-expertise-section .accordion-icon img {
+    width: 23px;
+  }
+  /* contact-information section */
+  .-client-call-button {
+    flex-wrap: wrap;
+  }
+  .client-info p {
+    font-size: 16px;
+  }
+  .client-contact-box h4 {
+    font-size: 14px;
+  }
+  .call-recoard {
+    margin-top: 12px;
+  }
+  .call-recoard img {
+    width: 50%;
+  }
+
+  /* ui-ux-page */
+  /* benifits of our ui ux design section */
+  .Benefits-title h4 {
+    font-size: 30px;
+  }
+  .benifits-title1 h4 {
+    font-size: 20px;
+  }
+  .benifits-descripation p {
+    font-size: 13px;
+  }
+  .Benefits-hover-image {
+    width: 228.89px;
+    height: 244.59px;
+  }
+  .hover-image {
+    width: 228.89px;
+    height: 244.59px;
+  }
+  .benifits-hover-image4 {
+    width: 231.89px;
+    height: 276.59px;
+  }
+  .benifits-hover-image3 {
+    width: 241.89px;
+    height: 232.59px;
+  }
+  /* why choose us section  */
+  .why-choose-img img {
+    width: 100%;
+  }
+
+  /* design exlence sectio */
+  .design-Excellence-title img.circale-design {
+    width: 100%;
+  }
+  /* web design page  */
+  /* web design process section */
+  .process-design-title h1 {
+    font-size: 43px;
+    line-height: 48.6px;
+  }
+  .process-design-title img {
+    display: none;
+  }
+  .process-design-text p {
+    margin-top: 8px;
+  }
+  .process-design-text p {
+    font-size: 17px;
+  }
+  /* technologies section  */
+  .Technologies-text h4 {
+    font-size: 36px;
+  }
+
+  .careers-section-title h2 {
+    font-size: 50px;
+  }
+  .current-openings h4 {
+    font-size: 30px;
+  }
+
+  /* privacy policy page css */
+  /* privacy pomicy section  */
+  .informatin-sharing-section {
+    padding: 0px 10px;
+  }
+  .privacy-policy-title h1 {
+    line-height: 52px;
+    font-size: 45px;
+  }
+  .privacy-policy-pra {
+    font-size: 19px;
+  }
+  /* inforamation sharing section */
+
+  .information-titel h4 {
+    font-size: 37px;
+    line-height: 56px;
+  }
+  .information-titel h4 span::before {
+    width: 181px;
+    height: 48px;
+  }
+  .information-titel p {
+    font-size: 20px;
+  }
+  .privacy-title h4 {
+    font-size: 20px;
+    line-height: 28.4px;
+  }
+  .privacy-descripation p {
+    font-size: 20px;
+  }
+  /* brilliant prieview section */
+  .brilliant-previews-section {
+    margin-top: 30px;
+  }
+  /* product feature section css */
+  .product-slider-content .slider-description h3 {
+    /* margin: 0 0 10px; */
+    font-size: 35px;
+  }
+  .product-slider-content .slider-description {
+    text-align: left;
+    padding: 12px;
+  }
+  .our-card-titel h4 {
+    font-size: 21px;
+  }
+  .product-slider-content .slider-description p {
+    font-size: 21px;
+    text-align: start;
+  }
+  .explour-our-demo-cards .card-container {
+    margin-top: 0px;
+  }
+  .web-app-toggel .checkbox:checked + .checkbox-label .web-ball {
+    transform: translateX(-77px);
+  }
+  .web-app-toggel .checkbox-label::before {
+    width: 150px;
+    height: 74px;
+  }
+  /* brilliant preview section */
+  .web-app-toggel h3 {
+    font-size: 40px;
+  }
+  .web-app-toggel {
+    flex-direction: column;
+  }
+  /* product feature */
+  .product-slider-content .slider-description h3 {
+    font-size: 28px;
+  }
+
+  .refund-policy-title h1 {
+    font-size: 40px;
+  }
+  .amendments-title .section-icon {
+    width: 25px;
+    height: 25px;
+  }
+  .amendments-title h3 {
+    font-size: 24px;
+  }
+  .standard-gallery h3 {
+    font-size: 30px;
+  }
+  .standard-gallery .tabs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  .standard-gallery .gallery-tabs .tablink {
+    margin-top: 20px;
+  }
+  .our-journey-title h1 {
+    font-size: 45px;
+  }
+  .error-code-section .error-code {
+    font-size: 200px;
+  }
+  .error-code-section .error-message {
+    font-size: 24px;
+  }
+  /* why choose our services section */
+  .overlay-text1 h4,
+  .overlay-text2 h4 {
+    margin-bottom: 0;
+    right: 1px;
+    font-size: 23px;
+    left: 18px;
+    bottom: 100px;
+  }
+  .overlay-text1 p,
+  .overlay-text2 p {
+    font-size: 14px;
+    top: 79%;
+    line-height: 22.2px;
+  }
+  .service-card-grabe {
+    width: 100%;
+  }
+  .service-design-card {
+    position: absolute;
+    z-index: 1;
+    right: 44px;
+  }
+}
