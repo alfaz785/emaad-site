@@ -2,8 +2,12 @@
 
 import React, { useEffect } from "react";
 import { animateLetters, wcButtonFC } from "../../commFun";
+import Link from "next/link";
+import { Router } from "react-router-dom";
+import { useRouter } from "next/navigation";
 
 const ProjectInMind = () => {
+  const router = useRouter();
   useEffect(() => {
     animateLetters();
     wcButtonFC();
@@ -15,57 +19,31 @@ const ProjectInMind = () => {
         <div className="container-fluid text-center">
           <div className="ideas-wait-text mt_40 sec-title-2">
             <h3 className="mb-0 text-wrapper" id="text">
-              <span className="letter">H</span>
-              <span className="letter">a</span>
-              <span className="letter">v</span>
-              <span className="letter">e</span>
-              <span className="letter">a</span>{" "}
-              <span className="letter">p</span>
-              <span className="letter">r</span>
-              <span className="letter">o</span>
-              <span className="letter">j</span>
-              <span className="letter">e</span>
-              <span className="letter">c</span>
-              <span className="letter">t</span>
-              <span className="letter">i</span>
-              <span className="letter">n</span>
-              <span className="letter">m</span>
-              <span className="letter">i</span>
-              <span className="letter">n</span>
-              <span className="letter">d</span>
-              <span className="letter">?</span>
-              <span className="letter-wrapper"></span>
-              <br />
-              <span className="letter">L</span>
-              <span className="letter">e</span>
-              <span className="letter">t</span>
-              <span className="letter">'</span>
-              <span className="letter">s</span>{" "}
-              <span className="letter">g</span>
-              <span className="letter">e</span>
-              <span className="letter">t</span>
-              <span className="letter">t</span>
-              <span className="letter">o</span>
-              <span className="letter">w</span>
-              <span className="letter">o</span>
-              <span className="letter">r</span>
-              <span className="letter">k</span>
+              {"Ideas can't wait Put us to work on them!"
+                .split("")
+                .map((letter, index) => (
+                  <span key={index} className="letter">
+                    {letter === " " ? "\u00A0" : letter}{" "}
+                    {/* Using non-breaking space */}
+                  </span>
+                ))}
             </h3>
           </div>
         </div>
         <div className="d-flex align-items-center justify-content-center">
           <div className="btn_wrapper">
-            <a
-              href="#"
+            <Link
+              onClick={() => router.push("/get-in-touch")}
+              href="/get-in-touch"
               className="wc-btn-primary btn btn-outline-light work-btn mt_40"
             >
-              Lets'talk
+              Start a Project
               <span className="material-symbols-outlined">
                 {" "}
                 arrow_right_alt{" "}
               </span>
               <span className="circle"></span>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

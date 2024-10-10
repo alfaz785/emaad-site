@@ -51,10 +51,10 @@ const CurrentOpening = () => {
   return (
     <>
       {" "}
-      <div class="current-openings">
-        <div class="container">
-          <div class="title" id="openings">
-            <h4 class="text-center" id="current-openings">
+      <div className="current-openings">
+        <div className="container">
+          <div className="title" id="openings">
+            <h4 className="text-center" id="current-openings">
               Current
               <span
                 style={{
@@ -69,7 +69,7 @@ const CurrentOpening = () => {
               </span>
             </h4>
           </div>
-          <p class="text-center title-para mb-0">
+          <p className="text-center title-para mb-0">
             Join our team of innovative thinkers and tech enthusiasts at Emaad
             Infotech. We are always on the lookout for talented individuals who
             are passionate about technology and eager to make an impact. Explore
@@ -78,209 +78,209 @@ const CurrentOpening = () => {
             a dynamic work environment, continuous learning, and the chance to
             work on cutting-edge projects.
           </p>
-          <div class="all-developer-data-cards">
-            <div class="row">
+          <div className="all-developer-data-cards">
+            <div className="row">
               {/* <!-- React JS Developer --> */}
-              <div class="col-lg-4 col-md-6 mb-4">
-                <div class="card h-100 developer-cards">
-                  <div class="card-body p-0">
-                    <div class="logo-title d-flex gap-3 align-items-center">
+              <div className="col-lg-4 col-md-6 mb-4">
+                <div className="card h-100 developer-cards">
+                  <div className="card-body p-0">
+                    <div className="logo-title d-flex gap-3 align-items-center">
                       <Image src={reactJSImg} alt="React Js logo" />
-                      <h5 class="card-title mb-0">React JS Developer</h5>
+                      <h5 className="card-title mb-0">React JS Developer</h5>
                     </div>
-                    <p class="card-text mb-0">
+                    <p className="card-text mb-0">
                       We are looking for a skilled React JS Developer to join
                       our dynamic team at Emaad Infotech.
                     </p>
-                    <ul class="list-inline">
-                      <li class="list-inline-item badge badge-primary">HTML</li>
-                      <li class="list-inline-item badge badge-primary">CSS</li>
-                      <li class="list-inline-item badge badge-primary">
+                    <ul className="list-inline">
+                      <li className="list-inline-item badge badge-primary">HTML</li>
+                      <li className="list-inline-item badge badge-primary">CSS</li>
+                      <li className="list-inline-item badge badge-primary">
                         JavaScript
                       </li>
                     </ul>
-                    <div class="d-flex align-items-center justify-content-between">
-                      <p class="card-location d-flex align-items-center gap-1 mb-0">
-                        <span class="material-symbols-outlined">
+                    <div className="d-flex align-items-center justify-content-between">
+                      <p className="card-location d-flex align-items-center gap-1 mb-0">
+                        <span className="material-symbols-outlined">
                           location_on
                         </span>
                         Himmatnagar
                       </p>
-                      <p class="card-location-num mb-0">3</p>
+                      <p className="card-location-num mb-0">3</p>
                     </div>
-                    <a href="#" class="btn btn-primary btn-block">
+                    <a href="#" className="btn btn-primary btn-block">
                       Apply Now
                     </a>
                   </div>
                 </div>
               </div>
               {/* <!-- Angular Developer --> */}
-              <div class="col-lg-4 col-md-6 mb-4">
-                <div class="card h-100 developer-cards">
-                  <div class="card-body p-0">
-                    <div class="logo-title d-flex gap-3 align-items-center">
+              <div className="col-lg-4 col-md-6 mb-4">
+                <div className="card h-100 developer-cards">
+                  <div className="card-body p-0">
+                    <div className="logo-title d-flex gap-3 align-items-center">
                       <Image src={angularImg} alt="Angular logo" />
-                      <h5 class="card-title mb-0">Angular Developer</h5>
+                      <h5 className="card-title mb-0">Angular Developer</h5>
                     </div>
-                    <p class="card-text mb-0">
+                    <p className="card-text mb-0">
                       We are looking for an experienced Angular Developer to
                       join our team at Emaad Infotech.
                     </p>
-                    <ul class="list-inline">
-                      <li class="list-inline-item badge badge-primary">HTML</li>
-                      <li class="list-inline-item badge badge-primary">CSS</li>
-                      <li class="list-inline-item badge badge-primary">
+                    <ul className="list-inline">
+                      <li className="list-inline-item badge badge-primary">HTML</li>
+                      <li className="list-inline-item badge badge-primary">CSS</li>
+                      <li className="list-inline-item badge badge-primary">
                         JavaScript
                       </li>
                     </ul>
-                    <div class="d-flex align-items-center justify-content-between">
-                      <p class="card-location d-flex align-items-center gap-1 mb-0">
-                        <span class="material-symbols-outlined">
+                    <div className="d-flex align-items-center justify-content-between">
+                      <p className="card-location d-flex align-items-center gap-1 mb-0">
+                        <span className="material-symbols-outlined">
                           location_on
                         </span>
                         Himmatnagar
                       </p>
-                      <p class="card-location-num mb-0">5</p>
+                      <p className="card-location-num mb-0">5</p>
                     </div>
-                    <a href="#" class="btn btn-primary btn-block">
+                    <a href="#" className="btn btn-primary btn-block">
                       Apply Now
                     </a>
                   </div>
                 </div>
               </div>
               {/* <!-- Flutter Developer --> */}
-              <div class="col-lg-4 col-md-6 mb-4">
-                <div class="card h-100 developer-cards">
-                  <div class="card-body p-0">
-                    <div class="logo-title d-flex gap-3 align-items-center">
+              <div className="col-lg-4 col-md-6 mb-4">
+                <div className="card h-100 developer-cards">
+                  <div className="card-body p-0">
+                    <div className="logo-title d-flex gap-3 align-items-center">
                       <Image src={flutterImg} alt="Flutter log" />
-                      <h5 class="card-title mb-0">Flutter Developer</h5>
+                      <h5 className="card-title mb-0">Flutter Developer</h5>
                     </div>
-                    <p class="card-text mb-0">
+                    <p className="card-text mb-0">
                       We are seeking a talented Flutter Developer to join our
                       team at Emaad Infotech.
                     </p>
-                    <ul class="list-inline">
-                      <li class="list-inline-item badge badge-primary">
+                    <ul className="list-inline">
+                      <li className="list-inline-item badge badge-primary">
                         JavaScript
                       </li>
-                      <li class="list-inline-item badge badge-primary">Dart</li>
-                      <li class="list-inline-item badge badge-primary">
+                      <li className="list-inline-item badge badge-primary">Dart</li>
+                      <li className="list-inline-item badge badge-primary">
                         Flutter
                       </li>
                     </ul>
-                    <div class="d-flex align-items-center justify-content-between">
-                      <p class="card-location d-flex align-items-center gap-1 mb-0">
-                        <span class="material-symbols-outlined">
+                    <div className="d-flex align-items-center justify-content-between">
+                      <p className="card-location d-flex align-items-center gap-1 mb-0">
+                        <span className="material-symbols-outlined">
                           location_on
                         </span>
                         Himmatnagar
                       </p>
-                      <p class="card-location-num mb-0">2</p>
+                      <p className="card-location-num mb-0">2</p>
                     </div>
-                    <a href="#" class="btn btn-primary btn-block">
+                    <a href="#" className="btn btn-primary btn-block">
                       Apply Now
                     </a>
                   </div>
                 </div>
               </div>
               {/* <!-- NodeJS Developer --> */}
-              <div class="col-lg-4 col-md-6 mb-4">
-                <div class="card h-100 developer-cards">
-                  <div class="card-body p-0">
-                    <div class="logo-title d-flex gap-3 align-items-center">
+              <div className="col-lg-4 col-md-6 mb-4">
+                <div className="card h-100 developer-cards">
+                  <div className="card-body p-0">
+                    <div className="logo-title d-flex gap-3 align-items-center">
                       <Image src={nodeJSImg} alt="Node Js logo" />
-                      <h5 class="card-title mb-0">NodeJS Developer</h5>
+                      <h5 className="card-title mb-0">NodeJS Developer</h5>
                     </div>
-                    <p class="card-text mb-0">
+                    <p className="card-text mb-0">
                       We are looking for a skilled NodeJS Developer to join our
                       dynamic team at Emaad Infotech.
                     </p>
-                    <ul class="list-inline">
-                      <li class="list-inline-item badge badge-primary">HTML</li>
-                      <li class="list-inline-item badge badge-primary">CSS</li>
-                      <li class="list-inline-item badge badge-primary">
+                    <ul className="list-inline">
+                      <li className="list-inline-item badge badge-primary">HTML</li>
+                      <li className="list-inline-item badge badge-primary">CSS</li>
+                      <li className="list-inline-item badge badge-primary">
                         JavaScript
                       </li>
-                      <li class="list-inline-item badge badge-primary">SQL</li>
+                      <li className="list-inline-item badge badge-primary">SQL</li>
                     </ul>
-                    <div class="d-flex align-items-center justify-content-between">
-                      <p class="card-location d-flex align-items-center gap-1 mb-0">
-                        <span class="material-symbols-outlined">
+                    <div className="d-flex align-items-center justify-content-between">
+                      <p className="card-location d-flex align-items-center gap-1 mb-0">
+                        <span className="material-symbols-outlined">
                           location_on
                         </span>
                         Himmatnagar
                       </p>
-                      <p class="card-location-num mb-0">9</p>
+                      <p className="card-location-num mb-0">9</p>
                     </div>
-                    <a href="#" class="btn btn-primary btn-block">
+                    <a href="#" className="btn btn-primary btn-block">
                       Apply Now
                     </a>
                   </div>
                 </div>
               </div>
               {/* <!-- PHP Developer --> */}
-              <div class="col-lg-4 col-md-6 mb-4">
-                <div class="card h-100 developer-cards">
-                  <div class="card-body p-0">
-                    <div class="logo-title d-flex gap-3 align-items-center">
+              <div className="col-lg-4 col-md-6 mb-4">
+                <div className="card h-100 developer-cards">
+                  <div className="card-body p-0">
+                    <div className="logo-title d-flex gap-3 align-items-center">
                       <Image src={phpImg} alt="PHP logo" />
-                      <h5 class="card-title mb-0">PHP Developer</h5>
+                      <h5 className="card-title mb-0">PHP Developer</h5>
                     </div>
-                    <p class="card-text mb-0">
+                    <p className="card-text mb-0">
                       We are looking for a skilled PHP Developer to join our
                       dynamic team at Emaad Infotech.
                     </p>
-                    <ul class="list-inline">
-                      <li class="list-inline-item badge badge-primary">HTML</li>
-                      <li class="list-inline-item badge badge-primary">CSS</li>
-                      <li class="list-inline-item badge badge-primary">SQL</li>
-                      <li class="list-inline-item badge badge-primary">PHP</li>
+                    <ul className="list-inline">
+                      <li className="list-inline-item badge badge-primary">HTML</li>
+                      <li className="list-inline-item badge badge-primary">CSS</li>
+                      <li className="list-inline-item badge badge-primary">SQL</li>
+                      <li className="list-inline-item badge badge-primary">PHP</li>
                     </ul>
-                    <div class="d-flex align-items-center justify-content-between">
-                      <p class="card-location d-flex align-items-center gap-1 mb-0">
-                        <span class="material-symbols-outlined">
+                    <div className="d-flex align-items-center justify-content-between">
+                      <p className="card-location d-flex align-items-center gap-1 mb-0">
+                        <span className="material-symbols-outlined">
                           location_on
                         </span>
                         Himmatnagar
                       </p>
-                      <p class="card-location-num mb-0">1</p>
+                      <p className="card-location-num mb-0">1</p>
                     </div>
-                    <a href="#" class="btn btn-primary btn-block">
+                    <a href="#" className="btn btn-primary btn-block">
                       Apply Now
                     </a>
                   </div>
                 </div>
               </div>
               {/* <!-- React JS Developer (Duplicate) --> */}
-              <div class="col-lg-4 col-md-6 mb-4">
-                <div class="card h-100 developer-cards">
-                  <div class="card-body p-0">
-                    <div class="logo-title d-flex gap-3 align-items-center">
+              <div className="col-lg-4 col-md-6 mb-4">
+                <div className="card h-100 developer-cards">
+                  <div className="card-body p-0">
+                    <div className="logo-title d-flex gap-3 align-items-center">
                       <Image src={reactJSImg} alt="React Js logo" />
-                      <h5 class="card-title mb-0">React JS Developer</h5>
+                      <h5 className="card-title mb-0">React JS Developer</h5>
                     </div>
-                    <p class="card-text mb-0">
+                    <p className="card-text mb-0">
                       We are looking for a skilled React JS Developer to join
                       our dynamic team at Emaad Infotech.
                     </p>
-                    <ul class="list-inline">
-                      <li class="list-inline-item badge badge-primary">HTML</li>
-                      <li class="list-inline-item badge badge-primary">CSS</li>
-                      <li class="list-inline-item badge badge-primary">
+                    <ul className="list-inline">
+                      <li className="list-inline-item badge badge-primary">HTML</li>
+                      <li className="list-inline-item badge badge-primary">CSS</li>
+                      <li className="list-inline-item badge badge-primary">
                         JavaScript
                       </li>
                     </ul>
-                    <div class="d-flex align-items-center justify-content-between">
-                      <p class="card-location d-flex align-items-center gap-1 mb-0">
-                        <span class="material-symbols-outlined">
+                    <div className="d-flex align-items-center justify-content-between">
+                      <p className="card-location d-flex align-items-center gap-1 mb-0">
+                        <span className="material-symbols-outlined">
                           location_on
                         </span>
                         Himmatnagar
                       </p>
-                      <p class="card-location-num mb-0">4</p>
+                      <p className="card-location-num mb-0">4</p>
                     </div>
-                    <a href="#" class="btn btn-primary btn-block">
+                    <a href="#" className="btn btn-primary btn-block">
                       Apply Now
                     </a>
                   </div>

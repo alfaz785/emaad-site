@@ -11,102 +11,102 @@ import leafImg from "../assets/images/leaf.svg";
 import Image from "next/image";
 
 const DeliveriHome = () => {
-  useEffect(() => {
-    var tl = gsap.timeline({
-      scrollTrigger: {
-        trigger: "#delivering-main",
-        start: "0% 10%",
-        end: "90% 50%",
-        scrub: 2,
-        pin: true,
-      },
-    });
+    useEffect(() => {
+      var tl = gsap.timeline({
+        scrollTrigger: {
+          trigger: "#delivering-main",
+          start: "0% 10%",
+          end: "90% 50%",
+          scrub: 2,
+          pin: true,
+        },
+      });
 
-    tl.to(
-      ".text",
-      {
-        top: "-5%",
-      },
-      "a",
-    )
-      .to(
-        "#card-one",
+      tl.to(
+        ".text",
         {
-          top: "30%",
+          top: "-5%",
         },
         "a",
       )
-      .to(
-        "#card-two",
-        {
-          top: "130%",
-        },
-        "a",
-      )
-      .to(
-        "#card-two",
-        {
-          top: "32%",
-        },
-        "b",
-      )
-      .to(
-        "#card-one",
-        {
-          width: "65%",
-        },
-        "b",
-      )
-      .to(
-        "#card-three",
-        {
-          top: "130%",
-        },
-        "b",
-      )
-      .to(
-        "#card-three",
-        {
-          top: "34%",
-        },
-        "c",
-      )
-      .to(
-        "#card-two",
-        {
-          width: "70%",
-        },
-        "c",
-      )
-      .to(
-        "#card-four",
-        {
-          top: "130%",
-        },
-        "c",
-      )
-      .to(
-        "#card-four",
-        {
-          top: "38%",
-        },
-        "d",
-      )
-      .to(
-        "#card-three",
-        {
-          width: "75%",
-        },
-        "d",
-      )
-      .to(
-        "#card-four",
-        {
-          width: "80%",
-        },
-        "e",
-      );
-  }, []);
+        .to(
+          "#card-one",
+          {
+            top: "30%",
+          },
+          "a",
+        )
+        .to(
+          "#card-two",
+          {
+            top: "130%",
+          },
+          "a",
+        )
+        .to(
+          "#card-two",
+          {
+            top: "32%",
+          },
+          "b",
+        )
+        .to(
+          "#card-one",
+          {
+            width: "65%",
+          },
+          "b",
+        )
+        .to(
+          "#card-three",
+          {
+            top: "130%",
+          },
+          "b",
+        )
+        .to(
+          "#card-three",
+          {
+            top: "34%",
+          },
+          "c",
+        )
+        .to(
+          "#card-two",
+          {
+            width: "70%",
+          },
+          "c",
+        )
+        .to(
+          "#card-four",
+          {
+            top: "130%",
+          },
+          "c",
+        )
+        .to(
+          "#card-four",
+          {
+            top: "38%",
+          },
+          "d",
+        )
+        .to(
+          "#card-three",
+          {
+            width: "75%",
+          },
+          "d",
+        )
+        .to(
+          "#card-four",
+          {
+            width: "80%",
+          },
+          "e",
+        );
+    }, []);
   return (
     <>
       <div id="delivering-main" className="innovation">

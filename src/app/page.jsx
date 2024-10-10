@@ -18,10 +18,9 @@ export default function Home() {
       {/* <!-- slider section start --> */}
       <SlideSection />
       {/* <!-- Delivering Innovation that thrives Start --> */}
-      <DeliveriHome />
+      {/* <DeliveriHome /> */}
       {/* <!-- we have some easy steps --> */}
       <EasyHome />
-
       {/* <!-- Leading eCommerce  Software section start --> */}
       <SliderHome />
       {/* <!-- Leading eCommerce  Software section End --> */}
@@ -48,4 +47,4 @@ export default function Home() {
       <DraggableBox />
     </>
   );
-} 
+}

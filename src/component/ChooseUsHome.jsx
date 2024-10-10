@@ -8,6 +8,7 @@ import clientStisfaction from "../assets/images/client-satisfaction.png";
 import moneyImg from "../assets/images/money.png";
 import Image from "next/image";
 import { wcButtonFC } from "../../commFun";
+import Link from "next/link";
 
 const ChooseUsHome = () => {
   useEffect(() => {
@@ -72,10 +73,10 @@ const ChooseUsHome = () => {
                   We are one of the fastest growing and most reputed software
                   development company in India.
                 </p>
-     
+
                 <div className="btn_wrapper custom_display_none">
-                  <a
-                    href="#"
+                  <Link
+                    href="/get-in-touch"
                     className="wc-btn-primary btn btn-outline-light mt_40"
                   >
                     Quick <br />
@@ -84,7 +85,7 @@ const ChooseUsHome = () => {
                       arrow_right_alt
                     </span>
                     <span className="circle"></span>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-lg-2 col-md-2"></div>
@@ -187,8 +188,8 @@ const ChooseUsHome = () => {
                 </div>
               </div>
               <div className="btn_wrapper custom_display_block d-none">
-                <a
-                  href="#"
+                <Link
+                  href="/get-in-touch"
                   className="wc-btn-primary btn btn-outline-light mt_40"
                 >
                   Quick <br />
@@ -198,7 +199,7 @@ const ChooseUsHome = () => {
                     arrow_right_alt{" "}
                   </span>
                   <span className="circle"></span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

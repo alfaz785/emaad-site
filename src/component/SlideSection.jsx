@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
 import digitalImg from "../assets/images/digital.png";
 import marqueImg from "../assets/images/marque svg.svg";
 import vortexImg from "../assets/images/vortex.png";
@@ -8,6 +9,34 @@ import fuzionImg from "../assets/images/travel.png";
 import Image from "next/image";
 
 const SlideSection = () => {
+  useEffect(() => {
+    function marqueAnimation() {
+      window.addEventListener("wheel", function (dets) {
+        if (dets.deltaY > 0) {
+          gsap.to(".marque", {
+            transform: "translateX(-200%)",
+            duration: 4,
+            repeat: -1,
+            ease: "none",
+          });
+          gsap.to(".marque .whell ", {
+            rotate: 0,
+          });
+        } else {
+          gsap.to(".marque", {
+            transform: "translateX(0%)",
+            duration: 4,
+            repeat: -1,
+            ease: "none",
+          });
+          gsap.to(".marque .whell ", {
+            rotate: 180,
+          });
+        }
+      });
+    }
+    marqueAnimation();
+  }, []);
   return (
     <>
       <div className="scrollpage2">

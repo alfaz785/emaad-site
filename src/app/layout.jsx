@@ -7,6 +7,7 @@ import "../assets/css/style.css"; // Then import your global styles
 import "../assets/css/responsive.css"; // Finally, import the responsive styles
 import "../assets/css/swiper-bundle.min.css";
 import Footer from "@/component/Footer";
+import Link from "next/link";
 
 const geistSans = localFont({
   src: "../fonts/GeistVF.woff",

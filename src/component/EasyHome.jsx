@@ -69,7 +69,7 @@ const EasyHome = () => {
   }, []);
   return (
     <>
-      <div className="wrapper">
+      <div className="wrapper mt-5">
         <div className="container scrollx easy">
           <div className="intro-text">
             <div className="big-title">

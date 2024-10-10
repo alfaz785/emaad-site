@@ -12,50 +12,50 @@ const DomainImportance = () => {
 
   return (
     <>
-      <div class="the-importance-section">
-        <div class="container">
-          <div class="the-importance-section">
-            <div class="header-image">
+      <div className="the-importance-section">
+        <div className="container">
+          <div className="the-importance-section">
+            <div className="header-image">
               <Image
                 src={impotanceImg}
                 alt="laptop Image"
                 style={{ width: "100%" }}
               />
             </div>
-            <section class="domain-importance domain-design-section">
-              {/* <!-- <div class="domain-title-main">
-              <h4 class=" mb-0">The Importance of a Domain Name</h4>
+            <section className="domain-importance domain-design-section">
+              {/* <!-- <div className="domain-title-main">
+              <h4 className=" mb-0">The Importance of a Domain Name</h4>
             </div> --> */}
-              <div class="domain-title-main">
-                <h4 class="mb-0">
-                  <span class="letter">T</span>
-                  <span class="letter">h</span>
-                  <span class="letter">e</span>
-                  <span class="letter">I</span>
-                  <span class="letter">m</span>
-                  <span class="letter">p</span>
-                  <span class="letter">o</span>
-                  <span class="letter">r</span>
-                  <span class="letter">t</span>
-                  <span class="letter">a</span>
-                  <span class="letter">n</span>
-                  <span class="letter">c</span>
-                  <span class="letter">e</span> <span class="letter">o</span>
-                  <span class="letter">f</span> <span class="letter">a</span>
-                  <span class="letter">D</span>
-                  <span class="letter">o</span>
-                  <span class="letter">m</span>
-                  <span class="letter">a</span>
-                  <span class="letter">i</span>
-                  <span class="letter">n</span>
-                  <span class="letter">N</span>
-                  <span class="letter">a</span>
-                  <span class="letter">m</span>
-                  <span class="letter">e</span>
+              <div className="domain-title-main">
+                <h4 className="mb-0">
+                  <span className="letter">T</span>
+                  <span className="letter">h</span>
+                  <span className="letter">e</span>
+                  <span className="letter">I</span>
+                  <span className="letter">m</span>
+                  <span className="letter">p</span>
+                  <span className="letter">o</span>
+                  <span className="letter">r</span>
+                  <span className="letter">t</span>
+                  <span className="letter">a</span>
+                  <span className="letter">n</span>
+                  <span className="letter">c</span>
+                  <span className="letter">e</span> <span className="letter">o</span>
+                  <span className="letter">f</span> <span className="letter">a</span>
+                  <span className="letter">D</span>
+                  <span className="letter">o</span>
+                  <span className="letter">m</span>
+                  <span className="letter">a</span>
+                  <span className="letter">i</span>
+                  <span className="letter">n</span>
+                  <span className="letter">N</span>
+                  <span className="letter">a</span>
+                  <span className="letter">m</span>
+                  <span className="letter">e</span>
                 </h4>
               </div>
 
-              <p class="domain-importance-para">
+              <p className="domain-importance-para">
                 A domain name is the unique identity of your brand on the
                 internet. Registering a domain name through a recognized
                 registrar gives your business a distinct personality and makes
@@ -72,14 +72,14 @@ const DomainImportance = () => {
                 registration services offer a wide variety of extensions,
                 including
               </p>
-              <div class="domain-extensions-group">
-                <span class="domain-extension">.com</span>
-                <span class="domain-extension">.in</span>
-                <span class="domain-extension">.edu</span>
-                <span class="domain-extension">.org</span>
-                <span class="domain-extension">.net</span>
+              <div className="domain-extensions-group">
+                <span className="domain-extension">.com</span>
+                <span className="domain-extension">.in</span>
+                <span className="domain-extension">.edu</span>
+                <span className="domain-extension">.org</span>
+                <span className="domain-extension">.net</span>
               </div>
-              <p class="mt-4 mb-0 domain-importance-para">
+              <p className="mt-4 mb-0 domain-importance-para">
                 We help you choose and secure the perfect domain name that
                 aligns with your brand's identity and business goals.
               </p>

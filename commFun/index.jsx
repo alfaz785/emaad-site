@@ -677,3 +677,7 @@ export function OurWorkPreviewFC() {
     }
   });
 }
+
+export const handleNavigate = (router, navUrl) => {
+  router.push(navUrl);
+};

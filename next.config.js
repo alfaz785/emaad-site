@@ -1,6 +1,16 @@
-module.exports = {
-  reactStrictMode: true,
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: false,
   images: {
-    domains: ['emaad-site-next.vercel.app'],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "emaad-site-next.vercel.app",
+        port: "",
+        pathname: "/**",
+      },
+    ],
   },
 };
+
+module.exports = nextConfig;

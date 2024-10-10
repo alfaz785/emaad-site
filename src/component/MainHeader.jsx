@@ -162,13 +162,13 @@ const MainHeader = () => {
                       </div>
                       <div className="drowp-2">
                         <li className="hover">
-                          <Link href="#" className="nav-drowpdown1 p-0">
+                          <Link href="/digital-marketing" className="nav-drowpdown1 p-0">
                             Digital Marketing
                           </Link>
                         </li>
                         <li className="hover">
                           <Link
-                            href="/digital-marketing"
+                            href="/domain-hosting"
                             className="nav-drowpdown1 p-0"
                           >
                             Domain & Hosting Services

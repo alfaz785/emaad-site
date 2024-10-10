@@ -14,15 +14,15 @@ const RefundHead = () => {
 
   return (
     <>
-      <div class="refund-policy-section">
-        <div class="container">
-          <div class="refund-policy-title">
-            <h1 class="mb-0">
+      <div className="refund-policy-section">
+        <div className="container">
+          <div className="refund-policy-title">
+            <h1 className="mb-0">
               <span id="policy1"> </span>
-              <span class="highlight-jobs" id="policy2"></span>
+              <span className="highlight-jobs" id="policy2"></span>
             </h1>
-            <p class="mb-0">
-              At <span class="emaad-title">Emaad Infotech®</span>, we strive to
+            <p className="mb-0">
+              At <span className="emaad-title">Emaad Infotech®</span>, we strive to
               ensure our customers are fully satisfied with our services. If you
               are not entirely happy with your purchase, we are here to help.
             </p>

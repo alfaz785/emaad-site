@@ -14,13 +14,13 @@ const CareerSection = () => {
   }, []);
   return (
     <>
-      <div class="careers-section">
-        <div class="container">
-          <div class="careers-section-title">
-            <h1 class="mb-0">
+      <div className="careers-section">
+        <div className="container">
+          <div className="careers-section-title">
+            <h1 className="mb-0">
               <span id="part1"> </span>
-              <span class="highlight-jobs" id="part2"></span>
-              <span class="we-offer" id="part3"></span>
+              <span className="highlight-jobs" id="part2"></span>
+              <span className="we-offer" id="part3"></span>
             </h1>
             <h2 id="part4"></h2>
           </div>

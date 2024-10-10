@@ -4,6 +4,7 @@ import React from "react";
 import { useEffect } from "react";
 import customeArrow from "../assets/images/custome-arrow.png";
 import Image from "next/image";
+import gsap from "gsap";
 
 const HomeHead = () => {
   useEffect(() => {
@@ -97,7 +98,7 @@ const HomeHead = () => {
           <div className="theme">
             <h1>gr</h1>
             <input type="checkbox" className="checkbox" id="checkbox" />
-            <label for="checkbox" className="checkbox-label">
+            <label htmlFor="checkbox" className="checkbox-label">
               <span className="ball"></span>
             </label>
             <h1>wth</h1>

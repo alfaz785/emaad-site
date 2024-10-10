@@ -46,7 +46,7 @@ const WorkPreviews = () => {
           <div className="web-app-toggel text">
             <h3 className="web-text red">Web</h3>
             <input type="checkbox" className="checkbox" id="checkbox" />
-            <label for="checkbox" className="checkbox-label">
+            <label htmlFor="checkbox" className="checkbox-label">
               <span className="web-ball"></span>
             </label>
             <h3 className="app-text">App</h3>

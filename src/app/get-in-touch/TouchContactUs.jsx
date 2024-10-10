@@ -22,7 +22,7 @@ const TouchContactUs = () => {
             <div className="col-md-7">
               <form className="contact-touch-form">
                 <div className="form-group">
-                  {/* <!-- <label for="firstName">First Name :</label> --> */}
+                  {/* <!-- <label htmlFor="firstName">First Name :</label> --> */}
                   <input
                     type="text"
                     className="form-control"
@@ -31,7 +31,7 @@ const TouchContactUs = () => {
                   />
                 </div>
                 <div className="form-group">
-                  {/* <!-- <label for="email">Email :</label> --> */}
+                  {/* <!-- <label htmlFor="email">Email :</label> --> */}
                   <input
                     type="email"
                     className="form-control"
@@ -40,7 +40,7 @@ const TouchContactUs = () => {
                   />
                 </div>
                 <div className="form-group">
-                  {/* <!-- <label for="phone">Phone :</label> --> */}
+                  {/* <!-- <label htmlFor="phone">Phone :</label> --> */}
                   <input
                     type="tel"
                     className="form-control"
@@ -49,7 +49,7 @@ const TouchContactUs = () => {
                   />
                 </div>
                 <div className="form-group">
-                  {/* <!-- <label for="message">Message :</label> --> */}
+                  {/* <!-- <label htmlFor="message">Message :</label> --> */}
                   <textarea
                     className="form-control"
                     id="message"

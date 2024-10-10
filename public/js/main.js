@@ -184,131 +184,131 @@ if (rainContainer) {
   }
 }
 // marque scroll move
-function marqueAnimation() {
-  window.addEventListener("wheel", function (dets) {
-    if (dets.deltaY > 0) {
-      gsap.to(".marque", {
-        transform: "translateX(-200%)",
-        duration: 4,
-        repeat: -1,
-        ease: "none",
-      });
-      gsap.to(".marque .whell ", {
-        rotate: 0,
-      });
-    } else {
-      gsap.to(".marque", {
-        transform: "translateX(0%)",
-        duration: 4,
-        repeat: -1,
-        ease: "none",
-      });
-      gsap.to(".marque .whell ", {
-        rotate: 180,
-      });
-    }
-  });
-}
+// function marqueAnimation() {
+//   window.addEventListener("wheel", function (dets) {
+//     if (dets.deltaY > 0) {
+//       gsap.to(".marque", {
+//         transform: "translateX(-200%)",
+//         duration: 4,
+//         repeat: -1,
+//         ease: "none",
+//       });
+//       gsap.to(".marque .whell ", {
+//         rotate: 0,
+//       });
+//     } else {
+//       gsap.to(".marque", {
+//         transform: "translateX(0%)",
+//         duration: 4,
+//         repeat: -1,
+//         ease: "none",
+//       });
+//       gsap.to(".marque .whell ", {
+//         rotate: 180,
+//       });
+//     }
+//   });
+// }
 
-marqueAnimation();
+// marqueAnimation();
 
 // Delivering Innovation that thrives card start
 
-var tl = gsap.timeline({
-  scrollTrigger: {
-    trigger: "#delivering-main",
-    // markers: true,
-    start: "0% 10%",
-    end: "90% 50%",
-    scrub: 2,
-    pin: true,
-  },
-});
+// var tl = gsap.timeline({
+//   scrollTrigger: {
+//     trigger: "#delivering-main",
+//     // markers: true,
+//     start: "0% 10%",
+//     end: "90% 50%",
+//     scrub: 2,
+//     pin: true,
+//   },
+// });
 
-tl.to(
-  ".text",
-  {
-    top: "-5%",
-  },
-  "a",
-)
-  .to(
-    "#card-one",
-    {
-      top: "30%",
-    },
-    "a",
-  )
-  .to(
-    "#card-two",
-    {
-      top: "130%",
-    },
-    "a",
-  )
-  .to(
-    "#card-two",
-    {
-      top: "32%",
-    },
-    "b",
-  )
-  .to(
-    "#card-one",
-    {
-      width: "65%",
-    },
-    "b",
-  )
-  .to(
-    "#card-three",
-    {
-      top: "130%",
-    },
-    "b",
-  )
-  .to(
-    "#card-three",
-    {
-      top: "34%",
-    },
-    "c",
-  )
-  .to(
-    "#card-two",
-    {
-      width: "70%",
-    },
-    "c",
-  )
-  .to(
-    "#card-four",
-    {
-      top: "130%",
-    },
-    "c",
-  )
-  .to(
-    "#card-four",
-    {
-      top: "38%",
-    },
-    "d",
-  )
-  .to(
-    "#card-three",
-    {
-      width: "75%",
-    },
-    "d",
-  )
-  .to(
-    "#card-four",
-    {
-      width: "80%",
-    },
-    "e",
-  );
+// tl.to(
+//   ".text",
+//   {
+//     top: "-5%",
+//   },
+//   "a",
+// )
+//   .to(
+//     "#card-one",
+//     {
+//       top: "30%",
+//     },
+//     "a",
+//   )
+//   .to(
+//     "#card-two",
+//     {
+//       top: "130%",
+//     },
+//     "a",
+//   )
+//   .to(
+//     "#card-two",
+//     {
+//       top: "32%",
+//     },
+//     "b",
+//   )
+//   .to(
+//     "#card-one",
+//     {
+//       width: "65%",
+//     },
+//     "b",
+//   )
+//   .to(
+//     "#card-three",
+//     {
+//       top: "130%",
+//     },
+//     "b",
+//   )
+//   .to(
+//     "#card-three",
+//     {
+//       top: "34%",
+//     },
+//     "c",
+//   )
+//   .to(
+//     "#card-two",
+//     {
+//       width: "70%",
+//     },
+//     "c",
+//   )
+//   .to(
+//     "#card-four",
+//     {
+//       top: "130%",
+//     },
+//     "c",
+//   )
+//   .to(
+//     "#card-four",
+//     {
+//       top: "38%",
+//     },
+//     "d",
+//   )
+//   .to(
+//     "#card-three",
+//     {
+//       width: "75%",
+//     },
+//     "d",
+//   )
+//   .to(
+//     "#card-four",
+//     {
+//       width: "80%",
+//     },
+//     "e",
+//   );
 
 // Delivering Innovation that thrives card End
 // ===========/*We Have Some Easy Steps start */=================
