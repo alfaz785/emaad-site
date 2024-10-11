@@ -8,10 +8,10 @@ import instImg from "../assets/images/insta.png";
 import telegramImg from "../assets/images/teligrame.png";
 import Image from "next/image";
 import Link from "next/link";
+import gsap from "gsap";
 
 const MainHeader = () => {
-  const lastScrollTop = useRef(0); // Using ref to store scroll position
-
+  const lastScrollTop = useRef(0);
   useEffect(() => {
     const navLinks = document.querySelectorAll(".nav-link");
     const dropLinks = document.querySelectorAll(".nav-drowpdown");
@@ -76,6 +76,40 @@ const MainHeader = () => {
     };
   }, []);
 
+  useEffect(() => {
+    const menuBtn = document.querySelector(".menuBtn");
+    const closeBtn = document.querySelector(".close");
+
+    let navbar_tl = gsap.timeline({ paused: true });
+    navbar_tl.to(".menu-content", {
+      opacity: 1,
+      duration: 1,
+      top: 0,
+      ease: Power2.easeInOut,
+      zIndex: 9,
+    });
+    navbar_tl.to(".nav-text", {
+      opacity: 1,
+      duration: 1,
+      stagger: 0.3,
+      marginTop: 0,
+      ease: Power2.easeInOut,
+    });
+
+    menuBtn.addEventListener("click", () => {
+      navbar_tl.play().timeScale(1);
+      const body = document.getElementById("body");
+      body.style.overflow = "hidden";
+    });
+    closeBtn.addEventListener("click", () => {
+      navbar_tl.timeScale(3);
+      navbar_tl.reverse();
+
+      const body = document.getElementById("body");
+      body.style.overflow = "";
+    });
+  }, []);
+
   return (
     <>
       <div className="nav-bar" id="navBar">
@@ -107,7 +141,7 @@ const MainHeader = () => {
         <div className="menu-container">
           <ul className="nav-list SMN_effect-1">
             <li className="nav-text">
-              <Link href="/" className="nav-link mt-5 p-0 cursor-scale ">
+              <Link href="/" className="nav-link">
                 Home<span className="numbers">01</span>
               </Link>
             </li>
@@ -162,7 +196,10 @@ const MainHeader = () => {
                       </div>
                       <div className="drowp-2">
                         <li className="hover">
-                          <Link href="/digital-marketing" className="nav-drowpdown1 p-0">
+                          <Link
+                            href="/digital-marketing"
+                            className="nav-drowpdown1 p-0"
+                          >
                             Digital Marketing
                           </Link>
                         </li>

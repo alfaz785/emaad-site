@@ -16,6 +16,29 @@ const WorkPreviews = () => {
   useEffect(() => {
     OurWorkPreviewFC();
   }, []);
+  useEffect(() => {
+    const checkbox = document.querySelector(".checkbox");
+    const webText = document.querySelector(".web-text");
+    const appText = document.querySelector(".app-text");
+
+    const handleCheckboxChange = () => {
+      if (checkbox.checked) {
+        webText.classList.remove("red");
+        appText.classList.add("red");
+      } else {
+        webText.classList.add("red");
+        appText.classList.remove("red");
+      }
+    };
+
+    // Add the event listener when the component mounts
+    checkbox?.addEventListener("change", handleCheckboxChange);
+
+    // Cleanup the event listener when the component unmounts
+    return () => {
+      checkbox?.removeEventListener("change", handleCheckboxChange);
+    };
+  }, []);
   return (
     <>
       <div className="brilliant-previews-section">
@@ -51,9 +74,7 @@ const WorkPreviews = () => {
             </label>
             <h3 className="app-text">App</h3>
           </div>
-
           {/* <!-- swiper web app iamges --> */}
-
           <div className="web-app-swiper">
             <div className="web-swiper">
               <Swiper

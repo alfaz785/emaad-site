@@ -678,6 +678,15 @@ export function OurWorkPreviewFC() {
   });
 }
 
-export const handleNavigate = (router, navUrl) => {
-  router.push(navUrl);
+export const handleNavigate = (event) => {
+  let navbar_tl = gsap.timeline({ paused: true });
+  event.preventDefault();
+
+  navbar_tl.timeScale(3);
+  navbar_tl.reverse();
+
+  const body = document.getElementById("body");
+  body.style.overflow = "";
+
 };
+;

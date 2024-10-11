@@ -1,16 +1,99 @@
-import Image from 'next/image'
-import React from 'react'
+"use client";
+
+import Image from "next/image";
+import React, { useEffect } from "react";
 import expertiseImg from "../../assets/images/expertise.svg";
 import clientImg from "../../assets/images/client.svg";
 import exprienseImg from "../../assets/images/expriense.png";
 import softwareImg from "../../assets/images/softwate-design.png";
 import commpetitiveImg from "../../assets/images/commpetitive-p.svg";
 import technologiesImg from "../../assets/images/technology.svg";
+import gsap from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
 
 const Expertise = () => {
+  useEffect(() => {
+    var card = document.querySelector(".Expertise-and-Experience-card");
+    if (card) {
+      var tl = gsap.timeline({ defaults: { duration: 1, ease: "power1.out" } });
+      tl.from(card, { opacity: 0, x: -100 });
+
+      var title = document.querySelector(".expertise-title h3");
+      if (title) {
+        tl.from(title, { opacity: 0, y: 20 }, "-=0.5");
+      }
+
+      var text = document.querySelector(".expertise-text p");
+      if (text) {
+        tl.from(text, { opacity: 0, y: 20 }, "-=0.5");
+      }
+    }
+  }, []);
+  useEffect(() => {
+    var card = document.querySelector(".Expertise-and-Experience-card2");
+    if (card) {
+      var tl = gsap.timeline({ defaults: { duration: 1, ease: "power1.out" } });
+      tl.from(card, { opacity: 0, x: -100 });
+
+      var title = document.querySelector(".expertise-title2 h3");
+      if (title) {
+        tl.from(title, { opacity: 0, y: 20 }, "-=0.5");
+      }
+
+      var text = document.querySelector(".expertise-text2 p");
+      if (text) {
+        tl.from(text, { opacity: 0, y: 20 }, "-=0.5");
+      }
+    }
+  }, []);
+  useEffect(() => {
+    var card = document.querySelector(".cutting-edge-tech-card");
+    if (card) {
+      var tl = gsap.timeline({ defaults: { duration: 1, ease: "power1.out" } });
+      tl.from(card, { opacity: 0, x: 100 });
+    }
+  }, []);
+  useEffect(() => {
+    var card = document.querySelector(".cutting-edge-tech-card2");
+    if (card) {
+      var tl = gsap.timeline({ defaults: { duration: 1, ease: "power1.out" } });
+      tl.from(card, { opacity: 0, x: 100 });
+    }
+  }, []);
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.from(".expertice-choose-titel h3, .expertice-choose-titel h4", {
+      opacity: 0,
+      duration: 1,
+      y: 50,
+      stagger: 0.2, // Adjust stagger timing as needed
+      scrollTrigger: {
+        trigger: ".vision-why-choose-design",
+        start: "top 80%",
+        end: "bottom 80%",
+        toggleActions: "play none none reverse",
+      },
+    });
+  }, []);
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.from(".software-experience img", {
+      opacity: 0,
+      scale: 0.5,
+      duration: 1,
+      ease: "ease.out",
+      scrollTrigger: {
+        trigger: ".vision-why-choose-design",
+        start: "top 80%",
+        end: "bottom 20%",
+        toggleActions: "play none none reverse",
+      },
+    });
+  }, []);
   return (
     <>
-        <div className="vision-why-choose-design container-fluid">
+      <div className="vision-why-choose-design container-fluid">
         <div className="expertise-design-text d-flex">
           <div className="exprience-design-cards d-flex">
             <div className="Expertise-design-card-">
@@ -120,7 +203,7 @@ const Expertise = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Expertise
+export default Expertise;

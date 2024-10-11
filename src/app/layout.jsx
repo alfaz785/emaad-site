@@ -47,6 +47,7 @@ export default function RootLayout({ children }) {
         {/* Main Script */}
         {/* HEADER --------------------- */}
         <Header />
+        {/* <Link href={"/web-development"}>Web Development</Link> */}
         {children}
         {/* FOOTER --------------------- */}
         <Footer />

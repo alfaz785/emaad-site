@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import customeArrow from "../assets/images/custome-arrow.png";
 import Image from "next/image";
 import gsap from "gsap";
+import Link from "next/link";
 
 const HomeHead = () => {
   useEffect(() => {
@@ -37,7 +38,7 @@ const HomeHead = () => {
             left: mousX,
             top: mouseY,
           },
-        });
+        }); 
       },
     });
 
@@ -121,9 +122,9 @@ const HomeHead = () => {
 
           {/* <!-- button --> */}
           <div className="growth-contact-button">
-            <a href="#" className="grow-contact-button">
+            <Link href="/get-in-touch" className="grow-contact-button">
               Contact Us <span className="material-symbols-outlined">east</span>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

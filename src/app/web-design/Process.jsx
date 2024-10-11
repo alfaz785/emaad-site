@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
-import processImg from "../../assets/images/process.png";
 import Image from "next/image";
+import processImg from "../../assets/images/process-tab.svg";
 
 const Process = () => {
   return (
@@ -62,7 +62,7 @@ const Process = () => {
                 </div>
                 <div className="process-tab-contant d-flex gap-3 align-items-center">
                   <div className="process-icon-tab">
-                    <img src="../assets/images/process-tab.svg" alt="" />
+                    <Image src={processImg} alt="" />
                   </div>
                   <div className="tab-content-title">
                     <h4>Wireframing</h4>
@@ -105,7 +105,7 @@ const Process = () => {
                 </div>
                 <div className="process-tab-contant d-flex gap-3 align-items-center">
                   <div className="process-icon-tab">
-                    <img src="../assets/images/process-tab.svg" alt="" />
+                    <Image src={processImg} alt="" />
                   </div>
                   <div className="tab-content-title">
                     <h4>Responsive Design</h4>
@@ -148,7 +148,7 @@ const Process = () => {
                 </div>
                 <div className="process-tab-contant d-flex gap-3 align-items-center">
                   <div className="process-icon-tab">
-                    <img src="../assets/images/process-tab.svg" alt="" />
+                    <Image src={processImg} alt="" />
                   </div>
                   <div className="tab-content-title">
                     <h4>Prototyping</h4>
@@ -191,7 +191,7 @@ const Process = () => {
                 </div>
                 <div className="process-tab-contant d-flex gap-3 align-items-center">
                   <div className="process-icon-tab">
-                    <img src="../assets/images/process-tab.svg" alt="" />
+                    <Image src={processImg} alt="" />
                   </div>
                   <div className="tab-content-title">
                     <h4>Web Copy</h4>
@@ -234,7 +234,7 @@ const Process = () => {
                 </div>
                 <div className="process-tab-contant d-flex gap-3 align-items-center">
                   <div className="process-icon-tab">
-                    <img src="../assets/images/process-tab.svg" alt="" />
+                    <Image src={processImg} alt="" />
                   </div>
                   <div className="tab-content-title">
                     <h4>UX Design</h4>
@@ -277,7 +277,7 @@ const Process = () => {
                 </div>
                 <div className="process-tab-contant d-flex gap-3 align-items-center">
                   <div className="process-icon-tab">
-                    <img src="../assets/images/process-tab.svg" alt="" />
+                    <Image src={processImg} alt="" />
                   </div>
                   <div className="tab-content-title">
                     <h4>UI Design</h4>

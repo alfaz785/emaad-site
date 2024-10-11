@@ -1111,7 +1111,7 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-  min-height: 150vh;
+  min-height: 180vh;
 }
 
 .innovation .cards {
@@ -1718,8 +1718,6 @@ body {
   font-family: "Syne-Semi-Bold";
 }
 
-
-
 .slider-btn .swiper-button-next,
 .slider-btn .swiper-button-prev {
   position: unset !important;
@@ -1743,7 +1741,6 @@ body {
   justify-content: space-between;
   margin-top: -85px;
 }
-
 
 .slider-btn-group {
   width: 50%;
@@ -7640,7 +7637,6 @@ body.no-scroll {
 .web-app-toggel .checkbox:checked + .checkbox-label .web-ball {
   transform: translateX(-104px);
   background-color: #fff;
-
   box-shadow: 0px 8px 10px 0px #00000033;
   box-shadow: 0px 6px 30px 0px #0000001f;
   box-shadow: 0px 16px 24px 0px #00000024;
@@ -7741,3 +7737,37 @@ body.no-scroll {
   z-index: 8;
   gap: 25px;
 }
+
+/* DeliveriHome.css */
+.innovation {
+  position: relative;
+  overflow: hidden;
+  /* Add any additional styles needed for this section */
+}
+
+.text {
+  /* position: absolute; */
+  transition: top 0.5s ease; /* Smooth transition for the text */
+}
+
+.cards {
+  position: absolute;
+  transition: top 0.5s ease, width 0.5s ease; /* Smooth transition for cards */
+}
+
+#card-one,
+#card-two,
+#card-three,
+#card-four {
+  top: 100%; /* Start from below the viewport */
+}
+
+.card-visible {
+  top: 30%; /* Position it where you want it to appear */
+}
+
+.card-resize {
+  width: 70%; /* Adjust width for card resizing effect */
+}
+
+/* Add more styles as needed for responsive design */

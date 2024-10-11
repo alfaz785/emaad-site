@@ -1,34 +1,34 @@
-const menuBtn = document.querySelector(".menuBtn");
-const closeBtn = document.querySelector(".close");
+// const menuBtn = document.querySelector(".menuBtn");
+// const closeBtn = document.querySelector(".close");
 
-let navbar_tl = gsap.timeline({ paused: true });
-navbar_tl.to(".menu-content", {
-  opacity: 1,
-  duration: 1,
-  top: 0,
-  ease: Power2.easeInOut,
-  zIndex: 9,
-});
-navbar_tl.to(".nav-text", {
-  opacity: 1,
-  duration: 1,
-  stagger: 0.3,
-  marginTop: 0,
-  ease: Power2.easeInOut,
-});
+// let navbar_tl = gsap.timeline({ paused: true });
+// navbar_tl.to(".menu-content", {
+//   opacity: 1,
+//   duration: 1,
+//   top: 0,
+//   ease: Power2.easeInOut,
+//   zIndex: 9,
+// });
+// navbar_tl.to(".nav-text", {
+//   opacity: 1,
+//   duration: 1,
+//   stagger: 0.3,
+//   marginTop: 0,
+//   ease: Power2.easeInOut,
+// });
 
-menuBtn.addEventListener("click", () => {
-  navbar_tl.play().timeScale(1);
-  const body = document.getElementById("body");
-  body.style.overflow = "hidden";
-});
-closeBtn.addEventListener("click", () => {
-  navbar_tl.timeScale(3);
-  navbar_tl.reverse();
+// menuBtn.addEventListener("click", () => {
+//   navbar_tl.play().timeScale(1);
+//   const body = document.getElementById("body");
+//   body.style.overflow = "hidden";
+// });
+// closeBtn.addEventListener("click", () => {
+//   navbar_tl.timeScale(3);
+//   navbar_tl.reverse();
 
-  const body = document.getElementById("body");
-  body.style.overflow = "";
-});
+//   const body = document.getElementById("body");
+//   body.style.overflow = "";
+// });
 // drowpdown click
 
 // document.addEventListener("DOMContentLoaded", function () {
