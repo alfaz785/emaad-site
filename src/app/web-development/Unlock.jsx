@@ -117,70 +117,14 @@ const Unlock = () => {
         <div className="container">
           <div className="unlock-title">
             <h2>
-              <span className="letter">U</span>
-              <span className="letter">n</span>
-              <span className="letter">l</span>
-              <span className="letter">o</span>
-              <span className="letter">c</span>
-              <span className="letter">k</span>
-              <span className="letter">Y</span>
-              <span className="letter">o</span>
-              <span className="letter">u</span>
-              <span className="letter">r</span>
-              <span className="letter">D</span>
-              <span className="letter">i</span>
-              <span className="letter">g</span>
-              <span className="letter">i</span>
-              <span className="letter">t</span>
-              <span className="letter">a</span>
-              <span className="letter">l</span>{" "}
-              <span className="letter">P</span>
-              <span className="letter">o</span>
-              <span className="letter">t</span>
-              <span className="letter">e</span>
-              <span className="letter">n</span>
-              <span className="letter">t</span>
-              <span className="letter">i</span>
-              <span className="letter">a</span>
-              <span className="letter">l</span>
-              <span className="letter">w</span>
-              <span className="letter">i</span>
-              <span className="letter">t</span>
-              <span className="letter">h</span>
-              <span className="letter">O</span>
-              <span className="letter">u</span>
-              <span className="letter">r</span>
-              <br className="responsive-br" />
-              <span className="letter">F</span>
-              <span className="letter">u</span>
-              <span className="letter">l</span>
-              <span className="letter">l</span>
-              <span className="letter">-</span>
-              <span className="letter">S</span>
-              <span className="letter">e</span>
-              <span className="letter">r</span>
-              <span className="letter">v</span>
-              <span className="letter">i</span>
-              <span className="letter">c</span>
-              <span className="letter">e</span>
-              <span className="letter">W</span>
-              <span className="letter">e</span>
-              <span className="letter">b</span>
-              <span className="letter">s</span>
-              <span className="letter">i</span>
-              <span className="letter">t</span>
-              <span className="letter">e</span>
-              <span className="letter">D</span>
-              <span className="letter">e</span>
-              <span className="letter">v</span>
-              <span className="letter">e</span>
-              <span className="letter">l</span>
-              <span className="letter">o</span>
-              <span className="letter">p</span>
-              <span className="letter">m</span>
-              <span className="letter">e</span>
-              <span className="letter">n</span>
-              <span className="letter">t</span>
+              {"Unlock Your Digital Potential with Our Full-Service Website Development"
+                .split("")
+                .map((letter, index) => (
+                  <span key={index} className="letter">
+                    {letter === " " ? "\u00A0" : letter}{" "}
+                    {/* Using non-breaking space */}
+                  </span>
+                ))}
             </h2>
           </div>
 

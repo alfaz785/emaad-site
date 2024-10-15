@@ -3,10 +3,10 @@ import Technologies from "../web-development/Technologies";
 import DraggableBox from "@/component/DraggableBox";
 import GoMobile from "./GoMobile";
 import OurPlatform from "./OurPlatform";
-import ProcessApp from "./ProcessApp";
 import ChooseUs from "./ChooseUs";
 import ProjectInMind from "@/component/ProjectInMind";
 import { generateMetadata } from "../../../commFun/metadatahelper";
+import Process from "../web-development/Process";
 export const metadata = generateMetadata("app-development");
 
 const AppDevelopment = () => {
@@ -19,7 +19,7 @@ const AppDevelopment = () => {
       {/* <!-- Why Choose Us section start --> */}
       <ChooseUs />
       {/* <!-- /* ==========process section start ============  --> */}
-      <ProcessApp />
+      <Process />
       {/* <!-- Technologies we use section start  --> */}
       <Technologies />
       {/* <!-- Ideas can't wait section start --> */}

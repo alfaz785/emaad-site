@@ -43,7 +43,7 @@ const PortfolioHome = () => {
         </div>
 
         <div className="row">
-          <div className="col-lg-9 col-md-8">
+          <div class="col-lg-9 col-md-12">
             <div className="pp-slider-wrapper">
               <div className="swiper portfolio__project-slider">
                 <div className="swiper-wrapper">
@@ -135,7 +135,7 @@ const PortfolioHome = () => {
             </div>
           </div>
 
-          <div className="col-lg-3 col-md-4">
+          <div class="col-lg-3 col-md-12">
             <div className="swiper portfolio__project-thumbs">
               <div className="swiper-wrapper">
                 <div className="swiper-slide">
@@ -164,7 +164,9 @@ const PortfolioHome = () => {
                 </div>
                 <div className="swiper-slide">
                   <div className="pp-slide-thumb">
-                    <h3 className="pp-slide-title">Housing Society Management</h3>
+                    <h3 className="pp-slide-title">
+                      Housing Society Management
+                    </h3>
                     <p>Mother's Day Website</p>
                   </div>
                 </div>

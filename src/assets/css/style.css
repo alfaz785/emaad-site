@@ -2606,6 +2606,9 @@ body {
 }
 /* ========draggable-boxes========== */
 .draggable-boxes-main {
+  margin-top: 100px;
+}
+.draggable-boxes-main {
   background-color: #2a2f3d;
   padding: 70px;
 }
@@ -2647,27 +2650,28 @@ body {
 
 .draggable-boxes #item1 {
   transform: rotate(-10deg);
+  right: -45px;
 }
 
 .draggable-boxes #item2 {
   transform: rotate(5deg);
   transform: rotate(5deg);
   top: 27px;
-  left: -19px;
+  left: 27px;
 }
 
 .draggable-boxes #item3 {
-  transform: rotate(5deg);
-  top: 8px;
-  right: 61px;
+  transform: rotate(9deg);
+  top: 7px;
+  right: 20px;
+  z-index: 1;
 }
 
 .draggable-boxes #item4 {
   transform: rotate(-7deg);
   top: 21px;
-  right: 85px;
+  right: 40px;
 }
-
 /* ======Ideas can't wait end======= */
 /* footer start */
 
@@ -7771,3 +7775,5 @@ body.no-scroll {
 }
 
 /* Add more styles as needed for responsive design */
+
+

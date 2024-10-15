@@ -46,7 +46,7 @@ const DeliveriHome = () => {
       .to(
         "#card-two",
         {
-          top: "40%",
+          top: "35%",
         },
         "b",
       )
@@ -67,7 +67,7 @@ const DeliveriHome = () => {
       .to(
         "#card-three",
         {
-          top: "50%",
+          top: "40%",
         },
         "c",
       )
@@ -88,7 +88,7 @@ const DeliveriHome = () => {
       .to(
         "#card-four",
         {
-          top: "58%",
+          top: "43%",
         },
         "d",
       )
