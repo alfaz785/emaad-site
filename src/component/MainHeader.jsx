@@ -133,10 +133,24 @@ const MainHeader = () => {
         </div>
       </div>
       <div className="menu-content">
-        {/* <!-- <div className="navigation-bg one"></div> --> */}
-        <div className="close closeBtn">
-          <h4>close</h4>
-          <span className="material-symbols-outlined">close</span>
+        <div class="main-close-btn">
+          <div class="main-logo">
+            <svg
+              class="dashed-path"
+              viewBox="0 0 44 23"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5.35 19.15H22.815V23H0.66V0.389999H22.78V4.275H5.35V10.295H19.595V13.165H5.35V19.15ZM28.2244 0.389999H32.8794V23H28.2244V0.389999ZM43.6321 19.01V23H38.3471V19.01H43.6321Z"
+                fill="white"
+              />
+            </svg>
+            <div class="close closeBtn">
+              <h4>close</h4>
+              <span class="material-symbols-outlined">close</span>
+            </div>
+          </div>
         </div>
         <div className="menu-container">
           <ul className="nav-list SMN_effect-1">

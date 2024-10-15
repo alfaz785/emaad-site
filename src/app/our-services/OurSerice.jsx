@@ -8,6 +8,14 @@ import CircleType from "circletype"; // Assuming you've installed circletype
 
 const OurSerice = () => {
   useEffect(() => {
+    gsap.from(".bottom_to_top", {
+      opacity: 0,
+      y: 100,
+      duration: 1.5,
+      ease: "power2.out",
+    });
+  }, []);
+  useEffect(() => {
     // Equivalent to $(document).ready in jQuery
     const rotatedElement = document.getElementById("rotated");
 
@@ -33,7 +41,7 @@ const OurSerice = () => {
         <div className="container">
           <div className="services-section">
             <div className="d-flex align-items-center services-section-title">
-              <h1 className="position-relative">
+              <h1 className="position-relative bottom_to_top">
                 <div className="upper-line d-flex">
                   <span>Our</span>
                   <div className="arrow-container">

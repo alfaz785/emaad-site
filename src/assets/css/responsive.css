@@ -551,7 +551,10 @@
   }
 
   .slider-btn-group {
-    bottom: -35px;
+    bottom: -12px;
+  }
+  .thumb-bottom {
+    margin-top: -60px;
   }
   .why-choose-text-section {
     padding: 20px;
@@ -561,14 +564,14 @@
     padding: 84px 0 87px 25px;
   }
   .awesome_section .pp-prev {
-    right: -65px;
+    right: -23px;
   }
   .awesome_section .pp-next {
-    left: -35px;
+    left: -13px;
   }
-  .pin li {
+  /* .pin li {
     width: 90vw !important;
-  }
+  } */
   /* why choose us section */
   .why-choose-text-section h3 {
     display: inline-flex;
@@ -771,8 +774,12 @@
   .card-discover {
     margin-top: 60px;
   }
-  .services-section-bg {
-    display: none;
+  .services-section-bg img {
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
   }
   .uiux-subtitle-main {
     padding-left: 0;
@@ -794,8 +801,11 @@
     background-image: none;
   }
   .go-mobile-section {
-    background-image: none;
+    background-image: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)),
+      url(../images/services-section-bg.png);
+    background-position: calc(100% - 0px) center;
   }
+
   .trusted-hero-section .hero-heading {
     font-size: 60px;
   }
@@ -966,7 +976,12 @@
     width: 100%;
   }
   .get-in-touch-section {
-    background-image: none;
+    background-image: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)),
+      url(../images/services-section-bg.png);
+    background-position: calc(100% - 0px) center;
+  }
+  .get-in-touch-section {
+    padding: 30px 0px 30px;
   }
   .info-item-group {
     margin-left: 0px;
@@ -1059,7 +1074,9 @@
   }
   /* terms & condition page start */
   .terms-conditions-section {
-    background-image: none;
+    background-image: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)),
+      url(../images/services-section-bg.png);
+    background-position: calc(100% - 0px) center;
   }
   .terms-conditions-title h1 {
     font-size: 60px;
@@ -1069,9 +1086,7 @@
     width: 100%;
   }
   /* refund policy page */
-  .refund-policy-section {
-    background-image: none;
-  }
+
   .refund-policy-title h1 {
     width: 100%;
   }
@@ -1081,13 +1096,6 @@
   .standard-gallery h3 {
     font-size: 55px;
   }
-  .our-journey-section {
-    background-image: none;
-  }
-  .our-journey-section p {
-    width: 100%;
-  }
-
   .our-journey-title h1 {
     font-size: 70px;
   }
@@ -1096,9 +1104,6 @@
     font-size: 70px;
   }
   /* terms & condition page start */
-  .terms-conditions-section {
-    background-image: none;
-  }
   .terms-conditions-title h1 {
     font-size: 60px;
     width: 100%;
@@ -1108,7 +1113,9 @@
   }
   /* refund policy page */
   .refund-policy-section {
-    background-image: none;
+    background-image: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)),
+      url(../images/services-section-bg.png);
+    background-position: calc(100% - 0px) center;
   }
   .refund-policy-title h1 {
     width: 100%;
@@ -1120,7 +1127,9 @@
     font-size: 55px;
   }
   .our-journey-section {
-    background-image: none;
+    background-image: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)),
+      url(../images/services-section-bg.png);
+    background-position: calc(100% - 0px) center;
   }
   .our-journey-section p {
     width: 100%;
@@ -1528,9 +1537,6 @@
   .pp-slide-thumb {
     margin-top: 50px;
   }
-  .awesome_section .pp-slide {
-    padding: 50px;
-  }
   .awesome_section .pp-prev {
     top: 100%;
     right: 50px;
@@ -1547,6 +1553,9 @@
     font-size: 28px;
     line-height: 29.8px;
     left: 26px;
+  }
+  .awesome_section .pp-slide {
+    padding: 50px;
   }
   .service-card-grabe {
     width: 100%;
@@ -1603,7 +1612,9 @@
   .nav-list a {
     font-size: 30px;
   }
-
+  .follow-us-section .box {
+    min-height: 0px;
+  }
   /* why emaad css */
   .emmad-title h5 {
     font-size: 20px;
@@ -1641,9 +1652,11 @@
     margin: unset !important;
     min-width: 35px;
     min-height: 35px;
+    height: 35px;
+    width: 35px;
   }
   .thumb-bottom {
-    margin-top: -60px;
+    margin-top: -30px;
   }
   .slider-btn {
     gap: 13px;
@@ -1729,9 +1742,9 @@
   .domain-importance .domain-extensions-group {
     gap: 10px;
   }
-  .pin li {
+  /* .pin li {
     width: 90vw !important;
-  }
+  } */
   .slider-text h5 {
     font-size: 20px;
   }

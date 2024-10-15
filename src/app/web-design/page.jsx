@@ -7,6 +7,8 @@ import Expertise from "./Expertise";
 import VisionWeb from "./VisionWeb";
 import { generateMetadata } from "../../../commFun/metadatahelper";
 export const metadata = generateMetadata("web-design");
+import ourProcessImg from "../../assets/images/Our-process-img.svg";
+import ProcessImg from "@/component/ProcessImg";
 
 const WebDesign = () => {
 
@@ -20,6 +22,7 @@ const WebDesign = () => {
       <Expertise />
 
       {/* <!-- Expertise-why-choose-design section end--> */}
+      <ProcessImg mainImg={ourProcessImg} />
 
       <Process />
 

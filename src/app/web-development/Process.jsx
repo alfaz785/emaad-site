@@ -3,7 +3,6 @@ import React, { useEffect } from "react";
 import Image from "next/image";
 import ulStar from "../../assets/images/ul-star.svg";
 import ourProcessImg from "../../assets/images/Our-process-img.svg";
-import ProcessImg from "@/component/ProcessImg";
 import gsap from "gsap";
 
 const Process = () => {
@@ -104,7 +103,6 @@ const Process = () => {
   return (
     <>
       {" "}
-      <ProcessImg />
       {/* <!-- process-section-data start --> */}
       <div className="container">
         <div className="process-section-data">

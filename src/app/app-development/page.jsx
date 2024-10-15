@@ -7,6 +7,9 @@ import ChooseUs from "./ChooseUs";
 import ProjectInMind from "@/component/ProjectInMind";
 import { generateMetadata } from "../../../commFun/metadatahelper";
 import Process from "../web-development/Process";
+import ourProcessImg from "../../assets/images/app-process-bg.png";
+import ProcessImg from "@/component/ProcessImg";
+
 export const metadata = generateMetadata("app-development");
 
 const AppDevelopment = () => {
@@ -19,6 +22,7 @@ const AppDevelopment = () => {
       {/* <!-- Why Choose Us section start --> */}
       <ChooseUs />
       {/* <!-- /* ==========process section start ============  --> */}
+      <ProcessImg mainImg={ourProcessImg} />
       <Process />
       {/* <!-- Technologies we use section start  --> */}
       <Technologies />

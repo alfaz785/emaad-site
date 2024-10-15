@@ -6,12 +6,12 @@ const TouchContactUs = () => {
   return (
     <>
        <div
-        className="position-relative get-in-touch"
+        className="get-in-touch"
         style={{ overflowX: "hidden;" }}
       >
         <div className="container">
-          <div className="row align-items-xl-center mt_100">
-            <div className="col-md-5">
+        <div className="row align-items-xl-center mt_100 get-in-touch-mt">
+            <div className="col-md-5 d-none d-lg-block">
               <Image
                 src={contactUsImg}
                 className="contact_image"
@@ -19,8 +19,8 @@ const TouchContactUs = () => {
               />
             </div>
 
-            <div className="col-md-7">
-              <form className="contact-touch-form">
+            <div className="col-lg-7 col-12">
+            <form className="contact-touch-form">
                 <div className="form-group">
                   {/* <!-- <label htmlFor="firstName">First Name :</label> --> */}
                   <input

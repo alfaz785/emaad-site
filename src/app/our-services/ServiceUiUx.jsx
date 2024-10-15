@@ -6,7 +6,6 @@ import webDevelopmentImg from "../../assets/images/Web-Development.svg";
 import digitalMarketingImg from "../../assets/images/Digital-Marketing.svg";
 import mobileAppImg from "../../assets/images/Mobile-App-Developing.svg";
 import uiuxDesign from "../../assets/images/uiux-design.svg";
-import hoverImg from "../../assets/images/hover-2-image.png";
 import hover2Img from "../../assets/images/hover-image1.png";
 import hover3Img from "../../assets/images/hover-image2.png";
 import hover4Img from "../../assets/images/hover-image3.png";
@@ -146,12 +145,7 @@ const ServiceUiUx = () => {
     let currentIndex = 0;
 
     // Array of image URLs
-    const imageUrls = [
-      hoverImg.src,
-      hover2Img.src,
-      hover3Img.src,
-      hover4Img.src,
-    ];
+    const imageUrls = [hover2Img.src, hover3Img.src, hover4Img.src];
 
     let intervalId;
 

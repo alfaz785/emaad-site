@@ -179,7 +179,12 @@ const OurPlatform = () => {
                 <div id="Tab3" className="tab-pane">
                   <div className="row">
                     <div className="col-lg-5">
-                      <Image src={androidImg} alt="Android Mobile" />
+                      <Image
+                        src={androidImg}
+                        alt="Android Mobile"
+                        width={"100%"}
+                        height={"100%"}
+                      />
                     </div>
                     <div className="col-lg-7">
                       <ul className="services-list">

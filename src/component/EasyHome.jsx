@@ -89,8 +89,8 @@ const EasyHome = () => {
 
           <div className="steps">
             <svg
-              width="1044"
-              height="19"
+              // width="1044"
+              // height="19"
               viewBox="0 0 1044 19"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"

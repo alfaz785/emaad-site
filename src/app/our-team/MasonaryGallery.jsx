@@ -11,8 +11,9 @@ import galleryImg from "../../assets/images/gallery-image.png";
 import gallery2Img from "../../assets/images/gallery-image2.png";
 import gallery3Img from "../../assets/images/gallery-image3.png";
 import gallery10Img from "../../assets/images/gallery-image10.png";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { closeModal, openModal } from "../../../commFun";
+import gsap from "gsap";
 
 const MasonaryGallery = ({ images }) => {
   // Set initial active tab to "images"
@@ -22,6 +23,60 @@ const MasonaryGallery = ({ images }) => {
   const openTabOne = (tabName) => {
     setActiveTab(tabName);
   };
+  useEffect(() => {
+    gsap.from("#galleryTitle", {
+      opacity: 0,
+      y: 50,
+      duration: 1.5,
+      ease: "power2.out",
+    });
+  }, []);
+  useEffect(() => {
+    let galleryTimeline = gsap.timeline({
+      scrollTrigger: {
+        trigger: ".tabcontent",
+        start: "top 90%",
+        toggleActions: "play none none none",
+      },
+    });
+
+    // Tab buttons animation
+    galleryTimeline.from(
+      ".gallery-tabs button",
+      {
+        opacity: 0,
+        y: 30,
+        stagger: 0.2,
+        duration: 0.5,
+        ease: "power3.out",
+      },
+      "-=0.5",
+    );
+
+    // Gallery images animation
+    galleryTimeline.from(
+      ".masonry img",
+      {
+        opacity: 0,
+        scale: 0.8,
+        stagger: 0.2,
+        duration: 2.5,
+        ease: "power3.out",
+      },
+      "-=0.5",
+    );
+
+    galleryTimeline.from(
+      ".load-more-container",
+      {
+        opacity: 0,
+        y: 30,
+        duration: 0.5,
+        ease: "power2.out",
+      },
+      "-=1",
+    );
+  }, []);
 
   return (
     <>
