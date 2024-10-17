@@ -252,6 +252,10 @@ export function plainTextEffect(element, text, i = 0) {
     return;
   }
 
+  if (i === 0) {
+    element.innerHTML = ""; // Clear the element before typing starts
+  }
+
   if (text[i] === "—") {
     element.innerHTML += '<span class="horizontal-line"></span>';
   } else {
@@ -262,8 +266,9 @@ export function plainTextEffect(element, text, i = 0) {
     return;
   }
 
-  setTimeout(() => textTypingEffect(element, text, i + 1), 50);
+  setTimeout(() => plainTextEffect(element, text, i + 1), 50); // Corrected function name
 }
+
 
 export const MultiTypingEffect = (parts, typingSpeed) => {
   let currentPart = 0;
@@ -687,6 +692,4 @@ export const handleNavigate = (event) => {
 
   const body = document.getElementById("body");
   body.style.overflow = "";
-
 };
-;

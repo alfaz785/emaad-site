@@ -1,6 +1,44 @@
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
 
 const DigitalMarket = () => {
+  useEffect(() => {
+    const sections = document.querySelectorAll(".digital-des");
+
+    sections.forEach((section) => {
+      const paragraph = section.querySelector("p");
+      if (paragraph) {
+        const words = paragraph.innerHTML
+          .split(" ")
+          .map((word) => `<span>${word}</span>`)
+          .join(" ");
+        paragraph.innerHTML = words;
+        const spans = paragraph.querySelectorAll("span");
+        const tl = gsap.timeline({ paused: true });
+        tl.from(spans, {
+          duration: 1,
+          opacity: 0,
+          y: 20,
+          stagger: 0.1,
+          ease: "power1.out",
+        });
+
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                tl.play();
+                observer.unobserve(entry.target);
+              }
+            });
+          },
+          { threshold: 0.1 },
+        );
+
+        observer.observe(section);
+      }
+    });
+  }, []);
   return (
     <>
       <div className="why-choose-marketing-section">

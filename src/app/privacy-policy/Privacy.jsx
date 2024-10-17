@@ -2,6 +2,7 @@
 
 import React, { useEffect } from "react";
 import { MultiTypingEffect } from "../../../commFun";
+import gsap from "gsap";
 
 const Privacy = () => {
   const partsPrivacy = [
@@ -10,6 +11,14 @@ const Privacy = () => {
   ];
   useEffect(() => {
     MultiTypingEffect(partsPrivacy, 100);
+  }, []);
+  useEffect(() => {
+    gsap.from(".privacy-policy-pra ", {
+      opacity: 0,
+      y: 30,
+      duration: 2.5,
+      delay: 1,
+    });
   }, []);
   return (
     <>

@@ -2045,11 +2045,18 @@ body {
 /* about page css */
 .know-Each {
   background: #000;
-  padding-bottom: 35px;
+  border-bottom: 2px solid #434c5e;
 }
 .moon-image img {
   width: 115px;
   height: 126px;
+}
+.lets-get-to-title {
+  background-image: url(../images/services-section-bg.png);
+  background-repeat: no-repeat;
+  background-position: calc(100% - 0%) center;
+  background-size: contain;
+  padding-bottom: 108px;
 }
 
 .bg-img-round {
@@ -2125,6 +2132,12 @@ body {
   cursor: pointer;
   border: 4px solid transparent;
 }
+.lets-talk-button a {
+  display: inline-flex;
+  gap: 25px;
+  align-items: center;
+  color: var(--white-color);
+}
 .lets-talk-button h2 {
   font-size: 19px;
   line-height: 19px;
@@ -2166,7 +2179,7 @@ body {
 
 .emmad-section {
   background: linear-gradient(
-    180deg,
+    0,
     rgba(42, 47, 61, 0) -3.94%,
     rgba(42, 47, 61, 0.531057) 32.13%,
     rgba(42, 47, 61, 0.9) 52.92%,
@@ -2174,7 +2187,6 @@ body {
   );
 }
 .emmad-title {
-  margin-top: 61px;
   position: relative;
 }
 .border {
@@ -2247,6 +2259,7 @@ body {
   align-items: center;
   margin-top: 50px;
   overflow-x: hidden;
+  padding-bottom: 107px;
 }
 .num {
   padding-top: 30px;
@@ -4365,6 +4378,13 @@ body {
 }
 
 /* ui-ux-design */
+.ui-text-design {
+  background-image: url(../images/ui-image.png);
+  background-repeat: no-repeat;
+  background-position: calc(100% - 70px) center;
+  border-bottom: 2px solid #434c5e;
+  background-size: contain;
+}
 .ui-text-design .ui-moon-img {
   position: relative;
 }
@@ -5895,7 +5915,13 @@ a {
 }
 
 /*===== Boost Your Online sucess text typing animation start css =====*/
-
+.bost-online-success {
+  background-image: url(../images/services-section-bg.png);
+  background-repeat: no-repeat;
+  background-position: calc(100% - 70px) center;
+  border-bottom: 2px solid #434c5e;
+  background-size: contain;
+}
 .bost-online-success .ui-moon-img {
   position: relative;
 }

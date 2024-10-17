@@ -43,7 +43,7 @@ const PortfolioHome = () => {
         </div>
 
         <div className="row">
-          <div class="col-lg-9 col-md-12">
+          <div className="col-lg-9 col-md-12">
             <div className="pp-slider-wrapper">
               <div className="swiper portfolio__project-slider">
                 <div className="swiper-wrapper">
@@ -135,7 +135,7 @@ const PortfolioHome = () => {
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-12">
+          <div className="col-lg-3 col-md-12">
             <div className="swiper portfolio__project-thumbs">
               <div className="swiper-wrapper">
                 <div className="swiper-slide">

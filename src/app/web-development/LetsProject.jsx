@@ -20,8 +20,8 @@ const LetsProject = () => {
               <Image
                 src={letsStartImg}
                 alt="Person with Headset"
-                width="100"
-                height="100"
+                width="100%"
+                height="100%"
               />
             </div>
             <div className="project-button">

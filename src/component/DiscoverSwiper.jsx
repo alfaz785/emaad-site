@@ -1,6 +1,9 @@
 "use client";
 import React, { useEffect } from "react";
 import VanillaTilt from "vanilla-tilt";
+import leftArrowImg from "../assets/images/why-left-arrow.svg";
+import rightArrowImg from "../assets/images/why-right-arrow.svg";
+import Image from "next/image";
 
 const DiscoverSwiper = () => {
   useEffect(() => {
@@ -42,17 +45,12 @@ const DiscoverSwiper = () => {
             </p>
             <div className="border-bottom-dis"></div>
           </div>
-          {/* <!-- discover-button --> */}
           <div className="slider-btn-discover">
             <div className="swiper-button-prev-discover">
-              <span className="material-symbols-outlined">
-                keyboard_arrow_left
-              </span>
+              <Image src={leftArrowImg} alt="" />
             </div>
             <div className="swiper-button-next-discover">
-              <span className="material-symbols-outlined">
-                keyboard_arrow_right
-              </span>
+              <Image src={rightArrowImg} alt="" />
             </div>
           </div>
         </div>

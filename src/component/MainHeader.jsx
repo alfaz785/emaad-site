@@ -133,10 +133,10 @@ const MainHeader = () => {
         </div>
       </div>
       <div className="menu-content">
-        <div class="main-close-btn">
-          <div class="main-logo">
+        <div className="main-close-btn">
+          <div className="main-logo">
             <svg
-              class="dashed-path"
+              className="dashed-path"
               viewBox="0 0 44 23"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -146,9 +146,9 @@ const MainHeader = () => {
                 fill="white"
               />
             </svg>
-            <div class="close closeBtn">
+            <div className="close closeBtn">
               <h4>close</h4>
-              <span class="material-symbols-outlined">close</span>
+              <span className="material-symbols-outlined">close</span>
             </div>
           </div>
         </div>

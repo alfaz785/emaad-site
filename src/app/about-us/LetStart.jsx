@@ -22,8 +22,8 @@ const LetStart = () => {
       opacity: 0,
       duration: 2,
       delay: 2,
-      x: -100, // Start position from the left
-      ease: "power3.out", // Smooth easing for the animation
+      x: -100,
+      ease: "power3.out",
     });
 
     gsap.from(".got-to-info p", {
@@ -40,13 +40,6 @@ const LetStart = () => {
         <div className="container">
           <div className="lets-get-to-title">
             <div className="lets-go-text">
-              <div className="moon-img">
-                <div className="bg-img-round">
-                  <div className="moon-image">
-                    <Image src={moonImg} alt="moon.png" />
-                  </div>
-                </div>
-              </div>
               <div className="typing-container">
                 <span className="typing"></span>
               </div>
@@ -58,17 +51,22 @@ const LetStart = () => {
               </div>
               <div className="lets-button">
                 <button className="lets-talk-button">
-                  <h2>Let’s Talk</h2>
-                  <span className="material-symbols-outlined"> call_made </span>
+                  <a href="">
+                    <h2>Let’s Talk</h2>
+                    <span className="material-symbols-outlined">
+                      {" "}
+                      call_made{" "}
+                    </span>
+                  </a>
                 </button>
               </div>
             </div>
             <div className="got-to-info">
               <p>
-                EMAAD INFOTECH® is
-                <span>a Software Development Company in INDIA,</span> got birth
-                in the year 2014 intending to provide affordable world className
-                web solutions which will aid our clientele to grow higher
+                EMAAD INFOTECH® is a
+                <span> Software Development Company in INDIA</span>, got birth
+                in the year 2014 intending to provide affordable world class web
+                solutions which will aid our clientele to grow higher
                 persistently. Being Complete IT solution company, EMAAD INFOTECH
                 offers 360 Degree business solution emphasizing on the client's
                 requirement that too without premium price-tag. Our Online

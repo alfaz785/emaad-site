@@ -1,9 +1,20 @@
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
 import designTool from "../../assets/images/design-tool.png";
 import excludeImg from "../../assets/images/Exclude.png";
 import Image from "next/image";
 import Technologies from "../web-development/Technologies";
+import gsap from "gsap";
+
 const UiExellence = () => {
+  useEffect(() => {
+    gsap.to(".Excellence-img", {
+      duration: 5,
+      rotate: 360,
+      repeat: -1,
+      ease: "linear",
+    });
+  }, []);
   return (
     <>
       {" "}

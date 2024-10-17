@@ -55,7 +55,7 @@ const CurrentOpening = () => {
         <div className="container">
           <div className="title" id="openings">
             <h4 className="text-center" id="current-openings">
-              Current
+              Current&nbsp;
               <span
                 style={{
                   background:
@@ -93,8 +93,12 @@ const CurrentOpening = () => {
                       our dynamic team at Emaad Infotech.
                     </p>
                     <ul className="list-inline">
-                      <li className="list-inline-item badge badge-primary">HTML</li>
-                      <li className="list-inline-item badge badge-primary">CSS</li>
+                      <li className="list-inline-item badge badge-primary">
+                        HTML
+                      </li>
+                      <li className="list-inline-item badge badge-primary">
+                        CSS
+                      </li>
                       <li className="list-inline-item badge badge-primary">
                         JavaScript
                       </li>
@@ -127,8 +131,12 @@ const CurrentOpening = () => {
                       join our team at Emaad Infotech.
                     </p>
                     <ul className="list-inline">
-                      <li className="list-inline-item badge badge-primary">HTML</li>
-                      <li className="list-inline-item badge badge-primary">CSS</li>
+                      <li className="list-inline-item badge badge-primary">
+                        HTML
+                      </li>
+                      <li className="list-inline-item badge badge-primary">
+                        CSS
+                      </li>
                       <li className="list-inline-item badge badge-primary">
                         JavaScript
                       </li>
@@ -164,7 +172,9 @@ const CurrentOpening = () => {
                       <li className="list-inline-item badge badge-primary">
                         JavaScript
                       </li>
-                      <li className="list-inline-item badge badge-primary">Dart</li>
+                      <li className="list-inline-item badge badge-primary">
+                        Dart
+                      </li>
                       <li className="list-inline-item badge badge-primary">
                         Flutter
                       </li>
@@ -197,12 +207,18 @@ const CurrentOpening = () => {
                       dynamic team at Emaad Infotech.
                     </p>
                     <ul className="list-inline">
-                      <li className="list-inline-item badge badge-primary">HTML</li>
-                      <li className="list-inline-item badge badge-primary">CSS</li>
+                      <li className="list-inline-item badge badge-primary">
+                        HTML
+                      </li>
+                      <li className="list-inline-item badge badge-primary">
+                        CSS
+                      </li>
                       <li className="list-inline-item badge badge-primary">
                         JavaScript
                       </li>
-                      <li className="list-inline-item badge badge-primary">SQL</li>
+                      <li className="list-inline-item badge badge-primary">
+                        SQL
+                      </li>
                     </ul>
                     <div className="d-flex align-items-center justify-content-between">
                       <p className="card-location d-flex align-items-center gap-1 mb-0">
@@ -232,10 +248,18 @@ const CurrentOpening = () => {
                       dynamic team at Emaad Infotech.
                     </p>
                     <ul className="list-inline">
-                      <li className="list-inline-item badge badge-primary">HTML</li>
-                      <li className="list-inline-item badge badge-primary">CSS</li>
-                      <li className="list-inline-item badge badge-primary">SQL</li>
-                      <li className="list-inline-item badge badge-primary">PHP</li>
+                      <li className="list-inline-item badge badge-primary">
+                        HTML
+                      </li>
+                      <li className="list-inline-item badge badge-primary">
+                        CSS
+                      </li>
+                      <li className="list-inline-item badge badge-primary">
+                        SQL
+                      </li>
+                      <li className="list-inline-item badge badge-primary">
+                        PHP
+                      </li>
                     </ul>
                     <div className="d-flex align-items-center justify-content-between">
                       <p className="card-location d-flex align-items-center gap-1 mb-0">
@@ -265,8 +289,12 @@ const CurrentOpening = () => {
                       our dynamic team at Emaad Infotech.
                     </p>
                     <ul className="list-inline">
-                      <li className="list-inline-item badge badge-primary">HTML</li>
-                      <li className="list-inline-item badge badge-primary">CSS</li>
+                      <li className="list-inline-item badge badge-primary">
+                        HTML
+                      </li>
+                      <li className="list-inline-item badge badge-primary">
+                        CSS
+                      </li>
                       <li className="list-inline-item badge badge-primary">
                         JavaScript
                       </li>

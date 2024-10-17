@@ -1,15 +1,86 @@
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
 import UiUxImg from "../../assets/images/ui-ux-image.png";
 import Image from "next/image";
 
 const ChooseUs = () => {
+  useEffect(() => {
+    const head = document.querySelector(".choose-title-1");
+    const options = {
+      threshold: 0.5,
+    };
+
+    if (head && window.gsap) {
+      const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            gsap.set(".letter", { display: "inline-block" });
+
+            gsap.from(".letter", {
+              duration: 1,
+              opacity: 0,
+              scale: 0.3,
+              rotation: 90,
+              ease: "back.out(1.7)",
+              stagger: {
+                amount: 1,
+              },
+            });
+
+            observer.unobserve(entry.target);
+          }
+        });
+      }, options);
+
+      observer.observe(head);
+    } else {
+      console.error(
+        "Either the .choose-title-1 element or GSAP library is missing.",
+      );
+    }
+  }, []);
+  useEffect(() => {
+    const paragraph = document.querySelector(".choose-desc p");
+
+    const words = paragraph.innerHTML
+      .split(" ")
+      .map((word) => `<span>${word}</span>`)
+      .join(" ");
+    paragraph.innerHTML = words;
+
+    const spans = paragraph.querySelectorAll("span");
+
+    const tl = gsap.timeline({ paused: true });
+
+    tl.from(spans, {
+      duration: 1,
+      opacity: 0,
+      y: 20,
+      stagger: 0.1,
+      ease: "power1.out",
+    });
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            tl.play();
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.1 },
+    );
+    const section = document.querySelector(".choose-desc");
+    observer.observe(section);
+  }, []);
   return (
     <>
       {" "}
       <div className="why-choose-us-section">
         <div className="why-choose-sec">
           <div className="why-choose-img">
-            <Image src={UiUxImg} alt="" />
+            <Image src={UiUxImg} alt="" width={"100%"} height={"100%"} />
           </div>
           <div className="container-fluid">
             <div className="why-choose-title-section">
@@ -18,43 +89,14 @@ const ChooseUs = () => {
               </div>
               <div className="choose-title mt_30">
                 <h1 className="choose-title-1 ui-text-wrapper">
-                  <span className="letter">E</span>
-                  <span className="letter">l</span>
-                  <span className="letter">e</span>
-                  <span className="letter">v</span>
-                  <span className="letter">e</span>
-                  <span className="letter">n</span>
-                  <span className="letter">t</span>{" "}
-                  <span className="letter">y</span>
-                  <span className="letter">o</span>
-                  <span className="letter">u</span>
-                  <span className="letter">r</span>{" "}
-                  <span className="letter">b</span>
-                  <span className="letter">r</span>
-                  <span className="letter">a</span>
-                  <span className="letter">n</span>
-                  <span className="letter">d</span>
-                  <span className="letter">w</span>
-                  <span className="letter">i</span>
-                  <span className="letter">t</span>
-                  <span className="letter">h</span>
-                  <span className="letter">o</span>
-                  <span className="letter">u</span>
-                  <span className="letter">r</span>{" "}
-                  <span className="letter">U</span>
-                  <span className="letter">I</span>
-                  <span className="letter">/</span>
-                  <span className="letter">U</span>
-                  <span className="letter">X</span>
-                  <span className="letter-wrapper"></span>
-                  <span className="letter">s</span>
-                  <span className="letter">e</span>
-                  <span className="letter">r</span>
-                  <span className="letter">v</span>
-                  <span className="letter">i</span>
-                  <span className="letter">c</span>
-                  <span className="letter">e</span>
-                  <span className="letter">s</span>
+                  {"Elevent your brand with our UI/UX services"
+                    .split(" ") // Split by space to get words
+                    .map((word, index) => (
+                      <span key={index}>
+                        {word}
+                        {index < word.length - 1 && <span> </span>}{" "}
+                      </span>
+                    ))}
                 </h1>
               </div>
               <div className="choose-text mt_20">

@@ -218,7 +218,8 @@
   }
   .nav-text {
     display: block;
-  }
+    place-self: unset;
+}
   /* drwopdown click */
   .main-drowpdown {
     display: none;
@@ -670,7 +671,12 @@
 
   /* let's go text css */
   .lets-get-to-title {
-    background-image: none;
+    background: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)),
+      url(../images/services-section-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding-bottom: 0;
   }
   .lets-go-text h4 {
     font-size: 87px;
@@ -748,6 +754,13 @@
   }
 
   /* ui-ux page  */
+  .ui-text-design {
+    background: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)),
+      url(../images/ui-image.png);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 0px) center;
+    background-size: contain;
+  }
   .ui-bg-img {
     display: none;
   }
@@ -798,7 +811,9 @@
   }
   /* Web Development page start */
   .trusted-hero-section {
-    background-image: none;
+    background-image: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)),
+      url(../images/services-section-bg.png);
+    background-position: calc(100% - 0px) center;
   }
   .go-mobile-section {
     background-image: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)),
@@ -848,6 +863,7 @@
     line-height: 92px;
   }
   /* boost your online section  */
+
   .bost-online-success .boost-your-success {
     max-width: 90%;
     padding-left: 32px;
@@ -856,6 +872,13 @@
     padding-bottom: 35px;
   }
   /* digital marketing section css */
+  .bost-online-success {
+    background: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)),
+      url(../images/services-section-bg.png);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 0px) center;
+    background-size: contain;
+  }
   .why-choose-digital-title h1 {
     font-size: 50px;
   }
@@ -881,7 +904,11 @@
     max-width: 100%;
   }
   .bulk-sms-email-marketing {
-    background-image: none;
+    background: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)),
+      url(../images/services-section-bg.png);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 0px) center;
+    background-size: contain;
   }
 
   .bulk-sms-email-marketing .bulksms {
@@ -991,7 +1018,11 @@
   /* privacy policy page css */
   /* privacy policy text */
   .privacy-policy-section {
-    background: none;
+    background: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)),
+      url(../images/services-section-bg.png);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 0px) center;
+    background-size: contain;
   }
   .privacy-policy-pra {
     width: 100%;
@@ -1034,7 +1065,11 @@
   /* privacy policy page css */
   /* privacy policy text */
   .privacy-policy-section {
-    background: none;
+    background: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)),
+      url(../images/services-section-bg.png);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 0px) center;
+    background-size: contain;
   }
   .privacy-policy-pra {
     width: 100%;
@@ -1137,6 +1172,18 @@
 
   .our-journey-title h1 {
     font-size: 70px;
+  }
+  .benifits-hover-image3 {
+    display: none;
+  }
+  .benifits-hover-image4 {
+    display: none;
+  }
+  .Benefits-hover-image {
+    display: none;
+  }
+  .hover-image {
+    display: none;
   }
 }
 @media (max-width: 866px) {
@@ -1418,7 +1465,11 @@
   /* bulk sms service page */
   /* digital text typing  */
   .bulk-sms-email-marketing {
-    background-image: none;
+    background: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)),
+      url(../images/services-section-bg.png);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 0px) center;
+    background-size: cover;
   }
   .bulk-sms-email-marketing .bulksms {
     font-size: 47px;
@@ -1602,6 +1653,24 @@
   }
   .uiux-title-main {
     margin-bottom: 10px;
+  }
+  .trusted-hero-section .hero-heading {
+    font-size: 45px;
+  }
+  .web-img img {
+    width: 100%;
+  }
+  .benifits-design-accordian3:hover .benifits-hover-image3 {
+    opacity: 0;
+  }
+  .benifits-design-accordian3:hover .benifits-hover-image4 {
+    opacity: 0;
+  }
+  .Benefits-of-service-desc:hover .Benefits-hover-image {
+    opacity: 0;
+  }
+  .benifits-design-accordian:hover .hover-image {
+    opacity: 0;
   }
 }
 
@@ -1995,6 +2064,12 @@
   .terms-conditions-title h1 {
     font-size: 40px;
   }
+  .footer-main-right {
+    padding: 0px 25px 25px 25px;
+  }
+  .footer-main-left {
+    padding: 50px 0px 30px 25px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -2100,6 +2175,7 @@
   .footer-main-right {
     display: flex;
     flex-direction: column !important;
+    gap: 20px;
   }
   .footer-bottom {
     height: 155px;
@@ -2276,7 +2352,6 @@
   .current-openings h4 {
     font-size: 30px;
   }
-
   /* privacy policy page css */
   /* privacy pomicy section  */
   .informatin-sharing-section {
@@ -2404,5 +2479,15 @@
     position: absolute;
     z-index: 1;
     right: 44px;
+  }
+  .reveal-section {
+    height: 65vh;
+  }
+  .reveal-section .img-holder {
+    height: 70vh;
+  }
+
+  .footer-bottom {
+    padding: 30px 25px 0;
   }
 }

@@ -70,6 +70,11 @@ const OurWorkHead = () => {
                 <h4>Explore our demo product below.</h4>
               </div>
               <div className="row">
+                <div className="col-lg-5">
+                  <div className="explore-demo-image">
+                    <Image src={productImg} alt="" />
+                  </div>
+                </div>
                 <div className="col-lg-7">
                   <div className="explour-our-demo-cards">
                     <div className="card-container">
@@ -108,12 +113,6 @@ const OurWorkHead = () => {
                         </div>
                       </a>
                     </div>
-                  </div>
-                </div>
-
-                <div className="col-lg-5">
-                  <div className="explore-demo-image">
-                    <Image src={productImg} alt="" />
                   </div>
                 </div>
               </div>

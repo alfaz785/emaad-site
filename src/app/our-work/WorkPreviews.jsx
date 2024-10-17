@@ -87,13 +87,23 @@ const WorkPreviews = () => {
               >
                 <SwiperSlide>
                   <div className="swiper-slide web-img">
-                    <Image src={appImg} alt="Web Image 1" />
+                    <Image
+                      src={appImg}
+                      width={"100%"}
+                      height={"100%"}
+                      alt="Web Image 1"
+                    />
                   </div>
                 </SwiperSlide>
 
                 <SwiperSlide>
                   <div className="swiper-slide web-img">
-                    <Image src={webImg} alt="Web Image 2" />
+                    <Image
+                      src={webImg}
+                      width={"100%"}
+                      height={"100%"}
+                      alt="Web Image 2"
+                    />
                   </div>
                 </SwiperSlide>
 

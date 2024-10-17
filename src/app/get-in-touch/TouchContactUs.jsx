@@ -64,7 +64,6 @@ const TouchContactUs = () => {
             </div>
           </div>
         </div>
-        <div className="vertical-title">CONTACT</div>
       </div>
     </>
   );
