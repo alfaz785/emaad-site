@@ -19,23 +19,19 @@ const EasyHome = () => {
         pin: true,
         scrub: 1,
         end: "+=3000",
-        // snap: 1 / (sections.length - 1),
-        // markers: true,
       },
     });
 
     console.log(1 / (sections.length - 1));
 
     gsap.to(".discovery", {
-      duration: 5, // Slower rotation
+      duration: 5,
       delay: 1,
       rotate: 360,
       repeat: -1,
       yoyo: true,
-      ease: "power1.inOut", // Add easing for smoother animation
+      ease: "power1.inOut",
     });
-
-    //Progress bar animation
 
     gsap.to(mask, {
       width: "100%",
@@ -46,11 +42,8 @@ const EasyHome = () => {
       },
     });
 
-    // whizz around the sections
     sections.forEach((section) => {
-      // grab the scoped text
       let text = section.querySelectorAll(".anim");
-      // if (text.length === 0) return;
 
       gsap.from(text, {
         y: -130,
@@ -62,11 +55,37 @@ const EasyHome = () => {
           trigger: section,
           containerAnimation: scrollTween,
           start: "left center",
-          //   markers: true,
         },
       });
     });
   }, []);
+
+  useEffect(() => {
+    const section = document.querySelector(".intro-text");
+    if (section) {
+      const heading = section?.querySelector("h4");
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              gsap.from(heading, {
+                opacity: 0,
+                y: 50,
+                duration: 1,
+                delay: 0.5,
+              });
+              observer?.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.1 },
+      );
+
+      observer?.observe(section);
+    }
+  }, []);
+
   return (
     <>
       <div className="wrapper mt-5">
@@ -90,10 +109,12 @@ const EasyHome = () => {
           <div className="steps">
             <svg
               // width="1044"
+
               // height="19"
               viewBox="0 0 1044 19"
               fill="none"
-              xmlns="http://www.w3.org/2000/svg"
+              xmlns="http:
+              //www.w3.org/2000/svg"
             >
               <path
                 d="M9.89998 6C9.43671 8.28224 7.41896 10 5 10C2.23858 10 0 7.76142 0 5C0 2.23858 2.23858 0 5 0C7.41896 0 9.43671 1.71776 9.89998 4H207.1C207.563 1.71776 209.581 0 212 0C214.419 0 216.437 1.71776 216.9 4H414.1C414.563 1.71776 416.581 0 419 0C421.419 0 423.437 1.71776 423.9 4H621.1C621.563 1.71776 623.581 0 626 0C628.419 0 630.437 1.71776 630.9 4H828.1C828.563 1.71776 830.581 0 833 0C835.419 0 837.437 1.71776 837.9 4H1035.1C1035.56 1.71776 1037.58 0 1040 0C1042.76 0 1045 2.23858 1045 5C1045 7.76142 1042.76 10 1040 10C1037.58 10 1035.56 8.28224 1035.1 6H837.9C837.437 8.28224 835.419 10 833 10C830.581 10 828.563 8.28224 828.1 6H630.9C630.437 8.28224 628.419 10 626 10C623.581 10 621.563 8.28224 621.1 6H423.9C423.437 8.28224 421.419 10 419 10C416.581 10 414.563 8.28224 414.1 6H216.9C216.437 8.28224 214.419 10 212 10C209.581 10 207.563 8.28224 207.1 6H9.89998Z"

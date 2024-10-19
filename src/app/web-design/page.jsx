@@ -7,11 +7,10 @@ import Expertise from "./Expertise";
 import VisionWeb from "./VisionWeb";
 import { generateMetadata } from "../../../commFun/metadatahelper";
 export const metadata = generateMetadata("web-design");
-import ourProcessImg from "../../assets/images/Our-process-img.svg";
+import ourProcessImg from "../../assets/images/app-process-bg.png";
 import ProcessImg from "@/component/ProcessImg";
 
 const WebDesign = () => {
-
   return (
     <>
       {/* <!--Unveil Your vision with Our Web Design Solutions  start --> */}

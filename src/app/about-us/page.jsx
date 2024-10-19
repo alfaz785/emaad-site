@@ -24,9 +24,12 @@ const AboutUs = () => {
       {/* <!-- service  --> */}
       <section className="discover-capabilites">
         <div className="container">
-          <DiscoverSwiper />
-          <ProjectInMind />
+          <DiscoverSwiper
+            firstTxt={"Discover Our"}
+            secondTxt={"Capabilities"}
+          />
         </div>
+        <ProjectInMind mainTxt={"Have a project in mind ? Let's get to work"} />
       </section>
       {/* <!-- project counter start --> */}
       <DraggableBox />

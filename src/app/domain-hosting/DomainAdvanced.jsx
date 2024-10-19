@@ -1,8 +1,46 @@
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
 import advancedImg from "../../assets/images/Advanced-Security-img.png";
 import Image from "next/image";
 
 const DomainAdvanced = () => {
+  useEffect(() => {
+    const paragraph = document.querySelector(".hosting-services");
+
+    if (paragraph) {
+      const words = paragraph.innerHTML
+        .split(" ")
+        .map((word) => `<span>${word}</span>`)
+        .join(" ");
+      paragraph.innerHTML = words;
+
+      const spans = paragraph.querySelectorAll("span");
+
+      const tl = gsap.timeline({ paused: true });
+
+      tl.from(spans, {
+        duration: 0.3,
+        opacity: 0,
+        y: 20,
+        stagger: 0.02,
+        ease: "power2.inOut",
+      });
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              tl.play();
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.1 },
+      );
+
+      observer.observe(paragraph);
+    }
+  }, []);
   return (
     <>
       <div className="advanced-security-section">

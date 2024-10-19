@@ -45,24 +45,11 @@ const Awesome = () => {
             <div className="col-xxl-8 col-xl-7 col-lg-6 col-md-6 col-sm-12">
               <div className="sec-title-wrapper">
                 <h4 className="sec-title-1 text-wrapper">
-                  <span className="letter">R</span>
-                  <span className="letter">e</span>
-                  <span className="letter">a</span>
-                  <span className="letter">l</span>
-                  <span className="letter">t</span>
-                  <span className="letter">e</span>
-                  <span className="letter">d</span>
-                  <span className="letter-wrapper"></span>
-                  <br />
-
-                  <span className="letter">P</span>
-                  <span className="letter">r</span>
-                  <span className="letter">o</span>
-                  <span className="letter">j</span>
-                  <span className="letter">e</span>
-                  <span className="letter">c</span>
-                  <span className="letter">t</span>
-                  <span className="letter">s</span>
+                  {"Realted Projects".split("").map((letter, index) => (
+                    <span key={index} className="letter">
+                      {letter === " " ? "\u00A0" : letter}{" "}
+                    </span>
+                  ))}
                 </h4>
               </div>
             </div>

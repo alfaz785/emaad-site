@@ -12,8 +12,6 @@ import { generateMetadata } from "../../commFun/metadatahelper";
 export const metadata = generateMetadata("");
 
 export default function Home() {
-  
-
   return (
     <>
       <HomeHead />

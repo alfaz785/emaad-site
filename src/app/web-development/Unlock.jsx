@@ -118,11 +118,15 @@ const Unlock = () => {
           <div className="unlock-title">
             <h2>
               {"Unlock Your Digital Potential with Our Full-Service Website Development"
-                .split("")
-                .map((letter, index) => (
-                  <span key={index} className="letter">
-                    {letter === " " ? "\u00A0" : letter}{" "}
-                    {/* Using non-breaking space */}
+                .split(" ")
+                .map((word, index) => (
+                  <span key={index} className="word">
+                    {word.split("").map((letter, letterIndex) => (
+                      <span key={letterIndex} className="letter">
+                        {letter}
+                      </span>
+                    ))}
+                    &nbsp;
                   </span>
                 ))}
             </h2>

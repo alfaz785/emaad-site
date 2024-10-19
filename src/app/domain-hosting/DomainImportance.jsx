@@ -19,7 +19,7 @@ const DomainImportance = () => {
               <Image
                 src={impotanceImg}
                 alt="laptop Image"
-                style={{ width: "100%" }}
+                style={{ width: "100%", height: "100%" }}
               />
             </div>
             <section className="domain-importance domain-design-section">
@@ -40,8 +40,10 @@ const DomainImportance = () => {
                   <span className="letter">a</span>
                   <span className="letter">n</span>
                   <span className="letter">c</span>
-                  <span className="letter">e</span> <span className="letter">o</span>
-                  <span className="letter">f</span> <span className="letter">a</span>
+                  <span className="letter">e</span>{" "}
+                  <span className="letter">o</span>
+                  <span className="letter">f</span>{" "}
+                  <span className="letter">a</span>
                   <span className="letter">D</span>
                   <span className="letter">o</span>
                   <span className="letter">m</span>

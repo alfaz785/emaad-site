@@ -22,13 +22,26 @@ const BulkSmsEmailService = () => {
 
       <div className="discover-capabilites">
         <div className="container">
-          <DiscoverSwiper />
-          <ProjectInMind />
+          <DiscoverSwiper
+            firstTxt={"Bulk SMS &"}
+            secondTxt={"Email Services"}
+          />
         </div>
       </div>
       {/* <!-- ==== why choose our service ==== --> */}
       <WhyChooseOurServices />
       {/* <!-- /.==== why choose our service ==== --> */}
+      <div className="ideas-wait-main mt_100">
+        <div className="container-fluid text-center">
+          <div className="header-text" id="breathing">
+            <p className="mb-0" id="brands">
+              Breathing Life into Brands through Innovative Digital Strategies!
+            </p>
+          </div>
+        </div>
+      </div>
+      <ProjectInMind mainTxt={"Ideas can't wait Put us to work on them!"} />
+
       {/* DRAGGABLE  ------------------------ */}
 
       <DraggableBox />

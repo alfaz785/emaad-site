@@ -28,7 +28,7 @@ const UiUxDesign = () => {
       {/* <!-- Design Excellence Powered by Cutting-Edge Tols  end--> */}
       {/* <!-- have project in mind start section --> */}
 
-      <ProjectInMind />
+      <ProjectInMind mainTxt={"Have a project in mind ? Let's get to work"} />
       {/* <!--/. === have project in mind start section ==== --> */}
 
       <DraggableBox />

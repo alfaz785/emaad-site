@@ -6,7 +6,7 @@ import Link from "next/link";
 import { Router } from "react-router-dom";
 import { useRouter } from "next/navigation";
 
-const ProjectInMind = () => {
+const ProjectInMind = ({ mainTxt }) => {
   const router = useRouter();
   useEffect(() => {
     animateLetters();
@@ -19,7 +19,7 @@ const ProjectInMind = () => {
         <div className="container-fluid text-center">
           <div className="ideas-wait-text mt_40 sec-title-2">
             <h3 className="mb-0 text-wrapper" id="text">
-              {"Ideas can't wait Put us to work on them!"
+              {mainTxt
                 .split("")
                 .map((letter, index) => (
                   <span key={index} className="letter">

@@ -35,7 +35,7 @@ const OurWork = () => {
 
       {/* <!--/.  Awesome section end --> */}
 
-      <ProjectInMind />
+      {/* <ProjectInMind /> */}
       {/* <!-- /* ========Lat’s Start Your Project section start ========  --> */}
       <DraggableBox />
     </>

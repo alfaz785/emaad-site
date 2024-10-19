@@ -28,9 +28,9 @@ const OurWorkHead = () => {
 
     observer.observe(textElement);
   }, []);
-  //   useEffect(() => {
-  //     animateLetters();
-  //   }, []);
+    useEffect(() => {
+      animateLetters();
+    }, []);
   return (
     <>
       <div className="our-work-section">
@@ -43,11 +43,13 @@ const OurWorkHead = () => {
           {/* <!-- our-work-titel --> */}
           <div className="ideas-wait-text mt_40 sec-title-2 our-work-titel">
             <h3 className="mb-0 text-wrapper text-center" id="text">
-              {"Real Estate software solution".split("").map((char, index) => (
-                <span key={index} className="letter">
-                  {char === " " ? "\u00A0" : char}
-                </span>
-              ))}
+              {"Real Estate software solution"
+                .split("")
+                .map((letter, index) => (
+                  <span key={index} className="letter">
+                    {letter === " " ? "\u00A0" : letter}{" "}
+                  </span>
+                ))}
             </h3>
           </div>
           {/* <!-- /.===  our-work-end === --> */}

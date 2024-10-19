@@ -4,10 +4,19 @@ import React, { useEffect } from "react";
 import privacyImg from "../../assets/images/privacy-img.png";
 import Image from "next/image";
 import { InformationPrivacyFC } from "../../../commFun";
+import gsap from "gsap";
 
 const Information = () => {
   useEffect(() => {
     InformationPrivacyFC();
+  }, []);
+  useEffect(() => {
+    gsap.to("#rotateImg", {
+      rotation: 360,
+      duration: 5,
+      ease: "none",
+      repeat: -1,
+    });
   }, []);
 
   return (

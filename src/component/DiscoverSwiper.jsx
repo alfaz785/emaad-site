@@ -5,7 +5,7 @@ import leftArrowImg from "../assets/images/why-left-arrow.svg";
 import rightArrowImg from "../assets/images/why-right-arrow.svg";
 import Image from "next/image";
 
-const DiscoverSwiper = () => {
+const DiscoverSwiper = ({ firstTxt, secondTxt }) => {
   useEffect(() => {
     const tiltElements = document.querySelectorAll(".card");
 
@@ -32,8 +32,8 @@ const DiscoverSwiper = () => {
       </div>
       <div className="discover-text-swiper-button">
         <div className="discover-title">
-          <h4>Discover Our</h4>
-          <h5>Capabilities</h5>
+          <h4>{firstTxt}</h4>
+          <h5>{secondTxt}</h5>
         </div>
         <div className="swiper-design">
           <div className="discover-notes">

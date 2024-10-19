@@ -219,7 +219,7 @@
   .nav-text {
     display: block;
     place-self: unset;
-}
+  }
   /* drwopdown click */
   .main-drowpdown {
     display: none;
@@ -318,7 +318,7 @@
   .tag-contetnt {
     display: flex;
     align-items: end;
-    justify-content: end;
+    justify-content: start;
   }
 
   /* ui-ux-design page css */
@@ -1930,7 +1930,7 @@
     line-height: 50px;
   }
   .vision-text {
-    font-size: 29px;
+    font-size: 45px;
     line-height: 43px;
   }
   /* why choose us section */
@@ -1996,7 +1996,7 @@
     bottom: 93px;
   }
   .why-choose-service-cards {
-    margin-top: 0px;
+    margin-top: 30px;
   }
   .overlay-text1 p,
   .overlay-text2 p {

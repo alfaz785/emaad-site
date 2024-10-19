@@ -1,8 +1,41 @@
 "use client";
+import { useEffect } from "react";
 import satisfactionImg from "../assets/images/client-satisfaction.png";
 import Image from "next/image";
 
 const PortfolioHome = () => {
+  useEffect(() => {
+    const head = document.querySelector(".sec-title-1");
+    if (head) {
+      const options = {
+        threshold: 0.5,
+      };
+
+      const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            gsap.set(".letter", { display: "inline-block" });
+
+            gsap.from(".letter", {
+              duration: 1,
+              opacity: 0,
+              scale: 0.3,
+              rotation: 90,
+              ease: "back.out(1.7)",
+              stagger: {
+                amount: 1,
+              },
+            });
+
+            observer.unobserve(entry.target);
+          }
+        });
+      }, options);
+
+      observer?.observe(head);
+    }
+  }, []);
+
   return (
     <section className="portfolio-v5 awesome_section mb-5">
       <div className="container">
