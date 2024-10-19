@@ -31,7 +31,7 @@ const WebDesign = () => {
 
       {/* <!-- ProjectInMind -----------> */}
 
-      <ProjectInMind />
+      <ProjectInMind mainTxt={"Have a project in mind ? Let's get to work"} />
 
       {/* <!-- DraggableBox ------------> */}
 

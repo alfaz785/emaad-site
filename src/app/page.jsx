@@ -41,7 +41,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <ProjectInMind />
+      <ProjectInMind mainTxt={"Have a project in mind ? Let's get to work"} />
 
       {/* <!-- DraggableBox section --> */}
       <DraggableBox />

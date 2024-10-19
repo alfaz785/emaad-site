@@ -29,7 +29,7 @@ const OurServices = () => {
           </div>
         </div>
       </div>
-      <ProjectInMind />
+      <ProjectInMind mainTxt={"Have a project in mind ? Let's get to work"} />
       {/* <!-- draggable-boxes start --> */}
       <DraggableBox />
 

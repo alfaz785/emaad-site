@@ -35,7 +35,7 @@ const OurWork = () => {
 
       {/* <!--/.  Awesome section end --> */}
 
-      {/* <ProjectInMind /> */}
+      <ProjectInMind mainTxt={"Have a project in mind ? Let's get to work"} />
       {/* <!-- /* ========Lat’s Start Your Project section start ========  --> */}
       <DraggableBox />
     </>
