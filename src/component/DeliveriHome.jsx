@@ -9,46 +9,49 @@ import productImg from "../assets/images/Product.svg";
 import digitalImg from "../assets/images/Digital.svg";
 import leafImg from "../assets/images/leaf.svg";
 import Image from "next/image";
+import { ScrollTrigger } from "gsap/all";
 
 const DeliveriHome = () => {
   useEffect(() => {
-    const deliveringId = document.querySelectorAll(`.innovation`);
-    console.log(deliveringId);
-    var tl = gsap.timeline({
+    const deliveringSection = document.querySelector(".innovation");
+
+    // Create a GSAP timeline with ScrollTrigger
+    const tl = gsap.timeline({
       scrollTrigger: {
-        trigger: deliveringId,
-        start: "0% 0%",
-        end: "90% 50%",
-        scrub: 2,
-        pin: true,
+        trigger: deliveringSection,
+        start: "top top", // Start when section top hits viewport top
+        end: "bottom bottom", // End when section bottom leaves viewport bottom
+        scrub: true, // Smooth scrubbing
+        pin: true, // Pin the entire section during scroll
       },
     });
 
-    tl.to(
-      ".text",
-      {
-        top: "2%",
-      },
-      "a",
-    )
+    // Card and text animation sequence
+    tl.to(".text", {
+      top: "2%",
+      duration: 1,
+    })
       .to(
         "#card-one",
         {
           top: "33%",
+          duration: 1,
         },
-        "a",
-      )
+        "-=0.5",
+      ) // overlap animations
       .to(
         "#card-two",
         {
           top: "130%",
+          duration: 1,
         },
-        "a",
+        "-=0.5",
       )
       .to(
         "#card-two",
         {
           top: "35%",
+          duration: 1,
         },
         "b",
       )
@@ -56,6 +59,7 @@ const DeliveriHome = () => {
         "#card-one",
         {
           width: "65%",
+          duration: 1,
         },
         "b",
       )
@@ -63,6 +67,7 @@ const DeliveriHome = () => {
         "#card-three",
         {
           top: "130%",
+          duration: 1,
         },
         "b",
       )
@@ -70,6 +75,7 @@ const DeliveriHome = () => {
         "#card-three",
         {
           top: "38%",
+          duration: 1,
         },
         "c",
       )
@@ -77,6 +83,7 @@ const DeliveriHome = () => {
         "#card-two",
         {
           width: "70%",
+          duration: 1,
         },
         "c",
       )
@@ -84,6 +91,7 @@ const DeliveriHome = () => {
         "#card-four",
         {
           top: "130%",
+          duration: 1,
         },
         "c",
       )
@@ -91,6 +99,7 @@ const DeliveriHome = () => {
         "#card-four",
         {
           top: "41%",
+          duration: 1,
         },
         "d",
       )
@@ -98,6 +107,7 @@ const DeliveriHome = () => {
         "#card-three",
         {
           width: "75%",
+          duration: 1,
         },
         "d",
       )
@@ -105,10 +115,18 @@ const DeliveriHome = () => {
         "#card-four",
         {
           width: "80%",
+          duration: 1,
         },
         "e",
       );
+    return () => {
+      // Clean up the ScrollTrigger instance when the component unmounts
+      tl.kill();
+      ScrollTrigger.kill(); // Clean up all ScrollTriggers
+    };
+    F;
   }, []);
+
   return (
     <>
       <div id="delivering-main" className="innovation">

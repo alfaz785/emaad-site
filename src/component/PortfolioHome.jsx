@@ -35,7 +35,44 @@ const PortfolioHome = () => {
       observer?.observe(head);
     }
   }, []);
+  useEffect(() => {
+    const paragraph = document.querySelector(".awesome_blog_text .mb-0");
 
+    if (paragraph) {
+      const words = paragraph?.innerHTML
+        .split(" ")
+        .map((word) => `<span>${word}</span>`)
+        .join(" ");
+      paragraph.innerHTML = words;
+
+      const spans = paragraph.querySelectorAll("span");
+
+      const tl = gsap.timeline({ paused: true });
+
+      tl.from(spans, {
+        duration: 1,
+        opacity: 0,
+        y: 20,
+        stagger: 0.1,
+        ease: "power1.out",
+      });
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              tl.play();
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.1 },
+      );
+
+      const section = document.getElementById("animated-section");
+      observer?.observe(section);
+    }
+  }, []);
   return (
     <section className="portfolio-v5 awesome_section mb-5">
       <div className="container">

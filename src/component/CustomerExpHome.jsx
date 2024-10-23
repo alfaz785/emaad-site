@@ -53,6 +53,44 @@ const CustomerExpHome = () => {
         });
       });
   }, []);
+  useEffect(() => {
+    const paragraph = document.querySelector("p.para");
+
+    if (paragraph) {
+      const words = paragraph?.innerHTML
+        .split(" ")
+        .map((word) => `<span>${word}</span>`)
+        .join(" ");
+      paragraph.innerHTML = words;
+
+      const spans = paragraph.querySelectorAll("span");
+
+      const tl = gsap.timeline({ paused: true });
+
+      tl.from(spans, {
+        duration: 1,
+        opacity: 0,
+        y: 20,
+        stagger: 0.1,
+        ease: "power1.out",
+      });
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              tl.play();
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.1 },
+      );
+
+      const section = document.querySelector("p.para");
+      observer?.observe(section);
+    }
+  }, []);
   return (
     <>
       <section className="customer-experiences text-white py-5">
