@@ -102,7 +102,7 @@ const Expertise = () => {
                   height={"100%"}
                   width={"100%"}
                   src={expertiseImg}
-                  alt=""
+                  alt="img"
                 />
                 <div className="expertise-title">
                   <h3>Expertise and Experience</h3>
@@ -115,7 +115,7 @@ const Expertise = () => {
                 </div>
               </div>
               <div className="Expertise-and-Experience-card2">
-                <Image height={"100%"} width={"100%"} src={clientImg} alt="" />
+                <Image height={"100%"} width={"100%"} src={clientImg} alt="img" />
 
                 <div className="expertise-title2">
                   <h3>Expertise and Experience</h3>
@@ -134,7 +134,7 @@ const Expertise = () => {
                   height={"100%"}
                   width={"100%"}
                   src={exprienseImg}
-                  alt=""
+                  alt="img"
                 />
               </div>
             </div>
@@ -159,14 +159,14 @@ const Expertise = () => {
                     height={"100%"}
                     width={"100%"}
                     src={softwareImg}
-                    alt=""
+                    alt="img"
                   />
                 </div>
               </div>
             </div>
             <div className="card-technology-pricing d-flex">
               <div className="cutting-edge-tech-card">
-                <Image src={technologiesImg} alt="" />
+                <Image src={technologiesImg} alt="img" />
                 <div className="expertise-title">
                   <h3>Cutting-Edge Technology</h3>
                 </div>
@@ -184,7 +184,7 @@ const Expertise = () => {
                   height={"100%"}
                   width={"100%"}
                   src={commpetitiveImg}
-                  alt=""
+                  alt="img"
                 />
 
                 <div className="expertise-title">

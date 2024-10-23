@@ -74,7 +74,7 @@ const OurWorkHead = () => {
               <div className="row">
                 <div className="col-lg-5">
                   <div className="explore-demo-image">
-                    <Image src={productImg} alt="" />
+                    <Image src={productImg} alt="img" />
                   </div>
                 </div>
                 <div className="col-lg-7">

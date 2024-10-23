@@ -98,7 +98,7 @@ const OurPlatform = () => {
                           </p>
                         </li>
                         <li>
-                          <Image src={ulStarImg} />
+                          <Image src={ulStarImg} alt="ulStarImg" />
                           Scalability
                         </li>
                         <li className="custom-margin">
@@ -108,7 +108,7 @@ const OurPlatform = () => {
                           </p>
                         </li>
                         <li>
-                          <Image src={ulStarImg} />
+                          <Image src={ulStarImg} alt="ulStarImg" />
                           Seamless Integration
                         </li>
                         <li>
@@ -131,7 +131,7 @@ const OurPlatform = () => {
                     <div className="col-lg-7">
                       <ul className="services-list">
                         <li>
-                          <Image src={ulStarImg} />
+                          <Image src={ulStarImg} alt="ulStarImg" />
                           Native Performance
                         </li>
                         <li className="custom-margin">
@@ -142,7 +142,7 @@ const OurPlatform = () => {
                         </li>
 
                         <li>
-                          <Image src={ulStarImg} />
+                          <Image src={ulStarImg} alt="ulStarImg" />
                           App Store Compliance
                         </li>
                         <li className="custom-margin">
@@ -152,7 +152,7 @@ const OurPlatform = () => {
                           </p>
                         </li>
                         <li>
-                          <Image src={ulStarImg} />
+                          <Image src={ulStarImg} alt="ulStarImg" />
                           Innovative Features
                         </li>
                         <li className="custom-margin">
@@ -162,7 +162,7 @@ const OurPlatform = () => {
                           </p>
                         </li>
                         <li>
-                          <Image src={ulStarImg} />
+                          <Image src={ulStarImg} alt="ulStarImg" />
                           Security
                         </li>
                         <li>
@@ -189,7 +189,7 @@ const OurPlatform = () => {
                     <div className="col-lg-7">
                       <ul className="services-list">
                         <li>
-                          <Image src={ulStarImg} />
+                          <Image src={ulStarImg} alt="ulStarImg" />
                           Diverse Device Support
                         </li>
                         <li className="custom-margin">
@@ -200,7 +200,7 @@ const OurPlatform = () => {
                         </li>
 
                         <li>
-                          <Image src={ulStarImg} />
+                          <Image src={ulStarImg} alt="ulStarImg" />
                           Google Play Store Optimization
                         </li>
                         <li className="custom-margin">
@@ -210,7 +210,7 @@ const OurPlatform = () => {
                           </p>
                         </li>
                         <li>
-                          <Image src={ulStarImg} />
+                          <Image src={ulStarImg} alt="ulStarImg" />
                           Rich User Experience
                         </li>
                         <li className="custom-margin">
@@ -221,7 +221,7 @@ const OurPlatform = () => {
                           </p>
                         </li>
                         <li>
-                          <Image src={ulStarImg} />
+                          <Image src={ulStarImg} alt="ulStarImg" />
                           Customization
                         </li>
                         <li>
@@ -243,7 +243,7 @@ const OurPlatform = () => {
                     <div className="col-lg-7">
                       <ul className="services-list">
                         <li>
-                          <Image src={ulStarImg} />
+                          <Image src={ulStarImg} alt="ulStarImg" />
                           Cost-Effective
                         </li>
                         <li className="custom-margin">
@@ -254,7 +254,7 @@ const OurPlatform = () => {
                         </li>
 
                         <li>
-                          <Image src={ulStarImg} />
+                          <Image src={ulStarImg} alt="ulStarImg" />
                           Consistent Experience
                         </li>
                         <li className="custom-margin">
@@ -264,7 +264,7 @@ const OurPlatform = () => {
                           </p>
                         </li>
                         <li>
-                          <Image src={ulStarImg} />
+                          <Image src={ulStarImg} alt="ulStarImg" />
                           Rapid Development
                         </li>
                         <li className="custom-margin">
@@ -274,7 +274,7 @@ const OurPlatform = () => {
                           </p>
                         </li>
                         <li>
-                          <Image src={ulStarImg} />
+                          <Image src={ulStarImg} alt="ulStarImg" />
                           Maintainability
                         </li>
                         <li>

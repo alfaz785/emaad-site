@@ -12,7 +12,7 @@ const DigitalExpertise = () => {
         <div className="container">
           <div className="our-experse-title">
             <h4>
-              Our E<Image src={experienceImg} alt="" />
+              Our E<Image src={experienceImg} alt="img" />
               pertise
             </h4>
             <p>
@@ -34,7 +34,7 @@ const DigitalExpertise = () => {
               >
                 <span>Search Engine Optimization (SEO)</span>
                 <span className="accordion-icon">
-                  <Image src={rightAccorianImg} alt="" />
+                  <Image src={rightAccorianImg} alt="img" />
                 </span>
               </button>
               <div className="accordion-content">
@@ -71,7 +71,7 @@ const DigitalExpertise = () => {
               >
                 <span>Pay-Per-Click (PPC) Advertising</span>
                 <span className="accordion-icon">
-                  <Image src={rightAccorianImg} alt="" />
+                  <Image src={rightAccorianImg} alt="img" />
                 </span>
               </button>
               <div className="accordion-content">
@@ -111,7 +111,7 @@ const DigitalExpertise = () => {
               >
                 <span>Social Media Marketing</span>
                 <span className="accordion-icon">
-                  <Image src={rightAccorianImg} alt="" />
+                  <Image src={rightAccorianImg} alt="img" />
                 </span>
               </button>
               <div className="accordion-content">
@@ -148,7 +148,7 @@ const DigitalExpertise = () => {
               >
                 <span>Content Marketing</span>
                 <span className="accordion-icon">
-                  <Image src={rightAccorianImg} alt="" />
+                  <Image src={rightAccorianImg} alt="img" />
                 </span>
               </button>
               <div className="accordion-content">
@@ -185,7 +185,7 @@ const DigitalExpertise = () => {
               >
                 <span>Email Marketing</span>
                 <span className="accordion-icon">
-                  <Image src={rightAccorianImg} alt="" />
+                  <Image src={rightAccorianImg} alt="img" />
                 </span>
               </button>
               <div className="accordion-content">
@@ -222,7 +222,7 @@ const DigitalExpertise = () => {
               >
                 <span>Google Ads</span>
                 <span className="accordion-icon">
-                  <Image src={rightAccorianImg} alt="" />
+                  <Image src={rightAccorianImg} alt="img" />
                 </span>
               </button>
               <div className="accordion-content">
@@ -259,7 +259,7 @@ const DigitalExpertise = () => {
               >
                 <span>Email Marketing</span>
                 <span className="accordion-icon">
-                  <Image src={rightAccorianImg} alt="" />
+                  <Image src={rightAccorianImg} alt="img" />
                 </span>
               </button>
               <div className="accordion-content">

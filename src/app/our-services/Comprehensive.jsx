@@ -18,7 +18,7 @@ const Comprehensive = () => {
                     Solutions
                     <Image
                       src={chooseImg}
-                      alt=""
+                      alt="img"
                       className="services-heading-bg"
                     />
                   </span>

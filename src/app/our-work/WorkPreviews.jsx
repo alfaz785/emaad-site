@@ -49,7 +49,7 @@ const WorkPreviews = () => {
               <span className="brilliant-bg-img">
                 Previews
                 <span className="brilliant-img">
-                  <Image src={processImg} alt="" />
+                  <Image src={processImg} alt="img" />
                 </span>
               </span>
             </h1>

@@ -80,7 +80,7 @@ const ChooseUs = () => {
       <div className="why-choose-us-section">
         <div className="why-choose-sec">
           <div className="why-choose-img">
-            <Image src={UiUxImg} alt="" width={"100%"} height={"100%"} />
+            <Image src={UiUxImg} alt="img" width={"100%"} height={"100%"} />
           </div>
           <div className="container-fluid">
             <div className="why-choose-title-section">

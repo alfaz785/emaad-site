@@ -269,7 +269,6 @@ export function plainTextEffect(element, text, i = 0) {
   setTimeout(() => plainTextEffect(element, text, i + 1), 50); // Corrected function name
 }
 
-
 export const MultiTypingEffect = (parts, typingSpeed) => {
   let currentPart = 0;
   let currentIndex = 0;
@@ -692,4 +691,100 @@ export const handleNavigate = (event) => {
 
   const body = document.getElementById("body");
   body.style.overflow = "";
+};
+export const deliveryCard = () => {
+  var tl = gsap.timeline({
+    scrollTrigger: {
+      trigger: "#delivering-main",
+      start: "0% 0%",
+      end: "90% 50%",
+      scrub: 2,
+      pin: true,
+    },
+  });
+
+  tl.to(
+    ".text",
+    {
+      top: "2%",
+    },
+    "a",
+  )
+    .to(
+      "#card-one",
+      {
+        top: "33%",
+      },
+      "a",
+    )
+    .to(
+      "#card-two",
+      {
+        top: "130%",
+      },
+      "a",
+    )
+    .to(
+      "#card-two",
+      {
+        top: "35%",
+      },
+      "b",
+    )
+    .to(
+      "#card-one",
+      {
+        width: "65%",
+      },
+      "b",
+    )
+    .to(
+      "#card-three",
+      {
+        top: "130%",
+      },
+      "b",
+    )
+    .to(
+      "#card-three",
+      {
+        top: "38%",
+      },
+      "c",
+    )
+    .to(
+      "#card-two",
+      {
+        width: "70%",
+      },
+      "c",
+    )
+    .to(
+      "#card-four",
+      {
+        top: "130%",
+      },
+      "c",
+    )
+    .to(
+      "#card-four",
+      {
+        top: "41%",
+      },
+      "d",
+    )
+    .to(
+      "#card-three",
+      {
+        width: "75%",
+      },
+      "d",
+    )
+    .to(
+      "#card-four",
+      {
+        width: "80%",
+      },
+      "e",
+    );
 };

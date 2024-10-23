@@ -11,7 +11,7 @@ const TermsDetails = () => {
         <div className="conditions-image">
           <Image
             src={termConditionImg}
-            alt=""
+            alt="img"
             style={{ height: "100%", width: "100%" }}
           />
         </div>

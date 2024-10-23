@@ -47,10 +47,10 @@ const DiscoverSwiper = ({ firstTxt, secondTxt }) => {
           </div>
           <div className="slider-btn-discover">
             <div className="swiper-button-prev-discover">
-              <Image src={leftArrowImg} alt="" />
+              <Image src={leftArrowImg} alt="img" />
             </div>
             <div className="swiper-button-next-discover">
-              <Image src={rightArrowImg} alt="" />
+              <Image src={rightArrowImg} alt="img" />
             </div>
           </div>
         </div>

@@ -12,9 +12,11 @@ import Image from "next/image";
 
 const DeliveriHome = () => {
   useEffect(() => {
+    const deliveringId = document.querySelectorAll(`.innovation`);
+    console.log(deliveringId);
     var tl = gsap.timeline({
       scrollTrigger: {
-        trigger: "#delivering-main",
+        trigger: deliveringId,
         start: "0% 0%",
         end: "90% 50%",
         scrub: 2,

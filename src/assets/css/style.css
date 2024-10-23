@@ -301,7 +301,7 @@ body {
   transform: translateY(-100%);
 }
 .main-close-btn {
-  border-bottom: 1px solid #434c5e;
+  border-bottom: 1px solid #434C5E;
 }
 .main-logo {
   display: flex;
@@ -322,7 +322,7 @@ body {
   color: white;
   position: sticky;
   top: 0;
-  border-bottom: 1px solid #434c5e;
+  border-bottom: 1px solid #434C5E;
   background-color: var(--btn-color);
 }
 .nav-text {
@@ -330,6 +330,7 @@ body {
   opacity: 0;
   display: flex;
   justify-content: end;
+  place-self: flex-end;
 }
 .menu {
   display: flex;
@@ -394,7 +395,16 @@ body {
   z-index: 1;
   opacity: 0;
   visibility: hidden;
-  transition: max-height 0.5s ease, opacity 0.5s ease, visibility 0.5s ease;
+  transition:
+    max-height 0.5s ease,
+    opacity 0.5s ease,
+    visibility 0.5s ease;
+}
+.nav-text.said-drowpdown:hover .dropdown,
+.nav-text.said-drowpdown:focus .dropdown {
+  max-height: 1000px;
+  opacity: 1;
+  visibility: visible;
 }
 .dropdown li a {
   font-family: "Syne-Bold";
@@ -403,12 +413,6 @@ body {
   font-size: 30px;
   line-height: 28px;
   position: relative;
-}
-.nav-text.said-drowpdown:hover .dropdown,
-.nav-text.said-drowpdown:focus .dropdown {
-  max-height: 1000px;
-  opacity: 1;
-  visibility: visible;
 }
 .border-line {
   position: absolute;
@@ -419,7 +423,7 @@ body {
 .dropdown .nav-drowpdown1 {
   font-size: 20px;
   line-height: 20px;
-  color: #d0d6e4;
+  color: #D0D6E4;
   font-family: "Syne-Regular";
 }
 .menu-drowp {
@@ -436,41 +440,17 @@ body {
 .SMN_effect-1 a:after {
   left: 50%;
   background: rgba(0, 0, 0, 0);
-  background: -moz-linear-gradient(
-    left,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(255, 255, 255, 0.5) 100%
-  );
-  background: -webkit-linear-gradient(
-    left,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(255, 255, 255, 0.5) 100%
-  );
-  background: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(255, 255, 255, 0.5) 100%
-  );
+  background: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.5) 100%);
+  background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.5) 100%);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.5) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(0,0,0,0)', endColorstr='rgba(255,255,255,0.2)', GradientType=1);
 }
 .SMN_effect-1 a:before {
   right: 50%;
   background: rgba(255, 255, 255, 0.5);
-  background: -moz-linear-gradient(
-    left,
-    rgba(255, 255, 255, 0.5) 0%,
-    rgba(0, 0, 0, 0) 100%
-  );
-  background: -webkit-linear-gradient(
-    left,
-    rgba(255, 255, 255, 0.5) 0%,
-    rgba(0, 0, 0, 0) 100%
-  );
-  background: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 0.5) 0%,
-    rgba(0, 0, 0, 0) 100%
-  );
+  background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(255,255,255,0.2)', endColorstr='rgba(0,0,0,0)', GradientType=1);
 }
 .SMN_effect-1 .hover a:after,
@@ -490,9 +470,6 @@ body {
 .SMN_effect-1 .hover a:hover:before {
   right: 0;
   width: 50%;
-}
-.nav-text:hover .dropdown {
-  display: block;
 }
 /* icon dropdown */
 .menu-drowp-icon {
@@ -526,7 +503,10 @@ body {
   z-index: 1;
   opacity: 0;
   visibility: hidden;
-  transition: max-height 0.5s ease, opacity 0.5s ease, visibility 0.5s ease;
+  transition:
+    max-height 0.5s ease,
+    opacity 0.5s ease,
+    visibility 0.5s ease;
 }
 .product-drowpdown li a {
   font-family: "Syne-Bold";
@@ -538,13 +518,13 @@ body {
 }
 .nav-text:hover .product-drowpdown,
 .nav-text:focus .product-drowpdown {
-  max-height: 1000px; /* Arbitrarily large value to ensure full dropdown is shown */
+  max-height: 1000px;
   opacity: 1;
   visibility: visible;
 }
 .border-line {
   content: "";
-  background: linear-gradient(180deg, rgba(45, 156, 219, 0) 0%, #2d9cdb 100%);
+  background: linear-gradient(180deg, rgba(45, 156, 219, 0) 0%, #2D9CDB 100%);
   display: block;
   height: 150px;
   rotate: 90deg;
@@ -566,7 +546,7 @@ body {
 .product-drowpdown .nav-drowpdown1 {
   font-size: 20px;
   line-height: 20px;
-  color: #d0d6e4;
+  color: #D0D6E4;
   font-family: "Syne-Regular";
 }
 .product-drowpdown li {
@@ -578,22 +558,29 @@ body {
   position: relative;
 }
 /* company drowpdown */
-.nav-list li.nav-text.said-company-dropdown {
-  position: relative;
-}
-.nav-text:hover .company-dropdown {
-  display: block;
+.nav-text:hover .company-dropdown,
+.nav-text:focus .company-dropdown {
+  max-height: 1000px;
+  opacity: 1;
+  visibility: visible;
 }
 .company-dropdown li {
   margin-bottom: 20px;
 }
 .company-dropdown {
-  display: none;
+  max-height: 0;
+  overflow: hidden;
   position: absolute;
-  top: -300px;
-  right: 63%;
+  top: 280px;
+  right: 55%;
   left: 0;
   z-index: 1;
+  opacity: 0;
+  visibility: hidden;
+  transition:
+    max-height 0.5s ease,
+    opacity 0.5s ease,
+    visibility 0.5s ease;
 }
 .company-dropdown li a {
   font-family: "Syne-Bold";
@@ -606,11 +593,8 @@ body {
 .company-dropdown .nav-drowpdown1 {
   font-size: 20px;
   line-height: 20px;
-  color: #d0d6e4;
+  color: #D0D6E4;
   font-family: "Syne-Regular";
-}
-.nav-text:hover .company-dropdown {
-  display: block;
 }
 .calling-text {
   transition: all 0.3s ease-in-out;
@@ -633,20 +617,20 @@ body {
 .calling-text h5 {
   font-size: 14px;
   line-height: 14px;
-  color: #d0d6e4;
+  color: #D0D6E4;
   font-family: "Syne-Regular";
 }
 .calling-text h2 {
   font-size: 14px;
   line-height: 14px;
-  color: #d0d6e4;
+  color: #D0D6E4;
   font-family: "Syne-Regular";
   text-align: start;
 }
 .Email-text h2 {
   font-size: 14px;
   line-height: 14px;
-  color: #d0d6e4;
+  color: #D0D6E4;
   font-family: "Syne-Regular";
   text-align: start;
 }
@@ -702,11 +686,7 @@ body {
   margin: 0 auto;
 }
 .youtube {
-  background: linear-gradient(
-    315.94deg,
-    #2e465b -43%,
-    rgba(46, 70, 91, 0.15) 90.47%
-  );
+  background: linear-gradient(315.94deg, #2E465B -43%, rgba(46, 70, 91, 0.15) 90.47%);
   width: 36px;
   height: 36px;
   display: flex;
@@ -730,7 +710,7 @@ body {
 .numbers {
   font-size: 20px;
   line-height: 20px;
-}
+} 
 
 /* grow with  section 2 */
 .grow-toggel-section {

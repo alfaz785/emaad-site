@@ -104,7 +104,7 @@ const Information = () => {
           </div>
           <div className="privacy-policy-Jurisdiction">
             <div className="privacy-policy-img">
-              <Image id="rotateImg" src={privacyImg} alt="" />
+              <Image id="rotateImg" src={privacyImg} alt="img" />
             </div>
             <div className="privacy-text-policy">
               <h4>Jurisdiction </h4>

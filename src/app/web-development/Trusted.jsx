@@ -31,7 +31,7 @@ const Trusted = () => {
               width={"100%"}
               height={"100%"}
               src={trustedImg}
-              alt=""
+              alt="img"
               className="trusted mx-3"
             />
             Partner For

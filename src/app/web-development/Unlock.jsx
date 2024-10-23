@@ -176,23 +176,48 @@ const Unlock = () => {
                 </p>
                 <ul className="services-list">
                   <li>
-                    <Image width={"100%"} height={"100%"} src={ulStar} />
+                    <Image
+                      width={"100%"}
+                      height={"100%"}
+                      src={ulStar}
+                      alt="ulStar"
+                    />
                     Discovery Phase
                   </li>
                   <li>
-                    <Image width={"100%"} height={"100%"} src={ulStar} />
+                    <Image
+                      width={"100%"}
+                      height={"100%"}
+                      src={ulStar}
+                      alt="ulStar"
+                    />
                     Design
                   </li>
                   <li>
-                    <Image width={"100%"} height={"100%"} src={ulStar} />
+                    <Image
+                      width={"100%"}
+                      height={"100%"}
+                      src={ulStar}
+                      alt="ulStar"
+                    />
                     Development
                   </li>
                   <li>
-                    <Image width={"100%"} height={"100%"} src={ulStar} />
+                    <Image
+                      width={"100%"}
+                      height={"100%"}
+                      src={ulStar}
+                      alt="ulStar"
+                    />
                     Testing
                   </li>
                   <li>
-                    <Image width={"100%"} height={"100%"} src={ulStar} />
+                    <Image
+                      width={"100%"}
+                      height={"100%"}
+                      src={ulStar}
+                      alt="ulStar"
+                    />
                     Launch
                   </li>
                 </ul>
@@ -216,27 +241,57 @@ const Unlock = () => {
                 </p>
                 <ul className="services-list">
                   <li>
-                    <Image src={ulStar} width={"100%"} height={"100%"} />
+                    <Image
+                      src={ulStar}
+                      width={"100%"}
+                      height={"100%"}
+                      alt="ulStar"
+                    />
                     Custom Website Design
                   </li>
                   <li>
-                    <Image src={ulStar} width={"100%"} height={"100%"} />
+                    <Image
+                      src={ulStar}
+                      width={"100%"}
+                      height={"100%"}
+                      alt="ulStar"
+                    />
                     Secure Payment Gateway Integration
                   </li>
                   <li>
-                    <Image src={ulStar} width={"100%"} height={"100%"} />
+                    <Image
+                      src={ulStar}
+                      width={"100%"}
+                      height={"100%"}
+                      alt="ulStar"
+                    />
                     Responsive Design
                   </li>
                   <li>
-                    <Image src={ulStar} width={"100%"} height={"100%"} />
+                    <Image
+                      src={ulStar}
+                      width={"100%"}
+                      height={"100%"}
+                      alt="ulStar"
+                    />
                     Shopping Cart Functionality
                   </li>
                   <li>
-                    <Image src={ulStar} width={"100%"} height={"100%"} />
+                    <Image
+                      src={ulStar}
+                      width={"100%"}
+                      height={"100%"}
+                      alt="ulStar"
+                    />
                     Order Management System
                   </li>
                   <li>
-                    <Image src={ulStar} width={"100%"} height={"100%"} />
+                    <Image
+                      src={ulStar}
+                      width={"100%"}
+                      height={"100%"}
+                      alt="ulStar"
+                    />
                     Search Engine Optimization (SEO)
                   </li>
                 </ul>
@@ -258,23 +313,48 @@ const Unlock = () => {
                 </p>
                 <ul className="services-list">
                   <li>
-                    <Image src={ulStar} width={"100%"} height={"100%"} />
+                    <Image
+                      src={ulStar}
+                      width={"100%"}
+                      height={"100%"}
+                      alt="ulStar"
+                    />
                     SEO Optimization
                   </li>
                   <li>
-                    <Image src={ulStar} width={"100%"} height={"100%"} />
+                    <Image
+                      src={ulStar}
+                      width={"100%"}
+                      height={"100%"}
+                      alt="ulStar"
+                    />
                     Flexible Content Creation
                   </li>
                   <li>
-                    <Image src={ulStar} width={"100%"} height={"100%"} />
+                    <Image
+                      src={ulStar}
+                      width={"100%"}
+                      height={"100%"}
+                      alt="ulStar"
+                    />
                     Customizable Templates
                   </li>
                   <li>
-                    <Image src={ulStar} width={"100%"} height={"100%"} />
+                    <Image
+                      src={ulStar}
+                      width={"100%"}
+                      height={"100%"}
+                      alt="ulStar"
+                    />
                     Multi-user Collaboration
                   </li>
                   <li>
-                    <Image src={ulStar} width={"100%"} height={"100%"} />
+                    <Image
+                      src={ulStar}
+                      width={"100%"}
+                      height={"100%"}
+                      alt="ulStar"
+                    />
                     Integration Capabilities
                   </li>
                 </ul>
@@ -297,23 +377,48 @@ const Unlock = () => {
                 </p>
                 <ul className="services-list">
                   <li>
-                    <Image src={ulStar} width={"100%"} height={"100%"} />
+                    <Image
+                      src={ulStar}
+                      width={"100%"}
+                      height={"100%"}
+                      alt="ulStar"
+                    />
                     Custom Solution Design
                   </li>
                   <li>
-                    <Image src={ulStar} width={"100%"} height={"100%"} />
+                    <Image
+                      src={ulStar}
+                      width={"100%"}
+                      height={"100%"}
+                      alt="ulStar"
+                    />
                     User-Centric Design
                   </li>
                   <li>
-                    <Image src={ulStar} width={"100%"} height={"100%"} />
+                    <Image
+                      src={ulStar}
+                      width={"100%"}
+                      height={"100%"}
+                      alt="ulStar"
+                    />
                     Cross-Platform Compatibility
                   </li>
                   <li>
-                    <Image src={ulStar} width={"100%"} height={"100%"} />
+                    <Image
+                      src={ulStar}
+                      width={"100%"}
+                      height={"100%"}
+                      alt="ulStar"
+                    />
                     Advanced Functionality
                   </li>
                   <li>
-                    <Image src={ulStar} width={"100%"} height={"100%"} />
+                    <Image
+                      src={ulStar}
+                      width={"100%"}
+                      height={"100%"}
+                      alt="ulStar"
+                    />
                     Security and Compliance
                   </li>
                 </ul>

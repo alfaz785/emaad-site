@@ -17,7 +17,7 @@ const MainHeader = () => {
     const dropLinks = document.querySelectorAll(".nav-drowpdown");
 
     const handleNavClick = (event) => {
-      event.preventDefault();
+      // event.preventDefault();
       const dropdown = event.currentTarget.nextElementSibling;
       if (dropdown) {
         dropdown.classList.toggle("active");
@@ -532,7 +532,7 @@ const MainHeader = () => {
                     <div className="d-flex justify-content-between flex-wrap">
                       <div className="company">
                         <div className="calling-text">
-                          <Image src={indiaImg} alt="" />
+                          <Image src={indiaImg} alt="img" />
                           <div className="call-num">
                             <h5>Phone Number</h5>
                             <a href="tel:94270 79165">
@@ -543,7 +543,7 @@ const MainHeader = () => {
                       </div>
                       <div className="company">
                         <div className="Email-text">
-                          <Image src={emailImg} alt="" />
+                          <Image src={emailImg} alt="img" />
                           <div className="call-num">
                             <h5>Email</h5>
                             <a href="mailto:info@emaadinfotech.com">
@@ -559,30 +559,30 @@ const MainHeader = () => {
             </li>
           </ul>
           <div className="border-bottom cursor-scale small p-0">
-            <Image src={shapeImg} alt="" />
+            <Image src={shapeImg} alt="img" />
           </div>
           <div className="social-iocn cursor-scale small">
             <div className="youtube">
               <a href="">
-                <Image src={youtubeImg} alt="" />
+                <Image src={youtubeImg} alt="img" />
               </a>
             </div>
             <div className="youtube">
               <a href="">
                 {" "}
-                <Image src={instImg} alt="" />
+                <Image src={instImg} alt="img" />
               </a>
             </div>
             <div className="youtube">
               <a href="">
                 {" "}
-                <Image src={telegramImg} alt="" />
+                <Image src={telegramImg} alt="img" />
               </a>
             </div>
             <div className="youtube">
               <a href="">
                 {" "}
-                <Image src={telegramImg} alt="" />
+                <Image src={telegramImg} alt="img" />
               </a>
             </div>
           </div>

@@ -16,7 +16,7 @@ const ProductFeature = () => {
             <div className="product-text-imag">
               <div className="product-title">
                 <div className="product-titel-image">
-                  <Image src={featureImg} alt="" />
+                  <Image src={featureImg} alt="img" />
                   <h5>Product Features.</h5>
                 </div>
               </div>

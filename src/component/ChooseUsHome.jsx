@@ -64,7 +64,7 @@ const ChooseUsHome = () => {
                   <span className="bg-image-container">
                     Choose.
                     <span className="choose-bg">
-                      <Image src={chooseImg} alt="" />
+                      <Image src={chooseImg} alt="img" />
                     </span>
                   </span>
                   Us.

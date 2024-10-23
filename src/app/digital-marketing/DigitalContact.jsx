@@ -11,7 +11,7 @@ const DigitalContact = () => {
           <div className="client-question-informaton">
             <div className="contact-client-ques d-flex align-items-center">
               <div className="client-img">
-                <Image src={clientImg} alt="" />
+                <Image src={clientImg} alt="img" />
               </div>
               <div className="client-info">
                 <p>
@@ -26,7 +26,7 @@ const DigitalContact = () => {
                     </div>
                   </a>
                   <div className="call-recoard">
-                    <Image src={callSystemImg} alt="" />
+                    <Image src={callSystemImg} alt="img" />
                   </div>
                 </div>
               </div>

@@ -245,7 +245,7 @@ const ServiceUiUx = () => {
                   <div className="d-flex align-items-center uiux-title-main">
                     <Image
                       src={webDesignImg}
-                      alt=""
+                      alt="img"
                       className="uiux-design-img"
                     />
                     <h2 className="mb-0">Web Design</h2>
@@ -282,7 +282,7 @@ const ServiceUiUx = () => {
                   <div className="d-flex align-items-center uiux-title-main">
                     <Image
                       src={webDevelopmentImg}
-                      alt=""
+                      alt="img"
                       className="uiux-design-img"
                     />
                     <h2 className="mb-0">Web Development</h2>
@@ -319,7 +319,7 @@ const ServiceUiUx = () => {
                   <div className="d-flex align-items-center uiux-title-main">
                     <Image
                       src={digitalMarketingImg}
-                      alt=""
+                      alt="img"
                       className="uiux-design-img"
                     />
                     <h2 className="mb-0">Digital Marketing</h2>
@@ -355,7 +355,7 @@ const ServiceUiUx = () => {
                   <div className="d-flex align-items-center uiux-title-main">
                     <Image
                       src={mobileAppImg}
-                      alt=""
+                      alt="img"
                       className="uiux-design-img"
                     />
                     <h2 className="mb-0">Mobile App Developing</h2>

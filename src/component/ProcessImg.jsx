@@ -27,7 +27,7 @@ const ProcessImg = ({ mainImg }) => {
         </div>
         <div className="website-content">
           <div className="img-holder">
-            <Image width={"100%"} height={"100%"} src={mainImg} alt="" />
+            <Image width={"100%"} height={"100%"} src={mainImg} alt="img" />
           </div>
         </div>
       </section>

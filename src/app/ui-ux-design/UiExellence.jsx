@@ -22,11 +22,11 @@ const UiExellence = () => {
         <div className="container">
           <div className="design-title-Excellence">
             <div className="design-Excellence-title">
-              <Image className="circale-design" src={designTool} alt="" />
+              <Image className="circale-design" src={designTool} alt="img" />
               <div className="design-text">
                 <h4>
                   Design Excellence Powered by Cutting-Edge T
-                  <Image className="Excellence-img" src={excludeImg} alt="" />
+                  <Image className="Excellence-img" src={excludeImg} alt="img" />
                   ls
                 </h4>
               </div>

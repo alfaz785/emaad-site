@@ -195,7 +195,10 @@
     /* right: 57%; */
     z-index: 1;
   }
-
+  .nav-text {
+    display: block;
+    place-self: unset;
+}
   .product-drowpdown {
     position: unset;
     top: 100%;

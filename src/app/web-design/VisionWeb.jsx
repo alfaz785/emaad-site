@@ -43,7 +43,7 @@ const VisionWeb = () => {
                     height={"100%"}
                     width={"100%"}
                     src={serviceImg}
-                    alt=""
+                    alt="img"
                   />
                 </div>
               </div>

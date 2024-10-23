@@ -73,7 +73,7 @@ const OurSerice = () => {
               do!
             </p>
             <div className="services-section-bg">
-              <Image src={serviceSection} alt="" />
+              <Image src={serviceSection} alt="img" />
             </div>
           </div>
         </div>

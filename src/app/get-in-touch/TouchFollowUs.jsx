@@ -69,7 +69,7 @@ const TouchFollowUs = () => {
                 <p className="mb-0 title_icon">Skype ID</p>
                 <div className="d-flex align-items-center gap-2 info-icon-data">
                   <div className="icon_bg">
-                    <Image src={skypeImg} alt="" />
+                    <Image src={skypeImg} alt="img" />
                   </div>
                   <p className="mb-0">Emaad Infotech</p>
                 </div>

@@ -98,7 +98,7 @@ const EasyHome = () => {
                 <span className="position-relative">
                   Steps
                   <span className="text-img-leaf">
-                    <Image src={leafImg} alt="" />
+                    <Image src={leafImg} alt="img" />
                   </span>
                 </span>
                 <p className="text-end mb-0">To Process</p>
@@ -185,7 +185,7 @@ const EasyHome = () => {
 
             <section className="sec1 pin">
               <div className="d-flex align-items-center gap-3">
-                <Image src={discoverImg} alt="" className="discovery" />
+                <Image src={discoverImg} alt="img" className="discovery" />
                 <h5 className="planning-title">Discovery and Planning</h5>
               </div>
               <ul className="disc">
@@ -218,7 +218,7 @@ const EasyHome = () => {
 
             <section className="sec2 pin">
               <div className="d-flex align-items-center gap-3 anim">
-                <Image src={discoverImg} alt="" className="discovery" />
+                <Image src={discoverImg} alt="img" className="discovery" />
                 <h5 className="planning-title">Discovery and Planning</h5>
               </div>
               <ul className="disc anim">
@@ -250,7 +250,7 @@ const EasyHome = () => {
             </section>
             <section className="sec3 pin">
               <div className="d-flex align-items-center gap-3 anim">
-                <Image src={discoverImg} alt="" className="discovery" />
+                <Image src={discoverImg} alt="img" className="discovery" />
                 <h5 className="planning-title">Discovery and Planning</h5>
               </div>
               <ul className="disc anim">
@@ -283,7 +283,7 @@ const EasyHome = () => {
             {/* <!-- Adding new sections --> */}
             <section className="sec4 pin">
               <div className="d-flex align-items-center gap-3 anim">
-                <Image src={discoverImg} alt="" className="discovery" />
+                <Image src={discoverImg} alt="img" className="discovery" />
                 <h5 className="planning-title">Discovery and Planning</h5>
               </div>
               <ul className="disc anim">
@@ -315,7 +315,7 @@ const EasyHome = () => {
             </section>
             <section className="sec5 pin">
               <div className="d-flex align-items-center gap-3 anim">
-                <Image src={discoverImg} alt="" className="discovery" />
+                <Image src={discoverImg} alt="img" className="discovery" />
                 <h5 className="planning-title">Discovery and Planning</h5>
               </div>
               <ul className="disc anim">

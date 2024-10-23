@@ -33,7 +33,7 @@ export default function WhyChooseOurServices() {
         <div className="why-choose-title-service">
           <h4>
             Why Choose Our Services?
-            <Image className="why-choose-bg-text" src={ServiceImg} alt="" />
+            <Image className="why-choose-bg-text" src={ServiceImg} alt="img" />
             <p>
               Choosing our Bulk SMS and Email Services means you’re opting for
               reliability, efficiency, customization, and unparalleled support.
@@ -63,13 +63,13 @@ export default function WhyChooseOurServices() {
             <div className="service-design-card">
               <div className="service-card-hover">
                 <div className="shedual-img">
-                  <Image src={SupImg} alt="" />
+                  <Image src={SupImg} alt="img" />
                 </div>
                 <div className="silver-img">
-                  <Image src={cusomizationImg} alt="" />
+                  <Image src={cusomizationImg} alt="img" />
                 </div>
                 <div className="card-2-img">
-                  <Image src={effencyImg} alt="" />
+                  <Image src={effencyImg} alt="img" />
                 </div>
                 <Image src={realibilityImg} alt="Reliability" />
 
@@ -87,13 +87,13 @@ export default function WhyChooseOurServices() {
                   <Image src={realibilityImg} alt="Reliability" />
                 </div>
                 <div className="silver-img">
-                  <Image src={SupImg} alt="" />
+                  <Image src={SupImg} alt="img" />
                 </div>
                 <div className="card-2-img">
-                  <Image src={cusomizationImg} alt="" />
+                  <Image src={cusomizationImg} alt="img" />
                 </div>
 
-                <Image src={effencyImg} alt="" />
+                <Image src={effencyImg} alt="img" />
 
                 <div className="overlay-text1">
                   <h4>Efficiency</h4>
@@ -106,13 +106,13 @@ export default function WhyChooseOurServices() {
             <div className="service-design-card">
               <div className="service-card-hover3">
                 <div className="shedual-img">
-                  <Image src={effencyImg} alt="" />
+                  <Image src={effencyImg} alt="img" />
                 </div>
                 <div className="silver-img">
                   <Image src={realibilityImg} alt="Reliability" />
                 </div>
                 <div className="card-2-img">
-                  <Image src={SupImg} alt="" />
+                  <Image src={SupImg} alt="img" />
                 </div>
                 <div className="service-card-img">
                   <Image src={cusomizationImg} alt="Customization" />
@@ -130,7 +130,7 @@ export default function WhyChooseOurServices() {
             <div className="service-design-card">
               <div className="service-card-hover4">
                 <div className="shedual-img">
-                  <Image src={effencyImg} alt="" />
+                  <Image src={effencyImg} alt="img" />
                 </div>
                 <div className="silver-img">
                   <Image src={realibilityImg} alt="Reliability" />
@@ -139,7 +139,7 @@ export default function WhyChooseOurServices() {
                   <Image src={cusomizationImg} alt="Customization" />
                 </div>
                 <div className="service-card-img">
-                  <Image src={SupImg} alt="" />
+                  <Image src={SupImg} alt="img" />
 
                   <div className="overlay-text1">
                     <h4>Support</h4>

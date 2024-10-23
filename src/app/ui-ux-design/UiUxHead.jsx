@@ -42,7 +42,7 @@ const UiUxHead = () => {
 
               <div className="designer-errows">
                 <div className="design-errow-img">
-                  <Image src={designErro} alt="" />
+                  <Image src={designErro} alt="img" />
                 </div>
                 <div className="design-btn">
                   <h4>Designer</h4>
