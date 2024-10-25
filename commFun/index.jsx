@@ -697,13 +697,7 @@ export function OurWorkPreviewFC() {
   });
 }
 
-export const handleNavigate = (event) => {
-  let navbar_tl = gsap.timeline({ paused: true });
-  event.preventDefault();
-
-  navbar_tl.timeScale(3);
-  navbar_tl.reverse();
-
+export const handleNavigate = () => {
   const body = document.getElementById("body");
   body.style.overflow = "";
 };

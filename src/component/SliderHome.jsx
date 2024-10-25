@@ -2,6 +2,7 @@
 import gsap from "gsap";
 // components/SliderComponent.js
 import { useEffect } from "react";
+import Swiper from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";

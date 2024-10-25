@@ -10,7 +10,6 @@ import ourProcessImg from "../../assets/images/app-process-bg.png";
 import ProcessImg from "@/component/ProcessImg";
 
 const WebDevelopment = () => {
-  
   return (
     <>
       {/* <!-- TRUSTED SECTION START --> */}

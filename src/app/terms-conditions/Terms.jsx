@@ -11,6 +11,7 @@ const Terms = () => {
   useEffect(() => {
     MultiTypingEffect(termsCondition, 100);
   }, []);
+  
 
   return (
     <>

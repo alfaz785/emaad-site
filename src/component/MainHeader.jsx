@@ -9,9 +9,13 @@ import telegramImg from "../assets/images/teligrame.png";
 import facebookImg from "../assets/images/facebook.svg";
 import Image from "next/image";
 import Link from "next/link";
-import gsap from "gsap";
+import { gsap, Power2 } from "gsap";
+import { usePathname } from "next/navigation";
+import { handleNavigate } from "../../commFun";
 
 const MainHeader = () => {
+  const pathname = usePathname();
+
   const lastScrollTop = useRef(0);
   useEffect(() => {
     const navLinks = document.querySelectorAll(".nav-link");
@@ -96,7 +100,6 @@ const MainHeader = () => {
       marginTop: 0,
       ease: Power2.easeInOut,
     });
-
     menuBtn.addEventListener("click", () => {
       navbar_tl.play().timeScale(1);
       const body = document.getElementById("body");
@@ -107,7 +110,45 @@ const MainHeader = () => {
       navbar_tl.reverse();
 
       const body = document.getElementById("body");
+
       body.style.overflow = "";
+    });
+  }, [pathname]);
+
+  useEffect(() => {
+    var cursor = document.querySelector(".cursor"),
+      cursorScale = document.querySelectorAll(".cursor-scale"),
+      mousX = 0,
+      mouseY = 0;
+
+    gsap.to({}, 0.016, {
+      repeat: -1,
+
+      onRepeat: function () {
+        gsap.set(cursor, {
+          css: {
+            left: mousX,
+            top: mouseY,
+          },
+        });
+      },
+    });
+    window.addEventListener("mousemove", function (e) {
+      mousX = e.clientX;
+      mouseY = e.clientY;
+    });
+    cursorScale.forEach((link) => {
+      link.addEventListener("mouseleave", () => {
+        cursor.classList.remove("cursor-main");
+        cursor.classList.remove("cursor-small");
+      });
+      link.addEventListener("mousemove", () => {
+        cursor.classList.add("cursor-main");
+        if (link.classList.contains("small")) {
+          cursor.classList.remove("cursor-main");
+          cursor.classList.add("cursor-small");
+        }
+      });
     });
   }, []);
 
@@ -156,7 +197,7 @@ const MainHeader = () => {
         <div className="menu-container">
           <ul className="nav-list SMN_effect-1">
             <li className="nav-text">
-              <Link href="/" className="nav-link">
+              <Link onClick={handleNavigate} href="/" className="nav-link">
                 Home<span className="numbers">01</span>
               </Link>
             </li>
@@ -180,6 +221,8 @@ const MainHeader = () => {
                           <Link
                             href="/web-development"
                             className="nav-drowpdown1 p-0"
+                            onClick={handleNavigate}
+                            onClick={handleNavigate}
                           >
                             Web Development
                           </Link>
@@ -188,6 +231,7 @@ const MainHeader = () => {
                           <Link
                             href="/web-design"
                             className="nav-drowpdown1 p-0"
+                            onClick={handleNavigate}
                           >
                             Web Design
                           </Link>
@@ -196,6 +240,7 @@ const MainHeader = () => {
                           <Link
                             href="/app-development"
                             className="nav-drowpdown1 p-0"
+                            onClick={handleNavigate}
                           >
                             Mobile App Development
                           </Link>
@@ -204,6 +249,7 @@ const MainHeader = () => {
                           <Link
                             href="/ui-ux-design"
                             className="nav-drowpdown1 p-0"
+                            onClick={handleNavigate}
                           >
                             UI / UX Design
                           </Link>
@@ -214,6 +260,7 @@ const MainHeader = () => {
                           <Link
                             href="/digital-marketing"
                             className="nav-drowpdown1 p-0"
+                            onClick={handleNavigate}
                           >
                             Digital Marketing
                           </Link>
@@ -222,6 +269,7 @@ const MainHeader = () => {
                           <Link
                             href="/domain-hosting"
                             className="nav-drowpdown1 p-0"
+                            onClick={handleNavigate}
                           >
                             Domain & Hosting Services
                           </Link>
@@ -230,6 +278,7 @@ const MainHeader = () => {
                           <Link
                             href="/bulk-sms-email-service"
                             className="nav-drowpdown1 p-0"
+                            onClick={handleNavigate}
                           >
                             Bulk SMS & Email Service
                           </Link>
@@ -251,7 +300,11 @@ const MainHeader = () => {
                             school
                           </span>
                           <li>
-                            <a href="#" className="nav-drowpdown1 p-0">
+                            <a
+                              href="#"
+                              className="nav-drowpdown1 p-0"
+                              onClick={handleNavigate}
+                            >
                               Education
                             </a>
                           </li>
@@ -261,7 +314,11 @@ const MainHeader = () => {
                             diversity_3
                           </span>
                           <li>
-                            <a href="#" className="nav-drowpdown1 p-0">
+                            <a
+                              href="#"
+                              className="nav-drowpdown1 p-0"
+                              onClick={handleNavigate}
+                            >
                               Charity Organization
                             </a>
                           </li>
@@ -271,7 +328,11 @@ const MainHeader = () => {
                             diversity_3
                           </span>
                           <li>
-                            <a href="#" className="nav-drowpdown1 p-0">
+                            <a
+                              href="#"
+                              className="nav-drowpdown1 p-0"
+                              onClick={handleNavigate}
+                            >
                               Real Estate
                             </a>
                           </li>
@@ -281,7 +342,11 @@ const MainHeader = () => {
                             home_work
                           </span>
                           <li>
-                            <a href="#" className="nav-drowpdown1 p-0">
+                            <a
+                              href="#"
+                              className="nav-drowpdown1 p-0"
+                              onClick={handleNavigate}
+                            >
                               Financial & Insurance
                             </a>
                           </li>
@@ -291,7 +356,11 @@ const MainHeader = () => {
                             local_dining
                           </span>
                           <li>
-                            <a href="#" className="nav-drowpdown1 p-0">
+                            <a
+                              href="#"
+                              className="nav-drowpdown1 p-0"
+                              onClick={handleNavigate}
+                            >
                               Food Processing
                             </a>
                           </li>
@@ -303,7 +372,11 @@ const MainHeader = () => {
                             school
                           </span>
                           <li>
-                            <a href="#" className="nav-drowpdown1 p-0">
+                            <a
+                              href="#"
+                              className="nav-drowpdown1 p-0"
+                              onClick={handleNavigate}
+                            >
                               Manufacturing
                             </a>
                           </li>
@@ -313,7 +386,11 @@ const MainHeader = () => {
                             cardiology
                           </span>
                           <li>
-                            <a href="#" className="nav-drowpdown1 p-0">
+                            <a
+                              href="#"
+                              className="nav-drowpdown1 p-0"
+                              onClick={handleNavigate}
+                            >
                               Healthcare
                             </a>
                           </li>
@@ -323,7 +400,11 @@ const MainHeader = () => {
                             home_health
                           </span>
                           <li>
-                            <a href="#" className="nav-drowpdown1 p-0">
+                            <a
+                              href="#"
+                              className="nav-drowpdown1 p-0"
+                              onClick={handleNavigate}
+                            >
                               Tourism & Hospitality
                             </a>
                           </li>
@@ -333,7 +414,11 @@ const MainHeader = () => {
                             sports_cricket
                           </span>
                           <li>
-                            <a href="#" className="nav-drowpdown1 p-0">
+                            <a
+                              href="#"
+                              className="nav-drowpdown1 p-0"
+                              onClick={handleNavigate}
+                            >
                               Sport & Fitness
                             </a>
                           </li>
@@ -343,7 +428,11 @@ const MainHeader = () => {
                             public
                           </span>
                           <li>
-                            <a href="#" className="nav-drowpdown1 p-0">
+                            <a
+                              href="#"
+                              className="nav-drowpdown1 p-0"
+                              onClick={handleNavigate}
+                            >
                               Information Technology
                             </a>
                           </li>
@@ -375,44 +464,76 @@ const MainHeader = () => {
                   <div className="menu-drowpdown">
                     <div className="drowp-0">
                       <li className="hover">
-                        <a href="#" className="nav-drowpdown1 p-0">
+                        <a
+                          href="#"
+                          className="nav-drowpdown1 p-0"
+                          onClick={handleNavigate}
+                        >
                           Online Pharmacy Solution
                         </a>
                       </li>
                       <li className="hover">
-                        <a href="#" className="nav-drowpdown1 p-0">
+                        <a
+                          href="#"
+                          className="nav-drowpdown1 p-0"
+                          onClick={handleNavigate}
+                        >
                           Real Estate Software Solution
                         </a>
                       </li>
                       <li className="hover">
-                        <a href="#" className="nav-drowpdown1 p-0">
+                        <a
+                          href="#"
+                          className="nav-drowpdown1 p-0"
+                          onClick={handleNavigate}
+                        >
                           E-commerce Solution
                         </a>
                       </li>
                       <li className="hover">
-                        <a href="#" className="nav-drowpdown1 p-0">
+                        <a
+                          href="#"
+                          className="nav-drowpdown1 p-0"
+                          onClick={handleNavigate}
+                        >
                           NGO - Charity Website Service
                         </a>
                       </li>
                     </div>
                     <div className="drowp-2">
                       <li className="hover">
-                        <a href="#" className="nav-drowpdown1 p-0">
+                        <a
+                          href="#"
+                          className="nav-drowpdown1 p-0"
+                          onClick={handleNavigate}
+                        >
                           Housing & Society Management
                         </a>
                       </li>
                       <li className="hover">
-                        <a href="#" className="nav-drowpdown1 p-0">
+                        <a
+                          href="#"
+                          className="nav-drowpdown1 p-0"
+                          onClick={handleNavigate}
+                        >
                           Business Directory
                         </a>
                       </li>
                       <li className="hover">
-                        <a href="#" className="nav-drowpdown1 p-0">
+                        <a
+                          href="#"
+                          className="nav-drowpdown1 p-0"
+                          onClick={handleNavigate}
+                        >
                           Hospital Management System
                         </a>
                       </li>
                       <li className="hover">
-                        <a href="#" className="nav-drowpdown1 p-0">
+                        <a
+                          href="#"
+                          className="nav-drowpdown1 p-0"
+                          onClick={handleNavigate}
+                        >
                           Job Portal
                         </a>
                       </li>
@@ -433,49 +554,85 @@ const MainHeader = () => {
                     <div className="menu-drowp-icons">
                       <div className="drowp-1">
                         <li className="hover">
-                          <a href="#" className="nav-drowpdown1 p-0">
+                          <a
+                            href="#"
+                            className="nav-drowpdown1 p-0"
+                            onClick={handleNavigate}
+                          >
                             Hospital App - Video Call App...
                           </a>
                         </li>
                         <li className="hover">
-                          <a href="#" className="nav-drowpdown1 p-0">
+                          <a
+                            href="#"
+                            className="nav-drowpdown1 p-0"
+                            onClick={handleNavigate}
+                          >
                             Realtime Video Ads Screening App
                           </a>
                         </li>
                         <li className="hover">
-                          <a href="#" className="nav-drowpdown1 p-0">
+                          <a
+                            href="#"
+                            className="nav-drowpdown1 p-0"
+                            onClick={handleNavigate}
+                          >
                             Grocery Delivery App
                           </a>
                         </li>
                         <li className="hover">
-                          <a href="#" className="nav-drowpdown1 p-0">
+                          <a
+                            href="#"
+                            className="nav-drowpdown1 p-0"
+                            onClick={handleNavigate}
+                          >
                             Business Listing Software
                           </a>
                         </li>
                         <li className="hover">
-                          <a href="#" className="nav-drowpdown1 p-0">
+                          <a
+                            href="#"
+                            className="nav-drowpdown1 p-0"
+                            onClick={handleNavigate}
+                          >
                             Garage App
                           </a>
                         </li>
                       </div>
                       <div className="drowp-2 we-do">
                         <li className="hover">
-                          <a href="#" className="nav-drowpdown1 p-0">
+                          <a
+                            href="#"
+                            className="nav-drowpdown1 p-0"
+                            onClick={handleNavigate}
+                          >
                             Community App
                           </a>
                         </li>
                         <li className="hover">
-                          <a href="#" className="nav-drowpdown1 p-0">
+                          <a
+                            href="#"
+                            className="nav-drowpdown1 p-0"
+                            onClick={handleNavigate}
+                          >
                             Market place app like Upwork
                           </a>
                         </li>
                         <li className="hover">
-                          <a href="#" className="nav-drowpdown1 p-0">
+                          <a
+                            href="#"
+                            className="nav-drowpdown1 p-0"
+                            onClick={handleNavigate}
+                          >
                             Online Shopping Services
                           </a>
                         </li>
                         <li className="hover">
-                          <a href="#" className="nav-drowpdown1 p-0">
+                          <a
+                            href="#"
+                            className="nav-drowpdown1 p-0"
+                            onClick={handleNavigate}
+                          >
                             Matrimony App
                           </a>
                         </li>
@@ -500,24 +657,40 @@ const MainHeader = () => {
                   <div className="row">
                     <div className="col-lg-9 col-md-8">
                       <li className="hover">
-                        <Link href="/about-us" className="nav-drowpdown1 p-0">
+                        <Link
+                          href="/about-us"
+                          className="nav-drowpdown1 p-0"
+                          onClick={handleNavigate}
+                        >
                           About us
                         </Link>
                       </li>
                       <li className="hover">
-                        <a href="#" className="nav-drowpdown1 p-0">
+                        <a
+                          href="#"
+                          className="nav-drowpdown1 p-0"
+                          onClick={handleNavigate}
+                        >
                           Blog
                         </a>
                       </li>
                     </div>
                     <div className="col-lg-3 col-md-4">
                       <li className="hover">
-                        <Link href="/career" className="nav-drowpdown1 p-0">
+                        <Link
+                          href="/career"
+                          className="nav-drowpdown1 p-0"
+                          onClick={handleNavigate}
+                        >
                           Career
                         </Link>
                       </li>
                       <li className="hover">
-                        <a href="#" className="nav-drowpdown1 p-0">
+                        <a
+                          href="#"
+                          className="nav-drowpdown1 p-0"
+                          onClick={handleNavigate}
+                        >
                           Gallery
                         </a>
                       </li>

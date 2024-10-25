@@ -2,6 +2,7 @@
 import { useEffect } from "react";
 import satisfactionImg from "../assets/images/client-satisfaction.png";
 import Image from "next/image";
+import { gsap } from "gsap";
 
 const PortfolioHome = () => {
   useEffect(() => {
@@ -72,6 +73,27 @@ const PortfolioHome = () => {
       const section = document.getElementById("animated-section");
       observer?.observe(section);
     }
+  }, []);
+  useEffect(() => {
+    var portfolio_project_thumbs = new Swiper(".portfolio__project-thumbs", {
+      loop: true,
+      spaceBetween: 0,
+      slidesPerView: 1,
+      freeMode: true,
+      watchSlidesProgress: true,
+      allowTouchMove: false,
+    });
+    var portfolio_project = new Swiper(".portfolio__project-slider", {
+      loop: true,
+      spaceBetween: 10,
+      navigation: {
+        nextEl: ".pp-next",
+        prevEl: ".pp-prev",
+      },
+      thumbs: {
+        swiper: portfolio_project_thumbs,
+      },
+    });
   }, []);
   return (
     <section className="portfolio-v5 awesome_section mb-5">

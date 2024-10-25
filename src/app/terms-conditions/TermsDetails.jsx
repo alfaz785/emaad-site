@@ -1,9 +1,44 @@
+"use client";
+import gsap from "gsap";
 import termConditionImg from "../../assets/images/terms-conditions-image.png";
 import ulStartImg from "../../assets/images/ul-star.svg";
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
 
 const TermsDetails = () => {
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.utils.toArray(".blur-text").forEach(function (element) {
+      gsap.to(element, {
+        scrollTrigger: {
+          trigger: element,
+          start: "top 80%",
+          end: "bottom 20%",
+          scrub: true,
+        },
+        filter: "blur(0px)",
+        duration: 1,
+      });
+    });
+
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.utils.toArray(".section-title").forEach(function (sectionTitle) {
+      gsap.to(sectionTitle, {
+        scrollTrigger: {
+          trigger: sectionTitle,
+          start: "top 80%",
+          end: "bottom 20%",
+          scrub: true,
+        },
+        x: 0,
+        opacity: 1,
+        duration: 1.5,
+        ease: "power2.out",
+      });
+    });
+  }, []);
   return (
     <>
       {" "}

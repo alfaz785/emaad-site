@@ -1,13 +1,13 @@
 import localFont from "next/font/local";
 import Script from "next/script";
 import "./globals.css";
-import Header from "@/component/MainHeader";
 import "../assets/css/bootstrap.min.css"; // First import Bootstrap
 import "../assets/css/style.css"; // Then import your global styles
 import "../assets/css/responsive.css"; // Finally, import the responsive styles
 import "../assets/css/swiper-bundle.min.css";
 import Footer from "@/component/Footer";
 import Link from "next/link";
+import ClientLayout from "@/component/ClientLayout";
 
 const geistSans = localFont({
   src: "../fonts/GeistVF.woff",
@@ -46,9 +46,9 @@ export default function RootLayout({ children }) {
         />
         {/* Main Script */}
         {/* HEADER --------------------- */}
-        <Header />
         {/* <Link href={"/web-development"}>Web Development</Link> */}
-        {children}
+        <ClientLayout>{children}</ClientLayout>{" "}
+        {/* Re-renders with each child */}
         {/* FOOTER --------------------- */}
         <Footer />
         {/* External Scripts */}

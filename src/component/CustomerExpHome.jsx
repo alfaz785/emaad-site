@@ -3,6 +3,8 @@ import { useEffect } from "react";
 import EperiencesImg from "../assets/images/Eperiences.svg";
 import kristionImg from "../assets/images/Kristin Watson.svg";
 import Image from "next/image";
+import Swiper from "swiper";
+import { gsap } from "gsap";
 
 const CustomerExpHome = () => {
   useEffect(() => {
@@ -90,6 +92,14 @@ const CustomerExpHome = () => {
       const section = document.querySelector("p.para");
       observer?.observe(section);
     }
+  }, []);
+  useEffect(() => {
+    gsap.to(".experiences", {
+      duration: 5,
+      rotate: 360,
+      repeat: -1,
+      ease: "linear",
+    });
   }, []);
   return (
     <>

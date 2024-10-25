@@ -14,6 +14,8 @@ export const metadata = generateMetadata("");
 export default function Home() {
   return (
     <>
+      {/* <Header /> */}
+
       <HomeHead />
       {/* <!-- slider section start --> */}
       <SlideSection />

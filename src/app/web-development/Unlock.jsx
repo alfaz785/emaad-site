@@ -4,6 +4,7 @@ import React, { useEffect } from "react";
 import { openTab, subUnlockFc } from "../../../commFun";
 import Image from "next/image";
 import ulStar from "../../assets/images/ul-star.svg";
+import {gsap} from "gsap";
 
 const Unlock = () => {
   useEffect(() => {

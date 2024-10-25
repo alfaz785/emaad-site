@@ -23,6 +23,31 @@ const DiscoverSwiper = ({ firstTxt, secondTxt }) => {
       });
     };
   }, []);
+  useEffect(() => {
+    var swiper = new Swiper(".slide-content", {
+      slidesPerView: 3,
+      spaceBetween: 13,
+      // loop: true,
+    
+      navigation: {
+        nextEl: ".swiper-button-prev-discover",
+        prevEl: ".swiper-button-next-discover",
+      },
+    
+      breakpoints: {
+        0: {
+          slidesPerView: 1,
+        },
+        768: {
+          slidesPerView: 2,
+        },
+        992: {
+          slidesPerView: 3,
+        },
+      },
+    });
+    
+  }, []);
   return (
     <>
       <div className="tag-contetnt">

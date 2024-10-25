@@ -38,7 +38,7 @@ const HomeHead = () => {
             left: mousX,
             top: mouseY,
           },
-        }); 
+        });
       },
     });
 
@@ -80,6 +80,45 @@ const HomeHead = () => {
       window.removeEventListener("mousemove", handleMouseMove);
       cursorAnimation.kill(); // Kill GSAP animation on unmount
     };
+  }, []);
+  useEffect(() => {
+    const rainContainer = document.querySelector(".rain-container");
+    const background = ["aqua", "red", "limegreen", "white", "yellow"];
+
+    const amount = 10;
+    let i = 0;
+
+    if (rainContainer) {
+      while (i < amount) {
+        // Creating an Element
+        const drop = document.createElement("i");
+
+        // CSS Properties for raindrop
+        const raindropProperties = {
+          width: Math.random() + 1 + "px",
+          positionX: Math.floor(Math.random() * window.innerWidth) + "px",
+          delay: Math.random() * -50 + "s",
+          duration: Math.random() + 1 + 7 + "s",
+          bg:
+            background.length > 0
+              ? background[Math.floor(Math.random() * background.length)]
+              : "#3498db",
+          opacity: Math.random() + 0.1,
+        };
+
+        // Setting Styles for raindrop
+        drop.style.width = raindropProperties.width;
+        drop.style.left = raindropProperties.positionX;
+        drop.style.animationDelay = raindropProperties.delay;
+        drop.style.animationDuration = raindropProperties.duration;
+        drop.style.background = raindropProperties.bg;
+        drop.style.opacity = raindropProperties.opacity;
+
+        // Appending the raindrop to the raindrop container
+        rainContainer.appendChild(drop);
+        i++;
+      }
+    }
   }, []);
   return (
     <>

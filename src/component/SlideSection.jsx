@@ -7,6 +7,7 @@ import travelImg from "../assets/images/travel.png";
 import mediaImg from "../assets/images/travel.png";
 import fuzionImg from "../assets/images/travel.png";
 import Image from "next/image";
+import {gsap} from "gsap";
 
 const SlideSection = () => {
   useEffect(() => {

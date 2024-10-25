@@ -2,6 +2,7 @@
 import Image from "next/image";
 import React, { useEffect } from "react";
 import trustedImg from "../../assets/images/trusted.svg";
+import gsap from "gsap";
 
 const Trusted = () => {
   useEffect(() => {
@@ -21,40 +22,7 @@ const Trusted = () => {
     });
   }, []);
 
-  // useEffect(() => {
-  //   let navbar_tl = gsap.timeline({ paused: true });
-  //   navbar_tl.timeScale(3);
-  //   navbar_tl.reverse();
-
-  //   const body = document.getElementById("body");
-  //   const menuContent = body.querySelectorAll(".menu-content"); // Returns a NodeList
-
-  //   console.log(menuContent); // To check what elements are being selected
-
-  //   // Iterate over each element in the NodeList and set styles
-  //   if (menuContent.length > 0) {
-  //     menuContent.forEach((menuItem) => {
-  //       menuItem.style.zIndex = "auto";
-  //       menuItem.style.top = "-373px";
-  //       menuItem.style.opacity = "0";
-  //     });
-  //   } else {
-  //     console.error("Element '.menu-content' not found");
-  //   }
-
-  //   body.style.overflow = "";
-
-  //   return () => {
-  //     if (menuContent.length > 0) {
-  //       menuContent.forEach((menuItem) => {
-  //         menuItem.style.zIndex = 9;
-  //         menuItem.style.top = 0;
-  //         menuItem.style.opacity = 1;
-  //       });
-  //       body.style.overflow = "hidden";
-  //     }
-  //   };
-  // }, []);
+ 
 
   return (
     <>

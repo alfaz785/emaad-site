@@ -16,7 +16,7 @@ const OurPlatform = () => {
           <div className="our-platforms-main">
             <div className="title" id="platforms">
               <h3 id="our-title">
-                Our
+                Our&nbsp;
                 <span
                   style={{
                     background:

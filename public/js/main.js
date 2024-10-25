@@ -134,55 +134,55 @@
 // gwoth design end
 
 // border-imagegr
-gsap.to(".border-bottom img", {
-  duration: 3,
-  delay: 1.5,
-  rotate: 360,
-  scale: 0.3,
-  //   rotate: 260,
-  repeat: -1,
-  yoyo: true,
-});
+// gsap.to(".border-bottom img", {
+//   duration: 3,
+//   delay: 1.5,
+//   rotate: 360,
+//   scale: 0.3,
+//   //   rotate: 260,
+//   repeat: -1,
+//   yoyo: true,
+// });
 
 // ============= rain drop  animation============
 
-const rainContainer = document.querySelector(".rain-container");
-const background = ["aqua", "red", "limegreen", "white", "yellow"];
+// const rainContainer = document.querySelector(".rain-container");
+// const background = ["aqua", "red", "limegreen", "white", "yellow"];
 
-const amount = 10;
-let i = 0;
+// const amount = 10;
+// let i = 0;
 
-if (rainContainer) {
-  while (i < amount) {
-    // Creating an Element
-    const drop = document.createElement("i");
+// if (rainContainer) {
+//   while (i < amount) {
+//     // Creating an Element
+//     const drop = document.createElement("i");
 
-    // CSS Properties for raindrop
-    const raindropProperties = {
-      width: Math.random() + 1 + "px",
-      positionX: Math.floor(Math.random() * window.innerWidth) + "px",
-      delay: Math.random() * -50 + "s",
-      duration: Math.random() + 1 + 7 + "s",
-      bg:
-        background.length > 0
-          ? background[Math.floor(Math.random() * background.length)]
-          : "#3498db",
-      opacity: Math.random() + 0.1,
-    };
+//     // CSS Properties for raindrop
+//     const raindropProperties = {
+//       width: Math.random() + 1 + "px",
+//       positionX: Math.floor(Math.random() * window.innerWidth) + "px",
+//       delay: Math.random() * -50 + "s",
+//       duration: Math.random() + 1 + 7 + "s",
+//       bg:
+//         background.length > 0
+//           ? background[Math.floor(Math.random() * background.length)]
+//           : "#3498db",
+//       opacity: Math.random() + 0.1,
+//     };
 
-    // Setting Styles for raindrop
-    drop.style.width = raindropProperties.width;
-    drop.style.left = raindropProperties.positionX;
-    drop.style.animationDelay = raindropProperties.delay;
-    drop.style.animationDuration = raindropProperties.duration;
-    drop.style.background = raindropProperties.bg;
-    drop.style.opacity = raindropProperties.opacity;
+//     // Setting Styles for raindrop
+//     drop.style.width = raindropProperties.width;
+//     drop.style.left = raindropProperties.positionX;
+//     drop.style.animationDelay = raindropProperties.delay;
+//     drop.style.animationDuration = raindropProperties.duration;
+//     drop.style.background = raindropProperties.bg;
+//     drop.style.opacity = raindropProperties.opacity;
 
-    // Appending the raindrop to the raindrop container
-    rainContainer.appendChild(drop);
-    i++;
-  }
-}
+//     // Appending the raindrop to the raindrop container
+//     rainContainer.appendChild(drop);
+//     i++;
+//   }
+// }
 // marque scroll move
 // function marqueAnimation() {
 //   window.addEventListener("wheel", function (dets) {
@@ -560,48 +560,48 @@ if (rainContainer) {
 // why choose us start Paragraph End
 // Awesome  Projects section start
 
-var portfolio_slider = new Swiper(".portfolio__slider-2", {
-  slidesPerView: 1,
-  spaceBetween: 0,
-  effect: "fade",
-  speed: 1500,
-  loop: true,
-  autoplay: {
-    delay: 5000,
-    disableOnInteraction: false,
-  },
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-    renderBullet: function (i, className) {
-      return `
-        <button class="${className}">
-          <svg class="circle-progress"><circle class="circle-origin" r="24.5" cx="25" cy="25"></circle></svg><span></span>
-        </button>
-      `;
-    },
-  },
-});
+// var portfolio_slider = new Swiper(".portfolio__slider-2", {
+//   slidesPerView: 1,
+//   spaceBetween: 0,
+//   effect: "fade",
+//   speed: 1500,
+//   loop: true,
+//   autoplay: {
+//     delay: 5000,
+//     disableOnInteraction: false,
+//   },
+//   pagination: {
+//     el: ".swiper-pagination",
+//     clickable: true,
+//     renderBullet: function (i, className) {
+//       return `
+//         <button class="${className}">
+//           <svg class="circle-progress"><circle class="circle-origin" r="24.5" cx="25" cy="25"></circle></svg><span></span>
+//         </button>
+//       `;
+//     },
+//   },
+// });
 
-var portfolio_project_thumbs = new Swiper(".portfolio__project-thumbs", {
-  loop: true,
-  spaceBetween: 0,
-  slidesPerView: 1,
-  freeMode: true,
-  watchSlidesProgress: true,
-  allowTouchMove: false,
-});
-var portfolio_project = new Swiper(".portfolio__project-slider", {
-  loop: true,
-  spaceBetween: 10,
-  navigation: {
-    nextEl: ".pp-next",
-    prevEl: ".pp-prev",
-  },
-  thumbs: {
-    swiper: portfolio_project_thumbs,
-  },
-});
+// var portfolio_project_thumbs = new Swiper(".portfolio__project-thumbs", {
+//   loop: true,
+//   spaceBetween: 0,
+//   slidesPerView: 1,
+//   freeMode: true,
+//   watchSlidesProgress: true,
+//   allowTouchMove: false,
+// });
+// var portfolio_project = new Swiper(".portfolio__project-slider", {
+//   loop: true,
+//   spaceBetween: 10,
+//   navigation: {
+//     nextEl: ".pp-next",
+//     prevEl: ".pp-prev",
+//   },
+//   thumbs: {
+//     swiper: portfolio_project_thumbs,
+//   },
+// });
 // awesome section title animation start
 
 // document.addEventListener("DOMContentLoaded", () => {
@@ -724,12 +724,12 @@ var portfolio_project = new Swiper(".portfolio__project-slider", {
 // ======== wc-btn-primary Magnetic Button Hover Effect with gsap end
 // == Customers EXperiences SECTION IMAGE=======
 
-gsap.to(".experiences", {
-  duration: 5,
-  rotate: 360,
-  repeat: -1,
-  ease: "linear",
-});
+// gsap.to(".experiences", {
+//   duration: 5,
+//   rotate: 360,
+//   repeat: -1,
+//   ease: "linear",
+// });
 
 // == Customers EXperiences SECTION IMAGE END =======
 // Customers EXperiences Section para start
@@ -1299,7 +1299,7 @@ gsap.to(".experiences", {
 // ===unlock section tabs list animation start===
 // /*========process section start ======== */
 
-gsap.registerPlugin(ScrollTrigger);
+// gsap.registerPlugin(ScrollTrigger);
 
 // function setupAnimations() {
 //   gsap.to(".img-holder", {
@@ -1908,49 +1908,49 @@ gsap.registerPlugin(ScrollTrigger);
 // // OUR TEAM PAGE TITLE END
 // OUR TEAM PAGE TABS
 
-function openTabOne(evt, tabName) {
-  var i, tabcontent, tablinks;
+// function openTabOne(evt, tabName) {
+//   var i, tabcontent, tablinks;
 
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
+//   tabcontent = document.getElementsByClassName("tabcontent");
+//   for (i = 0; i < tabcontent.length; i++) {
+//     tabcontent[i].style.display = "none";
+//   }
 
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
+//   tablinks = document.getElementsByClassName("tablink");
+//   for (i = 0; i < tablinks.length; i++) {
+//     tablinks[i].className = tablinks[i].className.replace(" active", "");
+//   }
 
-  document.getElementById(tabName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
+//   document.getElementById(tabName).style.display = "block";
+//   evt.currentTarget.className += " active";
+// }
 
-document?.getElementsByClassName("tablink")[0]?.click();
+// document?.getElementsByClassName("tablink")[0]?.click();
 
-function openModal(element) {
-  var modal = document.getElementById("modal");
-  var modalImg = document.getElementById("modalImage");
-  var modalVideo = document.getElementById("modalVideo");
+// function openModal(element) {
+//   var modal = document.getElementById("modal");
+//   var modalImg = document.getElementById("modalImage");
+//   var modalVideo = document.getElementById("modalVideo");
 
-  if (element.tagName === "IMG") {
-    modalImg.src = element.src;
-    modalImg.style.display = "block";
-    modalVideo.style.display = "none";
-  } else if (element.tagName === "VIDEO") {
-    modalVideo.src = element.querySelector("source").src;
-    modalVideo.style.display = "block";
-    modalImg.style.display = "none";
-  }
+//   if (element.tagName === "IMG") {
+//     modalImg.src = element.src;
+//     modalImg.style.display = "block";
+//     modalVideo.style.display = "none";
+//   } else if (element.tagName === "VIDEO") {
+//     modalVideo.src = element.querySelector("source").src;
+//     modalVideo.style.display = "block";
+//     modalImg.style.display = "none";
+//   }
 
-  modal.style.display = "block";
-  document.body.classList.add("no-scroll");
-}
+//   modal.style.display = "block";
+//   document.body.classList.add("no-scroll");
+// }
 
-function closeModal() {
-  var modal = document.getElementById("modal");
-  modal.style.display = "none";
-  document.body.classList.remove("no-scroll");
-}
+// function closeModal() {
+//   var modal = document.getElementById("modal");
+//   modal.style.display = "none";
+//   document.body.classList.remove("no-scroll");
+// }
 
 // ABOUT PAGE -----------------
 
@@ -2061,28 +2061,28 @@ function closeModal() {
 //   );
 // });
 
-var swiper = new Swiper(".slide-content", {
-  slidesPerView: 3,
-  spaceBetween: 13,
-  // loop: true,
+// var swiper = new Swiper(".slide-content", {
+//   slidesPerView: 3,
+//   spaceBetween: 13,
+//   // loop: true,
 
-  navigation: {
-    nextEl: ".swiper-button-prev-discover",
-    prevEl: ".swiper-button-next-discover",
-  },
+//   navigation: {
+//     nextEl: ".swiper-button-prev-discover",
+//     prevEl: ".swiper-button-next-discover",
+//   },
 
-  breakpoints: {
-    0: {
-      slidesPerView: 1,
-    },
-    768: {
-      slidesPerView: 2,
-    },
-    992: {
-      slidesPerView: 3,
-    },
-  },
-});
+//   breakpoints: {
+//     0: {
+//       slidesPerView: 1,
+//     },
+//     768: {
+//       slidesPerView: 2,
+//     },
+//     992: {
+//       slidesPerView: 3,
+//     },
+//   },
+// });
 
 // PRIVACY POLICY ------------------
 
@@ -2138,67 +2138,67 @@ var swiper = new Swiper(".slide-content", {
 //   typewriterEffect(paragraph);
 // });
 
-const options = {
-  root: null, // Use the viewport as the root
-  rootMargin: "0px",
-  threshold: 0.1, // Trigger when 10% of the element is visible
-};
+// const options = {
+//   root: null, // Use the viewport as the root
+//   rootMargin: "0px",
+//   threshold: 0.1, // Trigger when 10% of the element is visible
+// };
 
-const callback = (entries, observer) => {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add("visible");
-      observer.unobserve(entry.target); // Optional: Stop observing after animation
-    }
-  });
-};
-// bulk sms accordian text
-const observer = new IntersectionObserver(callback, options);
-const targets = document.querySelectorAll(".privacy-title");
+// const callback = (entries, observer) => {
+//   entries.forEach((entry) => {
+//     if (entry.isIntersecting) {
+//       entry.target.classList.add("visible");
+//       observer.unobserve(entry.target); // Optional: Stop observing after animation
+//     }
+//   });
+// };
+// // bulk sms accordian text
+// const observer = new IntersectionObserver(callback, options);
+// const targets = document.querySelectorAll(".privacy-title");
 
-targets.forEach((target) => {
-  observer.observe(target);
-});
+// targets.forEach((target) => {
+//   observer.observe(target);
+// });
 
 // TERM & CONDITION  --------------------------------
-gsap.registerPlugin(ScrollTrigger);
+// gsap.registerPlugin(ScrollTrigger);
 
-gsap.utils.toArray(".blur-text").forEach(function (element) {
-  gsap.to(element, {
-    scrollTrigger: {
-      trigger: element,
-      start: "top 80%",
-      end: "bottom 20%",
-      scrub: true,
-    },
-    filter: "blur(0px)",
-    duration: 1,
-  });
-});
+// gsap.utils.toArray(".blur-text").forEach(function (element) {
+//   gsap.to(element, {
+//     scrollTrigger: {
+//       trigger: element,
+//       start: "top 80%",
+//       end: "bottom 20%",
+//       scrub: true,
+//     },
+//     filter: "blur(0px)",
+//     duration: 1,
+//   });
+// });
 
-gsap.registerPlugin(ScrollTrigger);
+// gsap.registerPlugin(ScrollTrigger);
 
-gsap.utils.toArray(".section-title").forEach(function (sectionTitle) {
-  gsap.to(sectionTitle, {
-    scrollTrigger: {
-      trigger: sectionTitle,
-      start: "top 80%",
-      end: "bottom 20%",
-      scrub: true,
-    },
-    x: 0,
-    opacity: 1,
-    duration: 1.5,
-    ease: "power2.out",
-  });
-});
+// gsap.utils.toArray(".section-title").forEach(function (sectionTitle) {
+//   gsap.to(sectionTitle, {
+//     scrollTrigger: {
+//       trigger: sectionTitle,
+//       start: "top 80%",
+//       end: "bottom 20%",
+//       scrub: true,
+//     },
+//     x: 0,
+//     opacity: 1,
+//     duration: 1.5,
+//     ease: "power2.out",
+//   });
+// });
 
 // WEB-DESIGN PAGE ----------------------
 
-const typing = document.getElementById("vision-typing-text");
-const uiTextContents = ["Vision", "web design"];
-const uiTextClassStart = '<span class="vision-text">';
-const uiTextClassEnd = "</span>";
+// const typing = document.getElementById("vision-typing-text");
+// const uiTextContents = ["Vision", "web design"];
+// const uiTextClassStart = '<span class="vision-text">';
+// const uiTextClassEnd = "</span>";
 
 // function textTypingEffect(ui_text, type, contents, i = 0, contentIndex = 0) {
 //   if (i < type.length) {
@@ -2241,38 +2241,38 @@ const uiTextClassEnd = "</span>";
 // const modifiedText = "Unveil Your — with Our — Solutions ";
 // textTypingEffect(typing, modifiedText, uiTextContents);
 
-const paragraph = document?.querySelector(".ui-to-info p");
-if (paragraph) {
-  const words = paragraph.innerHTML
-    .split(" ")
-    .map((word) => `<span>${word}</span>`)
-    .join(" ");
-  paragraph.innerHTML = words;
-  const spans = paragraph.querySelectorAll("span");
-  const tl = gsap.timeline({ paused: true });
-  tl.from(spans, {
-    duration: 1,
-    opacity: 0,
-    y: 20,
-    stagger: 0.1,
-    ease: "power1.out",
-  });
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          tl.play();
-          observer.unobserve(entry.target);
-        }
-      });
-    },
-    { threshold: 0.1 },
-  );
-  const section = document.querySelector(".ui-to-info");
-  if (section) {
-    observer.observe(section);
-  }
-}
+// const paragraph = document?.querySelector(".ui-to-info p");
+// if (paragraph) {
+//   const words = paragraph.innerHTML
+//     .split(" ")
+//     .map((word) => `<span>${word}</span>`)
+//     .join(" ");
+//   paragraph.innerHTML = words;
+//   const spans = paragraph.querySelectorAll("span");
+//   const tl = gsap.timeline({ paused: true });
+//   tl.from(spans, {
+//     duration: 1,
+//     opacity: 0,
+//     y: 20,
+//     stagger: 0.1,
+//     ease: "power1.out",
+//   });
+//   const observer = new IntersectionObserver(
+//     (entries) => {
+//       entries.forEach((entry) => {
+//         if (entry.isIntersecting) {
+//           tl.play();
+//           observer.unobserve(entry.target);
+//         }
+//       });
+//     },
+//     { threshold: 0.1 },
+//   );
+//   const section = document.querySelector(".ui-to-info");
+//   if (section) {
+//     observer.observe(section);
+//   }
+// }
 // function showContent(contentId) {
 //   // Hide all contents
 //   var contents = document.querySelectorAll(".process-tab-design-content");
@@ -2325,66 +2325,66 @@ if (paragraph) {
 
 // APP DEVELOPMENT --------------------------
 
-gsap.to(".mobile-star", {
-  duration: 2.5,
-  delay: 1,
-  rotate: 360,
-  repeat: -1,
-  yoyo: true,
-});
+// gsap.to(".mobile-star", {
+//   duration: 2.5,
+//   delay: 1,
+//   rotate: 360,
+//   repeat: -1,
+//   yoyo: true,
+// });
 
-gsap.from(".go-mobile", {
-  duration: 1,
-  y: 50,
-  opacity: 0,
-  ease: "power3.out",
-});
+// gsap.from(".go-mobile", {
+//   duration: 1,
+//   y: 50,
+//   opacity: 0,
+//   ease: "power3.out",
+// });
 
-function splitTextToCharsWithSpaces(element) {
-  if (element) {
-    const words = element.innerText.split(" ");
-    const charactersWithSpaces = words
-      .map((word) => word.split("").concat("&nbsp;"))
-      .flat();
-    element.innerHTML = charactersWithSpaces
-      .map((char) => `<span class="char">${char}</span>`)
-      .join("");
-  }
-}
+// function splitTextToCharsWithSpaces(element) {
+//   if (element) {
+//     const words = element.innerText.split(" ");
+//     const charactersWithSpaces = words
+//       .map((word) => word.split("").concat("&nbsp;"))
+//       .flat();
+//     element.innerHTML = charactersWithSpaces
+//       .map((char) => `<span class="char">${char}</span>`)
+//       .join("");
+//   }
+// }
 
-const text2 = document.getElementById("our-title");
-splitTextToCharsWithSpaces(text2);
+// const text2 = document.getElementById("our-title");
+// splitTextToCharsWithSpaces(text2);
 
-const chars2 = document.querySelectorAll("#our-title .char");
-if (chars2) {
-  for (let index = 4; index <= 13; index++) {
-    chars2[index]?.setAttribute(
-      "style",
-      `
-            background: linear-gradient(104.02deg, #2d9cdb 0%, #2dc97a 88.31%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-          `,
-    );
-  }
-  gsap.registerPlugin(ScrollTrigger);
+// const chars2 = document.querySelectorAll("#our-title .char");
+// if (chars2) {
+//   for (let index = 4; index <= 13; index++) {
+//     chars2[index]?.setAttribute(
+//       "style",
+//       `
+//             background: linear-gradient(104.02deg, #2d9cdb 0%, #2dc97a 88.31%);
+//             -webkit-background-clip: text;
+//             -webkit-text-fill-color: transparent;
+//           `,
+//     );
+//   }
+//   gsap.registerPlugin(ScrollTrigger);
 
-  const tl2 = gsap.timeline({
-    scrollTrigger: {
-      trigger: "#platforms",
-      start: "top 80%",
-      toggleActions: "play none none none",
-    },
-  });
+//   const tl2 = gsap.timeline({
+//     scrollTrigger: {
+//       trigger: "#platforms",
+//       start: "top 80%",
+//       toggleActions: "play none none none",
+//     },
+//   });
 
-  tl2.from(chars2, {
-    duration: 1,
-    opacity: 0,
-    y: 50,
-    ease: "elastic.out(1, 0.5)",
-    stagger: 0.05,
-  });
-}
+//   tl2.from(chars2, {
+//     duration: 1,
+//     opacity: 0,
+//     y: 50,
+//     ease: "elastic.out(1, 0.5)",
+//     stagger: 0.05,
+//   });
+// }
 
 //  let paragraphNew = document.querySelector(".title-para");
 
@@ -2423,146 +2423,146 @@ if (chars2) {
 //   observer?.observe(section);
 // }
 
-const tabTitles = document.querySelectorAll(".tab-pane h5.unlock-sub-title");
+// const tabTitles = document.querySelectorAll(".tab-pane h5.unlock-sub-title");
 
-tabTitles.forEach((tabTitle) => {
-  const words = tabTitle.textContent.trim().split(/\s+/);
-  const newHTML = words
-    .map((word) => `<div class='animated-char'>&nbsp;${word}</div>`)
-    .join("");
-  tabTitle.innerHTML = newHTML;
+// tabTitles.forEach((tabTitle) => {
+//   const words = tabTitle.textContent.trim().split(/\s+/);
+//   const newHTML = words
+//     .map((word) => `<div class='animated-char'>&nbsp;${word}</div>`)
+//     .join("");
+//   tabTitle.innerHTML = newHTML;
 
-  const chars = tabTitle.querySelectorAll(".animated-char");
+//   const chars = tabTitle.querySelectorAll(".animated-char");
 
-  const tl = gsap.timeline({ paused: true });
+//   const tl = gsap.timeline({ paused: true });
 
-  tl.from(chars, {
-    duration: 1.5,
-    opacity: 0,
-    y: 90,
-    stagger: 0.03,
-    ease: "elastic(1.2, 0.5)",
-  });
+//   tl.from(chars, {
+//     duration: 1.5,
+//     opacity: 0,
+//     y: 90,
+//     stagger: 0.03,
+//     ease: "elastic(1.2, 0.5)",
+//   });
 
-  // Intersection Observer to trigger animation when tab title is in view
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          tl.play(); // Play animation when in view
-          observer.unobserve(entry.target);
-        }
-      });
-    },
-    { threshold: 0.1 },
-  );
+//   // Intersection Observer to trigger animation when tab title is in view
+//   const observer = new IntersectionObserver(
+//     (entries) => {
+//       entries.forEach((entry) => {
+//         if (entry.isIntersecting) {
+//           tl.play(); // Play animation when in view
+//           observer.unobserve(entry.target);
+//         }
+//       });
+//     },
+//     { threshold: 0.1 },
+//   );
 
-  observer?.observe(tabTitle);
-});
+//   observer?.observe(tabTitle);
+// });
 
-const servicesLists = document.querySelectorAll(".services-list");
+// const servicesLists = document.querySelectorAll(".services-list");
 
-const observerApp = new IntersectionObserver(
-  (entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        gsap.to(entry.target.querySelectorAll("li"), {
-          duration: 0.8,
-          opacity: 1,
-          y: 0,
-          ease: "bounce.out",
-          stagger: 0.2,
-          delay: 1,
-        });
-        observer.unobserve(entry.target);
-      }
-    });
-  },
-  {
-    threshold: 0.1,
-  },
-);
+// const observerApp = new IntersectionObserver(
+//   (entries) => {
+//     entries.forEach((entry) => {
+//       if (entry.isIntersecting) {
+//         gsap.to(entry.target.querySelectorAll("li"), {
+//           duration: 0.8,
+//           opacity: 1,
+//           y: 0,
+//           ease: "bounce.out",
+//           stagger: 0.2,
+//           delay: 1,
+//         });
+//         observer.unobserve(entry.target);
+//       }
+//     });
+//   },
+//   {
+//     threshold: 0.1,
+//   },
+// );
 
-servicesLists.forEach((list) => observerApp?.observe(list));
+// servicesLists.forEach((list) => observerApp?.observe(list));
 
-// Split the text into individual characters for the first animation
-const text1 = document.getElementById("brands");
-const characters1 = text1?.innerText.split("");
-if (characters1 && text1) {
-  text1.innerHTML = characters1
-    .map((char, index) => {
-      if (char === " ") {
-        return `<span class="char">&nbsp;</span>`;
-      }
-      return `<span class="char">${char}</span>`;
-    })
-    .join("");
-}
+// // Split the text into individual characters for the first animation
+// const text1 = document.getElementById("brands");
+// const characters1 = text1?.innerText.split("");
+// if (characters1 && text1) {
+//   text1.innerHTML = characters1
+//     .map((char, index) => {
+//       if (char === " ") {
+//         return `<span class="char">&nbsp;</span>`;
+//       }
+//       return `<span class="char">${char}</span>`;
+//     })
+//     .join("");
+// }
 
-// Get all the character elements for the first animation
-const chars1 = document.querySelectorAll("#brands .char");
+// // Get all the character elements for the first animation
+// const chars1 = document.querySelectorAll("#brands .char");
 
-if (chars1) {
-  // Register the ScrollTrigger plugin
-  gsap.registerPlugin(ScrollTrigger);
+// if (chars1) {
+//   // Register the ScrollTrigger plugin
+//   gsap.registerPlugin(ScrollTrigger);
 
-  // Create a timeline for the first animation
-  const tl1 = gsap.timeline({
-    scrollTrigger: {
-      trigger: "#breathing",
-      start: "top 80%",
-      toggleActions: "play none none none",
-    },
-  });
+//   // Create a timeline for the first animation
+//   const tl1 = gsap.timeline({
+//     scrollTrigger: {
+//       trigger: "#breathing",
+//       start: "top 80%",
+//       toggleActions: "play none none none",
+//     },
+//   });
 
-  // Animate each character with a wave effect for the first animation
-  tl1.from(chars1, {
-    duration: 1,
-    opacity: 0,
-    y: 50,
-    ease: "elastic.out(1, 0.5)",
-    stagger: 0.05,
-  });
-}
+//   // Animate each character with a wave effect for the first animation
+//   tl1.from(chars1, {
+//     duration: 1,
+//     opacity: 0,
+//     y: 50,
+//     ease: "elastic.out(1, 0.5)",
+//     stagger: 0.05,
+//   });
+// }
 
 // BULK-SMS-EMAIL-SERVICE ----------------------
 
 // BODY CURSRO FOR WHOLE PAGE --------------------------
 
-var cursor = document.querySelector(".cursor"),
-  cursorScale = document.querySelectorAll(".cursor-scale"),
-  mousX = 0,
-  mouseY = 0;
+// var cursor = document.querySelector(".cursor"),
+//   cursorScale = document.querySelectorAll(".cursor-scale"),
+//   mousX = 0,
+//   mouseY = 0;
 
-gsap.to({}, 0.016, {
-  repeat: -1,
+// gsap.to({}, 0.016, {
+//   repeat: -1,
 
-  onRepeat: function () {
-    gsap.set(cursor, {
-      css: {
-        left: mousX,
-        top: mouseY,
-      },
-    });
-  },
-});
-window.addEventListener("mousemove", function (e) {
-  mousX = e.clientX;
-  mouseY = e.clientY;
-});
-cursorScale.forEach((link) => {
-  link.addEventListener("mouseleave", () => {
-    cursor.classList.remove("cursor-main");
-    cursor.classList.remove("cursor-small");
-  });
-  link.addEventListener("mousemove", () => {
-    cursor.classList.add("cursor-main");
-    if (link.classList.contains("small")) {
-      cursor.classList.remove("cursor-main");
-      cursor.classList.add("cursor-small");
-    }
-  });
-});
+//   onRepeat: function () {
+//     gsap.set(cursor, {
+//       css: {
+//         left: mousX,
+//         top: mouseY,
+//       },
+//     });
+//   },
+// });
+// window.addEventListener("mousemove", function (e) {
+//   mousX = e.clientX;
+//   mouseY = e.clientY;
+// });
+// cursorScale.forEach((link) => {
+//   link.addEventListener("mouseleave", () => {
+//     cursor.classList.remove("cursor-main");
+//     cursor.classList.remove("cursor-small");
+//   });
+//   link.addEventListener("mousemove", () => {
+//     cursor.classList.add("cursor-main");
+//     if (link.classList.contains("small")) {
+//       cursor.classList.remove("cursor-main");
+//       cursor.classList.add("cursor-small");
+//     }
+//   });
+// });
 
 // body cursor end
 

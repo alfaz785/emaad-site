@@ -32,7 +32,29 @@ const Information = () => {
       delay: 1,
     });
   }, []);
+  useEffect(() => {
+    const options = {
+      root: null, // Use the viewport as the root
+      rootMargin: "0px",
+      threshold: 0.1, // Trigger when 10% of the element is visible
+    };
 
+    const callback = (entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+          observer.unobserve(entry.target); // Optional: Stop observing after animation
+        }
+      });
+    };
+    // bulk sms accordian text
+    const observer = new IntersectionObserver(callback, options);
+    const targets = document.querySelectorAll(".privacy-title");
+
+    targets.forEach((target) => {
+      observer.observe(target);
+    });
+  }, []);
   return (
     <>
       <div className="informatin-sharing-section">

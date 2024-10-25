@@ -13,118 +13,30 @@ import { ScrollTrigger } from "gsap/all";
 
 const DeliveriHome = () => {
   useEffect(() => {
-    const deliveringSection = document.querySelector(".innovation");
-
-    // Create a GSAP timeline with ScrollTrigger
-    const tl = gsap.timeline({
-      scrollTrigger: {
-        trigger: deliveringSection,
-        start: "top top", // Start when section top hits viewport top
-        end: "bottom bottom", // End when section bottom leaves viewport bottom
-        scrub: true, // Smooth scrubbing
-        pin: true, // Pin the entire section during scroll
-      },
-    });
-
-    // Card and text animation sequence
-    tl.to(".text", {
-      top: "2%",
-      duration: 1,
-    })
-      .to(
-        "#card-one",
-        {
-          top: "33%",
-          duration: 1,
+    if (typeof window !== "undefined") {
+      gsap.registerPlugin(ScrollTrigger);
+      let tl = gsap.timeline({
+        scrollTrigger: {
+          trigger: "#delivering-main",
+          start: "0% 10%",
+          end: "90% 50%",
+          scrub: 2,
+          pin: true,
         },
-        "-=0.5",
-      ) // overlap animations
-      .to(
-        "#card-two",
-        {
-          top: "130%",
-          duration: 1,
-        },
-        "-=0.5",
-      )
-      .to(
-        "#card-two",
-        {
-          top: "35%",
-          duration: 1,
-        },
-        "b",
-      )
-      .to(
-        "#card-one",
-        {
-          width: "65%",
-          duration: 1,
-        },
-        "b",
-      )
-      .to(
-        "#card-three",
-        {
-          top: "130%",
-          duration: 1,
-        },
-        "b",
-      )
-      .to(
-        "#card-three",
-        {
-          top: "38%",
-          duration: 1,
-        },
-        "c",
-      )
-      .to(
-        "#card-two",
-        {
-          width: "70%",
-          duration: 1,
-        },
-        "c",
-      )
-      .to(
-        "#card-four",
-        {
-          top: "130%",
-          duration: 1,
-        },
-        "c",
-      )
-      .to(
-        "#card-four",
-        {
-          top: "41%",
-          duration: 1,
-        },
-        "d",
-      )
-      .to(
-        "#card-three",
-        {
-          width: "75%",
-          duration: 1,
-        },
-        "d",
-      )
-      .to(
-        "#card-four",
-        {
-          width: "80%",
-          duration: 1,
-        },
-        "e",
-      );
-
-    // Cleanup function
-    return () => {
-      tl.kill(); // Properly kill the GSAP timeline on cleanup
-      ScrollTrigger.getAll().forEach((trigger) => trigger.kill()); // Kill all ScrollTriggers if needed
-    };
+      });
+      tl.to(".text", { top: "-3%" }, "a")
+        .to("#card-one", { top: "30%" }, "a")
+        .to("#card-two", { top: "130%" }, "a")
+        .to("#card-two", { top: "32%" }, "b")
+        .to("#card-one", { width: "65%" }, "b")
+        .to("#card-three", { top: "130%" }, "b")
+        .to("#card-three", { top: "34%" }, "c")
+        .to("#card-two", { width: "70%" }, "c")
+        .to("#card-four", { top: "130%" }, "c")
+        .to("#card-four", { top: "37%" }, "d")
+        .to("#card-three", { width: "75%" }, "d")
+        .to("#card-four", { width: "80%" }, "e");
+    }
   }, []);
 
   return (

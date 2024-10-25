@@ -15,6 +15,7 @@ const DiscoverSwiper = dynamic(() => import("@/component/DiscoverSwiper"), {
 const AboutUs = () => {
   return (
     <>
+    
       {/* <!-- lets-get-to start --> */}
       <LetStart />
 

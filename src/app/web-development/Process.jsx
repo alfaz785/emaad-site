@@ -4,6 +4,7 @@ import Image from "next/image";
 import ulStar from "../../assets/images/ul-star.svg";
 import ourProcessImg from "../../assets/images/Our-process-img.svg";
 import gsap from "gsap";
+import { ScrollTrigger } from "gsap/all";
 
 const Process = () => {
   useEffect(() => {

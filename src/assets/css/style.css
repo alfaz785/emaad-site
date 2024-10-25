@@ -902,7 +902,6 @@ body {
   display: inline-flex;
   align-items: center;
   background: linear-gradient(104.02deg, #2d9cdb 0%, #2dc97a 88.31%);
-  color: var(--white-color) !important;
   border: none;
   border-radius: 50px;
   padding: 18px 18px;
@@ -911,13 +910,24 @@ body {
   cursor: pointer;
   border: 2px solid var(--black-color);
   text-decoration: none;
-  transition: 0.5s;
+  transition: background 1s ease-in-out, color 1s ease-in-out,
+    border-color 1s ease-in-out;
+  border: 2px solid transparent;
   gap: 7px;
 }
-.grow-contact-button:hover {
-  border: 2px solid #2dc97a;
-  background: none;
+.grow-contact-button:focus,
+.grow-contact-button:active {
+  outline: none;
+  box-shadow: none;
 }
+.grow-contact-button:hover {
+  background: linear-gradient(104.02deg, #2d9cdb 0%, #2dc97a 88.31%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  border: 2px solid #2dc97a;
+}
+
 .growth-contact-button {
   display: flex;
   justify-content: center;
@@ -3147,6 +3157,7 @@ body {
   background-repeat: no-repeat;
   background-position: calc(100% - 70px) center;
   border: 1px solid var(--dark-grey-color);
+  background-size: contain;
 }
 
 .trusted-hero-section .hero-heading {

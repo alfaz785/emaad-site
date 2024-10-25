@@ -9,6 +9,7 @@ import moneyImg from "../assets/images/money.png";
 import Image from "next/image";
 import { wcButtonFC } from "../../commFun";
 import Link from "next/link";
+import {gsap} from "gsap";
 
 const ChooseUsHome = () => {
   useEffect(() => {
