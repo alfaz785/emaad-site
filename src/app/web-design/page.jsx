@@ -21,7 +21,7 @@ const WebDesign = () => {
       <Expertise />
 
       {/* <!-- Expertise-why-choose-design section end--> */}
-      <ProcessImg mainImg={ourProcessImg} />
+      {/* <ProcessImg mainImg={ourProcessImg} /> */}
 
       <Process />
 

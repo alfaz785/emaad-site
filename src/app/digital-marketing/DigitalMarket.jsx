@@ -39,6 +39,57 @@ const DigitalMarket = () => {
       }
     });
   }, []);
+  useEffect(() => {
+    const paragraph = document?.querySelector(".why-choose-digital-text p");
+    if (paragraph) {
+      const words = paragraph.innerHTML
+        .split(" ")
+        .map((word) => `<span>${word}</span>`)
+        .join(" ");
+      paragraph.innerHTML = words;
+      const spans = paragraph.querySelectorAll("span");
+      const tl = gsap.timeline({ paused: true });
+      tl.from(spans, {
+        duration: 1,
+        opacity: 0,
+        y: 20,
+        stagger: 0.1,
+        ease: "power1.out",
+      });
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              tl.play();
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.1 },
+      );
+      const section = document.querySelector(".why-choose-digital-text");
+      if (section) {
+        observer.observe(section);
+      }
+    }
+  }, []);
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+
+    // Create the animation for the card
+    gsap.from(".digital-marketing-card", {
+      scrollTrigger: {
+        trigger: ".digital-marketing-card",
+        start: "top 80%",
+        end: "bottom 20%",
+        toggleActions: "play none none none",
+      },
+      duration: 1,
+      opacity: 0,
+      y: 50,
+      ease: "power2.out",
+    });
+  }, []);
   return (
     <>
       <div className="why-choose-marketing-section">
@@ -113,7 +164,6 @@ const DigitalMarket = () => {
                   </div>
                 </div>
               </div>
-
               <div className="col-lg-4 col-md-6 mt_50">
                 <div className="digital-marketing-card">
                   <div className="digigtal-marketing-card-desc">

@@ -4,6 +4,7 @@ import hover2Img from "../../assets/images/hover-2-image.png";
 import hoverImg from "../../assets/images/hover-images.png";
 import Image from "next/image";
 import { textTypingEffect } from "../../../commFun";
+import gsap from "gsap";
 
 const UiService = () => {
   useEffect(() => {
@@ -30,6 +31,22 @@ const UiService = () => {
         typing.innerHTML = ""; // Clean up the text
       }
     };
+  }, []);
+
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.from(".Benefits-title h4", {
+      opacity: 0,
+      duration: 1,
+      y: 50,
+      scrollTrigger: {
+        trigger: ".Benefits-title h4",
+        start: "top 80%",
+        end: "bottom 80%",
+        toggleActions: "play none none reverse",
+      },
+    });
   }, []);
   return (
     <>

@@ -91,6 +91,44 @@ const Expertise = () => {
       },
     });
   }, []);
+  useEffect(() => {
+    const paragraph = document.querySelector(".expertise-choose-text p");
+    if (paragraph) {
+      const words = paragraph.innerHTML
+        .split(" ")
+        .map((word) => `<span>${word}</span>`)
+        .join(" ");
+      paragraph.innerHTML = words;
+      const spans = paragraph.querySelectorAll("span");
+      const tl = gsap.timeline({ paused: true });
+      tl.from(spans, {
+        duration: 1,
+        opacity: 0,
+        y: 20,
+        stagger: 0.1,
+        ease: "power1.out",
+      });
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              tl.play();
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.1 },
+      );
+      const section = document.querySelector(".expertise-choose-text");
+      if (section) {
+        observer.observe(section);
+      } else {
+        console.error(".expertise-choose-text section not found.");
+      }
+    } else {
+      console.error(".expertise-choose-text p element not found.");
+    }
+  }, []);
   return (
     <>
       <div className="vision-why-choose-design container-fluid">
@@ -115,7 +153,12 @@ const Expertise = () => {
                 </div>
               </div>
               <div className="Expertise-and-Experience-card2">
-                <Image height={"100%"} width={"100%"} src={clientImg} alt="img" />
+                <Image
+                  height={"100%"}
+                  width={"100%"}
+                  src={clientImg}
+                  alt="img"
+                />
 
                 <div className="expertise-title2">
                   <h3>Expertise and Experience</h3>

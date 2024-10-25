@@ -455,30 +455,45 @@ export function emaadSectionFC() {
 }
 
 export function InformationPrivacyFC() {
+  gsap.registerPlugin(ScrollTrigger);
+
+  // Select the paragraphs
   const paragraphs = document.querySelectorAll(".information-titel p");
 
-  // Function to create a typewriter effect
-  function typewriterEffect(element) {
-    const text = element.textContent; // Get the text content
-    element.textContent = ""; // Clear the text for the typing effect
+  // Create a GSAP timeline
+  const tl = gsap.timeline({
+    scrollTrigger: {
+      trigger: paragraphs[0], // Trigger based on the first paragraph
+      start: "top 80%",
+      end: "bottom 20%",
+      toggleActions: "play none none none",
+    },
+  });
 
-    // Animate with GSAP's TextPlugin
-    gsap.to(element, {
-      text: text, // Animate the text back in
-      duration: text.length * 0.1, // Adjust duration for better typing effect
+  // Function to create typewriter effect
+  function typewriterEffect(element, delay = 0) {
+    const text = element.textContent;
+    element.textContent = "";
+    tl.to(element, {
+      text: text,
+      duration: text.length * 0.05,
       ease: "power2.out",
-      scrollTrigger: {
-        trigger: element,
-        start: "top 80%", // Start animation when element reaches 80% of viewport height
-        end: "bottom 20%", // End the animation when bottom of the element reaches 20%
-        toggleActions: "play none none none", // Only play on scroll trigger
-      },
+      delay: delay, // Optional delay before starting each animation
     });
   }
 
-  // Apply typewriter effect to each paragraph
-  paragraphs.forEach((paragraph) => {
-    typewriterEffect(paragraph);
+  // Apply the typewriter effect to both paragraphs in sequence
+  if (paragraphs.length > 1) {
+    typewriterEffect(paragraphs[0]); // Animate the first paragraph
+    typewriterEffect(paragraphs[1]); // Animate the second paragraph after the first
+  }
+
+  // Privacy image rotation animation
+  gsap.to("#rotateImg", {
+    rotation: 360,
+    duration: 5,
+    ease: "none",
+    repeat: -1,
   });
 }
 

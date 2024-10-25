@@ -18,6 +18,20 @@ const Information = () => {
       repeat: -1,
     });
   }, []);
+  useEffect(() => {
+    gsap.from(".privacy-text-policy p", {
+      scrollTrigger: {
+        trigger: ".digital-marketing-card",
+        start: "top 80%",
+        end: "bottom 20%",
+        toggleActions: "play none none none",
+      },
+      opacity: 0,
+      y: 30,
+      duration: 2.5,
+      delay: 1,
+    });
+  }, []);
 
   return (
     <>

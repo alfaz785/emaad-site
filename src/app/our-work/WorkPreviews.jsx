@@ -45,7 +45,7 @@ const WorkPreviews = () => {
         <div className="container">
           <div className="brilliant-previews-title">
             <h1>
-              Brilliant
+              Brilliant&nbsp;
               <span className="brilliant-bg-img">
                 Previews
                 <span className="brilliant-img">
@@ -83,7 +83,7 @@ const WorkPreviews = () => {
                   nextEl: ".swiper-button-next",
                 }}
                 modules={[Navigation]}
-                className="swiper-wrapper"
+                className="swiper-wrapper bg-swiper"
               >
                 <SwiperSlide>
                   <div className="swiper-slide web-img">

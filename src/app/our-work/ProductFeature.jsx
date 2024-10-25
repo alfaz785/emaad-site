@@ -3,11 +3,20 @@ import React, { useEffect } from "react";
 import featureImg from "../../assets/images/feature-img.png";
 import Image from "next/image";
 import { nextContent, prevContent, updateContent } from "../../../commFun";
+import gsap from "gsap";
 
 const ProductFeature = () => {
   useEffect(() => {
     updateContent();
   }, []);
+  useEffect(() => {
+    gsap.from(".product-text-imag", {
+      opacity: 0,
+      duration: 1,
+      y: 50,
+    });
+  }, []);
+
   return (
     <>
       <div className="product-swiper-title">

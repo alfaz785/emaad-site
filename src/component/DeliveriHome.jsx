@@ -119,12 +119,12 @@ const DeliveriHome = () => {
         },
         "e",
       );
+
+    // Cleanup function
     return () => {
-      // Clean up the ScrollTrigger instance when the component unmounts
-      tl.kill();
-      ScrollTrigger.kill(); // Clean up all ScrollTriggers
+      tl.kill(); // Properly kill the GSAP timeline on cleanup
+      ScrollTrigger.getAll().forEach((trigger) => trigger.kill()); // Kill all ScrollTriggers if needed
     };
-    F;
   }, []);
 
   return (

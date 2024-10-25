@@ -4,6 +4,34 @@ import Image from "next/image";
 import processImg from "../../assets/images/process-tab.svg";
 
 const Process = () => {
+  function showContent(contentId) {
+    // Hide all contents
+    var contents = document.querySelectorAll(".process-tab-design-content");
+    contents.forEach(function (content) {
+      content.classList.remove("show");
+    });
+
+    // Remove 'hide' class from all tabs
+    var tabs = document.querySelectorAll(".process-tab-design");
+    tabs.forEach(function (tab) {
+      tab.classList.remove("hide");
+    });
+
+    // Show the selected content
+    var content = document.getElementById(contentId);
+    if (content) {
+      content.classList.add("show");
+    }
+
+    // Add 'hide' class to the clicked tab
+    var clickedTab = document.querySelector(
+      "[onclick=\"showContent('" + contentId + "')\"]",
+    );
+    if (clickedTab) {
+      clickedTab.classList.add("hide");
+    }
+  }
+
   return (
     <>
       <div className="process-design">

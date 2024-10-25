@@ -301,7 +301,7 @@ body {
   transform: translateY(-100%);
 }
 .main-close-btn {
-  border-bottom: 1px solid #434C5E;
+  border-bottom: 1px solid #434c5e;
 }
 .main-logo {
   display: flex;
@@ -322,7 +322,7 @@ body {
   color: white;
   position: sticky;
   top: 0;
-  border-bottom: 1px solid #434C5E;
+  border-bottom: 1px solid #434c5e;
   background-color: var(--btn-color);
 }
 .nav-text {
@@ -395,10 +395,7 @@ body {
   z-index: 1;
   opacity: 0;
   visibility: hidden;
-  transition:
-    max-height 0.5s ease,
-    opacity 0.5s ease,
-    visibility 0.5s ease;
+  transition: max-height 0.5s ease, opacity 0.5s ease, visibility 0.5s ease;
 }
 .nav-text.said-drowpdown:hover .dropdown,
 .nav-text.said-drowpdown:focus .dropdown {
@@ -423,7 +420,7 @@ body {
 .dropdown .nav-drowpdown1 {
   font-size: 20px;
   line-height: 20px;
-  color: #D0D6E4;
+  color: #d0d6e4;
   font-family: "Syne-Regular";
 }
 .menu-drowp {
@@ -440,17 +437,41 @@ body {
 .SMN_effect-1 a:after {
   left: 50%;
   background: rgba(0, 0, 0, 0);
-  background: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.5) 100%);
-  background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.5) 100%);
-  background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.5) 100%);
+  background: -moz-linear-gradient(
+    left,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(0,0,0,0)', endColorstr='rgba(255,255,255,0.2)', GradientType=1);
 }
 .SMN_effect-1 a:before {
   right: 50%;
   background: rgba(255, 255, 255, 0.5);
-  background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
-  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
-  background: linear-gradient(to right, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+  background: -moz-linear-gradient(
+    left,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(255,255,255,0.2)', endColorstr='rgba(0,0,0,0)', GradientType=1);
 }
 .SMN_effect-1 .hover a:after,
@@ -503,10 +524,7 @@ body {
   z-index: 1;
   opacity: 0;
   visibility: hidden;
-  transition:
-    max-height 0.5s ease,
-    opacity 0.5s ease,
-    visibility 0.5s ease;
+  transition: max-height 0.5s ease, opacity 0.5s ease, visibility 0.5s ease;
 }
 .product-drowpdown li a {
   font-family: "Syne-Bold";
@@ -524,7 +542,7 @@ body {
 }
 .border-line {
   content: "";
-  background: linear-gradient(180deg, rgba(45, 156, 219, 0) 0%, #2D9CDB 100%);
+  background: linear-gradient(180deg, rgba(45, 156, 219, 0) 0%, #2d9cdb 100%);
   display: block;
   height: 150px;
   rotate: 90deg;
@@ -546,7 +564,7 @@ body {
 .product-drowpdown .nav-drowpdown1 {
   font-size: 20px;
   line-height: 20px;
-  color: #D0D6E4;
+  color: #d0d6e4;
   font-family: "Syne-Regular";
 }
 .product-drowpdown li {
@@ -577,10 +595,7 @@ body {
   z-index: 1;
   opacity: 0;
   visibility: hidden;
-  transition:
-    max-height 0.5s ease,
-    opacity 0.5s ease,
-    visibility 0.5s ease;
+  transition: max-height 0.5s ease, opacity 0.5s ease, visibility 0.5s ease;
 }
 .company-dropdown li a {
   font-family: "Syne-Bold";
@@ -593,7 +608,7 @@ body {
 .company-dropdown .nav-drowpdown1 {
   font-size: 20px;
   line-height: 20px;
-  color: #D0D6E4;
+  color: #d0d6e4;
   font-family: "Syne-Regular";
 }
 .calling-text {
@@ -617,20 +632,20 @@ body {
 .calling-text h5 {
   font-size: 14px;
   line-height: 14px;
-  color: #D0D6E4;
+  color: #d0d6e4;
   font-family: "Syne-Regular";
 }
 .calling-text h2 {
   font-size: 14px;
   line-height: 14px;
-  color: #D0D6E4;
+  color: #d0d6e4;
   font-family: "Syne-Regular";
   text-align: start;
 }
 .Email-text h2 {
   font-size: 14px;
   line-height: 14px;
-  color: #D0D6E4;
+  color: #d0d6e4;
   font-family: "Syne-Regular";
   text-align: start;
 }
@@ -686,7 +701,11 @@ body {
   margin: 0 auto;
 }
 .youtube {
-  background: linear-gradient(315.94deg, #2E465B -43%, rgba(46, 70, 91, 0.15) 90.47%);
+  background: linear-gradient(
+    315.94deg,
+    #2e465b -43%,
+    rgba(46, 70, 91, 0.15) 90.47%
+  );
   width: 36px;
   height: 36px;
   display: flex;
@@ -710,7 +729,7 @@ body {
 .numbers {
   font-size: 20px;
   line-height: 20px;
-} 
+}
 
 /* grow with  section 2 */
 .grow-toggel-section {
@@ -890,9 +909,14 @@ body {
   font-size: 18px;
   font-family: "Syne-Semi-Bold";
   cursor: pointer;
+  border: 2px solid var(--black-color);
   text-decoration: none;
-  transition: background-color 0.3s ease;
+  transition: 0.5s;
   gap: 7px;
+}
+.grow-contact-button:hover {
+  border: 2px solid #2dc97a;
+  background: none;
 }
 .growth-contact-button {
   display: flex;
@@ -2061,7 +2085,8 @@ body {
   padding-left: 20px;
   line-height: 110px;
   letter-spacing: 2px;
-  font-family: "Syne-Semi-Bold";
+  font-family: "Syne-Medium";
+  -webkit-text-stroke: 2px;
   color: #ffffff;
   display: flex;
   align-items: center;
@@ -2110,7 +2135,7 @@ body {
   color: #ffffff;
   padding: 0.5rem 1rem;
   cursor: pointer;
-  border: 4px solid transparent;
+  border: 1px solid transparent;
 }
 .lets-talk-button a {
   display: inline-flex;
@@ -2303,7 +2328,7 @@ body {
   background-color: rgba(45, 201, 122, 0.1);
   color: rgba(45, 201, 122, 0.7);
   display: inline-block;
-  padding: 5px 15px;
+  padding: 8px 54px;
   border-radius: 25px;
   font-size: 14px;
   font-weight: bold;
@@ -2318,7 +2343,7 @@ body {
 }
 .discover-capabilites .discover-text-swiper-button {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 25px;
 }
 .discover-capabilites .discover-notes p {
@@ -6350,13 +6375,13 @@ a {
 /* bulk servic css */
 .bulk-email-service {
   background: linear-gradient(
-    179.23deg,
+    0deg,
     rgba(42, 47, 61, 0) 0.7%,
     rgba(42, 47, 61, 0.531057) 48%,
     rgba(42, 47, 61, 0.9) 75.25%,
     #2a2f3d 96%
   );
-  margin-top: 50px;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 .bulk-text h1 {
@@ -7262,7 +7287,7 @@ body.no-scroll {
 .privacy-btn-arrow {
   border: 1px solid;
   border-radius: 50px;
-  padding: 7px 7px 7px 7px;
+  padding: 31px 32px 32px 31px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7274,7 +7299,7 @@ body.no-scroll {
 }
 
 .privacy-btn-arrow span.material-symbols-outlined {
-  font-size: 25px;
+  font-size: 40px;
 }
 .benifits-border-bottom {
   border: 1px solid var(--dark-grey-color);
@@ -7440,6 +7465,7 @@ body.no-scroll {
 }
 .explore-demo-image img {
   width: 100%;
+  height: 100%;
 }
 .explore-demo-image {
   background-image: url(../images/product-bg.png);
@@ -7448,13 +7474,13 @@ body.no-scroll {
 /* product section css */
 .product-swiper-title {
   background: linear-gradient(
-    179.23deg,
+    0deg,
     rgba(42, 47, 61, 0) 0.7%,
     rgba(42, 47, 61, 0.531057) 48%,
     rgba(42, 47, 61, 0.9) 75.25%,
     #2a2f3d 96%
   );
-  margin-top: 80px;
+  padding-top: 80px;
   padding-bottom: 109px;
 }
 .product-title {
@@ -7522,7 +7548,7 @@ body.no-scroll {
 .product-slider-content .slider-buttons button:hover {
   background: linear-gradient(104.02deg, #2d9cdb 0%, #2dc97a 88.31%);
   /* color: #00f; */
-  /* border: navajowhite; */
+  border: navajowhite;
 }
 
 .product-slider-content .slider-description {
@@ -7677,7 +7703,7 @@ body.no-scroll {
   height: 100%;
 }
 
-.web-swiper .swiper-slide {
+.web-swiper .bg-swiper {
   text-align: center;
   font-size: 18px;
   background-image: url(../images/web-bg-img.png);
@@ -7798,4 +7824,13 @@ body.no-scroll {
 
 .word .letter {
   display: inline-block; /* Allows for individual letter styling or animation */
+}
+
+.discover-capabilites :hover.swiper-button-next-discover {
+  background-color: var(--black-card);
+  border: 1px solid var(--black-card);
+}
+.discover-capabilites :hover.swiper-button-prev-discover {
+  background-color: var(--black-card);
+  border: 1px solid var(--black-card);
 }

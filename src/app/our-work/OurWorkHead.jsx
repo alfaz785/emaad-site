@@ -28,9 +28,32 @@ const OurWorkHead = () => {
 
     observer.observe(textElement);
   }, []);
-    useEffect(() => {
-      animateLetters();
-    }, []);
+  useEffect(() => {
+    const titles = document.querySelectorAll(".sec-title-2");
+    const options = {
+      threshold: 0.5,
+    };
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const letters = entry.target.querySelectorAll(".letter");
+          gsap.set(letters, { display: "inline-block" });
+          gsap.from(letters, {
+            duration: 1,
+            opacity: 0,
+            scale: 0.3,
+            rotation: 90,
+            ease: "back.out(1.7)",
+            stagger: {
+              amount: 1,
+            },
+          });
+          observer.unobserve(entry.target);
+        }
+      });
+    }, options);
+    titles.forEach((title) => observer?.observe(title));
+  }, []);
   return (
     <>
       <div className="our-work-section">
@@ -72,18 +95,13 @@ const OurWorkHead = () => {
                 <h4>Explore our demo product below.</h4>
               </div>
               <div className="row">
-                <div className="col-lg-5">
-                  <div className="explore-demo-image">
-                    <Image src={productImg} alt="img" />
-                  </div>
-                </div>
-                <div className="col-lg-7">
+                <div className="col-lg-7 order-lg-1 order-2 ">
                   <div className="explour-our-demo-cards">
                     <div className="card-container">
                       <a
                         href="https://emaad-infotech.com/product/online-shopping/"
                         className="card dark"
-                        onclick="openLink('frontend');"
+                        // onClick="openLink('frontend');"
                       >
                         <div className="card-product">
                           <span className="number">01</span>
@@ -100,7 +118,7 @@ const OurWorkHead = () => {
                       <a
                         href="https://emaad-infotech.com/product/online-shopping/back-office"
                         className="card dark"
-                        onclick="openLink('frontend');"
+                        // onClick={openLink('frontend')}
                       >
                         <div className="card-product">
                           <span className="number">02</span>
@@ -115,6 +133,11 @@ const OurWorkHead = () => {
                         </div>
                       </a>
                     </div>
+                  </div>
+                </div>
+                <div className="col-lg-5 order-lg-2 order-1">
+                  <div className="explore-demo-image">
+                    <Image src={productImg} alt="img" />
                   </div>
                 </div>
               </div>

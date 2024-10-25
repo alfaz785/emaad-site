@@ -6,6 +6,7 @@ import shapeImg from "../assets/images/Shape.png";
 import youtubeImg from "../assets/images/youtube.png";
 import instImg from "../assets/images/insta.png";
 import telegramImg from "../assets/images/teligrame.png";
+import facebookImg from "../assets/images/facebook.svg";
 import Image from "next/image";
 import Link from "next/link";
 import gsap from "gsap";
@@ -582,7 +583,7 @@ const MainHeader = () => {
             <div className="youtube">
               <a href="">
                 {" "}
-                <Image src={telegramImg} alt="img" />
+                <Image src={facebookImg} alt="img" />
               </a>
             </div>
           </div>

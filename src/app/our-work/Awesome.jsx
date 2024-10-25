@@ -45,10 +45,10 @@ const Awesome = () => {
             <div className="col-xxl-8 col-xl-7 col-lg-6 col-md-6 col-sm-12">
               <div className="sec-title-wrapper">
                 <h4 className="sec-title-1 text-wrapper">
-                  {"Realted Projects".split("").map((letter, index) => (
-                    <span key={index} className="letter">
-                      {letter === " " ? "\u00A0" : letter}{" "}
-                    </span>
+                  {"Realted Projects".split(" ").map((word, index) => (
+                    <div key={index} className="word">
+                      {word === " " ? "\u00A0" : word}
+                    </div>
                   ))}
                 </h4>
               </div>

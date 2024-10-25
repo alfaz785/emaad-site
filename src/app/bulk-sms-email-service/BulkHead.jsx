@@ -127,7 +127,7 @@ const BulkHead = () => {
                   alt="Benefits of image"
                   className="bolk-service-img"
                 />
-                <div className="benifits-border-bottom"></div>
+                {index !== 3 && <div className="benifits-border-bottom"></div>}
               </div>
             ))}
           </div>

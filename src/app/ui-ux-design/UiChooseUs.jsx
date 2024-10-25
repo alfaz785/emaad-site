@@ -5,41 +5,6 @@ import Image from "next/image";
 
 const ChooseUs = () => {
   useEffect(() => {
-    const head = document.querySelector(".choose-title-1");
-    const options = {
-      threshold: 0.5,
-    };
-
-    if (head && window.gsap) {
-      const observer = new IntersectionObserver((entries, observer) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            gsap.set(".letter", { display: "inline-block" });
-
-            gsap.from(".letter", {
-              duration: 1,
-              opacity: 0,
-              scale: 0.3,
-              rotation: 90,
-              ease: "back.out(1.7)",
-              stagger: {
-                amount: 1,
-              },
-            });
-
-            observer.unobserve(entry.target);
-          }
-        });
-      }, options);
-
-      observer.observe(head);
-    } else {
-      console.error(
-        "Either the .choose-title-1 element or GSAP library is missing.",
-      );
-    }
-  }, []);
-  useEffect(() => {
     const paragraph = document.querySelector(".choose-desc p");
 
     const words = paragraph.innerHTML
@@ -74,6 +39,41 @@ const ChooseUs = () => {
     const section = document.querySelector(".choose-desc");
     observer.observe(section);
   }, []);
+  useEffect(() => {
+    const head = document.querySelector(".choose-title-1");
+    const options = {
+      threshold: 0.5,
+    };
+
+    if (head && window.gsap) {
+      const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            gsap.set(".letter", { display: "inline-block" });
+
+            gsap.from(".letter", {
+              duration: 1,
+              opacity: 0,
+              scale: 0.3,
+              rotation: 90,
+              ease: "back.out(1.7)",
+              stagger: {
+                amount: 1,
+              },
+            });
+
+            observer.unobserve(entry.target);
+          }
+        });
+      }, options);
+
+      observer.observe(head);
+    } else {
+      console.error(
+        "Either the .choose-title-1 element or GSAP library is missing.",
+      );
+    }
+  }, []);
   return (
     <>
       {" "}
@@ -90,11 +90,10 @@ const ChooseUs = () => {
               <div className="choose-title mt_30">
                 <h1 className="choose-title-1 ui-text-wrapper">
                   {"Elevent your brand with our UI/UX services"
-                    .split(" ") // Split by space to get words
-                    .map((word, index) => (
-                      <span key={index}>
-                        {word}
-                        {index < word.length - 1 && <span> </span>}{" "}
+                    .split("")
+                    .map((char, index) => (
+                      <span className="letter" key={index}>
+                        {char === " " ? <span>&nbsp;</span> : char}
                       </span>
                     ))}
                 </h1>

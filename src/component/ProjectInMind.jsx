@@ -16,17 +16,15 @@ const ProjectInMind = ({ mainTxt }) => {
   return (
     <>
       <div className="ideas-wait-main mt_40">
-        <div className="container-fluid text-center">
+        <div className="container text-center">
           <div className="ideas-wait-text mt_40 sec-title-2">
             <h3 className="mb-0 text-wrapper" id="text">
-              {mainTxt
-                .split("")
-                .map((letter, index) => (
-                  <span key={index} className="letter">
-                    {letter === " " ? "\u00A0" : letter}{" "}
-                    {/* Using non-breaking space */}
-                  </span>
-                ))}
+              {mainTxt?.split("").map((letter, index) => (
+                <span key={index} className="letter">
+                  {letter === " " ? "\u00A0" : letter}{" "}
+                  {/* Using non-breaking space */}
+                </span>
+              ))}
             </h3>
           </div>
         </div>
