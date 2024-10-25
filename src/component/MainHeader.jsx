@@ -222,7 +222,6 @@ const MainHeader = () => {
                             href="/web-development"
                             className="nav-drowpdown1 p-0"
                             onClick={handleNavigate}
-                            onClick={handleNavigate}
                           >
                             Web Development
                           </Link>
