@@ -298,7 +298,7 @@ const MainHeader = () => {
                           <span className="material-symbols-outlined material-symbols-fill">
                             school
                           </span>
-                          <li>
+                          <li className="hover">
                             <a
                               href="#"
                               className="nav-drowpdown1 p-0"
@@ -312,7 +312,7 @@ const MainHeader = () => {
                           <span className="material-symbols-outlined">
                             diversity_3
                           </span>
-                          <li>
+                          <li className="hover">
                             <a
                               href="#"
                               className="nav-drowpdown1 p-0"
@@ -326,7 +326,7 @@ const MainHeader = () => {
                           <span className="material-symbols-outlined">
                             diversity_3
                           </span>
-                          <li>
+                          <li className="hover">
                             <a
                               href="#"
                               className="nav-drowpdown1 p-0"
@@ -340,7 +340,7 @@ const MainHeader = () => {
                           <span className="material-symbols-outlined material-symbols-fill">
                             home_work
                           </span>
-                          <li>
+                          <li className="hover">
                             <a
                               href="#"
                               className="nav-drowpdown1 p-0"
@@ -354,7 +354,7 @@ const MainHeader = () => {
                           <span className="material-symbols-outlined">
                             local_dining
                           </span>
-                          <li>
+                          <li className="hover">
                             <a
                               href="#"
                               className="nav-drowpdown1 p-0"
@@ -370,7 +370,7 @@ const MainHeader = () => {
                           <span className="material-symbols-outlined material-symbols-fill">
                             school
                           </span>
-                          <li>
+                          <li className="hover">
                             <a
                               href="#"
                               className="nav-drowpdown1 p-0"
@@ -384,7 +384,7 @@ const MainHeader = () => {
                           <span className="material-symbols-outlined">
                             cardiology
                           </span>
-                          <li>
+                          <li className="hover">
                             <a
                               href="#"
                               className="nav-drowpdown1 p-0"
@@ -398,7 +398,7 @@ const MainHeader = () => {
                           <span className="material-symbols-outlined material-symbols-fill">
                             home_health
                           </span>
-                          <li>
+                          <li className="hover">
                             <a
                               href="#"
                               className="nav-drowpdown1 p-0"
@@ -412,7 +412,7 @@ const MainHeader = () => {
                           <span className="material-symbols-outlined material-symbols-fill">
                             sports_cricket
                           </span>
-                          <li>
+                          <li className="hover">
                             <a
                               href="#"
                               className="nav-drowpdown1 p-0"
@@ -426,7 +426,7 @@ const MainHeader = () => {
                           <span className="material-symbols-outlined">
                             public
                           </span>
-                          <li>
+                          <li className="hover">
                             <a
                               href="#"
                               className="nav-drowpdown1 p-0"
@@ -706,7 +706,7 @@ const MainHeader = () => {
                       <div className="company">
                         <div className="calling-text">
                           <Image src={indiaImg} alt="img" />
-                          <div className="call-num">
+                          <div className="call-num hover">
                             <h5>Phone Number</h5>
                             <a href="tel:94270 79165">
                               <h2>+91 76001 45260</h2>
@@ -717,7 +717,7 @@ const MainHeader = () => {
                       <div className="company">
                         <div className="Email-text">
                           <Image src={emailImg} alt="img" />
-                          <div className="call-num">
+                          <div className="call-num hover">
                             <h5>Email</h5>
                             <a href="mailto:info@emaadinfotech.com">
                               <h2>info@emaadinfotech.com</h2>

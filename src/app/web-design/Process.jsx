@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import processImg from "../../assets/images/process-tab.svg";
+import processImg from "../../assets/images/process.png";
 
 const Process = () => {
   function showContent(contentId) {
@@ -16,13 +16,11 @@ const Process = () => {
     tabs.forEach(function (tab) {
       tab.classList.remove("hide");
     });
-
     // Show the selected content
     var content = document.getElementById(contentId);
     if (content) {
       content.classList.add("show");
     }
-
     // Add 'hide' class to the clicked tab
     var clickedTab = document.querySelector(
       "[onclick=\"showContent('" + contentId + "')\"]",

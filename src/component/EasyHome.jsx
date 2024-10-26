@@ -94,7 +94,7 @@ const EasyHome = () => {
             <div className="big-title">
               <h4 className="text-center position-relative">
                 <p className="text-start mb-0">How it Works</p>
-                We Have Some easy
+                We Have Some Easy&nbsp;
                 <span className="position-relative">
                   Steps
                   <span className="text-img-leaf">
