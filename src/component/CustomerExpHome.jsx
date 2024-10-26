@@ -3,7 +3,6 @@ import { useEffect } from "react";
 import EperiencesImg from "../assets/images/Eperiences.svg";
 import kristionImg from "../assets/images/Kristin Watson.svg";
 import Image from "next/image";
-import Swiper from "swiper";
 import { gsap } from "gsap";
 
 const CustomerExpHome = () => {

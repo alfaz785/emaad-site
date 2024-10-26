@@ -216,7 +216,7 @@ const MainHeader = () => {
                       </a>
                     </li>
                     <div className="menu-drowp">
-                      <div className="drowp-0">
+                      <div className="drow  p-0">
                         <li className="hover">
                           <Link
                             href="/web-development"

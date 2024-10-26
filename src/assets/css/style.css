@@ -6724,6 +6724,7 @@ a {
   -webkit-transform: rotate(-15deg);
   transform: rotate(-15deg);
   max-width: 100% !important;
+  height: 100%;
 }
 .awesome_section .swipper-btn {
   font-weight: 400;

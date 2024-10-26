@@ -14,13 +14,11 @@ export const metadata = generateMetadata("");
 export default function Home() {
   return (
     <>
-      {/* <Header /> */}
-
       <HomeHead />
       {/* <!-- slider section start --> */}
       <SlideSection />
       {/* <!-- Delivering Innovation that thrives Start --> */}
-      {/* <DeliveriHome /> */}
+      <DeliveriHome />
       {/* <!-- we have some easy steps --> */}
       <EasyHome />
       {/* <!-- Leading eCommerce  Software section start --> */}
