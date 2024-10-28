@@ -797,3 +797,49 @@ export const deliveryCard = () => {
       "e",
     );
 };
+
+
+export const processSteps = [
+  {
+    id: "content-01",
+    step: "01",
+    title: "Wireframing",
+    content:
+      "Responsive Web Design is an approach to web development that ensures a website looks and functions well across a variety of devices and screen sizes. This means the website automatically adjusts its layout, images, and functionalities to provide an optimal viewing experience, whether accessed on a smartphone, tablet, laptop, or desktop computer.",
+  },
+  {
+    id: "content-02",
+    step: "02",
+    title: "Responsive Design",
+    content:
+      "Responsive Web Design is an approach to web development that ensures a website looks and functions well across a variety of devices and screen sizes. This means the website automatically adjusts its layout, images, and functionalities to provide an optimal viewing experience, whether accessed on a smartphone, tablet, laptop, or desktop computer.",
+  },
+  {
+    id: "content-03",
+    step: "03",
+    title: "Prototyping",
+    content:
+      "Responsive Web Design is an approach to web development that ensures a website looks and functions well across a variety of devices and screen sizes. This means the website automatically adjusts its layout, images, and functionalities to provide an optimal viewing experience, whether accessed on a smartphone, tablet, laptop, or desktop computer.",
+  },
+  {
+    id: "content-04",
+    step: "04",
+    title: "Web Copy",
+    content:
+      "Responsive Web Design is an approach to web development that ensures a website looks and functions well across a variety of devices and screen sizes. This means the website automatically adjusts its layout, images, and functionalities to provide an optimal viewing experience, whether accessed on a smartphone, tablet, laptop, or desktop computer.",
+  },
+  {
+    id: "content-05",
+    step: "05",
+    title: "UX Design",
+    content:
+      "Responsive Web Design is an approach to web development that ensures a website looks and functions well across a variety of devices and screen sizes. This means the website automatically adjusts its layout, images, and functionalities to provide an optimal viewing experience, whether accessed on a smartphone, tablet, laptop, or desktop computer.",
+  },
+  {
+    id: "content-06",
+    step: "06",
+    title: "UI Design",
+    content:
+      "Responsive Web Design is an approach to web development that ensures a website looks and functions well across a variety of devices and screen sizes. This means the website automatically adjusts its layout, images, and functionalities to provide an optimal viewing experience, whether accessed on a smartphone, tablet, laptop, or desktop computer.",
+  },
+];

@@ -2,29 +2,26 @@
 import React from "react";
 import Image from "next/image";
 import processImg from "../../assets/images/process.png";
+import processTabImg from "../../assets/images/process-tab.svg";
 
 const Process = () => {
   function showContent(contentId) {
-    // Hide all contents
-    var contents = document.querySelectorAll(".process-tab-design-content");
-    contents.forEach(function (content) {
+    const contents = document.querySelectorAll(".process-tab-design-content");
+    contents.forEach((content) => {
       content.classList.remove("show");
     });
 
-    // Remove 'hide' class from all tabs
-    var tabs = document.querySelectorAll(".process-tab-design");
-    tabs.forEach(function (tab) {
+    const tabs = document.querySelectorAll(".process-tab-design");
+    tabs.forEach((tab) => {
       tab.classList.remove("hide");
     });
-    // Show the selected content
-    var content = document.getElementById(contentId);
+
+    const content = document.getElementById(contentId);
     if (content) {
       content.classList.add("show");
     }
-    // Add 'hide' class to the clicked tab
-    var clickedTab = document.querySelector(
-      "[onclick=\"showContent('" + contentId + "')\"]",
-    );
+
+    const clickedTab = document.getElementById(contentId);
     if (clickedTab) {
       clickedTab.classList.add("hide");
     }
@@ -88,7 +85,7 @@ const Process = () => {
                 </div>
                 <div className="process-tab-contant d-flex gap-3 align-items-center">
                   <div className="process-icon-tab">
-                    <Image src={processImg} alt="img" />
+                    <Image src={processTabImg} alt="img" />
                   </div>
                   <div className="tab-content-title">
                     <h4>Wireframing</h4>
@@ -131,7 +128,7 @@ const Process = () => {
                 </div>
                 <div className="process-tab-contant d-flex gap-3 align-items-center">
                   <div className="process-icon-tab">
-                    <Image src={processImg} alt="img" />
+                    <Image src={processTabImg} alt="img" />
                   </div>
                   <div className="tab-content-title">
                     <h4>Responsive Design</h4>
@@ -174,7 +171,7 @@ const Process = () => {
                 </div>
                 <div className="process-tab-contant d-flex gap-3 align-items-center">
                   <div className="process-icon-tab">
-                    <Image src={processImg} alt="img" />
+                    <Image src={processTabImg} alt="img" />
                   </div>
                   <div className="tab-content-title">
                     <h4>Prototyping</h4>
@@ -217,7 +214,7 @@ const Process = () => {
                 </div>
                 <div className="process-tab-contant d-flex gap-3 align-items-center">
                   <div className="process-icon-tab">
-                    <Image src={processImg} alt="img" />
+                    <Image src={processTabImg} alt="img" />
                   </div>
                   <div className="tab-content-title">
                     <h4>Web Copy</h4>
@@ -260,7 +257,7 @@ const Process = () => {
                 </div>
                 <div className="process-tab-contant d-flex gap-3 align-items-center">
                   <div className="process-icon-tab">
-                    <Image src={processImg} alt="img" />
+                    <Image src={processTabImg} alt="img" />
                   </div>
                   <div className="tab-content-title">
                     <h4>UX Design</h4>
@@ -303,7 +300,7 @@ const Process = () => {
                 </div>
                 <div className="process-tab-contant d-flex gap-3 align-items-center">
                   <div className="process-icon-tab">
-                    <Image src={processImg} alt="img" />
+                    <Image src={processTabImg} alt="img" />
                   </div>
                   <div className="tab-content-title">
                     <h4>UI Design</h4>

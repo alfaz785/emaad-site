@@ -136,21 +136,21 @@ const Process = () => {
             <div className="col-md-8">
               <ul>
                 <li>
-                  Initial Consultation:
+                  Initial Consultation:&nbsp;
                   <span>
                     We start by understanding your goals, target audience, and
                     project requirements through in-depth discussions.
                   </span>
                 </li>
                 <li>
-                  Research and Analysis:
+                  Research and Analysis:&nbsp;
                   <span>
                     Our team conducts market research and competitor analysis to
                     identify opportunities and challenges.
                   </span>
                 </li>
                 <li>
-                  Define Project Scope:
+                  Define Project Scope:&nbsp;
                   <span>
                     Based on our findings, we outline the project scope,
                     timeline, and deliverables to set clear expectations.
@@ -171,21 +171,21 @@ const Process = () => {
             <div className="col-md-8">
               <ul>
                 <li>
-                  Wireframing:
+                  Wireframing:&nbsp;
                   <span>
                     We create wireframes to outline the layout and structure of
                     your website, focusing on user experience and navigation.
                   </span>
                 </li>
                 <li>
-                  Visual Design:
+                  Visual Design:&nbsp;
                   <span>
                     Our designers work on creating mockups and visual concepts
                     that align with your brand identity and preferences.
                   </span>
                 </li>
                 <li>
-                  Feedback and Iteration:
+                  Feedback and Iteration:&nbsp;
                   <span>
                     We gather feedback from you and iterate on the designs until
                     they meet your expectations.
@@ -206,7 +206,7 @@ const Process = () => {
             <div className="col-md-8">
               <ul>
                 <li>
-                  Front-End Development:
+                  Front-End Development:&nbsp;
                   <span>
                     Our front-end developers bring the designs to life using
                     HTML, CSS, and JavaScript, ensuring responsiveness and
@@ -214,14 +214,14 @@ const Process = () => {
                   </span>
                 </li>
                 <li>
-                  Back-End Development:
+                  Back-End Development:&nbsp;
                   <span>
                     Our back-end developers build the server-side logic and
                     database architecture using technologies like PHP, Node.js.
                   </span>
                 </li>
                 <li>
-                  Integration and Testing:
+                  Integration and Testing:&nbsp;
                   <span>
                     We integrate third-party services, APIs, and
                     functionalities, rigorously testing the website for
@@ -243,21 +243,21 @@ const Process = () => {
             <div className="col-md-8">
               <ul>
                 <li>
-                  Launch Preparation:
+                  Launch Preparation:&nbsp;
                   <span>
                     We prepare for the website launch by setting up hosting,
                     domain configuration, and SSL certificates.
                   </span>
                 </li>
                 <li>
-                  Deployment:
+                  Deployment:&nbsp;
                   <span>
                     We deploy the website to the live server, ensuring a smooth
                     transition from development to production.
                   </span>
                 </li>
                 <li>
-                  Post-Launch Testing:
+                  Post-Launch Testing:&nbsp;
                   <span>
                     We conduct final testing to verify that everything is
                     working as expected in the live environment.
@@ -278,7 +278,7 @@ const Process = () => {
             <div className="col-md-8">
               <ul>
                 <li>
-                  Ongoing Support:
+                  Ongoing Support:&nbsp;
                   <span>
                     We provide post-launch support and maintenance services to
                     address any issues and ensure the website's continued
@@ -286,7 +286,7 @@ const Process = () => {
                   </span>
                 </li>
                 <li>
-                  Updates and Enhancements:
+                  Updates and Enhancements:&nbsp;
                   <span>
                     We work with you to implement updates, enhancements, and new
                     features based on user feedback and changing business needs.

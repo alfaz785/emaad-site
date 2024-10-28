@@ -22,8 +22,6 @@ const Trusted = () => {
     });
   }, []);
 
- 
-
   return (
     <>
       <section className="trusted-hero-section">
@@ -52,7 +50,9 @@ const Trusted = () => {
           <a href="#" className="btn-schedule">
             <div className="d-flex align-items-center">
               <span className="icon-container">
-                <span className="material-symbols-outlined"> call </span>
+                <span class="material-symbols-outlined material-symbols-fill">
+                  call
+                </span>
               </span>
               <p className="mb-0 btn-text">Schedule a Call</p>
             </div>

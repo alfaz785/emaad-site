@@ -184,6 +184,10 @@
 }
 
 @media (max-width: 1200px) {
+  .nav-link.p-0.cursor-scale {
+    width: fit-content;
+    margin-left: auto;
+  }
   /* navbar */
   .dropdown {
     position: unset;
@@ -430,6 +434,10 @@
   .bulk-sms-email-marketing .boost-your-success {
     max-width: 56%;
   }
+
+  .text-item-service {
+    font-size: 71px;
+  }
   .bulk-sms-email-marketing {
     padding: 39px 0;
   }
@@ -446,6 +454,7 @@
     justify-content: center;
     display: flex;
     margin-top: 40px;
+    height: 70vh;
   }
   .get-in-touch-title h1 {
     width: 50%;
@@ -499,6 +508,9 @@
   }
 }
 @media (max-width: 992px) {
+  .bolk-service-img {
+    display: none;
+  }
   .draggable {
     transform: none !important;
     margin: 10px 0 !important;
@@ -661,7 +673,7 @@
     margin-top: 30px;
   }
   .typing-container {
-    font-size: 62px;
+    font-size: 64px;
     line-height: 68px;
     width: 100%;
   }
@@ -693,7 +705,7 @@
     font-size: 15px;
   }
   .talk-button h4 {
-    font-size: 68px;
+    font-size: 64px;
   }
   /* why choose us   */
   .vision {
@@ -1211,6 +1223,9 @@
 }
 
 @media (max-width: 768px) {
+  .theme .checkbox:checked + .checkbox-label .ball {
+    transform: translateX(-58px);
+  }
   /* navbar */
   .menu-drowp {
     flex-wrap: wrap;
@@ -1623,7 +1638,8 @@
   .service-card-grabe {
     width: 100%;
     margin-right: 0;
-    justify-content: start;
+    justify-content: center;
+    height: 60vh;
   }
   .overlay-text1 p,
   .overlay-text2 p {
@@ -1700,6 +1716,10 @@
   }
   .grow-business-text {
     flex-wrap: wrap;
+  }
+  .lets-get-to-title {
+    background-size: cover;
+    /* padding-bottom: 0; */
   }
 }
 
@@ -2125,6 +2145,10 @@
   .explour-our-demo-cards .card-product .number {
     font-size: 32px;
   }
+  .service-card-grabe {
+    width: 100%;
+    height: 57vh;
+  }
 }
 
 @media (max-width: 480px) {
@@ -2535,7 +2559,16 @@
   .service-design-card {
     position: absolute;
     z-index: 1;
-    right: 44px;
+    right: auto;
+    top: auto;
+  }
+  .service-card-grabe {
+    height: 100vh;
+    /* display: flex; */
+    margin-top: 40px;
+  }
+  .text-item-service {
+    flex-wrap: wrap;
   }
   .reveal-section {
     height: 65vh;
@@ -2550,5 +2583,9 @@
   .explour-our-demo-cards .card-container {
     flex-wrap: wrap;
     justify-content: center;
+  }
+  .service-card-grabe {
+    width: 100%;
+    height: 50vh;
   }
 }

@@ -7,13 +7,13 @@ import { textTypingEffect } from "../../../commFun";
 const VisionWeb = () => {
   useEffect(() => {
     const typing = document.getElementById("vision-typing-text");
-    const uiTextContents = ["Vision", "web design"];
+    const uiTextContents = ["Vision", "Web Design"];
     const uiTextClassStart = '<span class="vision-text">';
     const uiTextClassEnd = "</span>";
 
     // Avoid re-triggering the effect if already executed
     if (typing && typing.innerHTML === "") {
-      const modifiedText = "Unveil Your — with Our — Solutions ";
+      const modifiedText = "Unveil Your — With Our — Solutions ";
       textTypingEffect(
         typing,
         modifiedText,

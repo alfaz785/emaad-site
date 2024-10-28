@@ -88,14 +88,14 @@ const MainHeader = () => {
     let navbar_tl = gsap.timeline({ paused: true });
     navbar_tl.to(".menu-content", {
       opacity: 1,
-      duration: 1,
+      duration: 0.5,
       top: 0,
       ease: Power2.easeInOut,
       zIndex: 9,
     });
     navbar_tl.to(".nav-text", {
       opacity: 1,
-      duration: 1,
+      duration: 0.2,
       stagger: 0.3,
       marginTop: 0,
       ease: Power2.easeInOut,
@@ -151,34 +151,47 @@ const MainHeader = () => {
       });
     });
   }, []);
+  useEffect(() => {
+    gsap.to(".border-bottom img", {
+      duration: 3,
+      delay: 1.5,
+      rotate: 360,
+      scale: 0.3,
+      repeat: -1,
+      yoyo: true,
+    });
+  }, []);
 
   return (
     <>
       <div className="nav-bar" id="navBar">
+      <div class="emaad-log">
         <svg
-          className="dashed-path"
+          class="dashed-path"
           viewBox="0 0 44 23"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <Link href="/">
-            <path
-              d="M5.35 19.15H22.815V23H0.66V0.389999H22.78V4.275H5.35V10.295H19.595V13.165H5.35V19.15ZM28.2244 0.389999H32.8794V23H28.2244V0.389999ZM43.6321 19.01V23H38.3471V19.01H43.6321Z"
-              fill="white"
-            />
-          </Link>
+          <path
+            d="M5.35 19.15H22.815V23H0.66V0.389999H22.78V4.275H5.35V10.295H19.595V13.165H5.35V19.15ZM28.2244 0.389999H32.8794V23H28.2244V0.389999ZM43.6321 19.01V23H38.3471V19.01H43.6321Z"
+            fill="white"
+          />
         </svg>
+      </div>
 
-        <div className="menu menuBtn">
+      <div class="emmad-header">
+        <div class="menu menuBtn">
           <h4>menu</h4>
-          <span className="material-symbols-outlined"> drag_handle </span>
+          <span class="material-symbols-outlined"> drag_handle </span>
         </div>
       </div>
+      </div>
       <div className="menu-content">
-        <div className="main-close-btn">
-          <div className="main-logo">
+      <div class="main-close-btn">
+        <div class="main-logo">
+          <div class="emaad-logo1">
             <svg
-              className="dashed-path"
+              class="dashed-path"
               viewBox="0 0 44 23"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -188,12 +201,15 @@ const MainHeader = () => {
                 fill="white"
               />
             </svg>
-            <div className="close closeBtn">
+          </div>
+          <div class="emmad-border">
+            <div class="close closeBtn">
               <h4>close</h4>
-              <span className="material-symbols-outlined">close</span>
+              <span class="material-symbols-outlined">close</span>
             </div>
           </div>
         </div>
+      </div>
         <div className="menu-container">
           <ul className="nav-list SMN_effect-1">
             <li className="nav-text">
@@ -202,9 +218,9 @@ const MainHeader = () => {
               </Link>
             </li>
             <li className="nav-text said-drowpdown">
-              <Link href="#" className="nav-link p-0 cursor-scale ">
+              <a href="#" className="nav-link p-0 cursor-scale ">
                 What we do <span className="numbers">02</span>
-              </Link>
+              </a>
               <div className="main-drowpdown">
                 {/* <!-- drowpdown 1 --> */}
                 <ul className="dropdown">
@@ -298,70 +314,70 @@ const MainHeader = () => {
                           <span className="material-symbols-outlined material-symbols-fill">
                             school
                           </span>
-                          <li className="hover">
-                            <a
-                              href="#"
+                          <li>
+                            <Link
+                              href="/get-in-touch"
                               className="nav-drowpdown1 p-0"
                               onClick={handleNavigate}
                             >
                               Education
-                            </a>
+                            </Link>
                           </li>
                         </div>
                         <div className="icon">
                           <span className="material-symbols-outlined">
                             diversity_3
                           </span>
-                          <li className="hover">
-                            <a
-                              href="#"
+                          <li>
+                            <Link
+                              href="/get-in-touch"
                               className="nav-drowpdown1 p-0"
                               onClick={handleNavigate}
                             >
                               Charity Organization
-                            </a>
+                            </Link>
                           </li>
                         </div>
                         <div className="icon">
                           <span className="material-symbols-outlined">
                             diversity_3
                           </span>
-                          <li className="hover">
-                            <a
-                              href="#"
+                          <li>
+                            <Link
+                              href="/get-in-touch"
                               className="nav-drowpdown1 p-0"
                               onClick={handleNavigate}
                             >
                               Real Estate
-                            </a>
+                            </Link>
                           </li>
                         </div>
                         <div className="icon">
                           <span className="material-symbols-outlined material-symbols-fill">
                             home_work
                           </span>
-                          <li className="hover">
-                            <a
-                              href="#"
+                          <li>
+                            <Link
+                              href="/get-in-touch"
                               className="nav-drowpdown1 p-0"
                               onClick={handleNavigate}
                             >
                               Financial & Insurance
-                            </a>
+                            </Link>
                           </li>
                         </div>
                         <div className="icon">
                           <span className="material-symbols-outlined">
                             local_dining
                           </span>
-                          <li className="hover">
-                            <a
-                              href="#"
+                          <li>
+                            <Link
+                              href="/get-in-touch"
                               className="nav-drowpdown1 p-0"
                               onClick={handleNavigate}
                             >
                               Food Processing
-                            </a>
+                            </Link>
                           </li>
                         </div>
                       </div>
@@ -370,70 +386,70 @@ const MainHeader = () => {
                           <span className="material-symbols-outlined material-symbols-fill">
                             school
                           </span>
-                          <li className="hover">
-                            <a
-                              href="#"
+                          <li>
+                            <Link
+                              href="/get-in-touch"
                               className="nav-drowpdown1 p-0"
                               onClick={handleNavigate}
                             >
                               Manufacturing
-                            </a>
+                            </Link>
                           </li>
                         </div>
                         <div className="icon">
                           <span className="material-symbols-outlined">
                             cardiology
                           </span>
-                          <li className="hover">
-                            <a
-                              href="#"
+                          <li>
+                            <Link
+                              href="/get-in-touch"
                               className="nav-drowpdown1 p-0"
                               onClick={handleNavigate}
                             >
                               Healthcare
-                            </a>
+                            </Link>
                           </li>
                         </div>
                         <div className="icon">
                           <span className="material-symbols-outlined material-symbols-fill">
                             home_health
                           </span>
-                          <li className="hover">
-                            <a
-                              href="#"
+                          <li>
+                            <Link
+                              href="/get-in-touch"
                               className="nav-drowpdown1 p-0"
                               onClick={handleNavigate}
                             >
                               Tourism & Hospitality
-                            </a>
+                            </Link>
                           </li>
                         </div>
                         <div className="icon">
                           <span className="material-symbols-outlined material-symbols-fill">
                             sports_cricket
                           </span>
-                          <li className="hover">
-                            <a
-                              href="#"
+                          <li>
+                            <Link
+                              href="/get-in-touch"
                               className="nav-drowpdown1 p-0"
                               onClick={handleNavigate}
                             >
                               Sport & Fitness
-                            </a>
+                            </Link>
                           </li>
                         </div>
                         <div className="icon">
                           <span className="material-symbols-outlined">
                             public
                           </span>
-                          <li className="hover">
-                            <a
-                              href="#"
+                          <li>
+                            <Link
+                              href="/get-in-touch"
                               className="nav-drowpdown1 p-0"
                               onClick={handleNavigate}
                             >
                               Information Technology
-                            </a>
+                            </Link>
                           </li>
                         </div>
                       </div>
@@ -455,86 +471,86 @@ const MainHeader = () => {
                       sync_saved_locally
                     </span>
                     <li className="mb-4">
-                      <a href="#" className="nav-drowpdown p-0">
+                      <Link href="/get-in-touch" className="nav-drowpdown p-0">
                         Web Products{" "}
-                      </a>
+                      </Link>
                     </li>
                   </div>
                   <div className="menu-drowpdown">
                     <div className="drowp-0">
                       <li className="hover">
-                        <a
-                          href="#"
+                        <Link
+                          href="/get-in-touch"
                           className="nav-drowpdown1 p-0"
                           onClick={handleNavigate}
                         >
                           Online Pharmacy Solution
-                        </a>
+                        </Link>
                       </li>
                       <li className="hover">
-                        <a
-                          href="#"
+                        <Link
+                          href="/get-in-touch"
                           className="nav-drowpdown1 p-0"
                           onClick={handleNavigate}
                         >
                           Real Estate Software Solution
-                        </a>
+                        </Link>
                       </li>
                       <li className="hover">
-                        <a
-                          href="#"
+                        <Link
+                          href="/get-in-touch"
                           className="nav-drowpdown1 p-0"
                           onClick={handleNavigate}
                         >
                           E-commerce Solution
-                        </a>
+                        </Link>
                       </li>
                       <li className="hover">
-                        <a
-                          href="#"
+                        <Link
+                          href="/get-in-touch"
                           className="nav-drowpdown1 p-0"
                           onClick={handleNavigate}
                         >
                           NGO - Charity Website Service
-                        </a>
+                        </Link>
                       </li>
                     </div>
                     <div className="drowp-2">
                       <li className="hover">
-                        <a
-                          href="#"
+                        <Link
+                          href="/get-in-touch"
                           className="nav-drowpdown1 p-0"
                           onClick={handleNavigate}
                         >
                           Housing & Society Management
-                        </a>
+                        </Link>
                       </li>
                       <li className="hover">
-                        <a
-                          href="#"
+                        <Link
+                          href="/get-in-touch"
                           className="nav-drowpdown1 p-0"
                           onClick={handleNavigate}
                         >
                           Business Directory
-                        </a>
+                        </Link>
                       </li>
                       <li className="hover">
-                        <a
-                          href="#"
+                        <Link
+                          href="/get-in-touch"
                           className="nav-drowpdown1 p-0"
                           onClick={handleNavigate}
                         >
                           Hospital Management System
-                        </a>
+                        </Link>
                       </li>
                       <li className="hover">
-                        <a
-                          href="#"
+                        <Link
+                          href="/get-in-touch"
                           className="nav-drowpdown1 p-0"
                           onClick={handleNavigate}
                         >
                           Job Portal
-                        </a>
+                        </Link>
                       </li>
                     </div>
                   </div>
@@ -545,95 +561,98 @@ const MainHeader = () => {
                         phone_iphone
                       </span>
                       <li className="mb-4">
-                        <a href="#" className="nav-drowpdown p-0">
+                        <Link
+                          href="/get-in-touch"
+                          className="nav-drowpdown p-0"
+                        >
                           Android & iOS App
-                        </a>
+                        </Link>
                       </li>
                     </div>
                     <div className="menu-drowp-icons">
                       <div className="drowp-1">
                         <li className="hover">
-                          <a
-                            href="#"
+                          <Link
+                            href="/get-in-touch"
                             className="nav-drowpdown1 p-0"
                             onClick={handleNavigate}
                           >
                             Hospital App - Video Call App...
-                          </a>
+                          </Link>
                         </li>
                         <li className="hover">
-                          <a
-                            href="#"
+                          <Link
+                            href="/get-in-touch"
                             className="nav-drowpdown1 p-0"
                             onClick={handleNavigate}
                           >
                             Realtime Video Ads Screening App
-                          </a>
+                          </Link>
                         </li>
                         <li className="hover">
-                          <a
-                            href="#"
+                          <Link
+                            href="/get-in-touch"
                             className="nav-drowpdown1 p-0"
                             onClick={handleNavigate}
                           >
                             Grocery Delivery App
-                          </a>
+                          </Link>
                         </li>
                         <li className="hover">
-                          <a
-                            href="#"
+                          <Link
+                            href="/get-in-touch"
                             className="nav-drowpdown1 p-0"
                             onClick={handleNavigate}
                           >
                             Business Listing Software
-                          </a>
+                          </Link>
                         </li>
                         <li className="hover">
-                          <a
-                            href="#"
+                          <Link
+                            href="/get-in-touch"
                             className="nav-drowpdown1 p-0"
                             onClick={handleNavigate}
                           >
                             Garage App
-                          </a>
+                          </Link>
                         </li>
                       </div>
                       <div className="drowp-2 we-do">
                         <li className="hover">
-                          <a
-                            href="#"
+                          <Link
+                            href="/get-in-touch"
                             className="nav-drowpdown1 p-0"
                             onClick={handleNavigate}
                           >
                             Community App
-                          </a>
+                          </Link>
                         </li>
                         <li className="hover">
-                          <a
-                            href="#"
+                          <Link
+                            href="/get-in-touch"
                             className="nav-drowpdown1 p-0"
                             onClick={handleNavigate}
                           >
                             Market place app like Upwork
-                          </a>
+                          </Link>
                         </li>
                         <li className="hover">
-                          <a
-                            href="#"
+                          <Link
+                            href="/get-in-touch"
                             className="nav-drowpdown1 p-0"
                             onClick={handleNavigate}
                           >
                             Online Shopping Services
-                          </a>
+                          </Link>
                         </li>
                         <li className="hover">
-                          <a
-                            href="#"
+                          <Link
+                            href="/get-in-touch"
                             className="nav-drowpdown1 p-0"
                             onClick={handleNavigate}
                           >
                             Matrimony App
-                          </a>
+                          </Link>
                         </li>
                       </div>
                     </div>
@@ -654,7 +673,7 @@ const MainHeader = () => {
                     </a>
                   </li>
                   <div className="row">
-                    <div className="col-lg-9 col-md-8">
+                    <div className="col-lg-8 col-md-8">
                       <li className="hover">
                         <Link
                           href="/about-us"
@@ -665,13 +684,13 @@ const MainHeader = () => {
                         </Link>
                       </li>
                       <li className="hover">
-                        <a
-                          href="#"
+                        <Link
+                          href="/get-in-touch"
                           className="nav-drowpdown1 p-0"
                           onClick={handleNavigate}
                         >
                           Blog
-                        </a>
+                        </Link>
                       </li>
                     </div>
                     <div className="col-lg-3 col-md-4">
@@ -685,13 +704,13 @@ const MainHeader = () => {
                         </Link>
                       </li>
                       <li className="hover">
-                        <a
-                          href="#"
+                        <Link
+                          href="/get-in-touch"
                           className="nav-drowpdown1 p-0"
                           onClick={handleNavigate}
                         >
                           Gallery
-                        </a>
+                        </Link>
                       </li>
                     </div>
                   </div>
@@ -706,7 +725,7 @@ const MainHeader = () => {
                       <div className="company">
                         <div className="calling-text">
                           <Image src={indiaImg} alt="img" />
-                          <div className="call-num hover">
+                          <div className="call-num">
                             <h5>Phone Number</h5>
                             <a href="tel:94270 79165">
                               <h2>+91 76001 45260</h2>
@@ -717,7 +736,7 @@ const MainHeader = () => {
                       <div className="company">
                         <div className="Email-text">
                           <Image src={emailImg} alt="img" />
-                          <div className="call-num hover">
+                          <div className="call-num">
                             <h5>Email</h5>
                             <a href="mailto:info@emaadinfotech.com">
                               <h2>info@emaadinfotech.com</h2>
@@ -730,10 +749,11 @@ const MainHeader = () => {
                 </ul>
               </div>
             </li>
+            <div className="border-bottom cursor-scale small p-0">
+              <Image src={shapeImg} alt="img" />
+            </div>
           </ul>
-          <div className="border-bottom cursor-scale small p-0">
-            <Image src={shapeImg} alt="img" />
-          </div>
+
           <div className="social-iocn cursor-scale small">
             <div className="youtube">
               <a href="">

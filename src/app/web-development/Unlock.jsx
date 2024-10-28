@@ -4,7 +4,7 @@ import React, { useEffect } from "react";
 import { openTab, subUnlockFc } from "../../../commFun";
 import Image from "next/image";
 import ulStar from "../../assets/images/ul-star.svg";
-import {gsap} from "gsap";
+import { gsap } from "gsap";
 
 const Unlock = () => {
   useEffect(() => {
@@ -118,7 +118,7 @@ const Unlock = () => {
         <div className="container">
           <div className="unlock-title">
             <h2>
-              {"Unlock Your Digital Potential with Our Full-Service Website Development"
+              {"Unlock Your Digital Potential With Our Full-Service Website Development"
                 .split(" ")
                 .map((word, index) => (
                   <span key={index} className="word">
@@ -231,7 +231,7 @@ const Unlock = () => {
                 </h5>
                 <p className="mb-0 tap-para">
                   Embark on your e-commerce journey with confidence, knowing
-                  that
+                  that&nbsp;
                   <span>Emaad Infotech</span> is here to guide you every step of
                   the way. Our comprehensive e-commerce development services are
                   tailored to meet the unique needs of your business, whether
@@ -368,7 +368,8 @@ const Unlock = () => {
                 </h5>
                 <p className="mb-0 tap-para">
                   Elevate your business processes and engage your audience like
-                  never before with our Web Application Development services. At
+                  never before with our Web Application Development services.
+                  At&nbsp;
                   <span>Emaad Infotech</span>, we specialize in creating custom
                   web applications that address your unique challenges and
                   empower your digital journey. From concept to deployment, our

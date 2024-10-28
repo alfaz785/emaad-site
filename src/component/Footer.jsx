@@ -24,7 +24,10 @@ const Footer = () => {
                 </div>
                 <div className="social-icons">
                   <div className="social-icons-bg instagram-icon">
-                    <a href="#">
+                    <a
+                      href="https://www.instagram.com/emaadinfotech/"
+                      target="_blank"
+                    >
                       <Image
                         width={100}
                         height={100}
@@ -34,7 +37,7 @@ const Footer = () => {
                     </a>
                   </div>
                   <div className="social-icons-bg twitter-icon">
-                    <a href="#">
+                    <a href="https://x.com/EmaadInfotech" target="_blank">
                       <Image
                         width={100}
                         height={100}
@@ -44,7 +47,10 @@ const Footer = () => {
                     </a>
                   </div>
                   <div className="social-icons-bg facebook-icon">
-                    <a href="#">
+                    <a
+                      href="https://www.facebook.com/emaad.developer/"
+                      target="_blank"
+                    >
                       <Image
                         width={100}
                         height={100}
@@ -54,7 +60,11 @@ const Footer = () => {
                     </a>
                   </div>
                   <div className="social-icons-bg whatsapp-icon">
-                    <a href="#">
+                    <a
+                      href="https://wa.me/919428901392"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <Image
                         width={100}
                         height={100}
@@ -64,7 +74,10 @@ const Footer = () => {
                     </a>
                   </div>
                   <div className="social-icons-bg linkedin-icon">
-                    <a href="#">
+                    <a
+                      href="https://www.linkedin.com/company/emaad-infotech/"
+                      target="_blank"
+                    >
                       <Image
                         width={100}
                         height={100}
@@ -74,7 +87,7 @@ const Footer = () => {
                     </a>
                   </div>
                   <div className="social-icons-bg skype-icon">
-                    <a href="#">
+                    <a href="skype:Tohid Kovadiya?chat" target="_blank">
                       <Image
                         width={100}
                         height={100}
@@ -93,39 +106,39 @@ const Footer = () => {
 
                   <ul className="list-unstyled product">
                     <li>
-                      <a href="#" className="cursor-scale small">
+                      <Link href="/get-in-touch" className="cursor-scale small">
                         Hospital App
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="cursor-scale small">
+                      <Link href="/get-in-touch" className="cursor-scale small">
                         Realtime Video Ads Screening App
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="cursor-scale small">
+                      <Link href="/get-in-touch" className="cursor-scale small">
                         Grocery Delivery App
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="cursor-scale small">
+                      <Link href="/get-in-touch" className="cursor-scale small">
                         Business Listing Software
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="cursor-scale small">
+                      <Link href="/get-in-touch" className="cursor-scale small">
                         Community App
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="cursor-scale small">
+                      <Link href="/get-in-touch" className="cursor-scale small">
                         Market Place Application Like Upwork
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="cursor-scale small">
+                      <Link href="/get-in-touch" className="cursor-scale small">
                         Online Shopping Services
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -134,39 +147,39 @@ const Footer = () => {
                   <h5 className="mb-0">Explore</h5>
                   <ul className="list-unstyled explore">
                     <li>
-                      <a href="#" className="cursor-scale small">
+                      <Link href="/get-in-touch" className="cursor-scale small">
                         E-commerce Solution
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="cursor-scale small">
+                      <Link href="/get-in-touch" className="cursor-scale small">
                         Mobile App Development
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="cursor-scale small">
+                      <Link href="/get-in-touch" className="cursor-scale small">
                         Payment Gateway
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="cursor-scale small">
+                      <Link href="/get-in-touch" className="cursor-scale small">
                         Domain & Hosting Service
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="cursor-scale small">
+                      <Link href="/get-in-touch" className="cursor-scale small">
                         Digital Marketing
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="cursor-scale small">
+                      <Link href="/get-in-touch" className="cursor-scale small">
                         Aws Infrastructure Setup
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="cursor-scale small">
+                      <Link href="/get-in-touch" className="cursor-scale small">
                         Data Analytics Specialist
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -177,7 +190,11 @@ const Footer = () => {
             <div className="col-12">
               <div className="footer-bottom-main">
                 <p className="mb-0">
-                  &copy; 2024 Emaad Infotech® All rights reserved.
+                  &copy; 2024 Emaad Infotech®&nbsp;
+                  {/* <a href="https://www.emaadinfotech.com/" target="_blank">
+                    Emaad Infotech®
+                  </a>{" "} */}
+                  All rights reserved.
                 </p>
                 <div className="footer-links">
                   <Link href="/terms-conditions" className="cursor-scale small">
@@ -189,15 +206,15 @@ const Footer = () => {
                   <Link href="/refund-policy" className="cursor-scale small">
                     Refund Policy
                   </Link>
-                  <a href="#" className="cursor-scale small">
+                  <Link href="/about-us" className="cursor-scale small">
                     About Company
-                  </a>
-                  <a href="#" className="cursor-scale small">
+                  </Link>
+                  <Link href="/our-services" className="cursor-scale small">
                     Our Services
-                  </a>
-                  <a href="#" className="cursor-scale small">
+                  </Link>
+                  <Link href="/get-in-touch" className="cursor-scale small">
                     Blog
-                  </a>
+                  </Link>
                 </div>
               </div>
               <h6 className="mb-0">EMAAD</h6>

@@ -2,6 +2,7 @@
 import { useEffect } from "react";
 import EperiencesImg from "../assets/images/Eperiences.svg";
 import kristionImg from "../assets/images/Kristin Watson.svg";
+import packwellImg from "../assets/images/packwell.svg";
 import Image from "next/image";
 import { gsap } from "gsap";
 
@@ -137,9 +138,11 @@ const CustomerExpHome = () => {
                 <div className="customer-card">
                   <div className="customer-card-content">
                     <Image
-                      src={kristionImg}
+                      src={packwellImg}
                       alt="Kristin Watson"
                       className="customer-card-image"
+                      width={"100%"}
+                      height={"100%"}
                     />
                     <div className="tcustomer-card-tex">
                       <p className="quote mb-0">
@@ -161,7 +164,7 @@ const CustomerExpHome = () => {
                 <div className="customer-card">
                   <div className="customer-card-content">
                     <Image
-                      src={kristionImg}
+                      src={packwellImg}
                       alt="Kristin Watson"
                       className="customer-card-image"
                     />

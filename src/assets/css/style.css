@@ -306,7 +306,7 @@ body {
 .main-logo {
   display: flex;
   justify-content: space-between;
-  padding: 33px 41px 32px 40px;
+  /* padding: 33px 41px 32px 40px; */
   /* border-bottom: 1px solid #434C5E; */
 }
 .nav-bar.visible {
@@ -316,7 +316,7 @@ body {
   z-index: 2;
   display: flex;
   justify-content: space-between;
-  padding: 32px 40px;
+  /* padding: 32px 40px; */
   color: #fff;
   /* background-color: #333; */
   color: white;
@@ -337,6 +337,24 @@ body {
   gap: 25px;
   align-items: center;
 }
+.emaad-logo1 {
+  padding: 32px 40px;
+}
+.emaad-log {
+  padding: 32px 40px;
+}
+.emmad-header {
+  border-left: 1px solid rgba(67, 76, 94, 1);
+  padding: 32px 40px;
+}
+.emmad-header {
+  border-left: 1px solid rgba(67, 76, 94, 1);
+}
+.emmad-border {
+  border-left: 1px solid rgba(67, 76, 94, 1);
+  padding: 0px 0px 0px 171px;
+}
+
 .menuBtn,
 .close {
   cursor: pointer;
@@ -368,8 +386,9 @@ body {
   align-items: center;
   gap: 25px;
   position: absolute;
-  top: 33px;
+  top: 0px;
   right: 41px;
+  padding: 32px 0px;
 }
 /* drowpdown */
 .nav-list {
@@ -690,7 +709,6 @@ body {
 }
 .border-bottom {
   position: relative;
-  border-bottom: 1px solid;
 }
 .border-bottom img {
   position: absolute;
@@ -1610,9 +1628,9 @@ body {
 .back_nine {
   background-image: url(../images/img9.png) !important;
 }
-.back_ten {
+/* .back_ten {
   background-image: url(../images/img10.png) !important;
-}
+} */
 .swiper-slide .overlay {
   position: absolute;
   bottom: 0;
@@ -1685,9 +1703,9 @@ body {
 .thumbs .swiper-slide:nth-child(9) {
   background-image: url(../images/img9.png);
 }
-.thumbs .swiper-slide:nth-child(10) {
+/* .thumbs .swiper-slide:nth-child(10) {
   background-image: url(../images/img10.png);
-}
+} */
 
 .thumbs .swiper-slide {
   width: 342px !important;
@@ -2090,7 +2108,7 @@ body {
 
 .typing-container {
   font-size: 100px;
-  width: 62%;
+  width: 64%;
   padding-top: 85px;
   padding-left: 20px;
   line-height: 110px;
@@ -2128,7 +2146,8 @@ body {
   font-size: 100px;
   line-height: 110px;
   letter-spacing: 2px;
-  font-family: "Syne-Semi-Bold";
+  font-family: "Syne-Medium";
+  -webkit-text-stroke: 2px;
   color: #ffffff;
 }
 .lets-talk-button {
@@ -2174,6 +2193,8 @@ body {
   line-height: 28px;
   font-family: "Assistant-SemiBold";
   color: var(--footer-text);
+  margin: 0;
+  padding-bottom: 108px;
 }
 .got-to-info span {
   color: #2dc97a;
@@ -2283,7 +2304,7 @@ body {
   border-top: none;
 }
 .emmad-section .content {
-  border-radius: 8px;
+  /* border-radius: 8px; */
   width: 100%;
   max-width: 692px;
   border-top: 2px solid #434c5e;
@@ -2364,7 +2385,7 @@ body {
   text-align: end;
 }
 .discover-capabilites .border-bottom-dis {
-  border-bottom: 2px solid;
+  border-bottom: 2px solid #434c5e;
   width: 85%;
   float: right;
 }
@@ -6305,7 +6326,7 @@ a {
 
 /* bulk sms email service page css  */
 /* bulk sms email service css  */
-.bulk-sms-email-marketing .ui-moon-img {
+bulk-sms-email-marketing .ui-moon-img {
   position: relative;
 }
 .bulk-sms-email-marketing .ui-bg-img {
@@ -6334,7 +6355,6 @@ a {
   font-family: "Syne", sans-serif;
   padding-top: 60px;
 }
-
 .bulk-sms-email-marketing .designer-errows h4 {
   font-size: 12px;
   margin: 0;
@@ -6355,7 +6375,6 @@ a {
   max-width: 70%;
   padding-left: 32px;
 }
-
 .bulk-sms-email-marketing .bulkemail {
   position: relative;
   font-size: 70px;
@@ -6367,7 +6386,6 @@ a {
   font-family: "Syne-Bold";
   display: inline-block;
 }
-
 .bulk-sms-email-marketing .bulksms {
   color: #ffffff;
   font-size: 70px;
@@ -6381,8 +6399,8 @@ a {
   background-repeat: no-repeat;
   background-position: calc(100% - 70px) center;
   border-bottom: 2px solid #434c5e;
+  background-size: contain;
 }
-
 /* bulk servic css */
 .bulk-email-service {
   background: linear-gradient(
@@ -6404,7 +6422,11 @@ a {
   position: relative;
   display: inline-block;
 }
-
+.bulk-email-service h1 span {
+  background: linear-gradient(104.02deg, #2d9cdb 0%, #2dc97a 88.31%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .bulk-text h1 span::before {
   content: "";
   position: absolute;
@@ -6433,11 +6455,9 @@ a {
   margin-top: 69px;
 }
 /* bulk service hover */
-
 .bulk-service-email-desing {
   position: relative;
 }
-
 .bolk-service-img {
   position: absolute;
   top: -100px;
@@ -6447,18 +6467,11 @@ a {
   pointer-events: none;
   rotate: 12.12deg;
 }
-
 .bulk-service-email-desing:hover {
   cursor: none;
 }
-
 .bulk-service-email-desing:hover .bolk-service-img {
   opacity: 1;
-}
-.bulk-email-service h1 span {
-  background: linear-gradient(104.02deg, #2d9cdb 0%, #2dc97a 88.31%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 /* why choose service ccs */
 .why-choose-service-cards {
@@ -6523,6 +6536,7 @@ a {
   width: 100%;
   height: 100vh;
   margin-left: 40px;
+ justify-content: center;
 }
 
 /* card */
@@ -6548,6 +6562,7 @@ a {
   transform: rotate(1.34deg);
   position: relative;
   width: 100%;
+  height: 100%;
 }
 
 .card-2-img,
@@ -6652,7 +6667,7 @@ a {
 
 .text-item-service:hover {
   color: #fff;
-  margin-left: 5px;
+  /* margin-left: 5px; */
   transition: 0.5s ease;
 }
 /* get-in-touch section end */
@@ -7845,4 +7860,17 @@ body.no-scroll {
 .discover-capabilites :hover.swiper-button-prev-discover {
   background-color: var(--black-card);
   border: 1px solid var(--black-card);
+}
+.material-symbols-fill {
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+.border-bottom {
+  border-bottom: 1px solid #434c5e !important;
+}
+.process-tab-design-content {
+  display: none;
+}
+
+.process-tab-wrapper .active + .process-tab-design-content {
+  display: block;
 }

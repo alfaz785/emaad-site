@@ -15,18 +15,16 @@ const DeliveriHome = () => {
   useEffect(() => {
     const deliveringSection = document.querySelector(".innovation");
 
-    // Create a GSAP timeline with ScrollTrigger
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: deliveringSection,
-        start: "top top", // Start when section top hits viewport top
-        end: "bottom bottom", // End when section bottom leaves viewport bottom
-        scrub: true, // Smooth scrubbing
-        pin: true, // Pin the entire section during scroll
+        start: "top top",
+        end: "bottom bottom",
+        scrub: true,
+        pin: true,
       },
     });
 
-    // Card and text animation sequence
     tl.to(".text", {
       top: "2%",
       duration: 1,
@@ -38,7 +36,7 @@ const DeliveriHome = () => {
           duration: 1,
         },
         "-=0.5",
-      ) // overlap animations
+      )
       .to(
         "#card-two",
         {
@@ -74,7 +72,7 @@ const DeliveriHome = () => {
       .to(
         "#card-three",
         {
-          top: "38%",
+          top: "40%",
           duration: 1,
         },
         "c",
@@ -98,7 +96,7 @@ const DeliveriHome = () => {
       .to(
         "#card-four",
         {
-          top: "41%",
+          top: "42%",
           duration: 1,
         },
         "d",
@@ -127,7 +125,7 @@ const DeliveriHome = () => {
         <div id="delivering-main" className="innovation">
           <div className="text">
             <h2>
-              Delivering Innovation that
+              Delivering Innovation that&nbsp;
               <span className="position-relative">
                 thrives
                 <div className="text-img-leaf">
