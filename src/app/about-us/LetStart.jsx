@@ -47,7 +47,7 @@ const LetStart = () => {
             <div className="talk-button">
               <div className="star-text">
                 <Image src={marketImg} alt="marker.svg" />
-                <h4>ther</h4>
+                <h4>Ther</h4>
               </div>
               <div className="lets-button">
                 <button className="lets-talk-button">

@@ -15,7 +15,6 @@ const DiscoverSwiper = dynamic(() => import("@/component/DiscoverSwiper"), {
 const AboutUs = () => {
   return (
     <>
-    
       {/* <!-- lets-get-to start --> */}
       <LetStart />
 
@@ -28,9 +27,10 @@ const AboutUs = () => {
           <DiscoverSwiper
             firstTxt={"Discover Our"}
             secondTxt={"Capabilities"}
+            isAbout={true}
           />
         </div>
-        <ProjectInMind mainTxt={"Have a project in mind ? Let's get to work"} />
+        <ProjectInMind mainTxt={"Have A Project In Mind ? Let's Get To Work"} />
       </section>
       {/* <!-- project counter start --> */}
       <DraggableBox />

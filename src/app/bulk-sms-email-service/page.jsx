@@ -40,7 +40,7 @@ const BulkSmsEmailService = () => {
           </div>
         </div>
       </div>
-      <ProjectInMind mainTxt={"Ideas can't wait Put us to work on them!"} />
+      <ProjectInMind mainTxt={"Have A Project In Mind ? Let's Get To Work"} />
 
       {/* DRAGGABLE  ------------------------ */}
 

@@ -6,20 +6,20 @@ import Image from "next/image";
 const UiUxHead = () => {
   useEffect(() => {
     const options = {
-      root: null, // Use the viewport as the root
+      root: null, 
       rootMargin: "0px",
-      threshold: 0.1, // Trigger when 10% of the element is visible
+      threshold: 0.1, 
     };
 
     const callback = (entries, observer) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           entry.target.classList.add("visible");
-          observer.unobserve(entry.target); // Optional: Stop observing after animation
+          observer.unobserve(entry.target); 
         }
       });
     };
-    // bulk sms accordian text
+    
     const observer = new IntersectionObserver(callback, options);
     const targets = document.querySelectorAll(".benifits-title1");
 

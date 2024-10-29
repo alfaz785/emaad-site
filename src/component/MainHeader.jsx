@@ -165,33 +165,10 @@ const MainHeader = () => {
   return (
     <>
       <div className="nav-bar" id="navBar">
-      <div class="emaad-log">
-        <svg
-          class="dashed-path"
-          viewBox="0 0 44 23"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M5.35 19.15H22.815V23H0.66V0.389999H22.78V4.275H5.35V10.295H19.595V13.165H5.35V19.15ZM28.2244 0.389999H32.8794V23H28.2244V0.389999ZM43.6321 19.01V23H38.3471V19.01H43.6321Z"
-            fill="white"
-          />
-        </svg>
-      </div>
-
-      <div class="emmad-header">
-        <div class="menu menuBtn">
-          <h4>menu</h4>
-          <span class="material-symbols-outlined"> drag_handle </span>
-        </div>
-      </div>
-      </div>
-      <div className="menu-content">
-      <div class="main-close-btn">
-        <div class="main-logo">
-          <div class="emaad-logo1">
+        <div className="emaad-log">
+          <Link href="/">
             <svg
-              class="dashed-path"
+              className="dashed-path"
               viewBox="0 0 44 23"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -201,24 +178,55 @@ const MainHeader = () => {
                 fill="white"
               />
             </svg>
-          </div>
-          <div class="emmad-border">
-            <div class="close closeBtn">
-              <h4>close</h4>
-              <span class="material-symbols-outlined">close</span>
-            </div>
+          </Link>
+        </div>
+
+        <div className="emmad-header">
+          <div className="menu menuBtn">
+            <h4>menu</h4>
+            <span className="material-symbols-outlined"> drag_handle </span>
           </div>
         </div>
       </div>
+      <div className="menu-content">
+        <div className="main-close-btn">
+          <div className="main-logo">
+            <div className="emaad-logo1">
+              <Link href="/">
+                <svg
+                  className="dashed-path"
+                  viewBox="0 0 44 23"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.35 19.15H22.815V23H0.66V0.389999H22.78V4.275H5.35V10.295H19.595V13.165H5.35V19.15ZM28.2244 0.389999H32.8794V23H28.2244V0.389999ZM43.6321 19.01V23H38.3471V19.01H43.6321Z"
+                    fill="white"
+                  />
+                </svg>
+              </Link>
+            </div>
+            <div className="emmad-border">
+              <div className="close closeBtn">
+                <h4>close</h4>
+                <span className="material-symbols-outlined">close</span>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="menu-container">
           <ul className="nav-list SMN_effect-1">
             <li className="nav-text">
-              <Link onClick={handleNavigate} href="/" className="nav-link">
+              <Link
+                onClick={handleNavigate}
+                href="/"
+                className="nav-link cursor-scale"
+              >
                 Home<span className="numbers">01</span>
               </Link>
             </li>
             <li className="nav-text said-drowpdown">
-              <a href="#" className="nav-link p-0 cursor-scale ">
+              <a href="#" className="nav-link p-0 cursor-scale">
                 What we do <span className="numbers">02</span>
               </a>
               <div className="main-drowpdown">
@@ -314,7 +322,7 @@ const MainHeader = () => {
                           <span className="material-symbols-outlined material-symbols-fill">
                             school
                           </span>
-                          <li>
+                          <li className="hover">
                             <Link
                               href="/get-in-touch"
                               className="nav-drowpdown1 p-0"
@@ -328,7 +336,7 @@ const MainHeader = () => {
                           <span className="material-symbols-outlined">
                             diversity_3
                           </span>
-                          <li>
+                          <li className="hover">
                             <Link
                               href="/get-in-touch"
                               className="nav-drowpdown1 p-0"
@@ -342,7 +350,7 @@ const MainHeader = () => {
                           <span className="material-symbols-outlined">
                             diversity_3
                           </span>
-                          <li>
+                          <li className="hover">
                             <Link
                               href="/get-in-touch"
                               className="nav-drowpdown1 p-0"
@@ -356,7 +364,7 @@ const MainHeader = () => {
                           <span className="material-symbols-outlined material-symbols-fill">
                             home_work
                           </span>
-                          <li>
+                          <li className="hover">
                             <Link
                               href="/get-in-touch"
                               className="nav-drowpdown1 p-0"
@@ -370,7 +378,7 @@ const MainHeader = () => {
                           <span className="material-symbols-outlined">
                             local_dining
                           </span>
-                          <li>
+                          <li className="hover">
                             <Link
                               href="/get-in-touch"
                               className="nav-drowpdown1 p-0"
@@ -386,7 +394,7 @@ const MainHeader = () => {
                           <span className="material-symbols-outlined material-symbols-fill">
                             school
                           </span>
-                          <li>
+                          <li className="hover">
                             <Link
                               href="/get-in-touch"
                               className="nav-drowpdown1 p-0"
@@ -400,7 +408,7 @@ const MainHeader = () => {
                           <span className="material-symbols-outlined">
                             cardiology
                           </span>
-                          <li>
+                          <li className="hover">
                             <Link
                               href="/get-in-touch"
                               className="nav-drowpdown1 p-0"
@@ -414,7 +422,7 @@ const MainHeader = () => {
                           <span className="material-symbols-outlined material-symbols-fill">
                             home_health
                           </span>
-                          <li>
+                          <li className="hover">
                             <Link
                               href="/get-in-touch"
                               className="nav-drowpdown1 p-0"
@@ -428,7 +436,7 @@ const MainHeader = () => {
                           <span className="material-symbols-outlined material-symbols-fill">
                             sports_cricket
                           </span>
-                          <li>
+                          <li className="hover">
                             <Link
                               href="/get-in-touch"
                               className="nav-drowpdown1 p-0"
@@ -442,7 +450,7 @@ const MainHeader = () => {
                           <span className="material-symbols-outlined">
                             public
                           </span>
-                          <li>
+                          <li className="hover">
                             <Link
                               href="/get-in-touch"
                               className="nav-drowpdown1 p-0"
@@ -672,8 +680,8 @@ const MainHeader = () => {
                       <div className="border-line"></div>
                     </a>
                   </li>
-                  <div className="row">
-                    <div className="col-lg-8 col-md-8">
+                  <div className="row g-0">
+                    <div className="col-xl-7 col-lg-9 col-md-9 col-sm-9">
                       <li className="hover">
                         <Link
                           href="/about-us"
@@ -693,7 +701,7 @@ const MainHeader = () => {
                         </Link>
                       </li>
                     </div>
-                    <div className="col-lg-3 col-md-4">
+                    <div className="col-xl-5 col-lg-3 col-md-3 col-sm-3">
                       <li className="hover">
                         <Link
                           href="/career"
@@ -721,8 +729,8 @@ const MainHeader = () => {
                         <div className="border-line"></div>
                       </a>
                     </li>
-                    <div className="d-flex justify-content-between flex-wrap">
-                      <div className="company">
+                    <div className="row g-0">
+                      <div className="col-xl-7 col-lg-9 col-md-9 col-sm-9">
                         <div className="calling-text">
                           <Image src={indiaImg} alt="img" />
                           <div className="call-num">
@@ -733,7 +741,7 @@ const MainHeader = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="company">
+                      <div className="col-xl-5 col-lg-3 col-md-3 col-sm-3">
                         <div className="Email-text">
                           <Image src={emailImg} alt="img" />
                           <div className="call-num">

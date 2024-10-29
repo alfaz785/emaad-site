@@ -4,8 +4,10 @@ import VanillaTilt from "vanilla-tilt";
 import leftArrowImg from "../assets/images/why-left-arrow.svg";
 import rightArrowImg from "../assets/images/why-right-arrow.svg";
 import Image from "next/image";
+import MainSwiper from "./MainSwiper";
+import { AboutUsData, BulkSmsData } from "../../commFun";
 
-const DiscoverSwiper = ({ firstTxt, secondTxt }) => {
+const DiscoverSwiper = ({ firstTxt, secondTxt, isAbout }) => {
   useEffect(() => {
     const tiltElements = document.querySelectorAll(".card");
 
@@ -28,12 +30,12 @@ const DiscoverSwiper = ({ firstTxt, secondTxt }) => {
       slidesPerView: 3,
       spaceBetween: 13,
       // loop: true,
-    
+
       navigation: {
         nextEl: ".swiper-button-prev-discover",
         prevEl: ".swiper-button-next-discover",
       },
-    
+
       breakpoints: {
         0: {
           slidesPerView: 1,
@@ -46,7 +48,6 @@ const DiscoverSwiper = ({ firstTxt, secondTxt }) => {
         },
       },
     });
-    
   }, []);
   return (
     <>
@@ -83,7 +84,15 @@ const DiscoverSwiper = ({ firstTxt, secondTxt }) => {
       <div className="slide-container swiper">
         <div className="slide-content">
           <div className="card-wrapper swiper-wrapper">
-            <div
+            {(isAbout ? AboutUsData : BulkSmsData).map((card, index) => (
+              <MainSwiper
+                key={index}
+                icon={card.icon}
+                title={card.title}
+                description={card.description}
+              />
+            ))}
+            {/* <div
               data-tilt
               data-tilt-glare
               data-tilt-max-glare="0.8"
@@ -104,8 +113,8 @@ const DiscoverSwiper = ({ firstTxt, secondTxt }) => {
                   to conceptualize ideas that encapsulate your brand essence.
                 </p>
               </div>
-            </div>
-            <div
+            </div> */}
+            {/* <div
               data-tilt
               data-tilt-glare
               data-tilt-max-glare="0.8"
@@ -164,7 +173,7 @@ const DiscoverSwiper = ({ firstTxt, secondTxt }) => {
                   adipisicing elit.
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

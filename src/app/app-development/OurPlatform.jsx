@@ -25,9 +25,9 @@ const OurPlatform = () => {
                     WebkitTextFillColor: "transparent",
                   }}
                 >
-                  Platforms
+                  Platforms&nbsp;
                 </span>
-                and Technologies
+                And Technologies
               </h3>
             </div>
             <p className="mb-0 title-para">

@@ -15,7 +15,7 @@ const UiService = () => {
 
     // Avoid re-triggering the effect if already executed
     if (typing && typing.innerHTML === "") {
-      const modifiedText = "Expert — Services For your Twebsite or app ";
+      const modifiedText = "Expert — Services For Your Website Or App ";
       textTypingEffect(
         typing,
         modifiedText,

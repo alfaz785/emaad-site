@@ -798,7 +798,6 @@ export const deliveryCard = () => {
     );
 };
 
-
 export const processSteps = [
   {
     id: "content-01",
@@ -842,4 +841,52 @@ export const processSteps = [
     content:
       "Responsive Web Design is an approach to web development that ensures a website looks and functions well across a variety of devices and screen sizes. This means the website automatically adjusts its layout, images, and functionalities to provide an optimal viewing experience, whether accessed on a smartphone, tablet, laptop, or desktop computer.",
   },
+];
+
+export const AboutUsData = [
+  {
+    icon: "architecture",
+    title: "Logo Design",
+    description:
+      "Your logo is the cornerstone of your brand identity. Our logo design process begins with in-depth research and brainstorming to conceptualize ideas that encapsulate your brand essence.",
+  },
+  {
+    icon: "query_stats",
+    title: "SEO",
+    description:
+      "Our team optimizes your website's on-page elements, including meta tags, headings, and content, to improve search engine visibility and relevance.",
+  },
+  {
+    icon: "code",
+    title: "Figma to HTML",
+    description:
+      "Our Figma to HTML conversion process is streamlined and efficient, delivering high-quality results on time and within budget.",
+  },
+];
+export const BulkSmsData = [
+  {
+    icon: "img",
+    title: "Personalization",
+    description:
+      "At Emaad Infotech® we pride ourselves on our extensive capabilities and expertise in delivering innovative solutions to meet the diverse needs of our clients.",
+  },
+  {
+    icon: "supervisor_account",
+    title: "Scheduling",
+    description:
+      "Ensure your messages reach their recipients with our reliable network.",
+  },
+  {
+    icon: "history_toggle_off",
+    title: "Personalization",
+    description:
+      "Customize messages with recipient names and other personal details for a more engaging experience.",
+  },
+
+  // {
+  //   icon: "architecture",
+  //   title: "Logo Design",
+  //   description:
+  //     "The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.",
+  // },
 ];

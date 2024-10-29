@@ -29,7 +29,7 @@ const EmaadSection = () => {
               <h4>/01</h4>
             </div>
             <div className="emaad-information">
-              <h2>embrace creativity with our cutting edge graphics</h2>
+              <h2>Embrace Creativity With Our Cutting Edge Graphics</h2>
               <p>
                 deger tortor quis libero rhoncus efficitur vel sit amet tellus
                 dapibus est non tortor tristique eleifend metus luctus velit
@@ -42,7 +42,7 @@ const EmaadSection = () => {
               <h4>/02</h4>
             </div>
             <div className="emaad-information">
-              <h2>choose us for designs that captivate and inspire</h2>
+              <h2>Choose Us For Designs That Captivate And Inspire</h2>
               <p>
                 there are many variations of passages of lorem ipsum available,
                 but the majority have suffered alteration in some form, by
@@ -55,7 +55,7 @@ const EmaadSection = () => {
               <h4>/03</h4>
             </div>
             <div className="emaad-information">
-              <h2>elevate your vision with our studio's artistic flair</h2>
+              <h2>Elevate Your Vision With Our Studio's Artistic Flair</h2>
               <p>
                 deger tortor quis libero rhoncus efficitur vel sit amet tellus
                 dapibus est non tortor tristique eleifend metus luctus velit

@@ -50,7 +50,7 @@ const Trusted = () => {
           <a href="#" className="btn-schedule">
             <div className="d-flex align-items-center">
               <span className="icon-container">
-                <span class="material-symbols-outlined material-symbols-fill">
+                <span className="material-symbols-outlined material-symbols-fill">
                   call
                 </span>
               </span>

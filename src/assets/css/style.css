@@ -601,6 +601,7 @@ body {
   opacity: 1;
   visibility: visible;
 }
+
 .company-dropdown li {
   margin-bottom: 20px;
 }
@@ -740,7 +741,9 @@ body {
   font-family: "Syne-Bold";
   transition: all 0.3s ease-in-out;
   position: relative;
+  text-transform: capitalize;
 }
+
 .nav-link:hover {
   color: var(--white-color);
 }
@@ -752,7 +755,7 @@ body {
 /* grow with  section 2 */
 .grow-toggel-section {
   width: 100%;
-  padding: 91px 0 100px;
+  padding: 50px 0 100px;
 }
 .grow-text {
   display: flex;
@@ -1011,6 +1014,7 @@ body {
 .navbar {
   width: 100%;
 }
+
 .emmad-nav {
   display: flex;
   align-items: center;
@@ -4604,12 +4608,13 @@ body {
 .benifits-title1 h4 {
   font-size: 27px;
   line-height: 32.4px;
-  letter-spacing: 4px;
+  letter-spacing: 1px;
   color: #ffffff;
   font-family: "Syne-Bold";
   transition: opacity 1s ease-out, transform 1s ease-out;
   opacity: 0;
   transform: translateY(-20px);
+  text-transform: uppercase;
 }
 .benifits-title1.visible h4 {
   opacity: 1;
@@ -6207,8 +6212,9 @@ a {
   font-size: 27px;
   line-height: 32.4px;
   color: #ffffff;
-  letter-spacing: 4px;
+  letter-spacing: 1px;
   font-family: "Syne-Bold";
+  text-transform: uppercase;
 }
 
 .out-expertise-section .accordion-icon {
@@ -6287,6 +6293,7 @@ a {
   display: inline-block;
   padding: 15px 30px;
   margin-top: 20px;
+  border-radius: 7px;
 }
 .-client-call-button {
   display: flex;
@@ -6536,7 +6543,7 @@ bulk-sms-email-marketing .ui-moon-img {
   width: 100%;
   height: 100vh;
   margin-left: 40px;
- justify-content: center;
+  justify-content: center;
 }
 
 /* card */
@@ -7873,4 +7880,12 @@ body.no-scroll {
 
 .process-tab-wrapper .active + .process-tab-design-content {
   display: block;
+}
+
+.text-item-service .material-symbols-outlined {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.text-item-service:hover .material-symbols-outlined {
+  opacity: 1;
 }

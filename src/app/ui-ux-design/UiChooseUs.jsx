@@ -89,7 +89,7 @@ const ChooseUs = () => {
               </div>
               <div className="choose-title mt_30">
                 <h1 className="choose-title-1 ui-text-wrapper">
-                  {"Elevent your brand with our UI/UX services"
+                  {"Elevate Your Brand With Our UI/UX Services"
                     .split("")
                     .map((char, index) => (
                       <span className="letter" key={index}>
@@ -99,7 +99,7 @@ const ChooseUs = () => {
                 </h1>
               </div>
               <div className="choose-text mt_20">
-                <h5>Revolutionize Your Brand with Our UI/UX Expertise</h5>
+                <h5>Revolutionize Your Brand With Our UI/UX Expertise</h5>
               </div>
               <div className="choose-desc mt_20">
                 <p>
