@@ -150,6 +150,9 @@ const MainHeader = () => {
         }
       });
     });
+    return () => {
+      cursor.classList.remove("cursor-main");
+    };
   }, []);
   useEffect(() => {
     gsap.to(".border-bottom img", {

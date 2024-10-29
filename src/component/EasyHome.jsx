@@ -21,9 +21,6 @@ const EasyHome = () => {
         end: "+=3000",
       },
     });
-
-    console.log(1 / (sections.length - 1));
-
     gsap.to(".discovery", {
       duration: 5,
       delay: 1,
@@ -93,7 +90,7 @@ const EasyHome = () => {
           <div className="intro-text">
             <div className="big-title">
               <h4 className="text-center position-relative">
-                <p className="text-start mb-0">How it Works</p>
+                <p className="text-start mb-0">How It Works</p>
                 We Have Some Easy&nbsp;
                 <span className="position-relative">
                   Steps
@@ -190,7 +187,7 @@ const EasyHome = () => {
               </div>
               <ul className="disc">
                 <li className="mb_30">
-                  Initial Consultation:
+                  Initial Consultation:&nbsp;
                   <span>
                     We begin by understanding your project requirements,
                     objectives, and expectations through detailed discussions
@@ -198,7 +195,7 @@ const EasyHome = () => {
                   </span>
                 </li>
                 <li className="mb_30">
-                  Project Scope Definition:
+                  Project Scope Definition:&nbsp;
                   <span>
                     Based on our discussions, we define the scope of the
                     project, outlining deliverables, timelines, and budget
@@ -206,7 +203,7 @@ const EasyHome = () => {
                   </span>
                 </li>
                 <li>
-                  Requirement Gathering:
+                  Requirement Gathering:&nbsp;
                   <span>
                     Our team conducts thorough research and analysis to gather
                     all necessary requirements and specifications for the
@@ -223,7 +220,7 @@ const EasyHome = () => {
               </div>
               <ul className="disc anim">
                 <li className="mb_30">
-                  Initial Consultation:
+                  Initial Consultation:&nbsp;
                   <span>
                     We begin by understanding your project requirements,
                     objectives, and expectations through detailed discussions
@@ -231,7 +228,7 @@ const EasyHome = () => {
                   </span>
                 </li>
                 <li className="mb_30">
-                  Project Scope Definition:
+                  Project Scope Definition:&nbsp;
                   <span>
                     Based on our discussions, we define the scope of the
                     project, outlining deliverables, timelines, and budget
@@ -239,7 +236,7 @@ const EasyHome = () => {
                   </span>
                 </li>
                 <li>
-                  Requirement Gathering:
+                  Requirement Gathering:&nbsp;
                   <span>
                     Our team conducts thorough research and analysis to gather
                     all necessary requirements and specifications for the
@@ -255,7 +252,7 @@ const EasyHome = () => {
               </div>
               <ul className="disc anim">
                 <li className="mb_30">
-                  Initial Consultation:
+                  Initial Consultation:&nbsp;
                   <span>
                     We begin by understanding your project requirements,
                     objectives, and expectations through detailed discussions
@@ -263,7 +260,7 @@ const EasyHome = () => {
                   </span>
                 </li>
                 <li className="mb_30">
-                  Project Scope Definition:
+                  Project Scope Definition:&nbsp;
                   <span>
                     Based on our discussions, we define the scope of the
                     project, outlining deliverables, timelines, and budget
@@ -271,7 +268,7 @@ const EasyHome = () => {
                   </span>
                 </li>
                 <li>
-                  Requirement Gathering:
+                  Requirement Gathering:&nbsp;
                   <span>
                     Our team conducts thorough research and analysis to gather
                     all necessary requirements and specifications for the
@@ -288,7 +285,7 @@ const EasyHome = () => {
               </div>
               <ul className="disc anim">
                 <li className="mb_30">
-                  Initial Consultation:
+                  Initial Consultation:&nbsp;
                   <span>
                     We begin by understanding your project requirements,
                     objectives, and expectations through detailed discussions
@@ -296,7 +293,7 @@ const EasyHome = () => {
                   </span>
                 </li>
                 <li className="mb_30">
-                  Project Scope Definition:
+                  Project Scope Definition:&nbsp;
                   <span>
                     Based on our discussions, we define the scope of the
                     project, outlining deliverables, timelines, and budget
@@ -304,7 +301,7 @@ const EasyHome = () => {
                   </span>
                 </li>
                 <li>
-                  Requirement Gathering:
+                  Requirement Gathering:&nbsp;
                   <span>
                     Our team conducts thorough research and analysis to gather
                     all necessary requirements and specifications for the
@@ -320,7 +317,7 @@ const EasyHome = () => {
               </div>
               <ul className="disc anim">
                 <li className="mb_30">
-                  Initial Consultation:
+                  Initial Consultation:&nbsp;
                   <span>
                     We begin by understanding your project requirements,
                     objectives, and expectations through detailed discussions
@@ -328,7 +325,7 @@ const EasyHome = () => {
                   </span>
                 </li>
                 <li className="mb_30">
-                  Project Scope Definition:
+                  Project Scope Definition:&nbsp;
                   <span>
                     Based on our discussions, we define the scope of the
                     project, outlining deliverables, timelines, and budget
@@ -336,7 +333,7 @@ const EasyHome = () => {
                   </span>
                 </li>
                 <li>
-                  Requirement Gathering:
+                  Requirement Gathering:&nbsp;
                   <span>
                     Our team conducts thorough research and analysis to gather
                     all necessary requirements and specifications for the

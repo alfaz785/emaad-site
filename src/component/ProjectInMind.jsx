@@ -40,7 +40,7 @@ const ProjectInMind = ({ mainTxt }) => {
               href="/get-in-touch"
               className="wc-btn-primary btn btn-outline-light work-btn mt_40"
             >
-              Start a Project
+              Let's Talk
               <span className="material-symbols-outlined">
                 {" "}
                 arrow_right_alt{" "}

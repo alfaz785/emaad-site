@@ -1,8 +1,11 @@
 "use client";
 import { useEffect } from "react";
 import EperiencesImg from "../assets/images/Eperiences.svg";
-import kristionImg from "../assets/images/Kristin Watson.svg";
-import packwellImg from "../assets/images/packwell.svg";
+import educationImg from "../assets/images/education.png";
+import packwellImg from "../assets/images/packwell.png";
+import dancheImg from "../assets/images/Danche.png";
+import universalImg from "../assets/images/Universal.png";
+import alamanImg from "../assets/images/alaman.png";
 import Image from "next/image";
 import { gsap } from "gsap";
 
@@ -138,7 +141,7 @@ const CustomerExpHome = () => {
                 <div className="customer-card">
                   <div className="customer-card-content">
                     <Image
-                      src={packwellImg}
+                      src={educationImg}
                       alt="Kristin Watson"
                       className="customer-card-image"
                       width={"100%"}
@@ -170,9 +173,10 @@ const CustomerExpHome = () => {
                     />
                     <div className="customer-card-text">
                       <p className="quote mb-0">
-                        “ when an unknown printer took a galley of type and
-                        scrambled it to make a type specimen book. It has
-                        survived not only. ”
+                        “Amazing support from these people. Our website got rank
+                        in just a few months after engaging with them. Purely
+                        dedicated and surely supportive group specialists.
+                        Thanks, Team Emaad”.
                       </p>
                       <p className="author mb-0">
                         <span className="material-symbols-outlined face">
@@ -188,15 +192,15 @@ const CustomerExpHome = () => {
                 <div className="customer-card">
                   <div className="customer-card-content">
                     <Image
-                      src={kristionImg}
+                      src={dancheImg}
                       alt="Kristin Watson"
                       className="customer-card-image"
                     />
                     <div className="customer-card-text">
                       <p className="quote mb-0">
-                        “ when an unknown printer took a galley of type and
-                        scrambled it to make a type specimen book. It has
-                        survived not only. ”
+                        “ They understood my requirements very well and create a
+                        custom module as per my direction. Thanks, team Emaad
+                        Infotech. ”
                       </p>
                       <p className="author mb-0">
                         <span className="material-symbols-outlined face">
@@ -212,15 +216,14 @@ const CustomerExpHome = () => {
                 <div className="customer-card">
                   <div className="customer-card-content">
                     <Image
-                      src={kristionImg}
+                      src={universalImg}
                       alt="Kristin Watson"
                       className="customer-card-image"
                     />
                     <div className="customer-card-text">
                       <p className="quote mb-0">
-                        “ when an unknown printer took a galley of type and
-                        scrambled it to make a type specimen book. It has
-                        survived not only. ”
+                        “ I really love the design they made. So elegant and
+                        full of rich colors.”
                       </p>
                       <p className="author mb-0">
                         <span className="material-symbols-outlined face">
@@ -236,87 +239,15 @@ const CustomerExpHome = () => {
                 <div className="customer-card">
                   <div className="customer-card-content">
                     <Image
-                      src={kristionImg}
+                      src={alamanImg}
                       alt="Kristin Watson"
                       className="customer-card-image"
                     />
                     <div className="customer-card-text">
                       <p className="quote mb-0">
-                        “ when an unknown printer took a galley of type and
-                        scrambled it to make a type specimen book. It has
-                        survived not only. ”
-                      </p>
-                      <p className="author mb-0">
-                        <span className="material-symbols-outlined face">
-                          call_made
-                        </span>
-                        <span className="author-name">Kristin Watson</span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="swiper-slide">
-                <div className="customer-card">
-                  <div className="customer-card-content">
-                    <Image
-                      src={kristionImg}
-                      alt="Kristin Watson"
-                      className="customer-card-image"
-                    />
-                    <div className="customer-card-text">
-                      <p className="quote mb-0">
-                        “ when an unknown printer took a galley of type and
-                        scrambled it to make a type specimen book. It has
-                        survived not only. ”
-                      </p>
-                      <p className="author mb-0">
-                        <span className="material-symbols-outlined face">
-                          call_made
-                        </span>
-                        <span className="author-name">Kristin Watson</span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="swiper-slide">
-                <div className="customer-card">
-                  <div className="customer-card-content">
-                    <Image
-                      src={kristionImg}
-                      alt="Kristin Watson"
-                      className="customer-card-image"
-                    />
-                    <div className="customer-card-text">
-                      <p className="quote mb-0">
-                        “ when an unknown printer took a galley of type and
-                        scrambled it to make a type specimen book. It has
-                        survived not only. ”
-                      </p>
-                      <p className="author mb-0">
-                        <span className="material-symbols-outlined face">
-                          call_made
-                        </span>
-                        <span className="author-name">Kristin Watson</span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="swiper-slide">
-                <div className="customer-card">
-                  <div className="customer-card-content">
-                    <Image
-                      src={kristionImg}
-                      alt="Kristin Watson"
-                      className="customer-card-image"
-                    />
-                    <div className="customer-card-text">
-                      <p className="quote mb-0">
-                        “ when an unknown printer took a galley of type and
-                        scrambled it to make a type specimen book. It has
-                        survived not only. ”
+                        “ Online presence really makes a difference nowadays. I
+                        got a nice website and they advertised it very well. I
+                        definitely got an increase in sell. ”
                       </p>
                       <p className="author mb-0">
                         <span className="material-symbols-outlined face">
@@ -337,11 +268,13 @@ const CustomerExpHome = () => {
                 <div className="customer-card">
                   <div className="customer-card-content">
                     <Image
-                      src={kristionImg}
+                      src={educationImg}
                       alt="Kristin Watson"
                       className="customer-card-image"
+                      width={"100%"}
+                      height={"100%"}
                     />
-                    <div className="customer-card-text">
+                    <div className="tcustomer-card-tex">
                       <p className="quote mb-0">
                         “ when an unknown printer took a galley of type and
                         scrambled it to make a type specimen book. It has
@@ -361,15 +294,16 @@ const CustomerExpHome = () => {
                 <div className="customer-card">
                   <div className="customer-card-content">
                     <Image
-                      src={kristionImg}
+                      src={packwellImg}
                       alt="Kristin Watson"
                       className="customer-card-image"
                     />
                     <div className="customer-card-text">
                       <p className="quote mb-0">
-                        “ when an unknown printer took a galley of type and
-                        scrambled it to make a type specimen book. It has
-                        survived not only. ”
+                        “Amazing support from these people. Our website got rank
+                        in just a few months after engaging with them. Purely
+                        dedicated and surely supportive group specialists.
+                        Thanks, Team Emaad”.
                       </p>
                       <p className="author mb-0">
                         <span className="material-symbols-outlined face">
@@ -385,15 +319,15 @@ const CustomerExpHome = () => {
                 <div className="customer-card">
                   <div className="customer-card-content">
                     <Image
-                      src={kristionImg}
+                      src={dancheImg}
                       alt="Kristin Watson"
                       className="customer-card-image"
                     />
                     <div className="customer-card-text">
                       <p className="quote mb-0">
-                        “ when an unknown printer took a galley of type and
-                        scrambled it to make a type specimen book. It has
-                        survived not only. ”
+                        “ They understood my requirements very well and create a
+                        custom module as per my direction. Thanks, team Emaad
+                        Infotech. ”
                       </p>
                       <p className="author mb-0">
                         <span className="material-symbols-outlined face">
@@ -409,15 +343,14 @@ const CustomerExpHome = () => {
                 <div className="customer-card">
                   <div className="customer-card-content">
                     <Image
-                      src={kristionImg}
+                      src={universalImg}
                       alt="Kristin Watson"
                       className="customer-card-image"
                     />
                     <div className="customer-card-text">
                       <p className="quote mb-0">
-                        “ when an unknown printer took a galley of type and
-                        scrambled it to make a type specimen book. It has
-                        survived not only. ”
+                        “ I really love the design they made. So elegant and
+                        full of rich colors.”
                       </p>
                       <p className="author mb-0">
                         <span className="material-symbols-outlined face">
@@ -433,87 +366,15 @@ const CustomerExpHome = () => {
                 <div className="customer-card">
                   <div className="customer-card-content">
                     <Image
-                      src={kristionImg}
+                      src={alamanImg}
                       alt="Kristin Watson"
                       className="customer-card-image"
                     />
                     <div className="customer-card-text">
                       <p className="quote mb-0">
-                        “ when an unknown printer took a galley of type and
-                        scrambled it to make a type specimen book. It has
-                        survived not only. ”
-                      </p>
-                      <p className="author mb-0">
-                        <span className="material-symbols-outlined face">
-                          call_made
-                        </span>
-                        <span className="author-name">Kristin Watson</span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="swiper-slide">
-                <div className="customer-card">
-                  <div className="customer-card-content">
-                    <Image
-                      src={kristionImg}
-                      alt="Kristin Watson"
-                      className="customer-card-image"
-                    />
-                    <div className="customer-card-text">
-                      <p className="quote mb-0">
-                        “ when an unknown printer took a galley of type and
-                        scrambled it to make a type specimen book. It has
-                        survived not only. ”
-                      </p>
-                      <p className="author mb-0">
-                        <span className="material-symbols-outlined face">
-                          call_made
-                        </span>
-                        <span className="author-name">Kristin Watson</span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="swiper-slide">
-                <div className="customer-card">
-                  <div className="customer-card-content">
-                    <Image
-                      src={kristionImg}
-                      alt="Kristin Watson"
-                      className="customer-card-image"
-                    />
-                    <div className="customer-card-text">
-                      <p className="quote mb-0">
-                        “ when an unknown printer took a galley of type and
-                        scrambled it to make a type specimen book. It has
-                        survived not only. ”
-                      </p>
-                      <p className="author mb-0">
-                        <span className="material-symbols-outlined face">
-                          call_made
-                        </span>
-                        <span className="author-name">Kristin Watson</span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="swiper-slide">
-                <div className="customer-card">
-                  <div className="customer-card-content">
-                    <Image
-                      src={kristionImg}
-                      alt="Kristin Watson"
-                      className="customer-card-image"
-                    />
-                    <div className="customer-card-text">
-                      <p className="quote mb-0">
-                        “ when an unknown printer took a galley of type and
-                        scrambled it to make a type specimen book. It has
-                        survived not only. ”
+                        “ Online presence really makes a difference nowadays. I
+                        got a nice website and they advertised it very well. I
+                        definitely got an increase in sell. ”
                       </p>
                       <p className="author mb-0">
                         <span className="material-symbols-outlined face">

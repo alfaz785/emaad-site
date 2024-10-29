@@ -1,5 +1,6 @@
 "use client";
 import gsap from "gsap";
+import Link from "next/link";
 // components/SliderComponent.js
 import { useEffect } from "react";
 import "swiper/css";
@@ -68,10 +69,13 @@ const SliderHome = () => {
                   nearer to our mission at every step we take.
                 </p>
 
-                <a href="#" className="contact-button mt_40">
-                  Contact Us
-                  <span className="material-symbols-outlined"> east </span>
-                </a>
+                <Link
+                  href="/get-in-touch"
+                  className="grow-contact-button mt_40"
+                >
+                  Contact Us{" "}
+                  <span className="material-symbols-outlined">east</span>
+                </Link>
               </div>
             </div>
             <div className="swiper-slide back_two">
@@ -137,10 +141,13 @@ const SliderHome = () => {
                   business growth of our clients.
                 </p>
 
-                <a href="#" className="contact-button mt_40">
-                  Contact Us
-                  <span className="material-symbols-outlined"> east </span>
-                </a>
+                <Link
+                  href="/get-in-touch"
+                  className="grow-contact-button mt_40"
+                >
+                  Contact Us{" "}
+                  <span className="material-symbols-outlined">east</span>
+                </Link>
               </div>
             </div>
             <div className="swiper-slide back_three">
@@ -153,10 +160,13 @@ const SliderHome = () => {
                   media presence. We believe it is our community responsibility
                   to help charity clients achieve their goals.
                 </p>
-                <a href="#" className="contact-button mt_40">
-                  Contact Us
-                  <span className="material-symbols-outlined"> east </span>
-                </a>
+                <Link
+                  href="/get-in-touch"
+                  className="grow-contact-button mt_40"
+                >
+                  Contact Us{" "}
+                  <span className="material-symbols-outlined">east</span>
+                </Link>
               </div>
             </div>
             <div className="swiper-slide back_four">
@@ -170,10 +180,13 @@ const SliderHome = () => {
                   from our clients’ investment.
                 </p>
 
-                <a href="#" className="contact-button mt_40">
-                  Contact Us
-                  <span className="material-symbols-outlined"> east </span>
-                </a>
+                <Link
+                  href="/get-in-touch"
+                  className="grow-contact-button mt_40"
+                >
+                  Contact Us{" "}
+                  <span className="material-symbols-outlined">east</span>
+                </Link>
               </div>
             </div>
             <div className="swiper-slide back_five">
@@ -190,10 +203,13 @@ const SliderHome = () => {
                   clubs.
                 </p>
 
-                <a href="#" className="contact-button mt_40">
-                  Contact Us
-                  <span className="material-symbols-outlined"> east </span>
-                </a>
+                <Link
+                  href="/get-in-touch"
+                  className="grow-contact-button mt_40"
+                >
+                  Contact Us{" "}
+                  <span className="material-symbols-outlined">east</span>
+                </Link>
               </div>
             </div>
             <div className="swiper-slide back_six">
@@ -207,10 +223,13 @@ const SliderHome = () => {
                   most pressing needs and concerns.
                 </p>
 
-                <a href="#" className="contact-button mt_40">
-                  Contact Us
-                  <span className="material-symbols-outlined"> east </span>
-                </a>
+                <Link
+                  href="/get-in-touch"
+                  className="grow-contact-button mt_40"
+                >
+                  Contact Us{" "}
+                  <span className="material-symbols-outlined">east</span>
+                </Link>
               </div>
             </div>
             <div className="swiper-slide back_seven">
@@ -224,10 +243,13 @@ const SliderHome = () => {
                   their site for maximum exposure & delivery.
                 </p>
 
-                <a href="#" className="contact-button mt_40">
-                  Contact Us
-                  <span className="material-symbols-outlined"> east </span>
-                </a>
+                <Link
+                  href="/get-in-touch"
+                  className="grow-contact-button mt_40"
+                >
+                  Contact Us{" "}
+                  <span className="material-symbols-outlined">east</span>
+                </Link>
               </div>
             </div>
             <div className="swiper-slide back_eight">
@@ -241,10 +263,13 @@ const SliderHome = () => {
                   dynamic, allowing millions of transactions securely.
                 </p>
 
-                <a href="#" className="contact-button mt_40">
-                  Contact Us
-                  <span className="material-symbols-outlined"> east </span>
-                </a>
+                <Link
+                  href="/get-in-touch"
+                  className="grow-contact-button mt_40"
+                >
+                  Contact Us{" "}
+                  <span className="material-symbols-outlined">east</span>
+                </Link>
               </div>
             </div>
             <div className="swiper-slide back_nine">
@@ -258,10 +283,13 @@ const SliderHome = () => {
                   their users.
                 </p>
 
-                <a href="#" className="contact-button mt_40">
-                  Contact Us
-                  <span className="material-symbols-outlined"> east </span>
-                </a>
+                <Link
+                  href="/get-in-touch"
+                  className="grow-contact-button mt_40"
+                >
+                  Contact Us{" "}
+                  <span className="material-symbols-outlined">east</span>
+                </Link>
               </div>
             </div>
             {/* <div className="swiper-slide back_ten">
@@ -275,10 +303,9 @@ const SliderHome = () => {
                   processing industry as well.
                 </p>
 
-                <a href="#" className="contact-button mt_40">
-                  Contact Us
-                  <span className="material-symbols-outlined"> east </span>
-                </a>
+             <Link href="/get-in-touch" className="grow-contact-button mt_40">
+              Contact Us <span className="material-symbols-outlined">east</span>
+            </Link>
               </div>
             </div> */}
           </div>

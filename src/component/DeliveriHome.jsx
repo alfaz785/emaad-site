@@ -125,15 +125,15 @@ const DeliveriHome = () => {
         <div id="delivering-main" className="innovation">
           <div className="text">
             <h2>
-              Delivering Innovation that&nbsp;
+              Delivering Innovation That&nbsp;
               <span className="position-relative">
-                thrives
+                Thrives
                 <div className="text-img-leaf">
                   <Image src={leafImg} alt="" />
                 </div>
               </span>
               <br />
-              your business
+              Your Business
             </h2>
           </div>
           {/* <!-- card-one --> */}

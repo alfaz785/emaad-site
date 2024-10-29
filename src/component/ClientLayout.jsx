@@ -11,6 +11,7 @@ export default function ClientLayout({ children }) {
     setHeaderKey(pathname);
   }, [children, pathname]);
 
+
   return (
     <>
       <Header key={headerKey} /> {/* Forces re-render with updated key */}
