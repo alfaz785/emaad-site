@@ -1,30 +1,14 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import processImg from "../../assets/images/process.png";
 import processTabImg from "../../assets/images/process-tab.svg";
 
 const Process = () => {
+  const [activeContent, setActiveContent] = useState(null); // To store the active content ID
+
   function showContent(contentId) {
-    const contents = document.querySelectorAll(".process-tab-design-content");
-    contents.forEach((content) => {
-      content.classList.remove("show");
-    });
-
-    const tabs = document.querySelectorAll(".process-tab-design");
-    tabs.forEach((tab) => {
-      tab.classList.remove("hide");
-    });
-
-    const content = document.getElementById(contentId);
-    if (content) {
-      content.classList.add("show");
-    }
-
-    const clickedTab = document.getElementById(contentId);
-    if (clickedTab) {
-      clickedTab.classList.add("hide");
-    }
+    setActiveContent(contentId); // Set the clicked content ID as active
   }
 
   return (
@@ -62,264 +46,88 @@ const Process = () => {
               </div>
             </div>
           </div>
+
           <div className="design-tabs-process d-flex justify-content-center gap-3">
-            <div
-              className="process-tab-design"
-              onClick={() => showContent("content-01")}
-            >
-              <div className="process-content">
-                <div className="process-tex-No">
-                  <h4>01.</h4>
-                  <div className="border-procese"></div>
-                  <div className="process-tab-text-content">
-                    <h4>Wireframing</h4>
+            {/* Render tabs and content together */}
+            {[...Array(6)].map((_, index) => {
+              const contentId = `content-0${index + 1}`;
+              return (
+                <React.Fragment key={contentId}>
+                  {console.log(activeContent === contentId)}{" "}
+                  <div
+                    className={`process-tab-design ${
+                      activeContent === contentId ? "hide" : ""
+                    }`}
+                    onClick={() => showContent(contentId)}
+                  >
+                    <div className="process-content">
+                      <div className="process-tex-No">
+                        <h4>{`0${index + 1}.`}</h4>
+                        <div className="border-procese"></div>
+                        <div className="process-tab-text-content">
+                          <h4>
+                            {
+                              [
+                                "Wireframing",
+                                "Responsive Design",
+                                "Prototyping",
+                                "Web Copy",
+                                "UX Design",
+                                "UI Design",
+                              ][index]
+                            }
+                          </h4>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
-            </div>
-
-            <div id="content-01" className="process-tab-design-content">
-              <div className="process-card-tab">
-                <div className="procees-tab-No">
-                  <h4>01.</h4>
-                </div>
-                <div className="process-tab-contant d-flex gap-3 align-items-center">
-                  <div className="process-icon-tab">
-                    <Image src={processTabImg} alt="img" />
-                  </div>
-                  <div className="tab-content-title">
-                    <h4>Wireframing</h4>
-                  </div>
-                </div>
-                <div className="border-procese"></div>
-                <div className="procees-content1">
-                  <p>
-                    Responsive Web Design is an approach to web development that
-                    ensures a website looks and functions well across a variety
-                    of devices and screen sizes. This means the website
-                    automatically adjusts its layout, images, and
-                    functionalities to provide an optimal viewing experience,
-                    whether accessed on a smartphone, tablet, laptop, or desktop
-                    computer.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div
-              className="process-tab-design"
-              onClick={() => showContent("content-02")}
-            >
-              <div className="process-content">
-                <div className="process-tex-No">
-                  <h4>02.</h4>
-                  <div className="border-procese"></div>
-                  <div className="process-tab-text-content">
-                    <h4>Responsive Design</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div id="content-02" className="process-tab-design-content">
-              <div className="process-card-tab">
-                <div className="procees-tab-No">
-                  <h4>02.</h4>
-                </div>
-                <div className="process-tab-contant d-flex gap-3 align-items-center">
-                  <div className="process-icon-tab">
-                    <Image src={processTabImg} alt="img" />
-                  </div>
-                  <div className="tab-content-title">
-                    <h4>Responsive Design</h4>
-                  </div>
-                </div>
-                <div className="border-procese"></div>
-                <div className="procees-content1">
-                  <p>
-                    Responsive Web Design is an approach to web development that
-                    ensures a website looks and functions well across a variety
-                    of devices and screen sizes. This means the website
-                    automatically adjusts its layout, images, and
-                    functionalities to provide an optimal viewing experience,
-                    whether accessed on a smartphone, tablet, laptop, or desktop
-                    computer.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div
-              className="process-tab-design"
-              onClick={() => showContent("content-03")}
-            >
-              <div className="process-content">
-                <div className="process-tex-No">
-                  <h4>03.</h4>
-                  <div className="border-procese"></div>
-                  <div className="process-tab-text-content">
-                    <h4>Prototyping</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div id="content-03" className="process-tab-design-content">
-              <div className="process-card-tab">
-                <div className="procees-tab-No">
-                  <h4>03.</h4>
-                </div>
-                <div className="process-tab-contant d-flex gap-3 align-items-center">
-                  <div className="process-icon-tab">
-                    <Image src={processTabImg} alt="img" />
-                  </div>
-                  <div className="tab-content-title">
-                    <h4>Prototyping</h4>
-                  </div>
-                </div>
-                <div className="border-procese"></div>
-                <div className="procees-content1">
-                  <p>
-                    Responsive Web Design is an approach to web development that
-                    ensures a website looks and functions well across a variety
-                    of devices and screen sizes. This means the website
-                    automatically adjusts its layout, images, and
-                    functionalities to provide an optimal viewing experience,
-                    whether accessed on a smartphone, tablet, laptop, or desktop
-                    computer.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div
-              className="process-tab-design"
-              onClick={() => showContent("content-04")}
-            >
-              <div className="process-content">
-                <div className="process-tex-No">
-                  <h4>04.</h4>
-                  <div className="border-procese"></div>
-                  <div className="process-tab-text-content">
-                    <h4>Web Copy</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div id="content-04" className="process-tab-design-content">
-              <div className="process-card-tab">
-                <div className="procees-tab-No">
-                  <h4>04.</h4>
-                </div>
-                <div className="process-tab-contant d-flex gap-3 align-items-center">
-                  <div className="process-icon-tab">
-                    <Image src={processTabImg} alt="img" />
-                  </div>
-                  <div className="tab-content-title">
-                    <h4>Web Copy</h4>
-                  </div>
-                </div>
-                <div className="border-procese"></div>
-                <div className="procees-content1">
-                  <p>
-                    Responsive Web Design is an approach to web development that
-                    ensures a website looks and functions well across a variety
-                    of devices and screen sizes. This means the website
-                    automatically adjusts its layout, images, and
-                    functionalities to provide an optimal viewing experience,
-                    whether accessed on a smartphone, tablet, laptop, or desktop
-                    computer.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div
-              className="process-tab-design"
-              onClick={() => showContent("content-05")}
-            >
-              <div className="process-content">
-                <div className="process-tex-No">
-                  <h4>05.</h4>
-                  <div className="border-procese"></div>
-                  <div className="process-tab-text-content">
-                    <h4>UX Design</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div id="content-05" className="process-tab-design-content">
-              <div className="process-card-tab">
-                <div className="procees-tab-No">
-                  <h4>05.</h4>
-                </div>
-                <div className="process-tab-contant d-flex gap-3 align-items-center">
-                  <div className="process-icon-tab">
-                    <Image src={processTabImg} alt="img" />
-                  </div>
-                  <div className="tab-content-title">
-                    <h4>UX Design</h4>
-                  </div>
-                </div>
-                <div className="border-procese"></div>
-                <div className="procees-content1">
-                  <p>
-                    Responsive Web Design is an approach to web development that
-                    ensures a website looks and functions well across a variety
-                    of devices and screen sizes. This means the website
-                    automatically adjusts its layout, images, and
-                    functionalities to provide an optimal viewing experience,
-                    whether accessed on a smartphone, tablet, laptop, or desktop
-                    computer.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div
-              className="process-tab-design"
-              onClick={() => showContent("content-06")}
-            >
-              <div className="process-content">
-                <div className="process-tex-No">
-                  <h4>06.</h4>
-                  <div className="border-procese"></div>
-                  <div className="process-tab-text-content">
-                    <h4>UI Design</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div id="content-06" className="process-tab-design-content">
-              <div className="process-card-tab">
-                <div className="procees-tab-No">
-                  <h4>06.</h4>
-                </div>
-                <div className="process-tab-contant d-flex gap-3 align-items-center">
-                  <div className="process-icon-tab">
-                    <Image src={processTabImg} alt="img" />
-                  </div>
-                  <div className="tab-content-title">
-                    <h4>UI Design</h4>
-                  </div>
-                </div>
-                <div className="border-procese"></div>
-                <div className="procees-content1">
-                  <p>
-                    Responsive Web Design is an approach to web development that
-                    ensures a website looks and functions well across a variety
-                    of devices and screen sizes. This means the website
-                    automatically adjusts its layout, images, and
-                    functionalities to provide an optimal viewing experience,
-                    whether accessed on a smartphone, tablet, laptop, or desktop
-                    computer.
-                  </p>
-                </div>
-              </div>
-            </div>
+                  {activeContent === contentId && (
+                    <div
+                      id={contentId}
+                      className="process-tab-design-content show"
+                    >
+                      <div className="process-card-tab">
+                        <div className="procees-tab-No">
+                          <h4>{`0${index + 1}.`}</h4>
+                        </div>
+                        <div className="process-tab-contant d-flex gap-3 align-items-center">
+                          <div className="process-icon-tab">
+                            <Image src={processTabImg} alt="img" />
+                          </div>
+                          <div className="tab-content-title">
+                            <h4>
+                              {
+                                [
+                                  "Wireframing",
+                                  "Responsive Design",
+                                  "Prototyping",
+                                  "Web Copy",
+                                  "UX Design",
+                                  "UI Design",
+                                ][index]
+                              }
+                            </h4>
+                          </div>
+                        </div>
+                        <div className="border-procese"></div>
+                        <div className="procees-content1">
+                          <p>
+                            Responsive Web Design is an approach to web
+                            development that ensures a website looks and
+                            functions well across a variety of devices and
+                            screen sizes. This means the website automatically
+                            adjusts its layout, images, and functionalities to
+                            provide an optimal viewing experience, whether
+                            accessed on a smartphone, tablet, laptop, or desktop
+                            computer.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  )}
+                </React.Fragment>
+              );
+            })}
           </div>
         </div>
       </div>

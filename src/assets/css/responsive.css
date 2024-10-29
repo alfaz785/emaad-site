@@ -1209,6 +1209,10 @@
     justify-content: center;
     margin-top: 25px;
   }
+  .cursor {
+    width: 25px;
+    height: 25px;
+  }
 }
 @media (max-width: 866px) {
   .design-software {
