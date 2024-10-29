@@ -24,98 +24,91 @@ const DeliveriHome = () => {
         pin: true,
       },
     });
-
-    tl.to(".text", {
-      top: "2%",
-      duration: 1,
-    })
+    
+    tl.to(
+      ".text",
+      {
+        top: "-3%",
+      },
+      "a"
+    )
       .to(
         "#card-one",
         {
-          top: "33%",
-          duration: 1,
+          top: "30%",
         },
-        "-=0.5",
+        "a"
       )
       .to(
         "#card-two",
         {
           top: "130%",
-          duration: 1,
         },
-        "-=0.5",
+        "a"
       )
       .to(
         "#card-two",
         {
-          top: "35%",
-          duration: 1,
+          top: "32%",
         },
-        "b",
+        "b"
       )
       .to(
         "#card-one",
         {
           width: "65%",
-          duration: 1,
         },
-        "b",
+        "b"
       )
       .to(
         "#card-three",
         {
           top: "130%",
-          duration: 1,
         },
-        "b",
+        "b"
       )
       .to(
         "#card-three",
         {
-          top: "40%",
-          duration: 1,
+          top: "34%",
         },
-        "c",
+        "c"
       )
       .to(
         "#card-two",
         {
           width: "70%",
-          duration: 1,
         },
-        "c",
+        "c"
       )
       .to(
         "#card-four",
         {
           top: "130%",
-          duration: 1,
         },
-        "c",
+        "c"
       )
       .to(
         "#card-four",
         {
-          top: "42%",
-          duration: 1,
+          top: "37%",
         },
-        "d",
+        "d"
       )
       .to(
         "#card-three",
         {
           width: "75%",
-          duration: 1,
         },
-        "d",
+        "d"
       )
       .to(
         "#card-four",
         {
           width: "80%",
-          duration: 1,
         },
-        "e",
+        "e"
+    
       );
   }, []);
 

@@ -11,7 +11,6 @@ const Terms = () => {
   useEffect(() => {
     MultiTypingEffect(termsCondition, 100);
   }, []);
-  
 
   return (
     <>
@@ -26,7 +25,13 @@ const Terms = () => {
               Welcome to <span className="emaad-title">Emaad Infotech®</span>{" "}
               These terms and conditions outline the rules and regulations for
               the use of Emaad Infotech's website, located at
-              <span className="emaad-link">www.emaadinfotech.com.</span>
+              <a
+                href="https://www.emaadinfotech.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="emaad-link"> www.emaadinfotech.com.</span>
+              </a>
             </p>
           </div>
         </div>

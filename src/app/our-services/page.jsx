@@ -20,7 +20,7 @@ const OurServices = () => {
       <Comprehensive />
       {/* <!-- Comprehensive Web Solutions section End --> */}
       {/* <!-- Ideas can't wait section start --> */}
-      <div className="ideas-wait-main mt_100">
+      {/* <div className="ideas-wait-main mt_100">
         <div className="container-fluid text-center">
           <div className="header-text" id="breathing">
             <p className="mb-0" id="brands">
@@ -28,7 +28,7 @@ const OurServices = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
       <ProjectInMind mainTxt={"Have A Project In Mind ? Let's Get To Work"} />
       {/* <!-- draggable-boxes start --> */}
       <DraggableBox />

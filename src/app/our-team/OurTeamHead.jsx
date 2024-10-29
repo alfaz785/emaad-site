@@ -4,8 +4,8 @@ import { MultiTypingEffect } from "../../../commFun";
 
 const OurTeamHead = () => {
   const parts = [
-    { id: "journey1", text: "Our Journey in" },
-    { id: "journey2", text: "Images" },
+    { id: "journey1", text: "Our Journey In" },
+    { id: "journey2", text: " Images" },
   ];
   useEffect(() => {
     MultiTypingEffect(parts, 100);

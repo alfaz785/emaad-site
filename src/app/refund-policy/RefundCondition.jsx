@@ -67,20 +67,25 @@ const RefundCondition = () => {
                 <div className="row">
                   <div className="col-lg-6 mb_37">
                     <div className="main-box">
-                      <h3 className="card-title mb-0">Shared Hosting</h3>
+                      <h3 className="card-title mb-0">
+                        Eligibility for Refund
+                      </h3>
                       <p className="card-text mb-0">
-                        Perfect for small to medium-sized websites, offering
-                        cost-effective solutions with reliable performance.
+                        Refunds are available within 30 days of purchase. To be
+                        eligible, you must provide proof of purchase and a valid
+                        reason for the request.
                       </p>
                     </div>
                   </div>
                   <div className="col-lg-6 mb_37">
                     <div className="main-box border-left">
-                      <h3 className="card-title mb-0">VPS Hosting</h3>
+                      <h3 className="card-title mb-0">
+                        Non-Refundable Services
+                      </h3>
                       <p className="card-text mb-0">
-                        Enjoy enhanced control and performance with our Virtual
-                        Private Server options, ideal for growing websites
-                        needing dedicated resources.
+                        Certain services, such as custom software development
+                        and consultation fees, are non-refundable once work has
+                        commenced.
                       </p>
                     </div>
                   </div>
@@ -89,21 +94,22 @@ const RefundCondition = () => {
               <div className="row">
                 <div className="col-lg-6 mt_37 bt">
                   <div className="main-box">
-                    <h3 className="card-title mb-0">Dedicated Hosting</h3>
+                    <h3 className="card-title mb-0">Partial Refunds</h3>
                     <p className="card-text mb-0">
-                      Achieve maximum performance and security with dedicated
-                      server resources, providing top-tier support for
-                      high-traffic websites.
+                      Partial refunds may be granted if the service provided
+                      does not meet the agreed-upon criteria, but a portion of
+                      the work has been completed.
                     </p>
                   </div>
                 </div>
                 <div className="col-lg-6 mt_37 bt">
                   <div className="main-box border-left">
-                    <h3 className="card-title mb-0">Cloud Hosting</h3>
+                    <h3 className="card-title mb-0">Cancellation Fees</h3>
                     <p className="card-text mb-0">
-                      Benefit from scalable and flexible hosting solutions that
-                      grow with your business, ensuring robust performance and
-                      reliability even during traffic spikes.
+                      If a project is canceled by the client after work has
+                      started but before completion, a cancellation fee may
+                      apply. This fee will be determined based on the amount of
+                      work completed up to the point of cancellation.
                     </p>
                   </div>
                 </div>
