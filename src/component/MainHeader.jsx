@@ -782,7 +782,10 @@ const MainHeader = () => {
               </a>
             </div>
             <div className="youtube">
-              <a href="">
+              <a
+                href="https://www.instagram.com/emaadinfotech/"
+                target="_blank"
+              >
                 {" "}
                 <Image src={instImg} alt="img" />
               </a>
