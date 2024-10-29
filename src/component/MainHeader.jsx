@@ -3,9 +3,9 @@ import React, { useEffect, useRef } from "react";
 import indiaImg from "../assets/images/India.png";
 import emailImg from "../assets/images/email.png";
 import shapeImg from "../assets/images/Shape.png";
-import youtubeImg from "../assets/images/youtube.png";
+import whatsappImg from "../assets/images/whatsapp.svg";
 import instImg from "../assets/images/insta.png";
-import telegramImg from "../assets/images/teligrame.png";
+import linkedinImg from "../assets/images/linkedin.svg";
 import facebookImg from "../assets/images/facebook.svg";
 import Image from "next/image";
 import Link from "next/link";
@@ -768,8 +768,17 @@ const MainHeader = () => {
 
           <div className="social-iocn cursor-scale small">
             <div className="youtube">
-              <a href="">
-                <Image src={youtubeImg} alt="img" />
+              <a
+                href="https://wa.me/919428901392"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  width={100}
+                  height={100}
+                  src={whatsappImg}
+                  alt="WhatsApp"
+                />
               </a>
             </div>
             <div className="youtube">
@@ -779,15 +788,29 @@ const MainHeader = () => {
               </a>
             </div>
             <div className="youtube">
-              <a href="">
-                {" "}
-                <Image src={telegramImg} alt="img" />
+              <a
+                href="https://www.linkedin.com/company/emaad-infotech/"
+                target="_blank"
+              >
+                <Image
+                  width={100}
+                  height={100}
+                  src={linkedinImg}
+                  alt="LinkedIn"
+                />
               </a>
             </div>
             <div className="youtube">
-              <a href="">
-                {" "}
-                <Image src={facebookImg} alt="img" />
+              <a
+                href="https://www.facebook.com/emaad.developer/"
+                target="_blank"
+              >
+                <Image
+                  width={100}
+                  height={100}
+                  src={facebookImg}
+                  alt="Facebook"
+                />
               </a>
             </div>
           </div>
