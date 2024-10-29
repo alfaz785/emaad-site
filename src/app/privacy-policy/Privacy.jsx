@@ -33,9 +33,15 @@ const Privacy = () => {
               At <strong>Emaad Infotech®</strong>, we prioritize your privacy.
               This Privacy Policy explains how we collect, use, and protect your
               information when you use our services and website at
-              <span className="policy-mail">www.emaadinfotech.com.</span> By
-              using our services, you consent to the practices described in this
-              policy.
+              <a
+                href="https://www.emaadinfotech.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="policy-mail"> www.emaadinfotech.com.</span>{" "}
+              </a>
+              By using our services, you consent to the practices described in
+              this policy.
             </p>
           </div>
         </div>

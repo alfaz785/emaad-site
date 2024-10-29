@@ -4,8 +4,8 @@ import { MultiTypingEffect } from "../../../commFun";
 
 const GetInTouchSection = () => {
   const parts = [
-    { id: "touch1", text: "Let’s get in" },
-    { id: "touch2", text: "Touch" },
+    { id: "touch1", text: "Let’s Get In" },
+    { id: "touch2", text: " Touch" },
   ];
   useEffect(() => {
     MultiTypingEffect(parts, 100);

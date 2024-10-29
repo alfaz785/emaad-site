@@ -222,7 +222,8 @@ const MainHeader = () => {
                 href="/"
                 className="nav-link cursor-scale"
               >
-                Home<span className="numbers">01</span>
+                Home&nbsp;
+                <span className="numbers">01</span>
               </Link>
             </li>
             <li className="nav-text said-drowpdown">
@@ -681,7 +682,7 @@ const MainHeader = () => {
                     </a>
                   </li>
                   <div className="row g-0">
-                    <div className="col-xl-7 col-lg-9 col-md-9 col-sm-9">
+                    <div className="col-xl-7 col-lg-9 col-md-8 col-sm-7">
                       <li className="hover">
                         <Link
                           href="/about-us"
@@ -701,7 +702,7 @@ const MainHeader = () => {
                         </Link>
                       </li>
                     </div>
-                    <div className="col-xl-5 col-lg-3 col-md-3 col-sm-3">
+                    <div className="col-xl-5 col-lg-1 col-md-4 col-sm-4">
                       <li className="hover">
                         <Link
                           href="/career"
@@ -730,7 +731,7 @@ const MainHeader = () => {
                       </a>
                     </li>
                     <div className="row g-0">
-                      <div className="col-xl-7 col-lg-9 col-md-9 col-sm-9">
+                      <div className="col-xl-7 col-lg-9 col-md-8 col-sm-7">
                         <div className="calling-text">
                           <Image src={indiaImg} alt="img" />
                           <div className="call-num">
@@ -741,7 +742,7 @@ const MainHeader = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="col-xl-5 col-lg-3 col-md-3 col-sm-3">
+                      <div className="col-xl-5 col-lg-1 col-md-4 col-sm-4">
                         <div className="Email-text">
                           <Image src={emailImg} alt="img" />
                           <div className="call-num">

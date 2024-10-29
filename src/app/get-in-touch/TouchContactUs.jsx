@@ -5,12 +5,9 @@ import Image from "next/image";
 const TouchContactUs = () => {
   return (
     <>
-       <div
-        className="get-in-touch"
-        style={{ overflowX: "hidden;" }}
-      >
+      <div className="get-in-touch" style={{ overflowX: "hidden;" }}>
         <div className="container">
-        <div className="row align-items-xl-center mt_100 get-in-touch-mt">
+          <div className="row align-items-xl-center mt_100 get-in-touch-mt">
             <div className="col-md-5 d-none d-lg-block">
               <Image
                 src={contactUsImg}
@@ -20,7 +17,7 @@ const TouchContactUs = () => {
             </div>
 
             <div className="col-lg-7 col-12">
-            <form className="contact-touch-form">
+              <form className="contact-touch-form">
                 <div className="form-group">
                   {/* <!-- <label htmlFor="firstName">First Name :</label> --> */}
                   <input

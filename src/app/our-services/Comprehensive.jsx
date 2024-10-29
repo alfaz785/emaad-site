@@ -13,7 +13,7 @@ const Comprehensive = () => {
                 <div className="services-heading">SERVICES</div>
 
                 <h3 className="main-heading">
-                  Comprehensive Web
+                  Comprehensive Web&nbsp;
                   <span className="position-relative">
                     Solutions
                     <Image

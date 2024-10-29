@@ -9,7 +9,7 @@ const Amendments = () => {
         <div className="container">
           <div className="amendments-title d-flex align-items-center">
             <Image src={starImg} alt="Delivery Icon" className="section-icon" />
-            <h3 className="mb-0">Delivery of Product</h3>
+            <h3 className="mb-0">Amendments</h3>
           </div>
           <p className="mb-0 mt_25">
             [Your Company Name] reserves the right to amend this Refund Policy

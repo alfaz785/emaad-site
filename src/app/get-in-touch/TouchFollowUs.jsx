@@ -11,6 +11,8 @@ const TouchFollowUs = () => {
     <>
       <div className="container follow-us-section mt_100">
         <div className="row">
+          <h4 class="follow-us-title">Follow Us</h4>
+
           <div className="col-lg-6">
             <div className="row">
               <div className="col-lg-6 col-md-6 col-sm-6 col-12 box">
