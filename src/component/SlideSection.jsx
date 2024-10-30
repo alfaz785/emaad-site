@@ -44,45 +44,87 @@ const SlideSection = () => {
         <div className="move">
           <div className="marque">
             <Image src={digitalImg} alt="digital" />
-            <div className="whell">
+            {/* <div className="whell">
               <Image src={marqueImg} alt="marque" />
-            </div>
+            </div> */}
           </div>
           <div className="marque">
             <Image src={vortexImg} alt="vortex" />
-            <div className="whell">
+            {/* <div className="whell">
               <Image src={marqueImg} alt="marque" />
-            </div>
+            </div> */}
           </div>
           <div className="marque">
             <Image src={travelImg} alt="travel" />
-            <div className="whell">
+            {/* <div className="whell">
               <Image src={marqueImg} alt="marque" />
-            </div>
+            </div> */}
           </div>
           <div className="marque">
             <Image src={fuzionImg} alt="fuzion" />
-            <div className="whell">
+            {/* <div className="whell">
               <Image src={marqueImg} alt="marque" />
-            </div>
+            </div> */}
           </div>
           <div className="marque">
             <Image src={mediaImg} alt="media" />
-            <div className="whell">
+            {/* <div className="whell">
               <Image src={marqueImg} alt="marque" />
-            </div>
+            </div> */}
           </div>
           <div className="marque">
             <Image src={digitalImg} alt="digital" />
-            <div className="whell">
+            {/* <div className="whell">
               <Image src={marqueImg} alt="marque" />
-            </div>
+            </div> */}
           </div>
           <div className="marque">
             <Image src={vortexImg} alt="vortex" />
-            <div className="whell">
+            {/* <div className="whell">
               <Image src={marqueImg} alt="marque" />
-            </div>
+            </div> */}
+          </div>
+          <div className="marque">
+            <Image src={digitalImg} alt="digital" />
+            {/* <div className="whell">
+              <Image src={marqueImg} alt="marque" />
+            </div> */}
+          </div>
+          <div className="marque">
+            <Image src={vortexImg} alt="vortex" />
+            {/* <div className="whell">
+              <Image src={marqueImg} alt="marque" />
+            </div> */}
+          </div>
+          <div className="marque">
+            <Image src={travelImg} alt="travel" />
+            {/* <div className="whell">
+              <Image src={marqueImg} alt="marque" />
+            </div> */}
+          </div>
+          <div className="marque">
+            <Image src={fuzionImg} alt="fuzion" />
+            {/* <div className="whell">
+              <Image src={marqueImg} alt="marque" />
+            </div> */}
+          </div>
+          <div className="marque">
+            <Image src={mediaImg} alt="media" />
+            {/* <div className="whell">
+              <Image src={marqueImg} alt="marque" />
+            </div> */}
+          </div>
+          <div className="marque">
+            <Image src={digitalImg} alt="digital" />
+            {/* <div className="whell">
+              <Image src={marqueImg} alt="marque" />
+            </div> */}
+          </div>
+          <div className="marque">
+            <Image src={vortexImg} alt="vortex" />
+            {/* <div className="whell">
+              <Image src={marqueImg} alt="marque" />
+            </div> */}
           </div>
         </div>
       </div>
