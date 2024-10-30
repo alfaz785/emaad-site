@@ -16,6 +16,7 @@ export default function Home() {
     <>
       <HomeHead />
       {/* <!-- slider section start --> */}
+      
       <SlideSection />
       {/* <!-- Delivering Innovation that thrives Start --> */}
       <DeliveriHome />
