@@ -317,7 +317,7 @@ body {
   transform: translateY(0);
 }
 .nav-bar {
-  z-index: 2;
+  z-index: 9;
   display: flex;
   justify-content: space-between;
   /* padding: 32px 40px; */
