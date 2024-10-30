@@ -6,7 +6,7 @@ import shapeImg from "../assets/images/Shape.png";
 import whatsappImg from "../assets/images/whatsapp.svg";
 import instImg from "../assets/images/insta.png";
 import linkedinImg from "../assets/images/linkedin.svg";
-import facebookImg from "../assets/images/facebook.svg";
+import facebookImg from "../assets/images/fb.png";
 import Image from "next/image";
 import Link from "next/link";
 import { gsap, Power2 } from "gsap";
