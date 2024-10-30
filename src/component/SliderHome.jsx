@@ -292,7 +292,7 @@ const SliderHome = () => {
                 </Link>
               </div>
             </div>
-            {/* <div className="swiper-slide back_ten">
+            <div className="swiper-slide back_ten">
               <div className="overlay"></div>
               <div className="slider-text">
                 <h5 className="mb_40">FOOD PROCESSING </h5>
@@ -307,7 +307,7 @@ const SliderHome = () => {
               Contact Us <span className="material-symbols-outlined">east</span>
             </Link>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
 
@@ -366,10 +366,10 @@ const SliderHome = () => {
                 <div className="overlay"></div>
                 <div className="caption">INFORMATION & TECHNOLOGY </div>
               </div>
-              {/* <div className="swiper-slide">
+              <div className="swiper-slide">
                 <div className="overlay"></div>
                 <div className="caption"> FOOD PROCESSING </div>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>

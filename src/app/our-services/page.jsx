@@ -24,7 +24,7 @@ const OurServices = () => {
         <div className="container-fluid text-center">
           <div className="header-text" id="breathing">
             <p className="mb-0" id="brands">
-              Breathing Life into Brands through Innovative Digital Strategies!
+              Breathing Life Into Brands Through Innovative Digital Strategies!
             </p>
           </div>
         </div>
