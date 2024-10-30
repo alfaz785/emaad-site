@@ -869,10 +869,10 @@ export const AboutUsData = [
       "Optimize speed, enhance security, and ensure a seamless, secure experience for users and search engines.",
   },
   {
-    icon: "shield",
-    title: "Web Performance & Security",
+    icon: "domain",
+    title: "Domain & Hosting Services",
     description:
-      "Optimize speed, enhance security, and ensure a seamless, secure experience for users and search engines.",
+      "Choose the perfect domain name for your business. We offer a wide range of domain extensions (TLDs) to suit your needs, whether you’re starting a blog, launching an e-commerce site, or establishing a corporate presence.",
   },
   {
     icon: "payments",
