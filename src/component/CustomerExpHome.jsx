@@ -163,7 +163,7 @@ const CustomerExpHome = () => {
                         <span className="material-symbols-outlined face">
                           call_made
                         </span>
-                        <span className="author-name">Kristin Watson</span>
+                        <span className="author-name">Darlene Robertson</span>
                       </p>
                     </div>
                   </div>
@@ -188,7 +188,9 @@ const CustomerExpHome = () => {
                         <span className="material-symbols-outlined face">
                           call_made
                         </span>
-                        <span className="author-name">Kristin Watson</span>
+                        <span className="author-name">
+                          Packwell Traders, India
+                        </span>
                       </p>
                     </div>
                   </div>
@@ -235,7 +237,9 @@ const CustomerExpHome = () => {
                         <span className="material-symbols-outlined face">
                           call_made
                         </span>
-                        <span className="author-name">Kristin Watson</span>
+                        <span className="author-name">
+                          Universal Proline, Atlanta, USA
+                        </span>
                       </p>
                     </div>
                   </div>
@@ -259,7 +263,9 @@ const CustomerExpHome = () => {
                         <span className="material-symbols-outlined face">
                           call_made
                         </span>
-                        <span className="author-name">Kristin Watson</span>
+                        <span className="author-name">
+                          Al Aman Goat Farm, Idar
+                        </span>
                       </p>
                     </div>
                   </div>
@@ -290,7 +296,7 @@ const CustomerExpHome = () => {
                         <span className="material-symbols-outlined face">
                           call_made
                         </span>
-                        <span className="author-name">Kristin Watson</span>
+                        <span className="author-name">Job-Portal Aspire</span>
                       </p>
                     </div>
                   </div>
@@ -314,7 +320,7 @@ const CustomerExpHome = () => {
                         <span className="material-symbols-outlined face">
                           call_made
                         </span>
-                        <span className="author-name">Kristin Watson</span>
+                        <span className="author-name">Mawadah</span>
                       </p>
                     </div>
                   </div>
@@ -338,7 +344,7 @@ const CustomerExpHome = () => {
                         <span className="material-symbols-outlined face">
                           call_made
                         </span>
-                        <span className="author-name">Kristin Watson</span>
+                        <span className="author-name">Mpathic Family</span>
                       </p>
                     </div>
                   </div>
@@ -364,7 +370,7 @@ const CustomerExpHome = () => {
                         <span className="material-symbols-outlined face">
                           call_made
                         </span>
-                        <span className="author-name">Kristin Watson</span>
+                        <span className="author-name">Musalih, Oman</span>
                       </p>
                     </div>
                   </div>

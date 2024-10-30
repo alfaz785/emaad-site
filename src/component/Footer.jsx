@@ -29,7 +29,7 @@ const Footer = () => {
                   <div class="icon_bg">
                     <Image src={footerCallImg} alt="FooterCallImg" />
                   </div>
-                  <a href="tel:+917600145260">+91 76001 45260</a>
+                  <a href="tel:+919428901392">+91 94289 01392</a>
                   <a href="tel:+917600145260">+91 76001 45260</a>
                 </div>
                 <div class="contact-info d-flex align-items-start gap-3 ">
