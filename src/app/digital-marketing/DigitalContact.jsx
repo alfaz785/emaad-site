@@ -2,6 +2,7 @@ import React from "react";
 import clientImg from "../../assets/images/client-q.png";
 import callSystemImg from "../../assets/images/call-system.png";
 import Image from "next/image";
+import Link from "next/link";
 
 const DigitalContact = () => {
   return (
@@ -20,11 +21,11 @@ const DigitalContact = () => {
                   Our dedicated team is here to help!
                 </p>
                 <div className="-client-call-button">
-                  <a href="">
+                  <Link href="/get-in-touch">
                     <div className="client-contact-box">
                       <h4>CONTACT US</h4>
                     </div>
-                  </a>
+                  </Link>
                   <div className="call-recoard">
                     <Image src={callSystemImg} alt="img" />
                   </div>

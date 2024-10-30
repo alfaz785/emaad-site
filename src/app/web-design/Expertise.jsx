@@ -117,7 +117,7 @@ const Expertise = () => {
             }
           });
         },
-        { threshold: 0.1 },
+        { threshold: 0.1 }
       );
       const section = document.querySelector(".expertise-choose-text");
       if (section) {
@@ -161,12 +161,12 @@ const Expertise = () => {
                 />
 
                 <div className="expertise-title2">
-                  <h3>Expertise and Experience</h3>
+                  <h3>Client-Centric Approach</h3>
                 </div>
                 <div className="expertise-text2">
                   <p>
-                    Our team comprises highly skilled designers and developers
-                    with years of experience in the industry.
+                    We prioritize clear and consistent communication throughout
+                    the project.
                   </p>
                 </div>
               </div>
@@ -231,13 +231,12 @@ const Expertise = () => {
                 />
 
                 <div className="expertise-title">
-                  <h3>Cutting-Edge Technology</h3>
+                  <h3>Competitive Pricing</h3>
                 </div>
                 <div className="expertise-text">
                   <p>
-                    We stay ahead of industry trends and utilize the latest
-                    technologies to create modern, responsive, and secure
-                    websites.
+                    We deliver high-quality work that offers great value for
+                    your investment.
                   </p>
                 </div>
               </div>
