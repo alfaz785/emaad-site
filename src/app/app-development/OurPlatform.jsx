@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react";
 import Image from "next/image";
 import customeMobileImg from "../../assets/images/custom-mobile-app.png";
 import androidImg from "../../assets/images/tab-android-app.png";
@@ -9,6 +9,32 @@ import ulStarImg from "../../assets/images/ul-star.svg";
 import { openTab } from "../../../commFun";
 
 const OurPlatform = () => {
+  useEffect(() => {
+    const servicesLists = document.querySelectorAll(".services-list");
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            gsap.to(entry.target.querySelectorAll("li"), {
+              duration: 0.8,
+              opacity: 1,
+              y: 0,
+              ease: "bounce.out",
+              stagger: 0.2,
+              delay: 1,
+            });
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      {
+        threshold: 0.1,
+      }
+    );
+
+    servicesLists.forEach((list) => observer?.observe(list));
+  }, []);
   return (
     <>
       <div className="our-platforms-section">

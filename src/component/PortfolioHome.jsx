@@ -1,6 +1,17 @@
 "use client";
 import { useEffect } from "react";
-import satisfactionImg from "../assets/images/client-satisfaction.png";
+import satisfactionImg from "../assets/images/Online-Pharmacy.png";
+import satisfactionImg1 from "../assets/images/Charity.png";
+import satisfactionImg2 from "../assets/images/Housing-Society.png";
+import satisfactionImg3 from "../assets/images/Real-Estate.png";
+import satisfactionImg4 from "../assets/images/Online-Shopping.png";
+import satisfactionImg5 from "../assets/images/Business-Directory.png";
+import satisfactionImg6 from "../assets/images/Hospital-Management.png";
+
+
+
+
+
 import Image from "next/image";
 import { gsap } from "gsap";
 
@@ -126,9 +137,8 @@ const PortfolioHome = () => {
           <div className="col-xxl-4 col-xl-5 col-lg-6 col-md-6 col-sm-12">
             <div className="awesome_blog_text" id="animated-section">
               <p className="mb-0">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s.
+              Re-alive your imagination with us, by exploring world class
+              technology
               </p>
             </div>
           </div>
@@ -148,7 +158,7 @@ const PortfolioHome = () => {
                         />
                       </a>
                       <div className="overlay">
-                        <div className="overlay-text">E-COMMERCE</div>
+                        <div className="overlay-text">Online Pharmacy</div>
                       </div>
                     </div>
                   </div>
@@ -156,7 +166,33 @@ const PortfolioHome = () => {
                     <div className="pp-slide-img">
                       <a href="#">
                         <Image
-                          src={satisfactionImg}
+                          src={satisfactionImg1}
+                          alt="Portfolio Thumbnail"
+                        />
+                      </a>
+                      <div className="overlay">
+                        <div className="overlay-text">Non Profit Website</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="swiper-slide pp-slide">
+                    <div className="pp-slide-img">
+                      <a href="#">
+                        <Image
+                          src={satisfactionImg2}
+                          alt="Portfolio Thumbnail"
+                        />
+                      </a>
+                      <div className="overlay">
+                        <div className="overlay-text">Housing Society</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="swiper-slide pp-slide">
+                    <div className="pp-slide-img">
+                      <a href="#">
+                        <Image
+                          src={satisfactionImg3}
                           alt="Portfolio Thumbnail"
                         />
                       </a>
@@ -169,39 +205,13 @@ const PortfolioHome = () => {
                     <div className="pp-slide-img">
                       <a href="#">
                         <Image
-                          src={satisfactionImg}
-                          alt="Portfolio Thumbnail"
-                        />
-                      </a>
-                      <div className="overlay">
-                        <div className="overlay-text">Online Medicine</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="swiper-slide pp-slide">
-                    <div className="pp-slide-img">
-                      <a href="#">
-                        <Image
-                          src={satisfactionImg}
-                          alt="Portfolio Thumbnail"
-                        />
-                      </a>
-                      <div className="overlay">
-                        <div className="overlay-text">NGO Charity</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="swiper-slide pp-slide">
-                    <div className="pp-slide-img">
-                      <a href="#">
-                        <Image
-                          src={satisfactionImg}
+                          src={satisfactionImg4}
                           alt="Portfolio Thumbnail"
                         />
                       </a>
                       <div className="overlay">
                         <div className="overlay-text">
-                          Housing Society Management
+                        E-commerce Solution
                         </div>
                       </div>
                     </div>
@@ -210,12 +220,25 @@ const PortfolioHome = () => {
                     <div className="pp-slide-img">
                       <a href="#">
                         <Image
-                          src={satisfactionImg}
+                          src={satisfactionImg5}
                           alt="Portfolio Thumbnail"
                         />
                       </a>
                       <div className="overlay">
                         <div className="overlay-text">Business Directory</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="swiper-slide pp-slide">
+                    <div className="pp-slide-img">
+                      <a href="#">
+                        <Image
+                          src={satisfactionImg6}
+                          alt="Portfolio Thumbnail"
+                        />
+                      </a>
+                      <div className="overlay">
+                        <div className="overlay-text">Hospital Management System</div>
                       </div>
                     </div>
                   </div>
@@ -232,8 +255,20 @@ const PortfolioHome = () => {
               <div className="swiper-wrapper">
                 <div className="swiper-slide">
                   <div className="pp-slide-thumb">
-                    <h3 className="pp-slide-title">E-COMMERCE</h3>
+                    <h3 className="pp-slide-title">Online Pharmacy</h3>
                     <p>Website</p>
+                  </div>
+                </div>
+                <div className="swiper-slide">
+                  <div className="pp-slide-thumb">
+                    <h3 className="pp-slide-title">Non Profit Website</h3>
+                    <p>Website</p>
+                  </div>
+                </div>
+                <div className="swiper-slide">
+                  <div className="pp-slide-thumb">
+                    <h3 className="pp-slide-title">Housing Society</h3>
+                    <p>Website & Application</p>
                   </div>
                 </div>
                 <div className="swiper-slide">
@@ -244,20 +279,8 @@ const PortfolioHome = () => {
                 </div>
                 <div className="swiper-slide">
                   <div className="pp-slide-thumb">
-                    <h3 className="pp-slide-title">Online Medicine</h3>
-                    <p>Website & Application</p>
-                  </div>
-                </div>
-                <div className="swiper-slide">
-                  <div className="pp-slide-thumb">
-                    <h3 className="pp-slide-title">NGO Charity</h3>
-                    <p>Website</p>
-                  </div>
-                </div>
-                <div className="swiper-slide">
-                  <div className="pp-slide-thumb">
                     <h3 className="pp-slide-title">
-                      Housing Society Management
+                    E-commerce Solution
                     </h3>
                     <p>Mother's Day Website</p>
                   </div>
@@ -265,6 +288,12 @@ const PortfolioHome = () => {
                 <div className="swiper-slide">
                   <div className="pp-slide-thumb">
                     <h3 className="pp-slide-title">Business Directory</h3>
+                    <p>Website</p>
+                  </div>
+                </div>
+                <div className="swiper-slide">
+                  <div className="pp-slide-thumb">
+                    <h3 className="pp-slide-title">Hospital Management System</h3>
                     <p>Website</p>
                   </div>
                 </div>
