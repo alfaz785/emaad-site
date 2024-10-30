@@ -59,7 +59,7 @@ const SliderHome = () => {
             <div className="swiper-slide back_one">
               <div className="overlay"></div>
               <div className="slider-text">
-                <h5 className="mb_40">HEALTHCARE</h5>
+                <h5 className="mb_40">Healthcare</h5>
                 <p className="mb-0">
                   By designing highly efficient and cross-platform apps, we
                   ensure that our healthcare clients can manage patient data to
@@ -130,7 +130,7 @@ const SliderHome = () => {
                   <span className="letter">n</span>
                   <span className="letter">y</span>
                 </h5> */}
-                <h5 className="mb_40">MANUFACTURING</h5>
+                <h5 className="mb_40">Manufacturing</h5>
                 <p className="mb-0 leading">
                   The manufacturing industry faces unique challenges and
                   opportunities that can be achieved by an efficient web
@@ -153,7 +153,7 @@ const SliderHome = () => {
             <div className="swiper-slide back_three">
               <div className="overlay"></div>
               <div className="slider-text">
-                <h5 className="mb_40"> CHARITY ORGANISATION </h5>
+                <h5 className="mb_40"> Charity Organisation</h5>
                 <p className="mb-0">
                   By our comprehensive strategies, we help organization to
                   project their voice through their website, apps and social
@@ -172,7 +172,7 @@ const SliderHome = () => {
             <div className="swiper-slide back_four">
               <div className="overlay"></div>
               <div className="slider-text">
-                <h5 className="mb_40">FINACIAL & INSURANCE</h5>
+                <h5 className="mb_40"> Financial & Insurance</h5>
                 <p className="mb-0">
                   We work with a lending agencies, insurance companies for
                   websites, apps over the years. Our services attract the most
@@ -192,7 +192,7 @@ const SliderHome = () => {
             <div className="swiper-slide back_five">
               <div className="overlay"></div>
               <div className="slider-text">
-                <h5 className="mb_40">SPORTS & FITNESS</h5>
+                <h5 className="mb_40">Sports & Fitness</h5>
                 <p className="mb-0">
                   Our service to clients in the sports and fitness industry is
                   second to none. We fully understand the importance of
@@ -215,7 +215,7 @@ const SliderHome = () => {
             <div className="swiper-slide back_six">
               <div className="overlay"></div>
               <div className="slider-text">
-                <h5 className="mb_40">EDUCATION </h5>
+                <h5 className="mb_40">Education</h5>
                 <p className="mb-0">
                   Education lies at the heart of any community’s progress. Our
                   website solutions help our clients deliver, most comprehensive
@@ -235,7 +235,7 @@ const SliderHome = () => {
             <div className="swiper-slide back_seven">
               <div className="overlay"></div>
               <div className="slider-text">
-                <h5 className="mb_40">TOURISM & HOSPITALITY </h5>
+                <h5 className="mb_40">Tourism & Hospitality </h5>
                 <p className="mb-0">
                   An attractive site is must for the growth of any sector. We
                   walk with clients in the hotels, food and beverage, resort,
@@ -255,7 +255,7 @@ const SliderHome = () => {
             <div className="swiper-slide back_eight">
               <div className="overlay"></div>
               <div className="slider-text">
-                <h5 className="mb_40">REAL ESTATE </h5>
+                <h5 className="mb_40">Real Estate </h5>
                 <p className="mb-0">
                   In the real estate sector, we strive to offer instant and
                   mutually beneficial connections between the buyers and
@@ -275,7 +275,7 @@ const SliderHome = () => {
             <div className="swiper-slide back_nine">
               <div className="overlay"></div>
               <div className="slider-text">
-                <h5 className="mb_40">INFORMATION & TECHNOLOGY </h5>
+                <h5 className="mb_40">Information & Technology </h5>
                 <p className="mb-0">
                   No industry in the world can succeed without managing its
                   informational assets efficient. We work with numerous clients
@@ -295,7 +295,7 @@ const SliderHome = () => {
             <div className="swiper-slide back_ten">
               <div className="overlay"></div>
               <div className="slider-text">
-                <h5 className="mb_40">FOOD PROCESSING </h5>
+                <h5 className="mb_40">Food Processing </h5>
                 <p className="mb-0">
                   We are witnessing high-speed growth in the food processing
                   sector with rising demand in all areas of the supply chain.
@@ -331,44 +331,44 @@ const SliderHome = () => {
             <div className="swiper-wrapper">
               <div className="swiper-slide">
                 <div className="overlay"></div>
-                <div className="caption">HEALTHCARE</div>
+                <div className="caption">Healthcare</div>
               </div>
               <div className="swiper-slide">
                 <div className="overlay"></div>
-                <div className="caption">MANUFACTURING</div>
+                <div className="caption">Manufacturing</div>
               </div>
               <div className="swiper-slide">
                 <div className="overlay"></div>
-                <div className="caption">CHARITY ORGANISATION</div>
+                <div className="caption">Charity Organisation</div>
               </div>
               <div className="swiper-slide">
                 <div className="overlay"></div>
-                <div className="caption">FINACIAL & INSURANCE</div>
+                <div className="caption">Financial & Insurance</div>
               </div>
               <div className="swiper-slide">
                 <div className="overlay"></div>
-                <div className="caption">SPORTS & FITNESS</div>
+                <div className="caption">Sports & Fitness</div>
               </div>
 
               <div className="swiper-slide">
                 <div className="overlay"></div>
-                <div className="caption">EDUCATION</div>
+                <div className="caption">Education</div>
               </div>
               <div className="swiper-slide">
                 <div className="overlay"></div>
-                <div className="caption">TOURISM & HOSPITALITY </div>
+                <div className="caption">Tourism & Hospitality </div>
               </div>
               <div className="swiper-slide">
                 <div className="overlay"></div>
-                <div className="caption">REAL ESTATE </div>
+                <div className="caption">Real Estate </div>
               </div>
               <div className="swiper-slide">
                 <div className="overlay"></div>
-                <div className="caption">INFORMATION & TECHNOLOGY </div>
+                <div className="caption">Information & Technology </div>
               </div>
               <div className="swiper-slide">
                 <div className="overlay"></div>
-                <div className="caption"> FOOD PROCESSING </div>
+                <div className="caption"> Food Processing </div>
               </div>
             </div>
           </div>

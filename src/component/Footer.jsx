@@ -6,7 +6,10 @@ import facebookImg from "../assets/images/facebook.svg";
 import whatsappImg from "../assets/images/whatsapp.svg";
 import linkedinImg from "../assets/images/linkedin.svg";
 import skypeImg from "../assets/images/skype.svg";
+import footerCallImg from "../assets/images/footer-call-icone.svg";
+import footerLocationImg from "../assets/images/footer-location-icon.svg";
 import Link from "next/link";
+
 const Footer = () => {
   return (
     <>
@@ -15,12 +18,28 @@ const Footer = () => {
           <div className="row">
             <div className="col-md-4">
               <div className="footer-main-left">
-                <h2 className="logo mb-0">EI.</h2>
+                <h2 className="logo">EI.</h2>
                 <div className="contact-info d-flex align-items-center gap-3">
                   <span className="material-symbols-outlined"> mail </span>
                   <a href="mailto:info@emaadinfotech.com">
                     info@emaadinfotech.com
                   </a>
+                </div>
+                <div class="contact-info d-flex align-items-center gap-3  ">
+                  <div class="icon_bg">
+                    <Image src={footerCallImg} alt="FooterCallImg" />
+                  </div>
+                  <a href="tel:+917600145260">+91 76001 45260</a>
+                  <a href="tel:+917600145260">+91 76001 45260</a>
+                </div>
+                <div class="contact-info d-flex align-items-start gap-3 ">
+                  <div class="icon_bg">
+                    <Image src={footerLocationImg} alt="footerLocationImg" />
+                  </div>
+                  <p class="mb-0">
+                    D/308, Shantam - 7, RTO Circle, Himmatnagar, GJ, India,
+                    383001
+                  </p>
                 </div>
                 <div className="social-icons">
                   <div className="social-icons-bg instagram-icon">

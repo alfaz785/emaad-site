@@ -16,6 +16,7 @@ export default function Home() {
     <>
       <HomeHead />
       {/* <!-- slider section start --> */}
+      
       <SlideSection />
       {/* <!-- Delivering Innovation that thrives Start --> */}
       <DeliveriHome />
@@ -41,7 +42,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <ProjectInMind mainTxt={"Have A Project In Mind ? Let's Get To Work"} />
+      <ProjectInMind mainTxt={"Ideas Can't Wait Put Us To Work On Them!"} />
 
       {/* <!-- DraggableBox section --> */}
       <DraggableBox />
