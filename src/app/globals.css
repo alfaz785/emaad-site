@@ -1,0 +1,9 @@
+body {
+  background-color: #0d111c !important;
+  color: #fff !important;
+  overflow-x: hidden !important;
+  cursor: pointer !important;
+}
+a {
+  text-decoration: none !important;
+}

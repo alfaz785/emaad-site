@@ -1,0 +1,33 @@
+name: Deploy to FTP Cpanel
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Deploy via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASS }}
+          server: ${{ secrets.FTP_SERVER }}
+          protocol: ftps
+          port: ${{ secrets.FTP_PORT }}
+          local-dir: ./ # Make sure this points to the correct build folder
+      - name: Execute deploy script via SSH
+        uses: appleboy/ssh-action@v0.1.0
+        with:
+           host: ${{ secrets.FTP_SERVER }}
+           username: ${{ secrets.SSH_USER }}
+           password: ${{ secrets.SSH_PASS }}
+           script: | 
+              cd /home/new.emaadinfotech.com
+              bash deploy.sh
