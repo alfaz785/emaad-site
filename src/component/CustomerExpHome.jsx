@@ -188,7 +188,7 @@ const CustomerExpHome = () => {
                         <span className="material-symbols-outlined face">
                           call_made
                         </span>
-                        <span className="author-name">Kristin Watson</span>
+                        <span className="author-name">Packwell Traders, India</span>
                       </p>
                     </div>
                   </div>
@@ -235,7 +235,7 @@ const CustomerExpHome = () => {
                         <span className="material-symbols-outlined face">
                           call_made
                         </span>
-                        <span className="author-name">Kristin Watson</span>
+                        <span className="author-name">Universal Proline, Atlanta, USA</span>
                       </p>
                     </div>
                   </div>
