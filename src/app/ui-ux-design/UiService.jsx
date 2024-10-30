@@ -54,7 +54,7 @@ const UiService = () => {
         <div className="container">
           <div className="Benefits-title">
             <h4>
-              Benefits of Our <strong> UI/UX Design</strong> Services
+              Benefits Of Our <strong> UI/UX Design</strong> Services
             </h4>
           </div>
           {/* <!-- //  benifits our accordian design start hover/1 --> */}

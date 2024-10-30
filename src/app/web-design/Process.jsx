@@ -38,7 +38,7 @@ const Process = () => {
               <div className="process-design-text">
                 <p>
                   Welcome to our Web Design services, where innovation meets
-                  functionality to create captivating digital experiences. At
+                  functionality to create captivating digital experiences. At &nbsp;
                   <strong>Emaad Infotech</strong>, we specialize in crafting
                   bespoke websites tailored to your unique brand identity and
                   objectives.
@@ -112,14 +112,16 @@ const Process = () => {
                         <div className="border-procese"></div>
                         <div className="procees-content1">
                           <p>
-                            Responsive Web Design is an approach to web
-                            development that ensures a website looks and
-                            functions well across a variety of devices and
-                            screen sizes. This means the website automatically
-                            adjusts its layout, images, and functionalities to
-                            provide an optimal viewing experience, whether
-                            accessed on a smartphone, tablet, laptop, or desktop
-                            computer.
+                            {
+                              [
+                                "Wireframing is an essential step in the web design process that involves creating a visual blueprint of a website's structure and layout. It outlines the placement of key elements such as navigation menus, content areas, buttons, and images without focusing on design details like colors or typography.",
+                                "Responsive Web Design is an approach to web development that ensures a website looks and functions well across a variety of devices and screen sizes. This means the website automatically adjusts its layout, images, and functionalities to provide an optimal viewing experience, whether accessed on a smartphone, tablet, laptop, or desktop computer.",
+                                "Prototyping is a crucial phase in the web design process where interactive models of a website are developed to visualize and test its functionality, design, and user experience.",
+                                "Web copy is essential for conveying your brand's voice, values, and personality. It helps establish a connection with your audience and sets you apart from competitors.",
+                                "User Experience (UX) Design is a crucial aspect of the web design process that focuses on creating a seamless, intuitive, and enjoyable experience for users as they interact with a website. It involves understanding user behaviors, needs, and motivations through various research methods and applying these insights to design solutions that enhance user satisfaction and engagement.",
+                                "User Interface (UI) Design: Crafting captivating interfaces for websites and apps. From color schemes to navigation, we ensure your digital presence is visually stunning and effortlessly navigable, enhancing user experience and achieving your goals.",
+                              ][index]
+                            }
                           </p>
                         </div>
                       </div>

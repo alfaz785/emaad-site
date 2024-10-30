@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 import serviceImg from "../../assets/images/service-img.png";
 import Image from "next/image";
-import { textTypingEffect } from "../../../commFun";
+import { bulkHead, textTypingEffect } from "../../../commFun";
 
 const BulkHead = () => {
   useEffect(() => {
@@ -19,7 +19,7 @@ const BulkHead = () => {
         modifiedText,
         uiTextContents,
         uiTextClassStart,
-        uiTextClassEnd,
+        uiTextClassEnd
       );
     }
 
@@ -98,21 +98,15 @@ const BulkHead = () => {
           <div className="benifits-border-bottom"></div>
           <div className="bulk-hover-design-text">
             {/* <!-- bulk service hover first --> */}
-            {Array.from({ length: 4 }, (_, index) => (
+            {bulkHead?.map((data, index) => (
               <div className="bulk-service-email-desing" key={index}>
                 <div className="benifits-arrow-des">
                   <div className="Benefits-of-design">
                     <div className="benifits-title1">
-                      <h4>Customizable Templates</h4>
+                      <h4>{data?.title}</h4>
                     </div>
                     <div className="benifits-descripation">
-                      <p>
-                        We provide a wide selection of professionally designed
-                        templates that you can customize to reflect your brand’s
-                        unique identity. Alternatively, you can create your own
-                        templates from scratch, ensuring your emails always
-                        align with your brand’s look and feel.
-                      </p>
+                      <p>{data?.description}</p>
                     </div>
                   </div>
                   <div className="benifits-btn-arrow">
