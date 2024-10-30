@@ -28,32 +28,19 @@ const DomainImportance = () => {
             </div> --> */}
               <div className="domain-title-main">
                 <h4 className="mb-0">
-                  <span className="letter">T</span>
-                  <span className="letter">h</span>
-                  <span className="letter">e</span>
-                  <span className="letter">I</span>
-                  <span className="letter">m</span>
-                  <span className="letter">p</span>
-                  <span className="letter">o</span>
-                  <span className="letter">r</span>
-                  <span className="letter">t</span>
-                  <span className="letter">a</span>
-                  <span className="letter">n</span>
-                  <span className="letter">c</span>
-                  <span className="letter">e</span>{" "}
-                  <span className="letter">o</span>
-                  <span className="letter">f</span>{" "}
-                  <span className="letter">a</span>
-                  <span className="letter">D</span>
-                  <span className="letter">o</span>
-                  <span className="letter">m</span>
-                  <span className="letter">a</span>
-                  <span className="letter">i</span>
-                  <span className="letter">n</span>
-                  <span className="letter">N</span>
-                  <span className="letter">a</span>
-                  <span className="letter">m</span>
-                  <span className="letter">e</span>
+                  {"The Importance Of A Unique Domain Name"
+                    ?.split(" ")
+                    .map((word, wordIndex) => (
+                      <span key={wordIndex} className="word">
+                        {word.split("").map((letter, letterIndex) => (
+                          <span key={letterIndex} className="letter">
+                            {letter}
+                          </span>
+                        ))}
+                        <span className="space">&nbsp;</span>{" "}
+                        {/* Adds space between words */}
+                      </span>
+                    ))}
                 </h4>
               </div>
 

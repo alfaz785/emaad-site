@@ -15,110 +15,132 @@ const DeliveriHome = () => {
   useEffect(() => {
     const deliveringSection = document.querySelector(".innovation");
 
-    const tl = gsap.timeline({
-      scrollTrigger: {
-        trigger: deliveringSection,
-        start: "top top",
-        end: "bottom bottom",
-        scrub: true,
-        pin: true,
+    ScrollTrigger.matchMedia({
+      "(min-width: 1500px)": function () {
+        const tl = gsap.timeline({
+          scrollTrigger: {
+            trigger: deliveringSection,
+            start: "top top",
+            end: "bottom bottom",
+            scrub: true,
+            pin: true,
+          },
+        });
+
+        tl.to(".text", { top: "21px" }, "a")
+          .to("#card-one", { top: "35%" }, "a")
+          .to("#card-two", { top: "130%" }, "a")
+          .to("#card-two", { top: "38%" }, "b")
+          .to("#card-one", { width: "65%" }, "b")
+          .to("#card-three", { top: "130%" }, "b")
+          .to("#card-three", { top: "41%" }, "c")
+          .to("#card-two", { width: "70%" }, "c")
+          .to("#card-four", { top: "130%" }, "c")
+          .to("#card-four", { top: "45%" }, "d")
+          .to("#card-three", { width: "75%" }, "d")
+          .to("#card-four", { width: "80%" }, "e");
+      },
+
+      // Between 1200px and 1500px
+      "(min-width: 1200px) and (max-width: 1499px)": function () {
+        const tl = gsap.timeline({
+          scrollTrigger: {
+            trigger: deliveringSection,
+            start: "top top",
+            end: "bottom bottom",
+            scrub: true,
+            pin: true,
+          },
+        });
+
+        tl.to(".text", { top: "21px" }, "a")
+          .to("#card-one", { top: "40%" }, "a")
+          .to("#card-two", { top: "120%" }, "a")
+          .to("#card-two", { top: "45%" }, "b")
+          .to("#card-one", { width: "60%" }, "b")
+          .to("#card-three", { top: "125%" }, "b")
+          .to("#card-three", { top: "50%" }, "c")
+          .to("#card-two", { width: "65%" }, "c")
+          .to("#card-four", { top: "125%" }, "c")
+          .to("#card-four", { top: "53%" }, "d")
+          .to("#card-three", { width: "70%" }, "d")
+          .to("#card-four", { width: "75%" }, "e");
+      },
+
+      "(min-width: 768px) and (max-width: 972px)": function () {
+        const tl = gsap.timeline({
+          scrollTrigger: {
+            trigger: deliveringSection,
+            start: "top top",
+            end: "bottom bottom",
+            scrub: true,
+            pin: true,
+          },
+        });
+
+        tl.to(".text", { top: "2%" }, "a")
+          .to("#card-one", { top: "41%" }, "a")
+          .to("#card-two", { top: "140%" }, "a")
+          .to("#card-two", { top: "43%" }, "b")
+          .to("#card-one", { width: "55%" }, "b")
+          .to("#card-three", { top: "140%" }, "b")
+          .to("#card-three", { top: "46%" }, "c")
+          .to("#card-two", { width: "60%" }, "c")
+          .to("#card-four", { top: "140%" }, "c")
+          .to("#card-four", { top: "48%" }, "d")
+          .to("#card-three", { width: "65%" }, "d")
+          .to("#card-four", { width: "70%" }, "e");
+      },
+      "(min-width: 576px) and (max-width: 768px)": function () {
+        const tl = gsap.timeline({
+          scrollTrigger: {
+            trigger: deliveringSection,
+            start: "top top",
+            end: "bottom bottom",
+            scrub: true,
+            pin: true,
+          },
+        });
+
+        tl.to(".text", { top: "2%" }, "a")
+          .to("#card-one", { top: "41%" }, "a")
+          .to("#card-two", { top: "140%" }, "a")
+          .to("#card-two", { top: "43%" }, "b")
+          .to("#card-one", { width: "55%" }, "b")
+          .to("#card-three", { top: "140%" }, "b")
+          .to("#card-three", { top: "46%" }, "c")
+          .to("#card-two", { width: "60%" }, "c")
+          .to("#card-four", { top: "140%" }, "c")
+          .to("#card-four", { top: "48%" }, "d")
+          .to("#card-three", { width: "65%" }, "d")
+          .to("#card-four", { width: "70%" }, "e");
+      },
+      "(max-width: 576px)": function () {
+        const tl = gsap.timeline({
+          scrollTrigger: {
+            trigger: deliveringSection,
+            start: "top top",
+            end: "bottom bottom",
+            scrub: true,
+            pin: true,
+          },
+        });
+
+        tl.to(".text", { top: "2%" }, "a")
+          .to("#card-one", { top: "41%" }, "a")
+          .to("#card-two", { top: "140%" }, "a")
+          .to("#card-two", { top: "44%" }, "b")
+          .to("#card-one", { width: "55%" }, "b")
+          .to("#card-three", { top: "140%" }, "b")
+          .to("#card-three", { top: "45%" }, "c")
+          .to("#card-two", { width: "60%" }, "c")
+          .to("#card-four", { top: "140%" }, "c")
+          .to("#card-four", { top: "47%" }, "d")
+          .to("#card-three", { width: "65%" }, "d")
+          .to("#card-four", { width: "70%" }, "e");
       },
     });
-
-    tl.to(".text", {
-      top: "2%",
-      duration: 1,
-    })
-      .to(
-        "#card-one",
-        {
-          top: "33%",
-          duration: 1,
-        },
-        "-=0.5",
-      )
-      .to(
-        "#card-two",
-        {
-          top: "130%",
-          duration: 1,
-        },
-        "-=0.5",
-      )
-      .to(
-        "#card-two",
-        {
-          top: "35%",
-          duration: 1,
-        },
-        "b",
-      )
-      .to(
-        "#card-one",
-        {
-          width: "65%",
-          duration: 1,
-        },
-        "b",
-      )
-      .to(
-        "#card-three",
-        {
-          top: "130%",
-          duration: 1,
-        },
-        "b",
-      )
-      .to(
-        "#card-three",
-        {
-          top: "40%",
-          duration: 1,
-        },
-        "c",
-      )
-      .to(
-        "#card-two",
-        {
-          width: "70%",
-          duration: 1,
-        },
-        "c",
-      )
-      .to(
-        "#card-four",
-        {
-          top: "130%",
-          duration: 1,
-        },
-        "c",
-      )
-      .to(
-        "#card-four",
-        {
-          top: "42%",
-          duration: 1,
-        },
-        "d",
-      )
-      .to(
-        "#card-three",
-        {
-          width: "75%",
-          duration: 1,
-        },
-        "d",
-      )
-      .to(
-        "#card-four",
-        {
-          width: "80%",
-          duration: 1,
-        },
-        "e",
-      );
   }, []);
-
   return (
     <>
       <section>
