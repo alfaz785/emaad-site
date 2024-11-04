@@ -214,7 +214,7 @@ const CustomerExpHome = () => {
                         <span className="material-symbols-outlined face">
                           call_made
                         </span>
-                        <span className="author-name">Kristin Watson</span>
+                        <span className="author-name">The Danche Foundation, Dunwoody, USA</span>
                       </p>
                     </div>
                   </div>
@@ -394,7 +394,7 @@ const CustomerExpHome = () => {
                         <span className="material-symbols-outlined face">
                           call_made
                         </span>
-                        <span className="author-name">Kristin Watson</span>
+                        <span className="author-name">Sanjar Dairy</span>
                       </p>
                     </div>
                   </div>
@@ -418,7 +418,7 @@ const CustomerExpHome = () => {
                         <span className="material-symbols-outlined face">
                           call_made
                         </span>
-                        <span className="author-name">Kristin Watson</span>
+                        <span className="author-name">Internet Care Unit</span>
                       </p>
                     </div>
                   </div>
