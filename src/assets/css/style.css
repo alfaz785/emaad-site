@@ -5832,12 +5832,14 @@ body {
 /* <!-- current openings section End --> */
 /* =====GET IN TOUCH PAGE START=====*/
 /* get-in-touch section start*/
+
 .get-in-touch-section {
   padding: 38px 0px 48px;
   background-image: url(../images/services-section-bg.png);
   background-repeat: no-repeat;
   background-position: calc(100% - 70px) center;
   border-bottom: 2px solid #434c5e;
+  background-size: contain;
 }
 .get-in-touch-title h1 {
   font-size: 70px;
@@ -5921,6 +5923,9 @@ body {
 }
 /* contact us section End */
 /* follow-us-section start */
+.follow-us-section{
+  margin-top: 100px;
+}
 .follow-us-section .follow-us-title {
   font-size: 80px;
   color: var(--white-color);
@@ -6829,6 +6834,9 @@ bulk-sms-email-marketing .ui-moon-img {
   background-color: var(--white-color);
 }
 .info-item a:hover {
+  color: inherit;
+}
+.pp-slide-title a {
   color: inherit;
 }
 .overlay-text {

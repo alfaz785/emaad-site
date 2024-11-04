@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import whatsappImg from "../../assets/images/whatsapp.svg";
 import twitterImg from "../../assets/images/twitter.svg";
@@ -9,37 +10,49 @@ import Image from "next/image";
 const TouchFollowUs = () => {
   return (
     <>
-      <div className="container follow-us-section mt_100">
+      <div className="container follow-us-section ">
         <div className="row">
           <h4 class="follow-us-title">Follow Us</h4>
 
           <div className="col-lg-6">
             <div className="row">
-              <div className="col-lg-6 col-md-6 col-sm-6 col-12 box">
-                <a href="https://wa.me/919428901392" target="_blank">
-                  <Image src={whatsappImg} alt="WhatsApp" />
-                </a>
+              <div
+                onClick={() =>
+                  window.open("https://wa.me/919428901392", "_blank")
+                }
+                className="col-lg-6 col-md-6 col-sm-6 col-12 box"
+              >
+                <Image src={whatsappImg} alt="WhatsApp" />
               </div>
-              <div className="col-lg-6 col-md-6 col-sm-6 col-12 box">
-                <a href="https://x.com/EmaadInfotech" target="_blank">
-                  <Image src={twitterImg} alt="Twitter" />
-                </a>
+              <div
+                onClick={() =>
+                  window.open("https://x.com/EmaadInfotech", "_blank")
+                }
+                className="col-lg-6 col-md-6 col-sm-6 col-12 box"
+              >
+                <Image src={twitterImg} alt="Twitter" />
               </div>
-              <div className="col-lg-6 col-md-6 col-sm-6 col-12 box">
-                <a
-                  href="https://www.facebook.com/emaad.developer/"
-                  target="_blank"
-                >
-                  <Image src={facebookImg} alt="Facebook" />
-                </a>
+              <div
+                onClick={() =>
+                  window.open(
+                    "https://www.facebook.com/emaad.developer/",
+                    "_blank"
+                  )
+                }
+                className="col-lg-6 col-md-6 col-sm-6 col-12 box"
+              >
+                <Image src={facebookImg} alt="Facebook" />
               </div>
-              <div className="col-lg-6 col-md-6 col-sm-6 col-12 box">
-                <a
-                  href="https://www.linkedin.com/company/emaad-infotech/"
-                  target="_blank"
-                >
-                  <Image src={linkedinImg} alt="LinkedIn" />
-                </a>
+              <div
+                onClick={() =>
+                  window.open(
+                    "https://www.linkedin.com/company/emaad-infotech/",
+                    "_blank"
+                  )
+                }
+                className="col-lg-6 col-md-6 col-sm-6 col-12 box"
+              >
+                <Image src={linkedinImg} alt="LinkedIn" />
               </div>
             </div>
           </div>

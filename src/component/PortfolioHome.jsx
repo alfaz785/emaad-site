@@ -268,44 +268,45 @@ const PortfolioHome = () => {
               <div className="swiper-wrapper">
                 <div className="swiper-slide">
                   <div className="pp-slide-thumb">
-                    <h3 className="pp-slide-title">Online Pharmacy</h3>
+                    <h3 className="pp-slide-title"> <a href="https://emaad-infotech.com/product/e-pharma/" target="_blank" rel="noopener noreferrer">Online Pharmacy</a></h3>
                     <p>Website</p>
                   </div>
                 </div>
                 <div className="swiper-slide">
                   <div className="pp-slide-thumb">
-                    <h3 className="pp-slide-title">Non Profit Website</h3>
+                    <h3 className="pp-slide-title"><a href="https://www.emaad-infotech.com/product/ngo/" target="_blank" rel="noopener noreferrer">Non Profit Website</a></h3>
                     <p>Website</p>
                   </div>
                 </div>
                 <div className="swiper-slide">
                   <div className="pp-slide-thumb">
-                    <h3 className="pp-slide-title">Housing Society</h3>
+                    <h3 className="pp-slide-title"><a href="https://www.emaad-infotech.com/product/housing-society/" target="_blank" rel="noopener noreferrer">Housing Society</a></h3>
                     <p>Website & Application</p>
                   </div>
                 </div>
                 <div className="swiper-slide">
                   <div className="pp-slide-thumb">
-                    <h3 className="pp-slide-title">Real Estate</h3>
+                    <h3 className="pp-slide-title"><a href="https://www.emaad-infotech.com/product/real-estate/" target="_blank" rel="noopener noreferrer">Real Estate</a></h3>
                     <p>Website</p>
                   </div>
                 </div>
                 <div className="swiper-slide">
                   <div className="pp-slide-thumb">
-                    <h3 className="pp-slide-title">E-commerce Solution</h3>
+                    <h3 className="pp-slide-title"><a href="https://emaad-infotech.com/product/online-shopping/" target="_blank" rel="noopener noreferrer">E-commerce Solution</a></h3>
                     <p>Mother's Day Website</p>
                   </div>
                 </div>
                 <div className="swiper-slide">
                   <div className="pp-slide-thumb">
-                    <h3 className="pp-slide-title">Business Directory</h3>
+                    <h3 className="pp-slide-title"><a href="https://www.emaad-infotech.com/product/just-one-click/">Business Directory</a></h3>
                     <p>Website</p>
                   </div>
                 </div>
                 <div className="swiper-slide">
                   <div className="pp-slide-thumb">
                     <h3 className="pp-slide-title">
-                      Hospital Management System
+                    <a href="https://hospital-management.emaad-infotech.com/" target="_blank" rel="noopener noreferrer"> Hospital Management System</a>
+                     
                     </h3>
                     <p>Website</p>
                   </div>
