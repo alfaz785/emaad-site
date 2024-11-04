@@ -1280,7 +1280,7 @@ body {
     }
     li {
       font-size: 20px;
-      width: 80vw;
+      /* width: 80vw; */
       font-family: "Assistant-Bold";
       list-style-type: disc !important;
       margin-left: 25px;
@@ -1339,7 +1339,7 @@ body {
     }
     li {
       font-size: 20px;
-      width: 80vw;
+      /* width: 80vw; */
       font-family: "Assistant-Bold";
       list-style-type: disc !important;
       margin-left: 25px;

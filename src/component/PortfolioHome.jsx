@@ -8,10 +8,6 @@ import satisfactionImg4 from "../assets/images/Online-Shopping.png";
 import satisfactionImg5 from "../assets/images/Business-Directory.png";
 import satisfactionImg6 from "../assets/images/Hospital-Management.png";
 
-
-
-
-
 import Image from "next/image";
 import { gsap } from "gsap";
 
@@ -78,7 +74,7 @@ const PortfolioHome = () => {
             }
           });
         },
-        { threshold: 0.1 },
+        { threshold: 0.1 }
       );
 
       const section = document.getElementById("animated-section");
@@ -137,8 +133,8 @@ const PortfolioHome = () => {
           <div className="col-xxl-4 col-xl-5 col-lg-6 col-md-6 col-sm-12">
             <div className="awesome_blog_text" id="animated-section">
               <p className="mb-0">
-              Re-alive your imagination with us, by exploring world class
-              technology
+                Re-alive your imagination with us, by exploring world class
+                technology
               </p>
             </div>
           </div>
@@ -150,97 +146,114 @@ const PortfolioHome = () => {
               <div className="swiper portfolio__project-slider">
                 <div className="swiper-wrapper">
                   <div className="swiper-slide pp-slide">
-                    <div className="pp-slide-img">
-                      <a href="#">
+                    <a
+                      target="_blank"
+                      href="https://emaad-infotech.com/product/e-pharma"
+                    >
+                      <div className="pp-slide-img">
                         <Image
                           src={satisfactionImg}
                           alt="Portfolio Thumbnail"
                         />
-                      </a>
-                      <div className="overlay">
-                        <div className="overlay-text">Online Pharmacy</div>
+                        <div className="overlay">
+                          <div className="overlay-text">Online Pharmacy</div>
+                        </div>
                       </div>
-                    </div>
+                    </a>
                   </div>
                   <div className="swiper-slide pp-slide">
+                      <a target="_blank" href="https://www.emaadinfotech.com/non-profit-website">
                     <div className="pp-slide-img">
-                      <a href="#">
                         <Image
                           src={satisfactionImg1}
                           alt="Portfolio Thumbnail"
                         />
-                      </a>
                       <div className="overlay">
                         <div className="overlay-text">Non Profit Website</div>
                       </div>
                     </div>
+                      </a>
                   </div>
                   <div className="swiper-slide pp-slide">
-                    <div className="pp-slide-img">
-                      <a href="#">
+                    <a href="https://www.emaad-infotech.com/product/housing-society/">
+                      <div className="pp-slide-img">
                         <Image
                           src={satisfactionImg2}
                           alt="Portfolio Thumbnail"
                         />
-                      </a>
-                      <div className="overlay">
-                        <div className="overlay-text">Housing Society</div>
+                        <div className="overlay">
+                          <div className="overlay-text">Housing Society</div>
+                        </div>
                       </div>
-                    </div>
+                    </a>
                   </div>
                   <div className="swiper-slide pp-slide">
-                    <div className="pp-slide-img">
-                      <a href="#">
+                    <a
+                      target="_blank"
+                      href="https://www.emaad-infotech.com/product/real-estate/"
+                    >
+                      <div className="pp-slide-img">
                         <Image
                           src={satisfactionImg3}
                           alt="Portfolio Thumbnail"
                         />
-                      </a>
-                      <div className="overlay">
-                        <div className="overlay-text">Real Estate</div>
+                        <div className="overlay">
+                          <div className="overlay-text">Real Estate</div>
+                        </div>
                       </div>
-                    </div>
+                    </a>
                   </div>
                   <div className="swiper-slide pp-slide">
-                    <div className="pp-slide-img">
-                      <a href="#">
+                    <a
+                      target="_blank"
+                      href="https://emaad-infotech.com/product/online-shopping/"
+                    >
+                      <div className="pp-slide-img">
                         <Image
                           src={satisfactionImg4}
                           alt="Portfolio Thumbnail"
                         />
-                      </a>
-                      <div className="overlay">
-                        <div className="overlay-text">
-                        E-commerce Solution
+                        <div className="overlay">
+                          <div className="overlay-text">
+                            E-commerce Solution
+                          </div>
                         </div>
                       </div>
-                    </div>
+                    </a>
                   </div>
                   <div className="swiper-slide pp-slide">
-                    <div className="pp-slide-img">
-                      <a href="#">
+                    <a
+                      target="_blank"
+                      href="https://www.emaad-infotech.com/product/just-one-click"
+                    >
+                      <div className="pp-slide-img">
                         <Image
                           src={satisfactionImg5}
                           alt="Portfolio Thumbnail"
                         />
-                      </a>
-                      <div className="overlay">
-                        <div className="overlay-text">Business Directory</div>
+                        <div className="overlay">
+                          <div className="overlay-text">Business Directory</div>
+                        </div>
                       </div>
-                    </div>
+                    </a>
                   </div>
                   <div className="swiper-slide pp-slide">
-                    <div className="pp-slide-img">
-                      <a href="#">
+                    <a
+                      target="_blank"
+                      href="https://hospital-management.emaad-infotech.com/"
+                    >
+                      <div className="pp-slide-img">
                         <Image
                           src={satisfactionImg6}
                           alt="Portfolio Thumbnail"
                         />
-                      </a>
-                      <div className="overlay">
-                        <div className="overlay-text">Hospital Management System</div>
+                        <div className="overlay">
+                          <div className="overlay-text">
+                            Hospital Management System
+                          </div>
+                        </div>
                       </div>
-                    </div>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -279,9 +292,7 @@ const PortfolioHome = () => {
                 </div>
                 <div className="swiper-slide">
                   <div className="pp-slide-thumb">
-                    <h3 className="pp-slide-title">
-                    E-commerce Solution
-                    </h3>
+                    <h3 className="pp-slide-title">E-commerce Solution</h3>
                     <p>Mother's Day Website</p>
                   </div>
                 </div>
@@ -293,7 +304,9 @@ const PortfolioHome = () => {
                 </div>
                 <div className="swiper-slide">
                   <div className="pp-slide-thumb">
-                    <h3 className="pp-slide-title">Hospital Management System</h3>
+                    <h3 className="pp-slide-title">
+                      Hospital Management System
+                    </h3>
                     <p>Website</p>
                   </div>
                 </div>
