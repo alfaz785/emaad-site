@@ -3,7 +3,7 @@ import React, { useEffect, useRef } from "react";
 import indiaImg from "../assets/images/India.png";
 import emailImg from "../assets/images/email.png";
 import shapeImg from "../assets/images/Shape.png";
-import whatsappImg from "../assets/images/whatsapp.svg";
+import youtubeImg from "../assets/images/youtube.png";
 import instImg from "../assets/images/insta.png";
 import teligrameImg from "../assets/images/teligrame.png";
 import facebookImg from "../assets/images/fb.png";
@@ -785,7 +785,7 @@ const MainHeader = () => {
                 <Image
                   width={100}
                   height={100}
-                  src={whatsappImg}
+                  src={youtubeImg}
                   alt="WhatsApp"
                 />
               </a>
