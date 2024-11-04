@@ -5,6 +5,8 @@ import technologiesReactImg from "../../assets/images/Technologies -react.png";
 import technologiesHTMLImg from "../../assets/images/Technologies-html-5.png";
 import technologiesVueImg from "../../assets/images/Technologies -Vue.js_Logo_2.png";
 import technologiesAImg from "../../assets/images/Technologies-A.png";
+// import technologieFlutterImg from "../../assets/images/technologieFlutterImg";
+// import technologieionicImg from "../../assets/images/technologieionicImg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css"; // Import Swiper core styles
 import "swiper/css/navigation"; // Import specific Swiper modules
@@ -14,7 +16,7 @@ import illustratorImg from "../../assets/images/Illustrator.png";
 import figmaImg from "../../assets/images/Figma.png";
 import photoshopImg from "../../assets/images/Photoshop.png";
 import xdImg from "../../assets/images/Xd.png";
-
+// import flutter from "../../assets/images/flutter.png"
 const Technologies = ({ isUiUX = false }) => {
   return (
     <>
@@ -99,6 +101,22 @@ const Technologies = ({ isUiUX = false }) => {
             <div className="Technologies-app rotate3">
               <Image
                 src={isUiUX ? xdImg : technologiesVueImg}
+                alt="Photoshop"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="swiper-slide Technologies-card">
+            <div className="Technologies-app rotate3">
+              <Image
+                src={isUiUX ? photoshopImg : technologiesVueImg}
+                alt="Photoshop"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="swiper-slide Technologies-card">
+            <div className="Technologies-app rotate3">
+              <Image
+                src={isUiUX ? photoshopImg : technologiesVueImg}
                 alt="Photoshop"
               />
             </div>

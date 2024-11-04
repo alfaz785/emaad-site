@@ -5,7 +5,7 @@ import emailImg from "../assets/images/email.png";
 import shapeImg from "../assets/images/Shape.png";
 import whatsappImg from "../assets/images/whatsapp.svg";
 import instImg from "../assets/images/insta.png";
-import linkedinImg from "../assets/images/linkedin.svg";
+import teligrameImg from "../assets/images/teligrame.png";
 import facebookImg from "../assets/images/fb.png";
 import Image from "next/image";
 import Link from "next/link";
@@ -483,7 +483,7 @@ const MainHeader = () => {
                       sync_saved_locally
                     </span>
                     <li className="mb-4">
-                      <Link href="/get-in-touch" className="nav-drowpdown p-0">
+                      <Link href="/our-work" className="nav-drowpdown p-0">
                         Web Products{" "}
                       </Link>
                     </li>
@@ -492,7 +492,7 @@ const MainHeader = () => {
                     <div className="drowp-0">
                       <li className="hover">
                         <Link
-                          href="/get-in-touch"
+                          href="https://emaad-infotech.com/product/e-pharma/"
                           className="nav-drowpdown1 p-0"
                           onClick={handleNavigate}
                         >
@@ -501,7 +501,7 @@ const MainHeader = () => {
                       </li>
                       <li className="hover">
                         <Link
-                          href="/get-in-touch"
+                          href="https://www.emaad-infotech.com/product/real-estate/"
                           className="nav-drowpdown1 p-0"
                           onClick={handleNavigate}
                         >
@@ -510,7 +510,7 @@ const MainHeader = () => {
                       </li>
                       <li className="hover">
                         <Link
-                          href="/get-in-touch"
+                          href="https://emaad-infotech.com/product/online-shopping/"
                           className="nav-drowpdown1 p-0"
                           onClick={handleNavigate}
                         >
@@ -519,27 +519,36 @@ const MainHeader = () => {
                       </li>
                       <li className="hover">
                         <Link
-                          href="/get-in-touch"
+                          href="https://www.emaad-infotech.com/product/ngo/"
                           className="nav-drowpdown1 p-0"
                           onClick={handleNavigate}
                         >
                           NGO - Charity Website Service
                         </Link>
                       </li>
+                      <li className="hover">
+                        <Link
+                          href="https://emaad-infotech.com/product/tours-travel/"
+                          className="nav-drowpdown1 p-0"
+                          onClick={handleNavigate}
+                        >
+                          Tours & Travels Management
+                        </Link>
+                      </li>
                     </div>
                     <div className="drowp-2">
                       <li className="hover">
                         <Link
-                          href="/get-in-touch"
+                          href="https://www.emaad-infotech.com/product/housing-society/"
                           className="nav-drowpdown1 p-0"
                           onClick={handleNavigate}
                         >
-                          Housing & Society Management
+                          Housing Society Management
                         </Link>
                       </li>
                       <li className="hover">
                         <Link
-                          href="/get-in-touch"
+                          href="https://www.emaad-infotech.com/product/just-one-click/"
                           className="nav-drowpdown1 p-0"
                           onClick={handleNavigate}
                         >
@@ -548,7 +557,7 @@ const MainHeader = () => {
                       </li>
                       <li className="hover">
                         <Link
-                          href="/get-in-touch"
+                          href="https://hospital-management.emaad-infotech.com/"
                           className="nav-drowpdown1 p-0"
                           onClick={handleNavigate}
                         >
@@ -557,7 +566,7 @@ const MainHeader = () => {
                       </li>
                       <li className="hover">
                         <Link
-                          href="/get-in-touch"
+                          href="https://jobsaspire.com/"
                           className="nav-drowpdown1 p-0"
                           onClick={handleNavigate}
                         >
@@ -585,7 +594,7 @@ const MainHeader = () => {
                       <div className="drowp-1">
                         <li className="hover">
                           <Link
-                            href="/get-in-touch"
+                            href="/get-in-touch "
                             className="nav-drowpdown1 p-0"
                             onClick={handleNavigate}
                           >
@@ -798,7 +807,7 @@ const MainHeader = () => {
                 <Image
                   width={100}
                   height={100}
-                  src={linkedinImg}
+                  src={teligrameImg}
                   alt="LinkedIn"
                 />
               </a>

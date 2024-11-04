@@ -212,7 +212,7 @@ const Footer = () => {
                   <Link href="/our-services" className="cursor-scale small">
                     Our Services
                   </Link>
-                  <Link href="/get-in-touch" className="cursor-scale small">
+                  <Link href="https://www.emaadinfotech.com/blog/" className="cursor-scale small">
                     Blog
                   </Link>
                 </div>
