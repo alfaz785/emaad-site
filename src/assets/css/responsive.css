@@ -2182,6 +2182,9 @@
 }
 
 @media (max-width: 480px) {
+  .portfolio__project-thumbs .pp-slide-title {
+    font-size: 16px;
+  }
   .text h2 {
     font-size: 30px;
   }
@@ -2618,6 +2621,5 @@
   }
   .get-in-touch-title h1 {
     font-size: 40px;
-    
   }
 }

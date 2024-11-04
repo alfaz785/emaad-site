@@ -244,7 +244,7 @@ const Footer = () => {
                 </p>
                 <div className="footer-links">
                   <Link href="/terms-conditions" className="cursor-scale small">
-                    Term & Condition
+                    Terms & Conditions
                   </Link>
                   <Link href="/privacy-policy" className="cursor-scale small">
                     Privacy Policy
