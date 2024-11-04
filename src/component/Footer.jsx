@@ -125,8 +125,51 @@ const Footer = () => {
 
                   <ul className="list-unstyled product">
                     <li>
+                      <Link href="https://hospital-management.emaad-infotech.com/" className="cursor-scale small">
+                        Hospital Webapp
+                      </Link>
+                    </li>
+
+                    <li>
                       <Link href="/get-in-touch" className="cursor-scale small">
-                        Hospital App
+                        Grocery Delivery Web & App
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="https://www.emaadinfotech.com/business-directory/" className="cursor-scale small">
+                        Business Listing Software
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/get-in-touch" className="cursor-scale small">
+                        Community Webapp
+                      </Link>
+                    </li>
+
+                    <li>
+                      <Link href="https://emaad-infotech.com/product/online-shopping/" className="cursor-scale small">
+                        E-commerce Solution
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="https://aspire-job-portal.vercel.app/" className="cursor-scale small">
+                      Job Portal
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="https://emaad-infotech.com/product/tours-travel/"
+                        className="cursor-scale small"
+                      >
+                        Tours & Travels Management
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="https://emaad-infotech.com/product/tours-travel/"
+                        className="cursor-scale small"
+                      >
+                         Real Estate  Property Management
                       </Link>
                     </li>
                     <li>
@@ -136,27 +179,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <Link href="/get-in-touch" className="cursor-scale small">
-                        Grocery Delivery App
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/get-in-touch" className="cursor-scale small">
-                        Business Listing Software
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/get-in-touch" className="cursor-scale small">
-                        Community App
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/get-in-touch" className="cursor-scale small">
                         Market Place Application Like Upwork
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/get-in-touch" className="cursor-scale small">
-                        Online Shopping Services
                       </Link>
                     </li>
                   </ul>
@@ -166,12 +189,10 @@ const Footer = () => {
                   <h5 className="mb-0">Explore</h5>
                   <ul className="list-unstyled explore">
                     <li>
-                      <Link href="/get-in-touch" className="cursor-scale small">
-                        E-commerce Solution
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/get-in-touch" className="cursor-scale small">
+                      <Link
+                        href="/app-development"
+                        className="cursor-scale small"
+                      >
                         Mobile App Development
                       </Link>
                     </li>
@@ -181,12 +202,18 @@ const Footer = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link href="/get-in-touch" className="cursor-scale small">
+                      <Link
+                        href="/domain-hosting"
+                        className="cursor-scale small"
+                      >
                         Domain & Hosting Service
                       </Link>
                     </li>
                     <li>
-                      <Link href="/get-in-touch" className="cursor-scale small">
+                      <Link
+                        href="/digital-marketing"
+                        className="cursor-scale small"
+                      >
                         Digital Marketing
                       </Link>
                     </li>
@@ -231,7 +258,7 @@ const Footer = () => {
                   <Link href="/our-services" className="cursor-scale small">
                     Our Services
                   </Link>
-                  <Link href="/get-in-touch" className="cursor-scale small">
+                  <Link href="" className="cursor-scale small">
                     Blog
                   </Link>
                 </div>

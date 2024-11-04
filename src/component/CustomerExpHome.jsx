@@ -89,7 +89,7 @@ const CustomerExpHome = () => {
             }
           });
         },
-        { threshold: 0.1 },
+        { threshold: 0.1 }
       );
 
       const section = document.querySelector("p.para");
@@ -157,7 +157,7 @@ const CustomerExpHome = () => {
                         <span className="material-symbols-outlined face">
                           call_made
                         </span>
-                        <span className="author-name">Kristin Watson</span>
+                        <span className="author-name">Darlene Robertson</span>
                       </p>
                     </div>
                   </div>
@@ -182,7 +182,9 @@ const CustomerExpHome = () => {
                         <span className="material-symbols-outlined face">
                           call_made
                         </span>
-                        <span className="author-name">Kristin Watson</span>
+                        <span className="author-name">
+                          Packwell Traders, India
+                        </span>
                       </p>
                     </div>
                   </div>
@@ -206,7 +208,7 @@ const CustomerExpHome = () => {
                         <span className="material-symbols-outlined face">
                           call_made
                         </span>
-                        <span className="author-name">Kristin Watson</span>
+                        <span className="author-name">The Danche Foundation, Dunwoody, USA</span>
                       </p>
                     </div>
                   </div>
@@ -229,7 +231,7 @@ const CustomerExpHome = () => {
                         <span className="material-symbols-outlined face">
                           call_made
                         </span>
-                        <span className="author-name">Kristin Watson</span>
+                        <span className="author-name">Universal Proline, Atlanta, USA</span>
                       </p>
                     </div>
                   </div>
@@ -240,7 +242,7 @@ const CustomerExpHome = () => {
                   <div className="customer-card-content">
                     <Image
                       src={alamanImg}
-                      alt="Kristin Watson"
+                      alt="Al Aman Goat Farm, Idar"
                       className="customer-card-image"
                     />
                     <div className="customer-card-text">
@@ -253,7 +255,9 @@ const CustomerExpHome = () => {
                         <span className="material-symbols-outlined face">
                           call_made
                         </span>
-                        <span className="author-name">Kristin Watson</span>
+                        <span className="author-name">
+                          Al Aman Goat Farm, Idar
+                        </span>
                       </p>
                     </div>
                   </div>
@@ -284,7 +288,7 @@ const CustomerExpHome = () => {
                         <span className="material-symbols-outlined face">
                           call_made
                         </span>
-                        <span className="author-name">Kristin Watson</span>
+                        <span className="author-name">Darlene Robertson</span>
                       </p>
                     </div>
                   </div>
@@ -309,7 +313,7 @@ const CustomerExpHome = () => {
                         <span className="material-symbols-outlined face">
                           call_made
                         </span>
-                        <span className="author-name">Kristin Watson</span>
+                        <span className="author-name"> Packwell Traders, India</span>
                       </p>
                     </div>
                   </div>
@@ -333,7 +337,7 @@ const CustomerExpHome = () => {
                         <span className="material-symbols-outlined face">
                           call_made
                         </span>
-                        <span className="author-name">Kristin Watson</span>
+                        <span className="author-name">The Danche Foundation, Dunwoody, USA</span>
                       </p>
                     </div>
                   </div>
@@ -356,7 +360,7 @@ const CustomerExpHome = () => {
                         <span className="material-symbols-outlined face">
                           call_made
                         </span>
-                        <span className="author-name">Kristin Watson</span>
+                        <span className="author-name">Universal Proline, Atlanta, USA</span>
                       </p>
                     </div>
                   </div>
@@ -380,7 +384,7 @@ const CustomerExpHome = () => {
                         <span className="material-symbols-outlined face">
                           call_made
                         </span>
-                        <span className="author-name">Kristin Watson</span>
+                        <span className="author-name">Al Aman Goat Farm, Idar</span>
                       </p>
                     </div>
                   </div>
