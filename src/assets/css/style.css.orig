@@ -2,8 +2,11 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+<<<<<<< HEAD
+=======
   scrollbar-width: thin;
   scrollbar-color: rgba(200, 200, 200, 0.26) transparent;
+>>>>>>> c8f759608f477ed4820d38b00070606b0203f9d4
 }
 
 ul,
@@ -6312,6 +6315,16 @@ a {
   color: #ffffff;
   margin-top: 125px;
   font-family: "Assistant-Light";
+<<<<<<< HEAD
+}
+.client-contact-box {
+  background: #434c5e;
+  display: inline-block;
+  padding: 15px 30px;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+=======
   margin-bottom: 0;
 }
 .client-contact-box {
@@ -6335,11 +6348,15 @@ a {
 }
 
 
+>>>>>>> c8f759608f477ed4820d38b00070606b0203f9d4
 .-client-call-button {
   display: flex;
   align-items: start;
   justify-content: space-between;
+<<<<<<< HEAD
+=======
   margin-top: 20px;
+>>>>>>> c8f759608f477ed4820d38b00070606b0203f9d4
 }
 .client-contact-box h4 {
   font-size: 22px;
@@ -6552,8 +6569,12 @@ bulk-sms-email-marketing .ui-moon-img {
   font-size: 18px;
   line-height: 25.2px;
   letter-spacing: 2px;
+<<<<<<< HEAD
+  color: #ffffff;
+=======
   color: #A1A9BA;
 
+>>>>>>> c8f759608f477ed4820d38b00070606b0203f9d4
   font-family: "Assistant-Regular";
   text-align: right;
   margin-left: 50%;
@@ -6582,7 +6603,11 @@ bulk-sms-email-marketing .ui-moon-img {
 .service-card-grabe {
   position: relative;
   width: 100%;
+<<<<<<< HEAD
+  height: 100vh;
+=======
   /* height: 100vh; */
+>>>>>>> c8f759608f477ed4820d38b00070606b0203f9d4
   margin-left: 40px;
   justify-content: center;
 }
@@ -7154,7 +7179,10 @@ bulk-sms-email-marketing .ui-moon-img {
   font-family: "Syne-Bold";
   color: var(--white-color);
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> c8f759608f477ed4820d38b00070606b0203f9d4
 .modal-header .close {
   color: #f1f1f1;
   font-size: 30px;

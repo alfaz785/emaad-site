@@ -117,7 +117,11 @@ const Expertise = () => {
             }
           });
         },
+<<<<<<< HEAD
+        { threshold: 0.1 },
+=======
         { threshold: 0.1 }
+>>>>>>> c8f759608f477ed4820d38b00070606b0203f9d4
       );
       const section = document.querySelector(".expertise-choose-text");
       if (section) {
@@ -161,12 +165,21 @@ const Expertise = () => {
                 />
 
                 <div className="expertise-title2">
+<<<<<<< HEAD
+                  <h3>Expertise and Experience</h3>
+                </div>
+                <div className="expertise-text2">
+                  <p>
+                    Our team comprises highly skilled designers and developers
+                    with years of experience in the industry.
+=======
                   <h3>Client-Centric Approach</h3>
                 </div>
                 <div className="expertise-text2">
                   <p>
                     We prioritize clear and consistent communication throughout
                     the project.
+>>>>>>> c8f759608f477ed4820d38b00070606b0203f9d4
                   </p>
                 </div>
               </div>
@@ -231,12 +244,22 @@ const Expertise = () => {
                 />
 
                 <div className="expertise-title">
+<<<<<<< HEAD
+                  <h3>Cutting-Edge Technology</h3>
+                </div>
+                <div className="expertise-text">
+                  <p>
+                    We stay ahead of industry trends and utilize the latest
+                    technologies to create modern, responsive, and secure
+                    websites.
+=======
                   <h3>Competitive Pricing</h3>
                 </div>
                 <div className="expertise-text">
                   <p>
                     We deliver high-quality work that offers great value for
                     your investment.
+>>>>>>> c8f759608f477ed4820d38b00070606b0203f9d4
                   </p>
                 </div>
               </div>

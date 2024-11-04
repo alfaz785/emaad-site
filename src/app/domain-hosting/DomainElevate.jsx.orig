@@ -8,7 +8,11 @@ const DomainElevate = () => {
     { id: "part6", text: "Domain" },
     { id: "ampersand", text: " & " },
     { id: "part7", text: "Hosting" },
+<<<<<<< HEAD
+    { id: "part8", text: "Services" },
+=======
     { id: "part8", text: " Services" },
+>>>>>>> c8f759608f477ed4820d38b00070606b0203f9d4
   ];
   useEffect(() => {
     MultiTypingEffect(parts, 100);

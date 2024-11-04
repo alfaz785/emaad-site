@@ -28,6 +28,34 @@ const DomainImportance = () => {
             </div> --> */}
               <div className="domain-title-main">
                 <h4 className="mb-0">
+<<<<<<< HEAD
+                  <span className="letter">T</span>
+                  <span className="letter">h</span>
+                  <span className="letter">e</span>
+                  <span className="letter">I</span>
+                  <span className="letter">m</span>
+                  <span className="letter">p</span>
+                  <span className="letter">o</span>
+                  <span className="letter">r</span>
+                  <span className="letter">t</span>
+                  <span className="letter">a</span>
+                  <span className="letter">n</span>
+                  <span className="letter">c</span>
+                  <span className="letter">e</span>{" "}
+                  <span className="letter">o</span>
+                  <span className="letter">f</span>{" "}
+                  <span className="letter">a</span>
+                  <span className="letter">D</span>
+                  <span className="letter">o</span>
+                  <span className="letter">m</span>
+                  <span className="letter">a</span>
+                  <span className="letter">i</span>
+                  <span className="letter">n</span>
+                  <span className="letter">N</span>
+                  <span className="letter">a</span>
+                  <span className="letter">m</span>
+                  <span className="letter">e</span>
+=======
                   {"The Importance Of A Unique Domain Name"
                     ?.split(" ")
                     .map((word, wordIndex) => (
@@ -41,6 +69,7 @@ const DomainImportance = () => {
                         {/* Adds space between words */}
                       </span>
                     ))}
+>>>>>>> c8f759608f477ed4820d38b00070606b0203f9d4
                 </h4>
               </div>
 

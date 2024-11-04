@@ -97,7 +97,13 @@ export default function WhyChooseOurServices() {
 
                 <div className="overlay-text1">
                   <h4>Efficiency</h4>
+<<<<<<< HEAD
+                  <p>
+                    High delivery rates ensure your messages reach your audience
+                  </p>
+=======
                   <p>Save time with automated tools and scheduling features.</p>
+>>>>>>> c8f759608f477ed4820d38b00070606b0203f9d4
                 </div>
               </div>
             </div>
@@ -117,7 +123,14 @@ export default function WhyChooseOurServices() {
 
                   <div className="overlay-text1">
                     <h4>Customization</h4>
+<<<<<<< HEAD
+                    <p>
+                      High delivery rates ensure your messages reach your
+                      audience
+                    </p>
+=======
                     <p>Personalize your communications for maximum impact.</p>
+>>>>>>> c8f759608f477ed4820d38b00070606b0203f9d4
                   </div>
                 </div>
               </div>

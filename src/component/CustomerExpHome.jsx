@@ -6,6 +6,12 @@ import packwellImg from "../assets/images/packwell.png";
 import dancheImg from "../assets/images/Danche.png";
 import universalImg from "../assets/images/Universal.png";
 import alamanImg from "../assets/images/alaman.png";
+import aspireImg from "../assets/images/aspire.png";
+import mawadahImg from "../assets/images/mawadah.png";
+import mpathicImg from "../assets/images/mpathic.png";
+import urduImg from "../assets/images/urdu.png";
+import stitleImg from "../assets/images/stitle.png";
+import icuImg from "../assets/images/icu.png";
 import Image from "next/image";
 import { gsap } from "gsap";
 
@@ -89,7 +95,7 @@ const CustomerExpHome = () => {
             }
           });
         },
-        { threshold: 0.1 }
+        { threshold: 0.1 },
       );
 
       const section = document.querySelector("p.para");
@@ -208,7 +214,7 @@ const CustomerExpHome = () => {
                         <span className="material-symbols-outlined face">
                           call_made
                         </span>
-                        <span className="author-name">The Danche Foundation, Dunwoody, USA</span>
+                        <span className="author-name">Kristin Watson</span>
                       </p>
                     </div>
                   </div>
@@ -231,7 +237,9 @@ const CustomerExpHome = () => {
                         <span className="material-symbols-outlined face">
                           call_made
                         </span>
-                        <span className="author-name">Universal Proline, Atlanta, USA</span>
+                        <span className="author-name">
+                          Universal Proline, Atlanta, USA
+                        </span>
                       </p>
                     </div>
                   </div>
@@ -242,7 +250,7 @@ const CustomerExpHome = () => {
                   <div className="customer-card-content">
                     <Image
                       src={alamanImg}
-                      alt="Al Aman Goat Farm, Idar"
+                      alt="Kristin Watson"
                       className="customer-card-image"
                     />
                     <div className="customer-card-text">
@@ -272,7 +280,7 @@ const CustomerExpHome = () => {
                 <div className="customer-card">
                   <div className="customer-card-content">
                     <Image
-                      src={educationImg}
+                      src={aspireImg}
                       alt="Kristin Watson"
                       className="customer-card-image"
                       width={"100%"}
@@ -280,15 +288,15 @@ const CustomerExpHome = () => {
                     />
                     <div className="tcustomer-card-tex">
                       <p className="quote mb-0">
-                        “ when an unknown printer took a galley of type and
-                        scrambled it to make a type specimen book. It has
-                        survived not only. ”
+                        “ Emaad Infotech delivered an exceptional website for
+                        us—quick, professional, and impactful. Our online reach
+                        has soared!”
                       </p>
                       <p className="author mb-0">
                         <span className="material-symbols-outlined face">
                           call_made
                         </span>
-                        <span className="author-name">Darlene Robertson</span>
+                        <span className="author-name">Job-Portal Aspire</span>
                       </p>
                     </div>
                   </div>
@@ -298,22 +306,21 @@ const CustomerExpHome = () => {
                 <div className="customer-card">
                   <div className="customer-card-content">
                     <Image
-                      src={packwellImg}
+                      src={mawadahImg}
                       alt="Kristin Watson"
                       className="customer-card-image"
                     />
                     <div className="customer-card-text">
                       <p className="quote mb-0">
-                        “Amazing support from these people. Our website got rank
-                        in just a few months after engaging with them. Purely
-                        dedicated and surely supportive group specialists.
-                        Thanks, Team Emaad”.
+                        “At Emaad Infotech, we create top-tier web and app
+                        solutions that elevate your business and engage your
+                        audience. Trust us for the best results!”.
                       </p>
                       <p className="author mb-0">
                         <span className="material-symbols-outlined face">
                           call_made
                         </span>
-                        <span className="author-name"> Packwell Traders, India</span>
+                        <span className="author-name">Mawadah</span>
                       </p>
                     </div>
                   </div>
@@ -323,21 +330,21 @@ const CustomerExpHome = () => {
                 <div className="customer-card">
                   <div className="customer-card-content">
                     <Image
-                      src={dancheImg}
+                      src={mpathicImg}
                       alt="Kristin Watson"
                       className="customer-card-image"
                     />
                     <div className="customer-card-text">
                       <p className="quote mb-0">
-                        “ They understood my requirements very well and create a
-                        custom module as per my direction. Thanks, team Emaad
-                        Infotech. ”
+                        “ Looking for exceptional web and app development? Emaad
+                        Infotech specializes in delivering innovative,
+                        high-quality solutions to help your business succeed. ”
                       </p>
                       <p className="author mb-0">
                         <span className="material-symbols-outlined face">
                           call_made
                         </span>
-                        <span className="author-name">The Danche Foundation, Dunwoody, USA</span>
+                        <span className="author-name">Mpathic Family</span>
                       </p>
                     </div>
                   </div>
@@ -347,20 +354,23 @@ const CustomerExpHome = () => {
                 <div className="customer-card">
                   <div className="customer-card-content">
                     <Image
-                      src={universalImg}
+                      src={urduImg}
                       alt="Kristin Watson"
                       className="customer-card-image"
                     />
                     <div className="customer-card-text">
                       <p className="quote mb-0">
-                        “ I really love the design they made. So elegant and
-                        full of rich colors.”
+                        “ At Emaad Infotech, we specialize in WhatsApp marketing
+                        that connects you directly with your customers. Our
+                        targeted strategies ensure your message reaches the
+                        right audience, boosting engagement and driving
+                        results!”
                       </p>
                       <p className="author mb-0">
                         <span className="material-symbols-outlined face">
                           call_made
                         </span>
-                        <span className="author-name">Universal Proline, Atlanta, USA</span>
+                        <span className="author-name">Musalih, Oman</span>
                       </p>
                     </div>
                   </div>
@@ -370,21 +380,45 @@ const CustomerExpHome = () => {
                 <div className="customer-card">
                   <div className="customer-card-content">
                     <Image
-                      src={alamanImg}
+                      src={stitleImg}
                       alt="Kristin Watson"
                       className="customer-card-image"
                     />
                     <div className="customer-card-text">
                       <p className="quote mb-0">
-                        “ Online presence really makes a difference nowadays. I
-                        got a nice website and they advertised it very well. I
-                        definitely got an increase in sell. ”
+                        “ Emaad Infotech brings your ideas to life with expert
+                        web and app development. Experience the difference in
+                        quality and functionality with us! ”
                       </p>
                       <p className="author mb-0">
                         <span className="material-symbols-outlined face">
                           call_made
                         </span>
-                        <span className="author-name">Al Aman Goat Farm, Idar</span>
+                        <span className="author-name">Kristin Watson</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="swiper-slide">
+                <div className="customer-card">
+                  <div className="customer-card-content">
+                    <Image
+                      src={icuImg}
+                      alt="Kristin Watson"
+                      className="customer-card-image"
+                    />
+                    <div className="customer-card-text">
+                      <p className="quote mb-0">
+                        “ Looking for exceptional web and app development? Emaad
+                        Infotech specializes in delivering innovative,
+                        high-quality solutions to help your business succeed. ”
+                      </p>
+                      <p className="author mb-0">
+                        <span className="material-symbols-outlined face">
+                          call_made
+                        </span>
+                        <span className="author-name">Kristin Watson</span>
                       </p>
                     </div>
                   </div>

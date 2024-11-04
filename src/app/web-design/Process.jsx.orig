@@ -38,7 +38,11 @@ const Process = () => {
               <div className="process-design-text">
                 <p>
                   Welcome to our Web Design services, where innovation meets
+<<<<<<< HEAD
+                  functionality to create captivating digital experiences. At
+=======
                   functionality to create captivating digital experiences. At &nbsp;
+>>>>>>> c8f759608f477ed4820d38b00070606b0203f9d4
                   <strong>Emaad Infotech</strong>, we specialize in crafting
                   bespoke websites tailored to your unique brand identity and
                   objectives.
@@ -112,6 +116,16 @@ const Process = () => {
                         <div className="border-procese"></div>
                         <div className="procees-content1">
                           <p>
+<<<<<<< HEAD
+                            Responsive Web Design is an approach to web
+                            development that ensures a website looks and
+                            functions well across a variety of devices and
+                            screen sizes. This means the website automatically
+                            adjusts its layout, images, and functionalities to
+                            provide an optimal viewing experience, whether
+                            accessed on a smartphone, tablet, laptop, or desktop
+                            computer.
+=======
                             {
                               [
                                 "Wireframing is an essential step in the web design process that involves creating a visual blueprint of a website's structure and layout. It outlines the placement of key elements such as navigation menus, content areas, buttons, and images without focusing on design details like colors or typography.",
@@ -122,6 +136,7 @@ const Process = () => {
                                 "User Interface (UI) Design: Crafting captivating interfaces for websites and apps. From color schemes to navigation, we ensure your digital presence is visually stunning and effortlessly navigable, enhancing user experience and achieving your goals.",
                               ][index]
                             }
+>>>>>>> c8f759608f477ed4820d38b00070606b0203f9d4
                           </p>
                         </div>
                       </div>

@@ -2,7 +2,10 @@ import React from "react";
 import clientImg from "../../assets/images/client-q.png";
 import callSystemImg from "../../assets/images/call-system.png";
 import Image from "next/image";
+<<<<<<< HEAD
+=======
 import Link from "next/link";
+>>>>>>> c8f759608f477ed4820d38b00070606b0203f9d4
 
 const DigitalContact = () => {
   return (
@@ -21,11 +24,19 @@ const DigitalContact = () => {
                   Our dedicated team is here to help!
                 </p>
                 <div className="-client-call-button">
+<<<<<<< HEAD
+                  <a href="">
+                    <div className="client-contact-box">
+                      <h4>CONTACT US</h4>
+                    </div>
+                  </a>
+=======
                   <Link href="/get-in-touch">
                     <div className="client-contact-box">
                       <h4>CONTACT US</h4>
                     </div>
                   </Link>
+>>>>>>> c8f759608f477ed4820d38b00070606b0203f9d4
                   <div className="call-recoard">
                     <Image src={callSystemImg} alt="img" />
                   </div>

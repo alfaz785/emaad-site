@@ -39,7 +39,11 @@ const DigitalExpertise = () => {
               </button>
               <div className="accordion-content">
                 <div className="our-expertise-text-accordian">
+<<<<<<< HEAD
+                  <h4>On-Page and Off-Page SEO</h4>
+=======
                   <h4>On-Page And Off-Page SEO</h4>
+>>>>>>> c8f759608f477ed4820d38b00070606b0203f9d4
                   <p>
                     Unlock the full potential of your website with our
                     cutting-edge SEO services. We enhance your website’s content
@@ -49,6 +53,17 @@ const DigitalExpertise = () => {
                     and credibility, driving more traffic to your site.
                   </p>
                   <div className="acordian-text-our">
+<<<<<<< HEAD
+                    <h4>On-Page and Off-Page SEO</h4>
+                    <p>
+                      Unlock the full potential of your website with our
+                      cutting-edge SEO services. We enhance your website’s
+                      content and structure to align with search engine
+                      algorithms, ensuring optimal visibility. Our strategic
+                      approach to building high-quality backlinks boosts your
+                      online authority and credibility, driving more traffic to
+                      your site.
+=======
                     <h4>Technical SEO And Performance</h4>
                     <p>
                       With a focus on technical excellence, we ensure your site
@@ -58,6 +73,7 @@ const DigitalExpertise = () => {
                       comprehensive approach leads to increased conversions and
                       sustained business growth. Experience the transformative
                       power of SEO with us.
+>>>>>>> c8f759608f477ed4820d38b00070606b0203f9d4
                     </p>
                   </div>
                 </div>
@@ -116,6 +132,27 @@ const DigitalExpertise = () => {
               </button>
               <div className="accordion-content">
                 <div className="our-expertise-text-accordian">
+<<<<<<< HEAD
+                  <h4>On-Page and Off-Page SEO</h4>
+                  <p>
+                    Unlock the full potential of your website with our
+                    cutting-edge SEO services. We enhance your website’s content
+                    and structure to align with search engine algorithms,
+                    ensuring optimal visibility. Our strategic approach to
+                    building high-quality backlinks boosts your online authority
+                    and credibility, driving more traffic to your site.
+                  </p>
+                  <div className="acordian-text-our">
+                    <h4>On-Page and Off-Page SEO</h4>
+                    <p>
+                      Unlock the full potential of your website with our
+                      cutting-edge SEO services. We enhance your website’s
+                      content and structure to align with search engine
+                      algorithms, ensuring optimal visibility. Our strategic
+                      approach to building high-quality backlinks boosts your
+                      online authority and credibility, driving more traffic to
+                      your site.
+=======
                   <h4>Define Your Brand Voice and Aesthetic</h4>
                   <p>
                     Consistency is key! Develop a tone, color palette, and
@@ -128,6 +165,7 @@ const DigitalExpertise = () => {
                       Research your audience demographics, interests, and
                       behaviors on different platforms. Tailor your content to
                       speak directly to their needs and preferences.
+>>>>>>> c8f759608f477ed4820d38b00070606b0203f9d4
                     </p>
                   </div>
                 </div>
@@ -146,6 +184,27 @@ const DigitalExpertise = () => {
               </button>
               <div className="accordion-content">
                 <div className="our-expertise-text-accordian">
+<<<<<<< HEAD
+                  <h4>On-Page and Off-Page SEO</h4>
+                  <p>
+                    Unlock the full potential of your website with our
+                    cutting-edge SEO services. We enhance your website’s content
+                    and structure to align with search engine algorithms,
+                    ensuring optimal visibility. Our strategic approach to
+                    building high-quality backlinks boosts your online authority
+                    and credibility, driving more traffic to your site.
+                  </p>
+                  <div className="acordian-text-our">
+                    <h4>On-Page and Off-Page SEO</h4>
+                    <p>
+                      Unlock the full potential of your website with our
+                      cutting-edge SEO services. We enhance your website’s
+                      content and structure to align with search engine
+                      algorithms, ensuring optimal visibility. Our strategic
+                      approach to building high-quality backlinks boosts your
+                      online authority and credibility, driving more traffic to
+                      your site.
+=======
                   <h4>Overview</h4>
                   <p>
                     Repurposing content for various platforms maximizes reach
@@ -159,6 +218,7 @@ const DigitalExpertise = () => {
                       of platforms like Instagram, LinkedIn, or email. Benefits
                       include increased visibility, improved SEO, and extended
                       content lifespan.
+>>>>>>> c8f759608f477ed4820d38b00070606b0203f9d4
                     </p>
                   </div>
                 </div>
@@ -177,6 +237,27 @@ const DigitalExpertise = () => {
               </button>
               <div className="accordion-content">
                 <div className="our-expertise-text-accordian">
+<<<<<<< HEAD
+                  <h4>On-Page and Off-Page SEO</h4>
+                  <p>
+                    Unlock the full potential of your website with our
+                    cutting-edge SEO services. We enhance your website’s content
+                    and structure to align with search engine algorithms,
+                    ensuring optimal visibility. Our strategic approach to
+                    building high-quality backlinks boosts your online authority
+                    and credibility, driving more traffic to your site.
+                  </p>
+                  <div className="acordian-text-our">
+                    <h4>On-Page and Off-Page SEO</h4>
+                    <p>
+                      Unlock the full potential of your website with our
+                      cutting-edge SEO services. We enhance your website’s
+                      content and structure to align with search engine
+                      algorithms, ensuring optimal visibility. Our strategic
+                      approach to building high-quality backlinks boosts your
+                      online authority and credibility, driving more traffic to
+                      your site.
+=======
                   <h4>Product Use Cases and Success</h4>
                   <p>
                     Share real-life use cases, customer testimonials, and
@@ -197,6 +278,7 @@ const DigitalExpertise = () => {
                       niche. This positions you as an authority in the field and
                       keeps your audience engaged by adding real value to their
                       inbox.
+>>>>>>> c8f759608f477ed4820d38b00070606b0203f9d4
                     </p>
                   </div>
                 </div>
@@ -215,6 +297,27 @@ const DigitalExpertise = () => {
               </button>
               <div className="accordion-content">
                 <div className="our-expertise-text-accordian">
+<<<<<<< HEAD
+                  <h4>On-Page and Off-Page SEO</h4>
+                  <p>
+                    Unlock the full potential of your website with our
+                    cutting-edge SEO services. We enhance your website’s content
+                    and structure to align with search engine algorithms,
+                    ensuring optimal visibility. Our strategic approach to
+                    building high-quality backlinks boosts your online authority
+                    and credibility, driving more traffic to your site.
+                  </p>
+                  <div className="acordian-text-our">
+                    <h4>On-Page and Off-Page SEO</h4>
+                    <p>
+                      Unlock the full potential of your website with our
+                      cutting-edge SEO services. We enhance your website’s
+                      content and structure to align with search engine
+                      algorithms, ensuring optimal visibility. Our strategic
+                      approach to building high-quality backlinks boosts your
+                      online authority and credibility, driving more traffic to
+                      your site.
+=======
                   <h4>Industry Innovations</h4>
                   <p>
                     Focus on how your company is contributing to innovations in
@@ -232,6 +335,7 @@ const DigitalExpertise = () => {
                       clients. This approach not only showcases your offerings
                       but also builds trust with potential customers by
                       highlighting real-world applications and outcomes.
+>>>>>>> c8f759608f477ed4820d38b00070606b0203f9d4
                     </p>
                   </div>
                 </div>
@@ -243,13 +347,38 @@ const DigitalExpertise = () => {
                 className="accordion-header"
                 onClick={(event) => toggleAccordion(event.currentTarget)}
               >
+<<<<<<< HEAD
+                <span>Email Marketing</span>
+=======
                 <span>Facebook Ads</span>
+>>>>>>> c8f759608f477ed4820d38b00070606b0203f9d4
                 <span className="accordion-icon">
                   <Image src={rightAccorianImg} alt="img" />
                 </span>
               </button>
               <div className="accordion-content">
                 <div className="our-expertise-text-accordian">
+<<<<<<< HEAD
+                  <h4>Email Marketing</h4>
+                  <p>
+                    Unlock the full potential of your website with our
+                    cutting-edge SEO services. We enhance your website’s content
+                    and structure to align with search engine algorithms,
+                    ensuring optimal visibility. Our strategic approach to
+                    building high-quality backlinks boosts your online authority
+                    and credibility, driving more traffic to your site.
+                  </p>
+                  <div className="acordian-text-our">
+                    <h4>On-Page and Off-Page SEO</h4>
+                    <p>
+                      Unlock the full potential of your website with our
+                      cutting-edge SEO services. We enhance your website’s
+                      content and structure to align with search engine
+                      algorithms, ensuring optimal visibility. Our strategic
+                      approach to building high-quality backlinks boosts your
+                      online authority and credibility, driving more traffic to
+                      your site.
+=======
                   <h4> Test and Optimize</h4>
                   <p>
                     Run A/B tests on different versions of your ads to see which
@@ -298,6 +427,7 @@ const DigitalExpertise = () => {
                       Insights: Get personalized insights based on your data to
                       help you reach your goals. Community Support: Join a
                       vibrant community of users and share your health journey.
+>>>>>>> c8f759608f477ed4820d38b00070606b0203f9d4
                     </p>
                   </div>
                 </div>

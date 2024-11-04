@@ -38,7 +38,11 @@ const Comprehensive = () => {
                         aria-expanded="false"
                         aria-controls="collapseTwo"
                       >
+<<<<<<< HEAD
+                        <h4 className="">Domain Registration and Management</h4>
+=======
                         <h4 className="">Domain Registration And Management</h4>
+>>>>>>> c8f759608f477ed4820d38b00070606b0203f9d4
                       </button>
                     </h2>
                     <div
@@ -49,6 +53,13 @@ const Comprehensive = () => {
                     >
                       <div className="accordion-body">
                         <p className="mb-0">
+<<<<<<< HEAD
+                          Power your website with reliable and scalable hosting
+                          solutions tailored to your needs. From shared hosting
+                          for small websites to dedicated servers for
+                          high-traffic applications, we provide a range of
+                          hosting options to suit every requirement.
+=======
                           When it comes to the acquisition of a domain name for
                           your business, there are many different options
                           available. There are many Domain service providers
@@ -68,6 +79,7 @@ const Comprehensive = () => {
                           register a domain name, the information about its
                           owner is publicly available. The price for a domain
                           name registration varies greatly on its extension.
+>>>>>>> c8f759608f477ed4820d38b00070606b0203f9d4
                         </p>
                         <div className="domain-button-main d-flex">
                           <div className="domain-button">
@@ -110,6 +122,13 @@ const Comprehensive = () => {
                     >
                       <div className="accordion-body">
                         <p className="mb-0">
+<<<<<<< HEAD
+                          Power your website with reliable and scalable hosting
+                          solutions tailored to your needs. From shared hosting
+                          for small websites to dedicated servers for
+                          high-traffic applications, we provide a range of
+                          hosting options to suit every requirement.
+=======
                           Web hosting is a paid service that allows us to post a
                           website or web pages onto the Internet by web hosting
                           service provider. Websites or webpages are hosted /
@@ -122,6 +141,7 @@ const Comprehensive = () => {
                           Company in Himmatnagar, provides website hosting
                           service along with proper domain name and Website
                           Migration/Transfer Service.
+>>>>>>> c8f759608f477ed4820d38b00070606b0203f9d4
                         </p>
                         <div className="domain-button-main d-flex">
                           <div className="domain-button">
@@ -164,6 +184,13 @@ const Comprehensive = () => {
                     >
                       <div className="accordion-body">
                         <p className="mb-0">
+<<<<<<< HEAD
+                          Power your website with reliable and scalable hosting
+                          solutions tailored to your needs. From shared hosting
+                          for small websites to dedicated servers for
+                          high-traffic applications, we provide a range of
+                          hosting options to suit every requirement.
+=======
                           Web security is a part of data security. Data security
                           refers to the quality and suitability of data security
                           for protecting the information, technology, systems
@@ -192,6 +219,7 @@ const Comprehensive = () => {
                           information or security vulnerabilities of a website
                           by not allowing the user to execute the SQL statements
                           on the database, applications or the webserver.
+>>>>>>> c8f759608f477ed4820d38b00070606b0203f9d4
                         </p>
                         <div className="domain-button-main d-flex">
                           <div className="domain-button">
@@ -235,6 +263,13 @@ const Comprehensive = () => {
                     >
                       <div className="accordion-body">
                         <p className="mb-0">
+<<<<<<< HEAD
+                          Power your website with reliable and scalable hosting
+                          solutions tailored to your needs. From shared hosting
+                          for small websites to dedicated servers for
+                          high-traffic applications, we provide a range of
+                          hosting options to suit every requirement.
+=======
                           Every one use physical card for convenient and easy
                           shopping. PayPal is the leading online shopping portal
                           with a large variety of cards for convenience and easy
@@ -262,6 +297,7 @@ const Comprehensive = () => {
                           can also give referrals to your customers in order to
                           grow your business and become a leading online
                           retailer..
+>>>>>>> c8f759608f477ed4820d38b00070606b0203f9d4
                         </p>
                         <div className="domain-button-main d-flex">
                           <div className="domain-button">
