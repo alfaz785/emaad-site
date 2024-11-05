@@ -94,8 +94,8 @@ const PortfolioHome = () => {
       loop: true,
       spaceBetween: 10,
       navigation: {
-        nextEl: ".pp-next",
-        prevEl: ".pp-prev",
+        nextEl: ".pp-prev",
+        prevEl: ".pp-next",
       },
       thumbs: {
         swiper: portfolio_project_thumbs,
@@ -175,7 +175,7 @@ const PortfolioHome = () => {
                       </a>
                   </div>
                   <div className="swiper-slide pp-slide">
-                    <a href="https://www.emaad-infotech.com/product/housing-society/">
+                    <a target="_blank" href="https://www.emaad-infotech.com/product/housing-society/">
                       <div className="pp-slide-img">
                         <Image
                           src={satisfactionImg2}
@@ -258,8 +258,8 @@ const PortfolioHome = () => {
                 </div>
               </div>
 
-              <div className="pp-next swipper-btn">prev</div>
-              <div className="pp-prev swipper-btn">Next</div>
+              <div className=" pp-prev swipper-btn">prev</div>
+              <div className="pp-next swipper-btn">Next</div>
             </div>
           </div>
 

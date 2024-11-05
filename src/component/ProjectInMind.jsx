@@ -15,7 +15,7 @@ const ProjectInMind = ({ mainTxt }) => {
 
   return (
     <>
-      <div className="ideas-wait-main mt_100">
+      <div className="ideas-wait-main">
         <div className="container text-center">
           <div className="ideas-wait-text mt_40 sec-title-2">
             <h3 className="mb-0 text-wrapper" id="text">

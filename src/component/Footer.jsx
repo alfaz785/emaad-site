@@ -27,14 +27,14 @@ const Footer = () => {
                 </div>
                 <div class="contact-info d-flex align-items-center gap-3  ">
                   <div class="icon_bg">
-                    <Image src={footerCallImg} alt="FooterCallImg" />
+                    <span class="material-symbols-outlined">phone_in_talk</span>
                   </div>
                   <a href="tel:+917600145260">+91 76001 45260,</a>
                   <a href="tel:+919428901392">+91 94289 01392</a>
                 </div>
                 <div class="contact-info d-flex align-items-start gap-3 ">
                   <div class="icon_bg">
-                    <Image src={footerLocationImg} alt="footerLocationImg" />
+                    <span class="material-symbols-outlined">location_on</span>
                   </div>
                   <p class="mb-0">
                     D/308, Shantam - 7, RTO Circle, Himmatnagar, GJ, India,
@@ -153,23 +153,17 @@ const Footer = () => {
                     </li>
                     <li>
                       <Link href="/get-in-touch" className="cursor-scale small">
-                      Job Portal
+                        Job Portal
                       </Link>
                     </li>
                     <li>
-                      <Link
-                        href="/get-in-touch"
-                        className="cursor-scale small"
-                      >
+                      <Link href="/get-in-touch" className="cursor-scale small">
                         Tours & Travels Management
                       </Link>
                     </li>
                     <li>
-                      <Link
-                        href="/get-in-touch"
-                        className="cursor-scale small"
-                      >
-                         Real Estate  Property Management
+                      <Link href="/get-in-touch" className="cursor-scale small">
+                        Real Estate Property Management
                       </Link>
                     </li>
                     <li>
@@ -258,13 +252,16 @@ const Footer = () => {
                   <Link href="/our-services" className="cursor-scale small">
                     Our Services
                   </Link>
-                  <Link href="https://blog.emaadinfotech.com" className="cursor-scale small">
+                  <Link
+                    target="_blank"
+                    href="https://blog.emaadinfotech.com"
+                    className="cursor-scale small"
+                  >
                     Blog
                   </Link>
                   <Link href="/get-in-touch" className="cursor-scale small">
-                  Contact Us
+                    Contact Us
                   </Link>
-                  
                 </div>
               </div>
               <h6 className="mb-0">EMAAD</h6>

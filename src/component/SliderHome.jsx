@@ -57,7 +57,6 @@ const SliderHome = () => {
         <div className="swiper main-slider">
           <div className="swiper-wrapper">
             <div className="swiper-slide back_one">
-              <div className="overlay"></div>
               <div className="slider-text">
                 <h5 className="mb_40">Healthcare</h5>
                 <p className="mb-0">
@@ -79,7 +78,7 @@ const SliderHome = () => {
               </div>
             </div>
             <div className="swiper-slide back_two">
-              <div className="overlay"></div>
+              
               <div className="slider-text">
                 {/* <!-- <h5 className="mb_40">
               Leading ECommerce Software Development Company
@@ -151,7 +150,7 @@ const SliderHome = () => {
               </div>
             </div>
             <div className="swiper-slide back_three">
-              <div className="overlay"></div>
+              
               <div className="slider-text">
                 <h5 className="mb_40"> Charity Organization</h5>
                 <p className="mb-0">
@@ -170,7 +169,7 @@ const SliderHome = () => {
               </div>
             </div>
             <div className="swiper-slide back_four">
-              <div className="overlay"></div>
+             
               <div className="slider-text">
                 <h5 className="mb_40"> Financial & Insurance</h5>
                 <p className="mb-0">
@@ -190,7 +189,7 @@ const SliderHome = () => {
               </div>
             </div>
             <div className="swiper-slide back_five">
-              <div className="overlay"></div>
+             
               <div className="slider-text">
                 <h5 className="mb_40">Sports & Fitness</h5>
                 <p className="mb-0">
@@ -213,7 +212,7 @@ const SliderHome = () => {
               </div>
             </div>
             <div className="swiper-slide back_six">
-              <div className="overlay"></div>
+             
               <div className="slider-text">
                 <h5 className="mb_40">Education</h5>
                 <p className="mb-0">
@@ -233,7 +232,7 @@ const SliderHome = () => {
               </div>
             </div>
             <div className="swiper-slide back_seven">
-              <div className="overlay"></div>
+              
               <div className="slider-text">
                 <h5 className="mb_40">Tourism & Hospitality </h5>
                 <p className="mb-0">
@@ -253,7 +252,7 @@ const SliderHome = () => {
               </div>
             </div>
             <div className="swiper-slide back_eight">
-              <div className="overlay"></div>
+      
               <div className="slider-text">
                 <h5 className="mb_40">Real Estate </h5>
                 <p className="mb-0">
@@ -293,7 +292,7 @@ const SliderHome = () => {
               </div>
             </div>
             <div className="swiper-slide back_ten">
-              <div className="overlay"></div>
+              
               <div className="slider-text">
                 <h5 className="mb_40">Food Processing </h5>
                 <p className="mb-0">
@@ -318,12 +317,12 @@ const SliderHome = () => {
         <div className="thumb-bottom">
           <div className="position-relative slider-btn-group">
             <div className="slider-btn">
-              <div className="swiper-button-next next-">
+              <div className="swiper-button-prev ">
                 <span className="material-symbols-outlined">
                   keyboard_arrow_left
                 </span>
               </div>
-              <div className="swiper-button-prev">
+              <div className=" swiper-button-next">
                 <span className="material-symbols-outlined">
                   keyboard_arrow_right
                 </span>
@@ -334,44 +333,44 @@ const SliderHome = () => {
           <div className="swiper thumbs">
             <div className="swiper-wrapper">
               <div className="swiper-slide">
-                <div className="overlay"></div>
+                {/* <div className="overlay"></div> */}
                 <div className="caption">Healthcare</div>
               </div>
               <div className="swiper-slide">
-                <div className="overlay"></div>
+                {/* <div className="overlay"></div> */}
                 <div className="caption">Manufacturing</div>
               </div>
               <div className="swiper-slide">
-                <div className="overlay"></div>
+                {/* <div className="overlay"></div> */}
                 <div className="caption">Charity Organisation</div>
               </div>
               <div className="swiper-slide">
-                <div className="overlay"></div>
+                {/* <div className="overlay"></div> */}
                 <div className="caption">Financial & Insurance</div>
               </div>
               <div className="swiper-slide">
-                <div className="overlay"></div>
+                {/* <div className="overlay"></div> */}
                 <div className="caption">Sports & Fitness</div>
               </div>
 
               <div className="swiper-slide">
-                <div className="overlay"></div>
+                {/* <div className="overlay"></div> */}
                 <div className="caption">Education</div>
               </div>
               <div className="swiper-slide">
-                <div className="overlay"></div>
+                {/* <div className="overlay"></div> */}
                 <div className="caption">Tourism & Hospitality </div>
               </div>
               <div className="swiper-slide">
-                <div className="overlay"></div>
+                {/* <div className="overlay"></div> */}
                 <div className="caption">Real Estate </div>
               </div>
               <div className="swiper-slide">
-                <div className="overlay"></div>
+                {/* <div className="overlay"></div> */}
                 <div className="caption">Information & Technology </div>
               </div>
               <div className="swiper-slide">
-                <div className="overlay"></div>
+                {/* <div className="overlay"></div> */}
                 <div className="caption"> Food Processing </div>
               </div>
             </div>

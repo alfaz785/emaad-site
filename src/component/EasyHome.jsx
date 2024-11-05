@@ -76,7 +76,7 @@ const EasyHome = () => {
             }
           });
         },
-        { threshold: 0.1 },
+        { threshold: 0.1 }
       );
 
       observer?.observe(section);
@@ -216,31 +216,23 @@ const EasyHome = () => {
             <section className="sec2 pin">
               <div className="d-flex align-items-center gap-3 anim">
                 <Image src={discoverImg} alt="img" className="discovery" />
-                <h5 className="planning-title">Discovery and Planning</h5>
+                <h5 className="planning-title">Design and Prototyping</h5>
               </div>
               <ul className="disc anim">
                 <li className="mb_30">
-                  Initial Consultation:&nbsp;
+                  Conceptualization:&nbsp;
                   <span>
-                    We begin by understanding your project requirements,
-                    objectives, and expectations through detailed discussions
-                    and consultations.
+                    Our talented designers and UX/UI experts collaborate to
+                    create conceptual designs and wireframes that capture the
+                    vision and functionality of the software.
                   </span>
                 </li>
                 <li className="mb_30">
-                  Project Scope Definition:&nbsp;
+                  Prototyping :&nbsp;
                   <span>
-                    Based on our discussions, we define the scope of the
-                    project, outlining deliverables, timelines, and budget
-                    considerations.
-                  </span>
-                </li>
-                <li>
-                  Requirement Gathering:&nbsp;
-                  <span>
-                    Our team conducts thorough research and analysis to gather
-                    all necessary requirements and specifications for the
-                    project.
+                    We develop interactive prototypes and mockups to give you a
+                    visual representation of the final product, allowing for
+                    feedback and iteration before proceeding to development.
                   </span>
                 </li>
               </ul>
@@ -248,31 +240,24 @@ const EasyHome = () => {
             <section className="sec3 pin">
               <div className="d-flex align-items-center gap-3 anim">
                 <Image src={discoverImg} alt="img" className="discovery" />
-                <h5 className="planning-title">Discovery and Planning</h5>
+                <h5 className="planning-title">Development</h5>
               </div>
               <ul className="disc anim">
                 <li className="mb_30">
-                  Initial Consultation:&nbsp;
+                  Agile Development :&nbsp;
                   <span>
-                    We begin by understanding your project requirements,
-                    objectives, and expectations through detailed discussions
-                    and consultations.
+                    Using agile methodologies, our development team begins
+                    coding and building the software in iterative sprints,
+                    ensuring continuous feedback and flexibility throughout the
+                    process.
                   </span>
                 </li>
                 <li className="mb_30">
-                  Project Scope Definition:&nbsp;
+                  Regular Updates:&nbsp;
                   <span>
-                    Based on our discussions, we define the scope of the
-                    project, outlining deliverables, timelines, and budget
-                    considerations.
-                  </span>
-                </li>
-                <li>
-                  Requirement Gathering:&nbsp;
-                  <span>
-                    Our team conducts thorough research and analysis to gather
-                    all necessary requirements and specifications for the
-                    project.
+                    We provide regular updates and progress reports, keeping you
+                    informed about the development status and addressing any
+                    concerns or changes as they arise.
                   </span>
                 </li>
               </ul>
@@ -281,31 +266,33 @@ const EasyHome = () => {
             <section className="sec4 pin">
               <div className="d-flex align-items-center gap-3 anim">
                 <Image src={discoverImg} alt="img" className="discovery" />
-                <h5 className="planning-title">Discovery and Planning</h5>
+                <h5 className="planning-title">Testing and Launch</h5>
               </div>
               <ul className="disc anim">
                 <li className="mb_30">
-                  Initial Consultation:&nbsp;
+                  Comprehensive Testing:&nbsp;
                   <span>
-                    We begin by understanding your project requirements,
-                    objectives, and expectations through detailed discussions
-                    and consultations.
+                    Our dedicated QA team performs rigorous testing throughout
+                    the development process, including unit testing, integration
+                    testing, and user acceptance testing, to ensure the software
+                    meets the highest standards of quality and performance.
                   </span>
                 </li>
                 <li className="mb_30">
-                  Project Scope Definition:&nbsp;
+                  Bug Fixing and Validation:&nbsp;
                   <span>
-                    Based on our discussions, we define the scope of the
-                    project, outlining deliverables, timelines, and budget
-                    considerations.
+                    Any issues or bugs identified during testing are promptly
+                    addressed and resolved, with multiple rounds of testing
+                    conducted to validate the fixes and ensure seamless
+                    functionality.
                   </span>
                 </li>
-                <li>
-                  Requirement Gathering:&nbsp;
+                <li className="mb_30">
+                  Launch Preparation:&nbsp;
                   <span>
-                    Our team conducts thorough research and analysis to gather
-                    all necessary requirements and specifications for the
-                    project.
+                    Once testing is complete and the software meets all
+                    requirements, we prepare for deployment, ensuring a smooth
+                    and successful launch.
                   </span>
                 </li>
               </ul>
@@ -313,33 +300,20 @@ const EasyHome = () => {
             <section className="sec5 pin">
               <div className="d-flex align-items-center gap-3 anim">
                 <Image src={discoverImg} alt="img" className="discovery" />
-                <h5 className="planning-title">Discovery and Planning</h5>
+                <h5 className="planning-title">Maintenance and Support</h5>
               </div>
               <ul className="disc anim">
                 <li className="mb_30">
-                  Initial Consultation:&nbsp;
+                  Ongoing Support:&nbsp;
                   <span>
-                    We begin by understanding your project requirements,
-                    objectives, and expectations through detailed discussions
-                    and consultations.
+                    Our commitment to you doesn't end with the launch. We
+                    provide ongoing maintenance and support services to keep
+                    your software running smoothly, address any technical
+                    issues, and incorporate future enhancements and updates as
+                    your needs evolve.
                   </span>
                 </li>
-                <li className="mb_30">
-                  Project Scope Definition:&nbsp;
-                  <span>
-                    Based on our discussions, we define the scope of the
-                    project, outlining deliverables, timelines, and budget
-                    considerations.
-                  </span>
-                </li>
-                <li>
-                  Requirement Gathering:&nbsp;
-                  <span>
-                    Our team conducts thorough research and analysis to gather
-                    all necessary requirements and specifications for the
-                    project.
-                  </span>
-                </li>
+               
               </ul>
             </section>
           </div>

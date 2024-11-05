@@ -33,7 +33,7 @@ export default function Home() {
       <CustomerExpHome />
 
       {/* <!-- Proejct In Mind section --> */}
-      <div className="ideas-wait-main mt_100">
+      <div className="ideas-wait-main ">
         <div className="container-fluid text-center">
           <div className="header-text" id="breathing">
             <p className="mb-0" id="brands">
