@@ -153,9 +153,9 @@ const SliderHome = () => {
             <div className="swiper-slide back_three">
               <div className="overlay"></div>
               <div className="slider-text">
-                <h5 className="mb_40"> CHARITY ORGANISATION </h5>
+                <h5 className="mb_40"> CHARITY ORGANIZATION </h5>
                 <p className="mb-0">
-                  By our comprehensive strategies, we help organization to
+                  By our comprehensive strategies, we help organizations to
                   project their voice through their website, apps and social
                   media presence. We believe it is our community responsibility
                   to help charity clients achieve their goals.

@@ -24,7 +24,7 @@ const TouchContactUs = () => {
                     type="text"
                     className="form-control"
                     id="firstName"
-                    placeholder="First Name :"
+                    placeholder="Name :"
                   />
                 </div>
                 <div className="form-group">

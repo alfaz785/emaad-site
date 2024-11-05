@@ -11,11 +11,11 @@ const EmaadSection = () => {
 
   return (
     <>
-      <div className="emmad-section">
+      <div className="emaad-section">
         <div className="container">
-          <div className="emmad-title">
+          <div className="emaad-title">
             <h5>Why</h5>
-            <div className="emmad-title-2">
+            <div className="emaad-title-2">
               <h1>
                 Emaad <Image src={aboutLeafImg} alt="leaf" />
               </h1>
@@ -31,9 +31,10 @@ const EmaadSection = () => {
             <div className="emaad-information">
               <h2>Embrace Creativity With Our Cutting Edge Graphics</h2>
               <p>
-                deger tortor quis libero rhoncus efficitur vel sit amet tellus
-                dapibus est non tortor tristique eleifend metus luctus velit
-                justo
+                Unlock endless possibilities with our innovative graphics that
+                bring your vision to life. Transform ideas into stunning visuals
+                with precision and style, setting you apart from the
+                competition.
               </p>
             </div>
           </div>
@@ -44,9 +45,9 @@ const EmaadSection = () => {
             <div className="emaad-information">
               <h2>Choose Us For Designs That Captivate And Inspire</h2>
               <p>
-                there are many variations of passages of lorem ipsum available,
-                but the majority have suffered alteration in some form, by
-                injected humour
+                Experience designs that not only capture attention but leave a
+                lasting impression. Let us bring your concepts to life with
+                creativity that speaks to your audience and elevates your brand.
               </p>
             </div>
           </div>
@@ -57,9 +58,10 @@ const EmaadSection = () => {
             <div className="emaad-information">
               <h2>Elevate Your Vision With Our Studio's Artistic Flair</h2>
               <p>
-                deger tortor quis libero rhoncus efficitur vel sit amet tellus
-                dapibus est non tortor tristique eleifend metus luctus velit
-                justo
+                Our studio blends artistic expertise with unique creative
+                perspectives to bring your ideas to new heights. Trust us to
+                transform your vision into striking, unforgettable visuals that
+                resonate.
               </p>
             </div>
           </div>

@@ -106,7 +106,7 @@ const Comprehensive = () => {
                           Web hosting is a paid service that allows us to post a
                           website or web pages onto the Internet by web hosting
                           service provider. Websites or webpages are hosted /
-                          stored on special computers called serverwhich are
+                          stored on special computers called server which are
                           provided 24 * 365 internet backup. When Internet users
                           type your website address or domain into their
                           browser, computer will then connect to your server and
@@ -121,7 +121,7 @@ const Comprehensive = () => {
                             <p className="mb-0">Proxy Server</p>
                           </div>
                           <div className="domain-button">
-                            <p className="mb-0">Mail Serve</p>
+                            <p className="mb-0">Mail Server</p>
                           </div>
                           <div className="domain-button">
                             <p className="mb-0">Web & Application Server</p>
@@ -212,7 +212,23 @@ const Comprehensive = () => {
                           PayPal team is the leading player in the digital
                           payment gateway business in India.
                         </p>
-                       
+                        <div className="domain-button-main d-flex">
+                          <div className="domain-button">
+                            <p className="mb-0">PayPal</p>
+                          </div>
+                          <div className="domain-button">
+                            <p className="mb-0">Stripe</p>
+                          </div>
+                          <div className="domain-button">
+                            <p className="mb-0">PhonPe</p>
+                          </div>
+                          <div className="domain-button">
+                            <p className="mb-0">CCAvenue</p>
+                          </div>
+                          <div className="domain-button">
+                            <p className="mb-0">Razorpay</p>
+                          </div>
+                        </div>
                       
                       </div>
                     </div>

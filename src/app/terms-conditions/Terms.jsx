@@ -5,7 +5,7 @@ import { MultiTypingEffect } from "../../../commFun";
 const Terms = () => {
   const termsCondition = [
     { id: "terms1", text: "Terms & " },
-    { id: "terms2", text: "Condition" },
+    { id: "terms2", text: "Conditions" },
   ];
 
   useEffect(() => {
@@ -22,7 +22,7 @@ const Terms = () => {
               <span className="highlight-jobs" id="terms2"></span>
             </h1>
             <p className="mb-0">
-              Welcome to <span className="emaad-title">Emaad Infotech®</span>{" "}
+              Welcome to <span className="emaad-title">Emaad Infotech®. </span>{" "}
               These terms and conditions outline the rules and regulations for
               the use of Emaad Infotech's website, located at
               <a
@@ -30,7 +30,7 @@ const Terms = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span className="emaad-link"> www.emaadinfotech.com.</span>
+                <span className="emaad-link"> www.emaadinfotech.com</span>
               </a>
             </p>
           </div>

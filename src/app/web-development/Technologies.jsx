@@ -5,6 +5,11 @@ import technologiesReactImg from "../../assets/images/Technologies -react.png";
 import technologiesHTMLImg from "../../assets/images/Technologies-html-5.png";
 import technologiesVueImg from "../../assets/images/Technologies -Vue.js_Logo_2.png";
 import technologiesAImg from "../../assets/images/Technologies-A.png";
+import coreldrawImg from "../../assets/images/corel-draw.png";
+import adobeImg from "../../assets/images/adobe-creative-cloud.png";
+import adobesImg from "../../assets/images/adobe.png";
+import adobeprimerImg from "../../assets/images/adobe-premier.png";
+
 // import technologieFlutterImg from "../../assets/images/technologieFlutterImg";
 // import technologieionicImg from "../../assets/images/technologieionicImg";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -125,6 +130,38 @@ const Technologies = ({ isUiUX = false }) => {
             <div className="Technologies-app rotate3">
               <Image
                 src={isUiUX ? photoshopImg : technologiesHTMLImg}
+                alt="Photoshop"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="swiper-slide Technologies-card">
+            <div className="Technologies-app rotate3">
+              <Image
+                src={isUiUX ? coreldrawImg : technologiesHTMLImg}
+                alt="Photoshop"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="swiper-slide Technologies-card">
+            <div className="Technologies-app rotate3">
+              <Image
+                src={isUiUX ? adobesImg : technologiesHTMLImg}
+                alt="Photoshop"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="swiper-slide Technologies-card">
+            <div className="Technologies-app rotate3">
+              <Image
+                src={isUiUX ? adobeImg : technologiesHTMLImg}
+                alt="Photoshop"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="swiper-slide Technologies-card">
+            <div className="Technologies-app rotate3">
+              <Image
+                src={isUiUX ? adobeprimerImg : technologiesHTMLImg}
                 alt="Photoshop"
               />
             </div>

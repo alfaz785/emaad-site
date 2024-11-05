@@ -336,7 +336,7 @@ body {
   opacity: 0;
   display: flex;
   justify-content: end;
-  place-self: flex-end;
+  /* place-self: flex-end; */
 }
 .menu {
   display: flex;
@@ -349,14 +349,14 @@ body {
 .emaad-log {
   padding: 32px 40px;
 }
-.emmad-header {
+.emaad-header {
   border-left: 1px solid rgba(67, 76, 94, 1);
   padding: 32px 40px;
 }
-.emmad-header {
+.emaad-header {
   border-left: 1px solid rgba(67, 76, 94, 1);
 }
-.emmad-border {
+.emaad-border {
   border-left: 1px solid rgba(67, 76, 94, 1);
   padding: 0px 0px 0px 171px;
 }
@@ -630,7 +630,9 @@ body {
 }
 .call-num h5,
 .call-num h2 {
-  color: var(--white-color);
+  font-size: 14px;
+  line-height: 14px;
+  color: #d0d6e4;
 }
 .calling-text img {
   width: 30px;
@@ -647,18 +649,19 @@ body {
   font-family: "Syne-Regular";
 }
 .calling-text h2 {
-  font-size: 14px;
-  line-height: 14px;
+  font-size: 20px;
+  line-height: 20px;
   color: #d0d6e4;
-  font-family: "Syne-Regular";
+  font-family: "Assistant-Regular";
   text-align: start;
 }
 .Email-text h2 {
-  font-size: 14px;
-  line-height: 14px;
+  font-size: 21px;
+  line-height: 20px;
   color: #d0d6e4;
   font-family: "Syne-Regular";
   text-align: start;
+  text-transform: lowercase;
 }
 .Email-text {
   display: flex;
@@ -1004,13 +1007,13 @@ body {
   width: 100%;
 }
 
-.emmad-nav {
+.emaad-nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 32px 40px;
 }
-.emmad-nav h2 {
+.emaad-nav h2 {
   font-size: 35px;
   line-height: 35px;
   font-family: "Syne-Bold";
@@ -1038,7 +1041,7 @@ body {
   font-family: "Syne-Regular";
   margin: 0;
 }
-.emmad-nav span {
+.emaad-nav span {
   font-size: 34px;
   cursor: pointer;
 }
@@ -2059,7 +2062,6 @@ body {
   background-repeat: no-repeat;
   background-position: calc(100% - 0%) center;
   background-size: contain;
-  padding-bottom: 108px;
 }
 
 .bg-img-round {
@@ -2078,18 +2080,18 @@ body {
 }
 
 .typing-container {
-  font-size: 100px;
+  font-size: 90px;
   width: 64%;
-  padding-top: 85px;
+  padding-top: 41px;
   padding-left: 20px;
-  line-height: 110px;
+  line-height: 99px;
   letter-spacing: 2px;
   font-family: "Syne-Medium";
   -webkit-text-stroke: 2px;
   color: #ffffff;
-  display: flex;
+  /* display: flex;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
 }
 .horizontal-line {
   background: #ffffff;
@@ -2114,12 +2116,13 @@ body {
   gap: 25px;
 }
 .talk-button h4 {
-  font-size: 100px;
-  line-height: 110px;
+  font-size: 90px;
+  line-height: 99px;
   letter-spacing: 2px;
   font-family: "Syne-Medium";
   -webkit-text-stroke: 2px;
   color: #ffffff;
+  margin: 0;
 }
 .lets-talk-button {
   background:
@@ -2166,26 +2169,26 @@ body {
   font-family: "Assistant-SemiBold";
   color: var(--footer-text);
   margin: 0;
-  padding-bottom: 108px;
+  padding-bottom: 75px;
 }
 .got-to-info span {
   color: #2dc97a;
 }
 
 /*  ============ why emaad css  ==========*/
-.emmad-title h5 {
+.emaad-title h5 {
   position: relative;
   left: -100%;
 }
 .design-software {
   display: none;
 }
-.emmad-title-2 h1 {
+.emaad-title-2 h1 {
   position: relative;
   left: -110%;
 }
 
-.emmad-section {
+.emaad-section {
   background: linear-gradient(
     0,
     rgba(42, 47, 61, 0) -3.94%,
@@ -2194,8 +2197,10 @@ body {
     #2a2f3d 68.75%
   );
 }
-.emmad-title {
+
+.emaad-title {
   position: relative;
+  padding-top: 60.85px;
 }
 .border {
   position: absolute;
@@ -2205,18 +2210,18 @@ body {
   height: 1px;
   color: #ffffff; /* Adjust to your desired color */
 }
-.emmad-title h5 {
+.emaad-title h5 {
   font-size: 30px;
   line-height: 30px;
   color: #ffffff;
   font-family: "Assistant-Regular";
   margin: 0;
 }
-.emmad-title-2 {
+.emaad-title-2 {
   position: relative;
   display: inline-block;
 }
-.emmad-title-2 h1 {
+.emaad-title-2 h1 {
   position: relative;
   font-size: 105px;
   line-height: 105px;
@@ -2230,7 +2235,7 @@ body {
   padding-right: 25px;
   word-break: break-word;
 }
-.emmad-title-2 img {
+.emaad-title-2 img {
   position: absolute;
   top: -35px;
   right: 0;
@@ -2271,13 +2276,16 @@ body {
 .num {
   padding-top: 30px;
 }
-.emmad-section .content:first-child {
+.emaad-information {
+  margin-left: 41px;
+}
+.emaad-section .content:first-child {
   border-top: none;
 }
-.emmad-section .content {
+.emaad-section .content {
   /* border-radius: 8px; */
   width: 100%;
-  max-width: 692px;
+  max-width: 730px;
   border-top: 2px solid #434c5e;
 }
 
@@ -2289,14 +2297,14 @@ body {
   margin: 0;
 }
 
-.emmad-section .content h2 {
+.emaad-section .content h2 {
   margin-bottom: 10px;
   font-size: 50px;
   line-height: 70px;
   font-family: "Syne-Semi-Bold";
 }
 
-.emmad-section .content p {
+.emaad-section .content p {
   font-size: 16px;
   line-height: 1.5;
 }
@@ -2333,6 +2341,7 @@ body {
   font-size: 14px;
   font-weight: bold;
   margin-bottom: -20px;
+  text-transform: uppercase;
 }
 .discover-capabilites .discover-title h5 {
   font-family: "Syne-Bold";
@@ -4468,7 +4477,7 @@ body {
   display: flex;
 }
 .why-choose-title-section {
-  margin-left: 53px;
+  margin-left: 61px;
 }
 .choose-title {
   width: 98%;
@@ -4592,7 +4601,7 @@ body {
 .benifits-btn-arrow {
   border: 1px solid;
   border-radius: 50px;
-  padding: 7px 7px 7px 7px;
+  padding: 36px 36px 36px 36px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -4623,6 +4632,8 @@ body {
   transition: opacity 0.5s ease;
   pointer-events: none;
   rotate: 12.12deg;
+  width: 272.53px;
+  height: 343.13px;
 }
 
 .Benefits-of-service-desc:hover {
@@ -4639,15 +4650,15 @@ body {
 }
 
 .hover-image {
-  position: absolute;
-  top: -50px;
-  right: 50px;
-  width: 300.89px;
-  height: 350.59px;
-  opacity: 0;
-  transition: opacity 0.5s ease;
-  pointer-events: none;
-  rotate: 12.12deg;
+    position: absolute;
+    top: -50px;
+    right: 50px;
+    width: 272.53px;
+  height: 343.13px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    pointer-events: none;
+    rotate: 12.12deg;
 }
 
 .benifits-design-accordian:hover {
@@ -4666,8 +4677,8 @@ body {
   position: absolute;
   top: -50px;
   right: 50px;
-  width: 300.89px;
-  height: 350.59px;
+  width: 272.53px;
+  height: 343.13px;
   opacity: 0;
   transition: opacity 0.5s ease;
   pointer-events: none;
@@ -4691,8 +4702,8 @@ body {
   position: absolute;
   top: -50px;
   right: 50px;
-  width: 300.89px;
-  height: 350.59px;
+  width: 272.53px;
+  height: 343.13px;
   opacity: 0;
   transition: opacity 0.5s ease;
   pointer-events: none;
@@ -4865,7 +4876,7 @@ body {
   position: relative;
   font-size: 70px;
   line-height: 77px;
-  letter-spacing: 5px;
+  /* letter-spacing: 5px; */
   background: linear-gradient(104.02deg, #2d9cdb 0%, #2dc97a 88.31%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

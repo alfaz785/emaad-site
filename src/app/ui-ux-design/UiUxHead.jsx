@@ -56,7 +56,7 @@ const UiUxHead = () => {
                 supreme in crafting successful digital products. Our tailored
                 services aim not just to meet but surpass user expectations,
                 guaranteeing intuitive and delightful interactions with your
-                product. services aim not just to meet but surpass user
+                product. Services aim not just to meet but surpass user
                 expectations, guaranteeing intuitive and delightful interactions
                 with your product.
               </p>
