@@ -12,6 +12,16 @@ import Image from "next/image";
 import EngineImg from "../assets/images/Search-Engine.svg";
 import SocialImg from "../assets/images/Social-Media.svg";
 import ppcImg from "../assets/images/PPC.svg";
+import projectImg from "../assets/images/Project-Discovery.svg";
+import digitalpImg from "../assets/images/Digital-Product.svg";
+import mvpDev from "../assets/images/MVP-Development.svg";
+import webDevelop from "../assets/images/Web-Develop.svg";
+import pwaDevelop from "../assets/images/PWA-Development.svg";
+import chatBot from "../assets/images/ChatBot-Development.svg";
+
+
+
+
 import { ScrollTrigger } from "gsap/all";
 
 const DeliveriHome = () => {
@@ -222,25 +232,19 @@ const DeliveriHome = () => {
             <div className="app-development-group d-flex gap-5">
               <div className="app-development">
                 <div className="app-development-back">
-                  <span className="material-symbols-outlined">
-                    {" "}
-                    phone_iphone{" "}
-                  </span>
+                <Image src={webDevelop} alt="" />
                 </div>
                 <p className="mb-0">Web Development</p>
               </div>
               <div className="app-development">
                 <div className="app-development-back">
-                  <Image src={appleImg} alt="" />
+                  <Image src={pwaDevelop} alt="" />
                 </div>
                 <p className="mb-0">PWA Development</p>
               </div>
               <div className="app-development">
                 <div className="app-development-back">
-                  <span className="material-symbols-outlined">
-                    {" "}
-                    developer_mode{" "}
-                  </span>
+                <Image src={chatBot} alt="" />
                 </div>
                 <p className="mb-0">ChatBot Development</p>
               </div>
@@ -264,25 +268,19 @@ const DeliveriHome = () => {
             <div className="app-development-group d-flex gap-5">
               <div className="app-development">
                 <div className="app-development-back">
-                  <span className="material-symbols-outlined">
-                    {" "}
-                    phone_iphone{" "}
-                  </span>
+                  <Image src={projectImg} alt="" />
                 </div>
                 <p className="mb-0">Project Discovery & Design Sprit</p>
               </div>
               <div className="app-development">
                 <div className="app-development-back">
-                  <Image src={appleImg} alt="" />
+                  <Image src={digitalpImg} alt="" />
                 </div>
                 <p className="mb-0">Digital Product Development</p>
               </div>
               <div className="app-development">
                 <div className="app-development-back">
-                  <span className="material-symbols-outlined">
-                    {" "}
-                    developer_mode{" "}
-                  </span>
+                  <Image src={mvpDev} alt="" />
                 </div>
                 <p className="mb-0">MVP Development</p>
               </div>
@@ -306,8 +304,7 @@ const DeliveriHome = () => {
             <div className="app-development-group d-flex gap-5">
               <div className="app-development">
                 <div className="app-development-back">
-                <Image src={EngineImg} alt="" />
-                  
+                  <Image src={EngineImg} alt="" />
                 </div>
                 <p className="mb-0">Search Engine Optimization</p>
               </div>
@@ -319,7 +316,7 @@ const DeliveriHome = () => {
               </div>
               <div className="app-development">
                 <div className="app-development-back">
-                <Image src={ppcImg} alt="" />
+                  <Image src={ppcImg} alt="" />
                 </div>
                 <p className="mb-0">Pay-Per-Click (PPC) Advertising</p>
               </div>

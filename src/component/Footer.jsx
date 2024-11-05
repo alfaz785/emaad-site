@@ -18,7 +18,9 @@ const Footer = () => {
           <div className="row">
             <div className="col-md-4">
               <div className="footer-main-left">
-                <h2 className="logo">EI.</h2>
+                <Link href="/">
+                  <h2 className="logo">EI.</h2>{" "}
+                </Link>
                 <div className="contact-info d-flex align-items-center gap-3 contact-mail">
                   <span className="material-symbols-outlined"> mail </span>
                   <a href="mailto:info@emaadinfotech.com">
@@ -29,8 +31,10 @@ const Footer = () => {
                   <div class="icon_bg">
                     <span class="material-symbols-outlined">phone_in_talk</span>
                   </div>
-                  <a href="tel:+917600145260">+91 76001 45260,</a>
-                  <a href="tel:+919428901392">+91 94289 01392</a>
+                  <div className="d-flex flex-wrap">
+                    <a href="tel:+917600145260">+91 76001 45260,</a>
+                    <a href="tel:+919428901392">+91 94289 01392</a>
+                  </div>
                 </div>
                 <div class="contact-info d-flex align-items-start gap-3 ">
                   <div class="icon_bg">

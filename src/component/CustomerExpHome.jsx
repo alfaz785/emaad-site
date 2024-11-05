@@ -16,30 +16,35 @@ import Image from "next/image";
 import { gsap } from "gsap";
 
 const CustomerExpHome = () => {
+  
   useEffect(() => {
-    var swiper2 = new Swiper(".leftSwiper", {
+    // Initialize the left swiper
+    const leftSwiper = new Swiper(".leftSwiper", {
       spaceBetween: 10,
       slidesPerView: "auto",
       loop: true,
       autoplay: {
+        pauseOnMouseEnter: true,
         delay: 0,
         disableOnInteraction: false,
       },
       speed: 5000,
     });
 
-    // Add event listeners for hover to control autoplay
+    // Add hover event listeners to control left swiper autoplay
     document
       .querySelectorAll(".leftSwiper .swiper-slide")
-      .forEach(function (slide) {
-        slide?.addEventListener("mouseenter", function () {
-          swiper2.autoplay.stop();
+      .forEach((slide) => {
+        slide.addEventListener("mouseenter", () => {
+          leftSwiper.autoplay.stop();
         });
-        slide?.addEventListener("mouseleave", function () {
-          swiper2.autoplay.start();
+        slide.addEventListener("mouseleave", () => {
+          leftSwiper.autoplay.start();
         });
       });
-    var swiper2 = new Swiper(".rightSwiper", {
+
+    // Initialize the right swiper
+    const rightSwiper = new Swiper(".rightSwiper", {
       spaceBetween: 10,
       slidesPerView: "auto",
       direction: "horizontal",
@@ -52,18 +57,19 @@ const CustomerExpHome = () => {
       speed: 5000,
     });
 
-    // Add event listeners for hover to control autoplay
+    // Add hover event listeners to control right swiper autoplay
     document
       .querySelectorAll(".rightSwiper .swiper-slide")
-      .forEach(function (slide) {
-        slide?.addEventListener("mouseenter", function () {
-          swiper2.autoplay.stop();
+      .forEach((slide) => {
+        slide.addEventListener("mouseenter", () => {
+          rightSwiper.autoplay.stop();
         });
-        slide?.addEventListener("mouseleave", function () {
-          swiper2.autoplay.start();
+        slide.addEventListener("mouseleave", () => {
+          rightSwiper.autoplay.start();
         });
       });
-  }, []);
+    }, []);
+
   useEffect(() => {
     const paragraph = document.querySelector("p.para");
 
@@ -95,7 +101,7 @@ const CustomerExpHome = () => {
             }
           });
         },
-        { threshold: 0.1 },
+        { threshold: 0.1 }
       );
 
       const section = document.querySelector("p.para");
@@ -153,7 +159,7 @@ const CustomerExpHome = () => {
                       width={"100%"}
                       height={"100%"}
                     />
-                    <div className="tcustomer-card-tex">
+                    <div className="customer-card-text">
                       <p className="quote mb-0">
                         “ when an unknown printer took a galley of type and
                         scrambled it to make a type specimen book. It has
@@ -214,7 +220,9 @@ const CustomerExpHome = () => {
                         <span className="material-symbols-outlined face">
                           call_made
                         </span>
-                        <span className="author-name">The Danche Foundation, Dunwoody, USA</span>
+                        <span className="author-name">
+                          The Danche Foundation, Dunwoody, USA
+                        </span>
                       </p>
                     </div>
                   </div>
@@ -286,7 +294,7 @@ const CustomerExpHome = () => {
                       width={"100%"}
                       height={"100%"}
                     />
-                    <div className="tcustomer-card-tex">
+                    <div className="customer-card-text">
                       <p className="quote mb-0">
                         “ Emaad Infotech delivered an exceptional website for
                         us—quick, professional, and impactful. Our online reach

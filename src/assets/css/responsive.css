@@ -651,7 +651,7 @@
     text-align: center;
   }
   .footer-main-right {
-    padding: 50px 50px 50px 50px;
+    padding: 50px 10px 50px 10px;
   }
   .footer-main-left {
     padding: 50px 0px 80px 10px;
@@ -2191,6 +2191,9 @@
   }
   .footer_product li {
     margin-top: 10px;
+  }
+  .intro-text p {
+    font-size: 16px;
   }
 }
 

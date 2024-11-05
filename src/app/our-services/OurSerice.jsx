@@ -59,7 +59,7 @@ const OurSerice = () => {
               <div className="circle-container">
                 <div className="circular-text">
                   <span id="rotated">
-                    Expert software solutions for your success
+                  Expert software solutions for your success 
                   </span>
                 </div>
                 <div className="star-image">

@@ -61,7 +61,7 @@ const TouchFollowUs = () => {
             <div className="info-item-group">
               <div className="info-item">
                 <p className="mb-0 address_text">Address</p>
-                <div className="d-flex align-items-start gap-2 info-icon-data">
+                <div className="d-flex align-items-center gap-2 info-icon-data">
                   <div className="icon_bg">
                     <span className="material-symbols-outlined">
                       {" "}
