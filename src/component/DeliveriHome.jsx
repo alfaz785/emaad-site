@@ -9,6 +9,9 @@ import productImg from "../assets/images/Product.svg";
 import digitalImg from "../assets/images/Digital.svg";
 import leafImg from "../assets/images/leaf.svg";
 import Image from "next/image";
+import EngineImg from "../assets/images/Search-Engine.svg";
+import SocialImg from "../assets/images/Social-Media.svg";
+import ppcImg from "../assets/images/PPC.svg";
 import { ScrollTrigger } from "gsap/all";
 
 const DeliveriHome = () => {
@@ -303,25 +306,20 @@ const DeliveriHome = () => {
             <div className="app-development-group d-flex gap-5">
               <div className="app-development">
                 <div className="app-development-back">
-                  <span className="material-symbols-outlined">
-                    {" "}
-                    phone_iphone{" "}
-                  </span>
+                <Image src={EngineImg} alt="" />
+                  
                 </div>
                 <p className="mb-0">Search Engine Optimization</p>
               </div>
               <div className="app-development">
                 <div className="app-development-back">
-                  <Image src={appleImg} alt="" />
+                  <Image src={SocialImg} alt="" />
                 </div>
                 <p className="mb-0">Social Media Marketing</p>
               </div>
               <div className="app-development">
                 <div className="app-development-back">
-                  <span className="material-symbols-outlined">
-                    {" "}
-                    developer_mode{" "}
-                  </span>
+                <Image src={ppcImg} alt="" />
                 </div>
                 <p className="mb-0">Pay-Per-Click (PPC) Advertising</p>
               </div>

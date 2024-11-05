@@ -94,8 +94,9 @@ const PortfolioHome = () => {
       loop: true,
       spaceBetween: 10,
       navigation: {
-        nextEl: ".pp-prev",
         prevEl: ".pp-next",
+        nextEl: ".pp-prev",
+        
       },
       thumbs: {
         swiper: portfolio_project_thumbs,
@@ -257,9 +258,10 @@ const PortfolioHome = () => {
                   </div>
                 </div>
               </div>
-
-              <div className=" pp-prev swipper-btn">prev</div>
-              <div className="pp-next swipper-btn">Next</div>
+              <div className=" pp-prev swipper-btn">Next</div>
+              <div className="pp-next swipper-btn"> prev</div>
+              
+              
             </div>
           </div>
 

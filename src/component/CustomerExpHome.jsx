@@ -112,7 +112,7 @@ const CustomerExpHome = () => {
   }, []);
   return (
     <>
-      <section className="customer-experiences text-white py-5">
+      <section className="customer-experiences text-white ">
         <div className="customer-experiences-title">
           <div className="container-fluid">
             <h3 className="title mb-0">Customers</h3>

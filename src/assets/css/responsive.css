@@ -545,7 +545,7 @@
   }
   /* leading */
   .slider-text h5 {
-    font-size: 30px;
+    font-size: 40px;
   }
   .slider-text p {
     font-size: 16px;
@@ -1742,6 +1742,13 @@
   .get-in-touch-mt {
     margin-top: 0px;
   }
+  .footer-main-left {
+    border-right: none;
+  }
+  .main-slider .swiper-slide {
+    height: 350px !important;
+    min-height: 350px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -1897,11 +1904,11 @@
     width: 90vw !important;
   } */
   .slider-text h5 {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .slider-text p {
-    font-size: 12px;
+    font-size: 18px;
   }
 
   .thumbs {
@@ -2178,6 +2185,12 @@
   }
   .contact-touch-form .form-control {
     margin-bottom: 30px;
+  }
+  .explore_main li {
+    margin-top: 10px;
+  }
+  .footer_product li {
+    margin-top: 10px;
   }
 }
 

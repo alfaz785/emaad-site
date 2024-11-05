@@ -120,7 +120,7 @@ const Footer = () => {
             </div>
             <div className="col-md-8">
               <div className="footer-main-right">
-                <div className="">
+                <div className="footer_product">
                   <h5 className="mb-0">Products</h5>
 
                   <ul className="list-unstyled product">
@@ -179,7 +179,7 @@ const Footer = () => {
                   </ul>
                 </div>
 
-                <div className="mt_60 explore_main">
+                <div className="mt_60 explore_main footer_explore">
                   <h5 className="mb-0">Explore</h5>
                   <ul className="list-unstyled explore">
                     <li>

@@ -31,6 +31,7 @@ export default function Home() {
       <PortfolioHome />
       {/* <!-- customers Experiences section --> */}
       <CustomerExpHome />
+      
 
       {/* <!-- Proejct In Mind section --> */}
       <div className="ideas-wait-main ">

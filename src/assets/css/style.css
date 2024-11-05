@@ -1262,6 +1262,7 @@ body {
   font-size: 22px;
   font-family: "Syne-Semi-Bold";
   color: var(--white-color);
+  margin-top: 10px;
 }
 .wrapper .steps {
   display: flex;
@@ -2599,6 +2600,9 @@ body {
 }
 /* ======customers section end ===== */
 /* ======Ideas can't wait start======= */
+.ideas-wait-main{
+  margin-top: 30px;
+}
 .ideas-wait-main .header-text p {
   font-size: 30px;
   color: var(--footer-text);
@@ -2645,7 +2649,7 @@ body {
   background: linear-gradient(104.02deg, #2d9cdb 0%, #2dc97a 88.31%);
   transform: scale(1.05) !important;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  z-index: 1;
+  z-index: 2;
 }
 
 .draggable-boxes p {
@@ -2739,6 +2743,7 @@ body {
   color: var(--footer-text);
   font-size: 16px;
   font-family: "Assistant-Regular";
+  margin-right: 35px;
 }
 
 .footer .footer-links a {
@@ -2770,16 +2775,22 @@ body {
 .product {
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
-  margin-top: 30px;
+  /* gap: 40px; */
+  margin-top: 13px;
   margin-bottom: 0;
+}
+.footer_product li{
+  margin-top: 20px;
 }
 .explore {
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
-  margin-top: 30px;
+  /* gap: 40px; */
+  margin-top:13px;
   margin-bottom: 0;
+}
+.explore_main li{
+  margin-top: 20px;
 }
 .footer-bottom {
   padding: 30px 60px 0;
@@ -3647,7 +3658,7 @@ body {
   background: linear-gradient(104.02deg, #2d9cdb 0%, #2dc97a 88.31%);
   transform: scale(1.05) !important;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  z-index: 1;
+  z-index: 2;
 }
 
 .unlock-tab-container .tab-header {
@@ -5276,6 +5287,7 @@ body {
     rgba(42, 47, 61, 0.9) 77.69%,
     #2a2f3d 99.05%
   );
+  padding: 60px 0;
 }
 .experiences {
   padding: 0px 10px;
