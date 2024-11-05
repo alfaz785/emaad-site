@@ -5,7 +5,7 @@ import rightAccorianImg from "../../assets/images/right-accordian.svg";
 import Image from "next/image";
 import { toggleAccordion } from "../../../commFun";
 
-const dDigitalExpertise = () => {
+const DigitalExpertise = () => {
   return (
     <>
       <div className="out-expertise-section">
