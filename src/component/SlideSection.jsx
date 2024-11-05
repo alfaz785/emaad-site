@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect } from "react";
-import awsImg from "../assets/images/Aws.png";
+import awsImg from "../assets/images/aws.png";
 import marqueImg from "../assets/images/marque svg.svg";
 import paypalImg from "../assets/images/paypal.png";
 import googelcoloudImg from "../assets/images/googelcoloud.png";

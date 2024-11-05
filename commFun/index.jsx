@@ -919,10 +919,16 @@ export const BulkSmsData = [
       "Ensure your messages reach their recipients with our reliable network.",
   },
   {
-    icon: "analytics",
-    title: "Analytics & Reporting",
+    icon: "bar_chart",
+    title: "Real-Time Analytics",
     description:
-      "Gain insights with detailed analytics on message delivery, open rates, and engagement to refine your communication strategy Analytics jevo icon hoy aey muki deje and total 4 thava joiye card",
+      "Track your campaign’s performance instantly with detailed analytics on delivery, opens, clicks, and user engagement",
+  },
+  {
+    icon: "unsubscribe",
+    title: "Smart Unsubscribe Handling",
+    description:
+      "Simplify opt-outs with automated management, ensuring compliance and maintaining an accurate, engaged audience list effortlessly.",
   },
 
   // {
@@ -938,20 +944,24 @@ export const bulkHead = [
     title: "Customizable Templates",
     description:
       "We provide a wide selection of professionally designed templates that you can customize to reflect your brand’s unique identity. Alternatively, you can create your own templates from scratch, ensuring your emails always align with your brand’s look and feel.",
+    serviceImg: "../../assets/images/service-img",
   },
   {
     title: "Segmentation",
     description:
       "Increase engagement by targeting specific segments of your audience. Our advanced segmentation tools allow you to send tailored messages to different customer groups based on their preferences, behaviors, and demographics, ensuring your communications are relevant and impactful.",
+    serviceImg: "../../assets/images/service-img",
   },
   {
     title: "Automated Campaigns",
     description:
       "Save time and enhance efficiency with our automated email campaign features. You can set up sequences that automatically nurture leads, onboard new customers, or re-engage inactive subscribers, ensuring consistent and timely communication without manual intervention.",
+    serviceImg: "../../assets/images/service-img",
   },
   {
     title: "Analytics",
     description:
       "Our comprehensive analytics provide you with valuable insights into your email campaigns. Track open rates, click-through rates, conversions, and overall performance to understand what works best for your audience. Use this data to refine your strategies and achieve better results.",
+    serviceImg: "../../assets/images/service-img",
   },
 ];

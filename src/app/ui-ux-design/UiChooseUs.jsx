@@ -2,6 +2,7 @@
 import React, { useEffect } from "react";
 import ElevateImg from "../../assets/images/Elevate.png";
 import Image from "next/image";
+import Link from "next/link";
 
 const ChooseUs = () => {
   useEffect(() => {
@@ -110,7 +111,7 @@ const ChooseUs = () => {
                   fostering lasting connections that propel your brand forward.
                 </p>
               </div>
-              <div className="get-quote">Get A Quote Now</div>
+              <Link className="get-quote" href="#">Get A Quote Now</Link>
             </div>
           </div>
         </div>

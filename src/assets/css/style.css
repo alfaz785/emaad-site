@@ -2271,7 +2271,7 @@ body {
   flex-direction: column;
   align-items: center;
   overflow-x: hidden;
-  padding-bottom: 107px;
+  padding-bottom: 100px;
 }
 .num {
   padding-top: 30px;
@@ -2315,7 +2315,7 @@ body {
 
 /* discover-capabilites css */
 .discover-capabilites {
-  margin-top: 98px;
+  margin-top: 92px;
 }
 .discover-capabilites.servce-text {
   margin-top: 8px;
@@ -2413,6 +2413,7 @@ body {
   color: #ffffff;
   line-height: 44.8px;
   font-family: "Syne-Bold";
+  padding-top: 30px;
 }
 .discover-capabilites .description {
   font-size: 16px;
@@ -2509,8 +2510,11 @@ body {
 .discover-capabilites .sec-title-wrapper {
   margin-bottom: 20px;
 }
-
+.slide-container.swiper {
+  margin-bottom: 100px;
+}
 /* ======customers section start ===== */
+
 .customer-experiences {
   background: linear-gradient(
     1.11deg,
@@ -4446,7 +4450,7 @@ body {
 .ui-text-design .ui-to-info {
   margin-top: 39px;
   padding-left: 32px;
-  padding-bottom: 24px;
+  padding-bottom: 77px;
 }
 .ui-text-design .bordr {
   border: 1px solid var(--dark-grey-color) !important;
@@ -4534,6 +4538,7 @@ body {
   color: var(--footer-text);
   width: 62%;
   word-break: break-word;
+  margin: 0;
 }
 
 /* -- Benefits of Services css start --*/
@@ -4546,7 +4551,7 @@ body {
     rgba(42, 47, 61, 0.9) 75.25%,
     #2a2f3d 96%
   );
-  padding-top: 60px;
+ 
   margin-top: 90px;
   padding-bottom: 50px;
 }
@@ -5141,6 +5146,7 @@ body {
 
 .Technologies-we-use {
   margin-top: 110px;
+  margin-bottom: 100px;
 }
 .Technologies-text h4 {
   margin: 0 auto;
