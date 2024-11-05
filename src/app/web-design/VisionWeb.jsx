@@ -39,12 +39,12 @@ const VisionWeb = () => {
             <div className="ux-text">
               <div className="ui-moon-img">
                 <div className="ui-bg-img">
-                  <Image
+                  {/* <Image
                     height={"100%"}
                     width={"100%"}
                     src={serviceImg}
                     alt="img"
-                  />
+                  /> */}
                 </div>
               </div>
 

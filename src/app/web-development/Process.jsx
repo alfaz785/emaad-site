@@ -236,28 +236,29 @@ const Process = () => {
             <div className="col-md-4">
               <div className="d-flex align-items-start phase-title-img">
                 <Image src={ulStar} width={"100%"} height={"100%"} alt="star" />
-                <h4 className="phase-title mb-0">Deployment Phase</h4>
+                <h4 className="phase-title mb-0">Testing Phase</h4>
               </div>
             </div>
 
             <div className="col-md-8">
               <ul>
                 <li>
-                  Launch Preparation:&nbsp;
+                  Comprehensive Testing:&nbsp;
                   <span>
-                    We prepare for the website launch by setting up hosting,
-                    domain configuration, and SSL certificates.
+                    Our team identifies and addresses any issues or bugs,
+                    ensuring a seamless and reliable application before launch
                   </span>
                 </li>
                 <li>
-                  Deployment:&nbsp;
+                  User Acceptance Testing (UAT):&nbsp;
                   <span>
-                    We deploy the website to the live server, ensuring a smooth
-                    transition from development to production.
+                    We involve stakeholders in UAT to validate that the app
+                    meets business requirements and provides an optimal user
+                    experience.
                   </span>
                 </li>
                 <li>
-                  Post-Launch Testing:&nbsp;
+                  Bug Identification and Fixing:&nbsp;
                   <span>
                     We conduct final testing to verify that everything is
                     working as expected in the live environment.

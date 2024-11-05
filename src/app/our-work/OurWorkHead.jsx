@@ -99,7 +99,7 @@ const OurWorkHead = () => {
                   <div className="explour-our-demo-cards">
                     <div className="card-container">
                       <a
-                        href="https://emaad-infotech.com/product/online-shopping/"
+                        href="https://www.emaad-infotech.com/product/real-estate/"
                         className="card dark"
                         // onClick="openLink('frontend');"
                       >
@@ -116,7 +116,7 @@ const OurWorkHead = () => {
                         </div>
                       </a>
                       <a
-                        href="https://emaad-infotech.com/product/online-shopping/back-office"
+                        href="https://www.emaad-infotech.com/product/real-estate/back-office"
                         className="card dark"
                         // onClick={openLink('frontend')}
                       >

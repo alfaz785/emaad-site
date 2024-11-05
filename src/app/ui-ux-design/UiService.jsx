@@ -2,6 +2,9 @@
 import React, { useEffect } from "react";
 import hover2Img from "../../assets/images/hover-2-image.png";
 import hoverImg from "../../assets/images/hover-images.png";
+import engajImg from "../../assets/images/engajment.png";
+import seoImg from "../../assets/images/seo.png";
+import costsImg from "../../assets/images/costs.png";
 import Image from "next/image";
 import { textTypingEffect } from "../../../commFun";
 import gsap from "gsap";
@@ -21,7 +24,7 @@ const UiService = () => {
         modifiedText,
         uiTextContents,
         uiTextClassStart,
-        uiTextClassEnd,
+        uiTextClassEnd
       );
     }
 
@@ -68,8 +71,8 @@ const UiService = () => {
                   <p>
                     Our UI/UX design services are tailored to captivate and
                     retain users' attention. By seamlessly blending intuitive
-                    interfaces with visually appealing designs, we create
-                    digital experiences that users can't help but engage with.
+                    interfaces with visually appealing designs, we craft digital
+                    experiences that users are drawn to engage with.
                   </p>
                 </div>
               </div>
@@ -78,7 +81,7 @@ const UiService = () => {
               </div>
             </div>
             <Image
-              src={hover2Img}
+              src={engajImg}
               alt="Benefits of image"
               className="Benefits-hover-image"
             />
@@ -132,7 +135,7 @@ const UiService = () => {
               </div>
             </div>
             <Image
-              src={hover2Img}
+              src={seoImg}
               alt="Description of image"
               className="benifits-hover-image3"
             />
@@ -158,7 +161,7 @@ const UiService = () => {
               </div>
             </div>
             <Image
-              src={hoverImg}
+              src={costsImg}
               alt="Description of image"
               className="benifits-hover-image4"
             />

@@ -196,7 +196,7 @@ document.addEventListener("DOMContentLoaded", () => {
   gsap.registerPlugin(ScrollTrigger);
 
   // Animate the "Why" text
-  gsap.to(".emmad-title h5", {
+  gsap.to(".emaad-title h5", {
     duration: 1,
     x: "100%",
     ease: "power2.out",
@@ -210,13 +210,13 @@ document.addEventListener("DOMContentLoaded", () => {
   // Animate the "Why" text end
 
   // Animate the "Emaad" text and image start
-  gsap.to(".emmad-title-2 h1", {
+  gsap.to(".emaad-title-2 h1", {
     duration: 1.5,
     x: "110%",
     ease: "power2.out",
     delay: 0.5,
     scrollTrigger: {
-      trigger: ".emmad-title",
+      trigger: ".emaad-title",
       start: "top 90%",
       scrub: 2,
       toggleActions: "play none none none",
@@ -231,7 +231,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ease: "power2.out",
     delay: 0.5,
     scrollTrigger: {
-      trigger: ".emmad-title",
+      trigger: ".emaad-title",
       start: "top 50%",
       scrub: 2,
       toggleActions: "play none none none",

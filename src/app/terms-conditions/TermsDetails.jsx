@@ -130,8 +130,8 @@ const TermsDetails = () => {
                 </li>
                 <li>We can deliver only source code as per deal.</li>
                 <li>
-                  We may place visible/non-visible link to Emaad Infotech in
-                  www.emaadinfotech.com in footer as per deal which you can
+                  We may place visible/non-visible link of Emaad Infotech ie.
+                  https://www.emaadinfotech.com in footer as per deal which you can
                   remove after purchasing the script.
                 </li>
               </ol>

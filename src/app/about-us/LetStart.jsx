@@ -51,7 +51,7 @@ const LetStart = () => {
               </div>
               <div className="lets-button">
                 <button className="lets-talk-button">
-                  <a href="">
+                  <a href="get-in-touch">
                     <h2>Let’s Talk</h2>
                     <span className="material-symbols-outlined">
                       {" "}
@@ -67,7 +67,7 @@ const LetStart = () => {
                 <span> Software Development Company in INDIA</span>, got birth
                 in the year 2014 intending to provide affordable world class web
                 solutions which will aid our clientele to grow higher
-                persistently. Being Complete IT solution company, EMAAD INFOTECH
+                persistently. Being Complete IT solution company, EMAAD INFOTECH®
                 offers 360 Degree business solution emphasizing on the client's
                 requirement that too without premium price-tag. Our Online
                 Marketing Solutions help to publicize your business all around

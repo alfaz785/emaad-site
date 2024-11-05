@@ -69,7 +69,7 @@ const Information = () => {
             </p>
             <p>
               under specific and controlled circumstances. Here are the
-              scenarios where information sharing may occur
+              scenarios where information sharing may occur.
             </p>
           </div>
           <div className="privacy-hover-accordian-design">

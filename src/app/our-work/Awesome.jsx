@@ -62,7 +62,7 @@ const Awesome = () => {
       <section className="portfolio-v5 awesome_section mt_100 mb-5">
         <div className="container">
           <div className="row">
-            <div className="col-xxl-8 col-xl-7 col-lg-6 col-md-6 col-sm-12">
+            <div className="col-xxl-7 col-xl-7 col-lg-6 col-md-6 col-sm-12">
               <div className="sec-title-wrapper">
                 <h4 className="sec-title-1 text-wrapper">
                   {"Realted Projects".split(" ").map((word, index) => (
@@ -73,12 +73,11 @@ const Awesome = () => {
                 </h4>
               </div>
             </div>
-            <div className="col-xxl-4 col-xl-5 col-lg-6 col-md-6 col-sm-12">
+            <div className="col-xxl-5 col-xl-5 col-lg-6 col-md-6 col-sm-12">
               <div className="awesome_blog_text" id="animated-section">
                 <p className="mb-0">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s.
+                  Re-alive your imagination with us, by exploring world class
+                  technology
                 </p>
               </div>
             </div>
@@ -90,84 +89,86 @@ const Awesome = () => {
                 <div className="swiper portfolio__project-slider">
                   <div className="swiper-wrapper">
                     <div className="swiper-slide pp-slide">
-                      <div className="pp-slide-img">
-                        <a href="#">
+                      <a href="https://emaad-infotech.com/product/online-shopping/">
+                        <div className="pp-slide-img">
                           <Image
                             src={clientSectionImg}
                             alt="Portfolio Thumbnail"
                           />
-                        </a>
-                        <div className="overlay">
-                          <div className="overlay-text">E-COMMERCE</div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="swiper-slide pp-slide">
-                      <div className="pp-slide-img">
-                        <a href="#">
-                          <Image
-                            src={clientSectionImg}
-                            alt="Portfolio Thumbnail"
-                          />
-                        </a>
-                        <div className="overlay">
-                          <div className="overlay-text">Real Estate</div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="swiper-slide pp-slide">
-                      <div className="pp-slide-img">
-                        <a href="#">
-                          <Image
-                            src={clientSectionImg}
-                            alt="Portfolio Thumbnail"
-                          />
-                        </a>
-                        <div className="overlay">
-                          <div className="overlay-text">Online Medicine</div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="swiper-slide pp-slide">
-                      <div className="pp-slide-img">
-                        <a href="#">
-                          <Image
-                            src={clientSectionImg}
-                            alt="Portfolio Thumbnail"
-                          />
-                        </a>
-                        <div className="overlay">
-                          <div className="overlay-text">NGO Charity</div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="swiper-slide pp-slide">
-                      <div className="pp-slide-img">
-                        <a href="#">
-                          <Image
-                            src={clientSectionImg}
-                            alt="Portfolio Thumbnail"
-                          />
-                        </a>
-                        <div className="overlay">
-                          <div className="overlay-text">
-                            Housing Society Management
+                          <div className="overlay">
+                            <div className="overlay-text">E-COMMERCE</div>
                           </div>
                         </div>
-                      </div>
+                      </a>
                     </div>
                     <div className="swiper-slide pp-slide">
-                      <div className="pp-slide-img">
-                        <a href="#">
+                      <a href="https://www.emaad-infotech.com/product/real-estate/">
+                        <div className="pp-slide-img">
                           <Image
                             src={clientSectionImg}
                             alt="Portfolio Thumbnail"
                           />
-                        </a>
-                        <div className="overlay">
-                          <div className="overlay-text">Business Directory</div>
+                          <div className="overlay">
+                            <div className="overlay-text">Real Estate</div>
+                          </div>
                         </div>
-                      </div>
+                      </a>
+                    </div>
+                    <div className="swiper-slide pp-slide">
+                      <a href="https://www.emaad-infotech.com/product/ngo/">
+                        <div className="pp-slide-img">
+                          <Image
+                            src={clientSectionImg}
+                            alt="Portfolio Thumbnail"
+                          />
+                          <div className="overlay">
+                            <div className="overlay-text">Online Medicine</div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div className="swiper-slide pp-slide">
+                      <a href="https://www.emaad-infotech.com/product/ngo/">
+                        <div className="pp-slide-img">
+                          <Image
+                            src={clientSectionImg}
+                            alt="Portfolio Thumbnail"
+                          />
+                          <div className="overlay">
+                            <div className="overlay-text">NGO Charity</div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div className="swiper-slide pp-slide">
+                      <a href="https://www.emaad-infotech.com/product/housing-society/">
+                        <div className="pp-slide-img">
+                          <Image
+                            src={clientSectionImg}
+                            alt="Portfolio Thumbnail"
+                          />
+                          <div className="overlay">
+                            <div className="overlay-text">
+                              Housing Society Management
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div className="swiper-slide pp-slide">
+                      <a href="https://www.emaad-infotech.com/product/just-one-click/">
+                        <div className="pp-slide-img">
+                          <Image
+                            src={clientSectionImg}
+                            alt="Portfolio Thumbnail"
+                          />
+                          <div className="overlay">
+                            <div className="overlay-text">
+                              Business Directory
+                            </div>
+                          </div>
+                        </div>
+                      </a>
                     </div>
                   </div>
                 </div>

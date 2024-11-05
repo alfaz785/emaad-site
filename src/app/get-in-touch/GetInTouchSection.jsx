@@ -20,8 +20,8 @@ const GetInTouchSection = () => {
               <span className="highlight-jobs" id="touch2"></span>
             </h1>
             <p className="get-in-touch-para">
-              Great! We're excited to hear from you and let's start something
-              special togerter.
+              Great! We're excited to hear from you. Let's start something
+              special together.
             </p>
           </div>
         </div>
