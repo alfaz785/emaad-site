@@ -23,7 +23,7 @@ const Unlock = () => {
           // Apply initial GSAP setup for spacing
           gsap.set(".letter", {
             display: "inline-block",
-            marginRight: "5px", // Adjust the spacing between letters
+            // marginRight: "5px", // Adjust the spacing between letters
           });
 
           // Animate each letter (including spaces)

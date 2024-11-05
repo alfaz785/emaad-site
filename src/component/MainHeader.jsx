@@ -7,7 +7,7 @@ import whatsappImg from "../assets/images/whatsapp.svg";
 import instImg from "../assets/images/insta.png";
 import teligrameImg from "../assets/images/teligrame.png";
 import linkedinImg from "../assets/images/linkedin.svg";
-import facebookImg from "../assets/images/fb.png";
+import facebookImg from "../assets/images/facebook.svg";
 import twitterImg from "../assets/images/twitter.svg";
 import Image from "next/image";
 import Link from "next/link";
@@ -225,7 +225,7 @@ const MainHeader = () => {
               <Link
                 onClick={handleNavigate}
                 href="/"
-                className="nav-link cursor-scale"
+                className="nav-link p-0 cursor-scale"
               >
                 Home&nbsp;
                 <span className="numbers">01</span>

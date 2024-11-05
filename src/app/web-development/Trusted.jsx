@@ -37,7 +37,7 @@ const Trusted = () => {
             />
             Partner For
             <br />
-            Your Website Develop.
+            Your Website Development
           </h1>
           <p className="hero-description mb-0">
             Your website is the digital face of your brand, and we understand
@@ -47,7 +47,7 @@ const Trusted = () => {
             brand identity.
           </p>
 
-          <a href="#" className="btn-schedule">
+          <a href="/get-in-touch" className="btn-schedule">
             <div className="d-flex align-items-center">
               <span className="icon-container">
                 <span className="material-symbols-outlined material-symbols-fill">

@@ -166,6 +166,7 @@ const Technologies = ({ isUiUX = false }) => {
               />
             </div>
           </SwiperSlide>
+          
         </Swiper>
       </div>
     </>
