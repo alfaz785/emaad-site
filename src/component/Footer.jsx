@@ -5,7 +5,7 @@ import twitterImg from "../assets/images/twitter.svg";
 import facebookImg from "../assets/images/facebook.svg";
 import whatsappImg from "../assets/images/whatsapp.svg";
 import linkedinImg from "../assets/images/linkedin.svg";
-import skypeImg from "../assets/images/skype.svg";
+import telegram from "../assets/images/footer-icon-telegram.svg";
 import footerCallImg from "../assets/images/footer-call-icone.svg";
 import footerLocationImg from "../assets/images/footer-location-icon.svg";
 import Link from "next/link";
@@ -19,7 +19,7 @@ const Footer = () => {
             <div className="col-md-4">
               <div className="footer-main-left">
                 <h2 className="logo">EI.</h2>
-                <div className="contact-info d-flex align-items-center gap-3">
+                <div className="contact-info d-flex align-items-center gap-3 contact-mail">
                   <span className="material-symbols-outlined"> mail </span>
                   <a href="mailto:info@emaadinfotech.com">
                     info@emaadinfotech.com
@@ -29,8 +29,8 @@ const Footer = () => {
                   <div class="icon_bg">
                     <Image src={footerCallImg} alt="FooterCallImg" />
                   </div>
-                  <a href="tel:+917600145260">+91 76001 45260</a>
-                  <a href="tel:+917600145260">+91 76001 45260</a>
+                  <a href="tel:+917600145260">+91 76001 45260,</a>
+                  <a href="tel:+919428901392">+91 94289 01392</a>
                 </div>
                 <div class="contact-info d-flex align-items-start gap-3 ">
                   <div class="icon_bg">
@@ -106,11 +106,11 @@ const Footer = () => {
                     </a>
                   </div>
                   <div className="social-icons-bg skype-icon">
-                    <a href="skype:Tohid Kovadiya?chat" target="_blank">
+                    <a href="https://t.me/emaad_infotech" target="_blank">
                       <Image
                         width={100}
                         height={100}
-                        src={skypeImg}
+                        src={telegram}
                         alt="Skype"
                       />
                     </a>
@@ -125,8 +125,8 @@ const Footer = () => {
 
                   <ul className="list-unstyled product">
                     <li>
-                      <Link href="https://hospital-management.emaad-infotech.com/" className="cursor-scale small">
-                        Hospital Webapp
+                      <Link href="/get-in-touch" className="cursor-scale small">
+                        Hospital Management
                       </Link>
                     </li>
 
@@ -136,7 +136,7 @@ const Footer = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link href="https://www.emaadinfotech.com/business-directory/" className="cursor-scale small">
+                      <Link href="/get-in-touch" className="cursor-scale small">
                         Business Listing Software
                       </Link>
                     </li>
@@ -147,18 +147,18 @@ const Footer = () => {
                     </li>
 
                     <li>
-                      <Link href="https://emaad-infotech.com/product/online-shopping/" className="cursor-scale small">
+                      <Link href="/get-in-touch" className="cursor-scale small">
                         E-commerce Solution
                       </Link>
                     </li>
                     <li>
-                      <Link href="https://aspire-job-portal.vercel.app/" className="cursor-scale small">
+                      <Link href="/get-in-touch" className="cursor-scale small">
                       Job Portal
                       </Link>
                     </li>
                     <li>
                       <Link
-                        href="https://emaad-infotech.com/product/tours-travel/"
+                        href="/get-in-touch"
                         className="cursor-scale small"
                       >
                         Tours & Travels Management
@@ -166,7 +166,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <Link
-                        href="https://emaad-infotech.com/product/tours-travel/"
+                        href="/get-in-touch"
                         className="cursor-scale small"
                       >
                          Real Estate  Property Management
@@ -258,9 +258,13 @@ const Footer = () => {
                   <Link href="/our-services" className="cursor-scale small">
                     Our Services
                   </Link>
-                  <Link href="" className="cursor-scale small">
+                  <Link href="https://blog.emaadinfotech.com" className="cursor-scale small">
                     Blog
                   </Link>
+                  <Link href="/get-in-touch" className="cursor-scale small">
+                  Contact Us
+                  </Link>
+                  
                 </div>
               </div>
               <h6 className="mb-0">EMAAD</h6>

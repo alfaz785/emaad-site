@@ -2509,7 +2509,7 @@ body {
   word-wrap: break-word;
   text-transform: uppercase;
 }
-.portfolio__project-thumbs .pp-slide-title{
+.portfolio__project-thumbs .pp-slide-title {
   text-transform: uppercase;
   font-size: 25px;
   font-family: "Syne-Bold";
@@ -2754,6 +2754,13 @@ body {
 .footer .contact-info {
   color: var(--footer-text);
   margin-bottom: 20px;
+  font-size: 16px;
+  font-family: "Assistant-Regular";
+}
+.footer .contact-mail a {
+  font-size: 17px;
+  font-family: "Assistant-Regular";
+  color: var(--footer-text);
 }
 .social-icons-bg {
   background: linear-gradient(
@@ -5923,7 +5930,7 @@ body {
 }
 /* contact us section End */
 /* follow-us-section start */
-.follow-us-section{
+.follow-us-section {
   margin-top: 100px;
 }
 .follow-us-section .follow-us-title {
@@ -6320,25 +6327,23 @@ a {
   margin-bottom: 0;
 }
 .client-contact-box {
-  background: #434C5E;
-  padding:15px 30px;
+  background: #434c5e;
+  padding: 15px 30px;
   border-radius: 5px;
-  transition: background-color 0.3s, transform 0.3s; 
-  cursor: pointer; 
+  transition: background-color 0.3s, transform 0.3s;
+  cursor: pointer;
 }
 
 .client-contact-box:hover {
-  background-color: #5a5d65fb; 
+  background-color: #5a5d65fb;
   transform: scale(1.05);
 }
 
-
 .client-contact-box h4 {
   margin: 0;
-  color: #333; 
-  text-align: center; 
+  color: #333;
+  text-align: center;
 }
-
 
 .-client-call-button {
   display: flex;
@@ -6557,7 +6562,7 @@ bulk-sms-email-marketing .ui-moon-img {
   font-size: 18px;
   line-height: 25.2px;
   letter-spacing: 2px;
-  color: #A1A9BA;
+  color: #a1a9ba;
 
   font-family: "Assistant-Regular";
   text-align: right;
