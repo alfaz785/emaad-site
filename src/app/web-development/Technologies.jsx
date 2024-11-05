@@ -166,14 +166,7 @@ const Technologies = ({ isUiUX = false }) => {
               />
             </div>
           </SwiperSlide>
-          <SwiperSlide className="swiper-slide Technologies-card">
-            <div className="Technologies-app rotate3">
-              <Image
-                src={isUiUX ? adobeprimerImg : technologiesHTMLImg}
-                alt="Photoshop"
-              />
-            </div>
-          </SwiperSlide>
+          
         </Swiper>
       </div>
     </>
