@@ -25,18 +25,18 @@ const Footer = () => {
                     info@emaadinfotech.com
                   </a>
                 </div>
-                <div class="contact-info d-flex align-items-center gap-3  ">
-                  <div class="icon_bg">
-                    <span class="material-symbols-outlined">phone_in_talk</span>
+                <div className="contact-info d-flex align-items-center gap-3  ">
+                  <div className="icon_bg">
+                    <span className="material-symbols-outlined">phone_in_talk</span>
                   </div>
                   <a href="tel:+917600145260">+91 76001 45260,</a>
                   <a href="tel:+919428901392">+91 94289 01392</a>
                 </div>
-                <div class="contact-info d-flex align-items-start gap-3 ">
-                  <div class="icon_bg">
-                    <span class="material-symbols-outlined">location_on</span>
+                <div className="contact-info d-flex align-items-start gap-3 ">
+                  <div className="icon_bg">
+                    <span className="material-symbols-outlined">location_on</span>
                   </div>
-                  <p class="mb-0">
+                  <p className="mb-0">
                     D/308, Shantam - 7, RTO Circle, Himmatnagar, GJ, India,
                     383001
                   </p>
