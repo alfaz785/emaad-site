@@ -27,7 +27,7 @@ const DigitalExpertise = () => {
         <div className="our-expertise-accordian">
           <div className="accordion">
             {/* <!-- first --> */}
-            <div className="expertice-digital accordion-item " >
+            <div className="expertice-digital accordion-item ">
               <button
                 className="accordion-header "
                 onClick={(event) => toggleAccordion(event.currentTarget)}
@@ -290,7 +290,18 @@ const DigitalExpertise = () => {
                     "Download now for a better experience!" or "Join our
                     community of users today!"
                   </p>
-                 
+                  <div className="acordian-text-our">
+                    <h4>Regular Updates</h4>
+                    <p>
+                      Regular updates keep your app relevant, bug-free, and
+                      aligned with the latest platform changes. By continually
+                      refreshing features, enhancing performance, and optimizing
+                      based on user feedback, you boost your app's visibility
+                      and appeal. Regular updates also signal to app stores and
+                      users that your app is active, which can improve your
+                      rankings and user retention.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
