@@ -7835,7 +7835,7 @@ body.no-scroll {
 #card-two,
 #card-three,
 #card-four {
-  top: 100%; /* Start from below the viewport */
+  top: 100%; 
 }
 
 .card-visible {
