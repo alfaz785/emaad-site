@@ -29,7 +29,9 @@ const Footer = () => {
                 </div>
                 <div className="contact-info d-flex align-items-center gap-3  ">
                   <div className="icon_bg">
-                    <span className="material-symbols-outlined">phone_in_talk</span>
+                    <span className="material-symbols-outlined">
+                      phone_in_talk
+                    </span>
                   </div>
                   <div className="d-flex flex-wrap">
                     <a href="tel:+917600145260">+91 76001 45260,</a>
@@ -38,7 +40,9 @@ const Footer = () => {
                 </div>
                 <div className="contact-info d-flex align-items-start gap-3 ">
                   <div className="icon_bg">
-                    <span className="material-symbols-outlined">location_on</span>
+                    <span className="material-symbols-outlined">
+                      location_on
+                    </span>
                   </div>
                   <p className="mb-0">
                     D/308, Shantam - 7, RTO Circle, Himmatnagar, GJ, India,
@@ -46,79 +50,94 @@ const Footer = () => {
                   </p>
                 </div>
                 <div className="social-icons">
-                  <div className="social-icons-bg instagram-icon">
-                    <a
-                      href="https://www.instagram.com/emaadinfotech/"
-                      target="_blank"
-                    >
+                  <a
+                    href="https://www.instagram.com/emaadinfotech/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="social-icons-bg instagram-icon">
                       <Image
                         width={100}
                         height={100}
                         src={insImg}
                         alt="Instagram"
                       />
-                    </a>
-                  </div>
-                  <div className="social-icons-bg twitter-icon">
-                    <a href="https://x.com/EmaadInfotech" target="_blank">
+                    </div>
+                  </a>
+                  <a
+                    href="https://x.com/EmaadInfotech"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="social-icons-bg twitter-icon">
                       <Image
                         width={100}
                         height={100}
                         src={twitterImg}
                         alt="Twitter"
                       />
-                    </a>
-                  </div>
-                  <div className="social-icons-bg facebook-icon">
-                    <a
-                      href="https://www.facebook.com/emaad.developer/"
-                      target="_blank"
-                    >
+                    </div>
+                  </a>
+
+                  <a
+                    href="https://www.facebook.com/emaad.developer/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="social-icons-bg facebook-icon">
                       <Image
                         width={100}
                         height={100}
                         src={facebookImg}
                         alt="Facebook"
                       />
-                    </a>
-                  </div>
-                  <div className="social-icons-bg whatsapp-icon">
-                    <a
-                      href="https://wa.me/919428901392"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    </div>
+                  </a>
+
+                  <a
+                    href="https://wa.me/919428901392"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="social-icons-bg whatsapp-icon">
                       <Image
                         width={100}
                         height={100}
                         src={whatsappImg}
                         alt="WhatsApp"
                       />
-                    </a>
-                  </div>
-                  <div className="social-icons-bg linkedin-icon">
-                    <a
-                      href="https://www.linkedin.com/company/emaad-infotech/"
-                      target="_blank"
-                    >
+                    </div>
+                  </a>
+
+                  <a
+                    href="https://www.linkedin.com/company/emaad-infotech/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="social-icons-bg linkedin-icon">
                       <Image
                         width={100}
                         height={100}
                         src={linkedinImg}
                         alt="LinkedIn"
                       />
-                    </a>
-                  </div>
-                  <div className="social-icons-bg skype-icon">
-                    <a href="https://t.me/emaad_infotech" target="_blank">
+                    </div>
+                  </a>
+
+                  <a
+                    href="https://t.me/emaad_infotech"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="social-icons-bg skype-icon">
                       <Image
                         width={100}
                         height={100}
                         src={telegram}
-                        alt="Skype"
+                        alt="Telegram"
                       />
-                    </a>
-                  </div>
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>

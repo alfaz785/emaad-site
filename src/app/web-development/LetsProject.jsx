@@ -28,7 +28,7 @@ const LetsProject = () => {
               <div className="d-flex align-items-center justify-content-center">
                 <div className="btn_wrapper">
                   <a
-                    href="#"
+                    href="/get-in-touch"
                     className="wc-btn-primary btn-outline-light mt_40"
                   >
                     Start a

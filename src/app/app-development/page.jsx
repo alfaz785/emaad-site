@@ -37,7 +37,7 @@ const AppDevelopment = () => {
           </div>
         </div>
       </div>
-      <ProjectInMind mainTxt={"Have A Project In Mind ? Let's Get To Work"} />
+      <ProjectInMind mainTxt={"Ideas Can't Wait. Put Us To Work On Them!"} />
       <DraggableBox />
     </>
   );

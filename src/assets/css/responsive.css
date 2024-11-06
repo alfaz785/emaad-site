@@ -689,7 +689,8 @@
 
   /* let's go text css */
   .lets-get-to-title {
-    background: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)), url(../images/services-section-bg.png);
+    background: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)),
+      url(../images/services-section-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -710,7 +711,8 @@
     font-size: 55px;
   }
   .vision-web-design {
-    background: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)), url(../images/services-section-bg.png);
+    background: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)),
+      url(../images/services-section-bg.png);
     background-repeat: no-repeat;
     background-position: calc(100% - 0px) center;
     background-size: contain;
@@ -778,7 +780,8 @@
 
   /* ui-ux page  */
   .ui-text-design {
-    background: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)), url(../images/ui-image.png);
+    background: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)),
+      url(../images/ui-image.png);
     background-repeat: no-repeat;
     background-position: calc(100% - 0px) center;
     background-size: contain;
@@ -833,11 +836,13 @@
   }
   /* Web Development page start */
   .trusted-hero-section {
-    background-image: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)), url(../images/services-section-bg.png);
+    background-image: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)),
+      url(../images/services-section-bg.png);
     background-position: calc(100% - 0px) center;
   }
   .go-mobile-section {
-    background-image: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)), url(../images/services-section-bg.png);
+    background-image: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)),
+      url(../images/services-section-bg.png);
     background-position: calc(100% - 0px) center;
   }
 
@@ -893,7 +898,8 @@
   }
   /* digital marketing section css */
   .bost-online-success {
-    background: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)), url(../images/services-section-bg.png);
+    background: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)),
+      url(../images/services-section-bg.png);
     background-repeat: no-repeat;
     background-position: calc(100% - 0px) center;
     background-size: contain;
@@ -923,7 +929,8 @@
     max-width: 100%;
   }
   .bulk-sms-email-marketing {
-    background: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)), url(../images/services-section-bg.png);
+    background: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)),
+      url(../images/services-section-bg.png);
     background-repeat: no-repeat;
     background-position: calc(100% - 0px) center;
     background-size: contain;
@@ -1021,7 +1028,8 @@
     width: 100%;
   }
   .get-in-touch-section {
-    background-image: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)), url(../images/services-section-bg.png);
+    background-image: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)),
+      url(../images/services-section-bg.png);
     background-position: calc(100% - 0px) center;
   }
   .get-in-touch-section {
@@ -1035,7 +1043,8 @@
   /* privacy policy page css */
   /* privacy policy text */
   .privacy-policy-section {
-    background: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)), url(../images/services-section-bg.png);
+    background: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)),
+      url(../images/services-section-bg.png);
     background-repeat: no-repeat;
     background-position: calc(100% - 0px) center;
     background-size: contain;
@@ -1081,7 +1090,8 @@
   /* privacy policy page css */
   /* privacy policy text */
   .privacy-policy-section {
-    background: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)), url(../images/services-section-bg.png);
+    background: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)),
+      url(../images/services-section-bg.png);
     background-repeat: no-repeat;
     background-position: calc(100% - 0px) center;
     background-size: contain;
@@ -1124,7 +1134,8 @@
   }
   /* terms & condition page start */
   .terms-conditions-section {
-    background-image: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)), url(../images/services-section-bg.png);
+    background-image: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)),
+      url(../images/services-section-bg.png);
     background-position: calc(100% - 0px) center;
   }
   .terms-conditions-title h1 {
@@ -1162,7 +1173,8 @@
   }
   /* refund policy page */
   .refund-policy-section {
-    background-image: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)), url(../images/services-section-bg.png);
+    background-image: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)),
+      url(../images/services-section-bg.png);
     background-position: calc(100% - 0px) center;
   }
   .refund-policy-title h1 {
@@ -1175,7 +1187,8 @@
     font-size: 55px;
   }
   .our-journey-section {
-    background-image: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)), url(../images/services-section-bg.png);
+    background-image: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)),
+      url(../images/services-section-bg.png);
     background-position: calc(100% - 0px) center;
   }
   .our-journey-section p {
@@ -1494,7 +1507,8 @@
   /* bulk sms service page */
   /* digital text typing  */
   .bulk-sms-email-marketing {
-    background: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)), url(../images/services-section-bg.png);
+    background: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)),
+      url(../images/services-section-bg.png);
     background-repeat: no-repeat;
     background-position: calc(100% - 0px) center;
     background-size: cover;
@@ -1741,6 +1755,28 @@
   .main-slider .swiper-slide {
     height: 350px !important;
     min-height: 350px;
+  }
+  .app-development-group .app-development {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .app-development-group .app-development p {
+    font-size: 18px;
+    margin-top: 0px;
+  }
+  .app-development-group {
+    gap: 20px !important;
+  }
+  .innovation .cards {
+    padding: 30px 20px 30px 20px;
+  }
+  .cards hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .delivering-main-card {
+    width: 100%;
   }
 }
 
@@ -2194,6 +2230,23 @@
   .intro-text p {
     font-size: 16px;
   }
+  .reveal-section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .process-section-data .lead {
+    margin-top: 20px;
+  }
+  .phase-text-main {
+    padding: 22px 0;
+  }
+  .Technologies-we-use {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .lats-start-project {
+    margin-top: 50px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -2571,6 +2624,9 @@
     flex-direction: column;
     margin-top: 0;
   }
+  .trusted-hero-section {
+    padding: 30px 0;
+  }
 
   .standard-gallery .gallery-tabs .tablink {
     margin-top: 20px;
@@ -2611,10 +2667,10 @@
     flex-wrap: wrap;
   }
   .reveal-section {
-    height: 65vh;
+    height: 65vh !important;
   }
   .reveal-section .img-holder {
-    height: 70vh;
+    height: 70vh !important;
   }
 
   .footer-bottom {
@@ -2630,5 +2686,12 @@
   }
   .get-in-touch-title h1 {
     font-size: 40px;
+  }
+  .app-development-group .app-development p {
+    font-size: 14px;
+  }
+  .go-mobile-section {
+    padding-top: 30px;
+    padding-bottom: 20px;
   }
 }

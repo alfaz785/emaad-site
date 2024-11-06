@@ -225,7 +225,7 @@ const ServiceUiUx = () => {
                     designed with the end user in mind, resulting in a seamless
                     and delightful user experience.
                   </p>
-                  <a href="#" className="btn btn-primary btn-lg">
+                  <a href="/ui-ux-design" className="btn btn-primary btn-lg">
                     UI / UX Design
                   </a>
                 </div>
@@ -262,7 +262,7 @@ const ServiceUiUx = () => {
                     portfolio site or something more enterprise, we've got you
                     covered.
                   </p>
-                  <a href="#" className="btn btn-primary btn-lg">
+                  <a href="/web-design" className="btn btn-primary btn-lg">
                     Web Design Services
                   </a>
                 </div>
@@ -299,7 +299,7 @@ const ServiceUiUx = () => {
                     portfolio site or something more enterprise, we've got you
                     covered.
                   </p>
-                  <a href="#" className="btn btn-primary btn-lg">
+                  <a href="/web-development" className="btn btn-primary btn-lg">
                     Web Development Services
                   </a>
                 </div>
@@ -334,7 +334,7 @@ const ServiceUiUx = () => {
                     point having an amazing website, if nobody knows it’s there,
                     right?
                   </p>
-                  <a href="#" className="btn btn-primary btn-lg">
+                  <a href="/digital-marketing" className="btn btn-primary btn-lg">
                     Digital Marketing Services
                   </a>
                 </div>
@@ -369,7 +369,7 @@ const ServiceUiUx = () => {
                     Emaad Infotech®, we're not just about crafting apps; we're
                     about empowering your vision to reach its fullest potential.
                   </p>
-                  <a href="#" className="btn btn-primary btn-lg">
+                  <a href="/app-development" className="btn btn-primary btn-lg">
                     App Developing Services
                   </a>
                 </div>

@@ -112,7 +112,7 @@ const CurrentOpening = () => {
                       </p>
                       <p className="card-location-num mb-0">3</p>
                     </div>
-                    <a href="#" className="btn btn-primary btn-block">
+                    <a href="/get-in-touch" className="btn btn-primary btn-block">
                       Apply Now
                     </a>
                   </div>
@@ -150,7 +150,7 @@ const CurrentOpening = () => {
                       </p>
                       <p className="card-location-num mb-0">5</p>
                     </div>
-                    <a href="#" className="btn btn-primary btn-block">
+                    <a href="/get-in-touch" className="btn btn-primary btn-block">
                       Apply Now
                     </a>
                   </div>
@@ -188,7 +188,7 @@ const CurrentOpening = () => {
                       </p>
                       <p className="card-location-num mb-0">2</p>
                     </div>
-                    <a href="#" className="btn btn-primary btn-block">
+                    <a href="/get-in-touch" className="btn btn-primary btn-block">
                       Apply Now
                     </a>
                   </div>
@@ -229,7 +229,7 @@ const CurrentOpening = () => {
                       </p>
                       <p className="card-location-num mb-0">9</p>
                     </div>
-                    <a href="#" className="btn btn-primary btn-block">
+                    <a href="/get-in-touch" className="btn btn-primary btn-block">
                       Apply Now
                     </a>
                   </div>
@@ -270,7 +270,7 @@ const CurrentOpening = () => {
                       </p>
                       <p className="card-location-num mb-0">1</p>
                     </div>
-                    <a href="#" className="btn btn-primary btn-block">
+                    <a href="/get-in-touch" className="btn btn-primary btn-block">
                       Apply Now
                     </a>
                   </div>
@@ -308,7 +308,7 @@ const CurrentOpening = () => {
                       </p>
                       <p className="card-location-num mb-0">4</p>
                     </div>
-                    <a href="#" className="btn btn-primary btn-block">
+                    <a href="/get-in-touch" className="btn btn-primary btn-block">
                       Apply Now
                     </a>
                   </div>
