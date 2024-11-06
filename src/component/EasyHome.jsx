@@ -183,7 +183,7 @@ const EasyHome = () => {
             <section className="sec1 pin">
               <div className="d-flex align-items-center gap-3">
                 <Image src={discoverImg} alt="img" className="discovery" />
-                <h5 className="planning-title">Discovery and Planning</h5>
+                <h5 className="planning-title">Discovery And Planning</h5>
               </div>
               <ul className="disc">
                 <li className="mb_30">
@@ -216,7 +216,7 @@ const EasyHome = () => {
             <section className="sec2 pin">
               <div className="d-flex align-items-center gap-3 anim">
                 <Image src={discoverImg} alt="img" className="discovery" />
-                <h5 className="planning-title">Design and Prototyping</h5>
+                <h5 className="planning-title">Design And Prototyping</h5>
               </div>
               <ul className="disc anim">
                 <li className="mb_30">
@@ -266,7 +266,7 @@ const EasyHome = () => {
             <section className="sec4 pin">
               <div className="d-flex align-items-center gap-3 anim">
                 <Image src={discoverImg} alt="img" className="discovery" />
-                <h5 className="planning-title">Testing and Launch</h5>
+                <h5 className="planning-title">Testing And Launch</h5>
               </div>
               <ul className="disc anim">
                 <li className="mb_30">
@@ -300,7 +300,7 @@ const EasyHome = () => {
             <section className="sec5 pin">
               <div className="d-flex align-items-center gap-3 anim">
                 <Image src={discoverImg} alt="img" className="discovery" />
-                <h5 className="planning-title">Maintenance and Support</h5>
+                <h5 className="planning-title">Maintenance And Support</h5>
               </div>
               <ul className="disc anim">
                 <li className="mb_30">

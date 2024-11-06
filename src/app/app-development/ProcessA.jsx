@@ -108,7 +108,7 @@ const ProcessA = () => {
       <div className="container">
         <div className="process-section-data">
           <h3 className="mb-0">
-            Our
+            Our &nbsp;
             <Image
               width={"100%"}
               height={"100%"}
@@ -118,8 +118,8 @@ const ProcessA = () => {
             Process
           </h3>
           <p className="lead">
-            At <span className="company-name">Emaad Infotech</span>, we follow a
-            systematic approach to ensure the success of your web development
+            At <span className="company-name">Emaad Infotech®</span>, we follow
+            a systematic approach to ensure the success of your web development
             project. Our process is designed to deliver high-quality results
             while maintaining transparency and collaboration throughout the
             journey.
@@ -129,31 +129,22 @@ const ProcessA = () => {
             <div className="col-md-4">
               <div className="d-flex align-items-start phase-title-img">
                 <Image src={ulStar} width={"100%"} height={"100%"} alt="star" />
-                <h4 className="phase-title mb-0">Discovery Phase</h4>
+                <h4 className="phase-title mb-0">Discovery and Planning</h4>
               </div>
             </div>
 
             <div className="col-md-8">
               <ul>
                 <li>
-                  Initial Consultation:&nbsp;
                   <span>
-                    We start by understanding your goals, target audience, and
-                    project requirements through in-depth discussions.
+                    We begin with a thorough understanding of your business
+                    needs, target audience, and project goals.
                   </span>
                 </li>
                 <li>
-                  Research and Analysis:&nbsp;
                   <span>
-                    Our team conducts market research and competitor analysis to
-                    identify opportunities and challenges.
-                  </span>
-                </li>
-                <li>
-                  Define Project Scope:&nbsp;
-                  <span>
-                    Based on our findings, we outline the project scope,
-                    timeline, and deliverables to set clear expectations.
+                    Detailed planning and strategy formulation to ensure a clear
+                    roadmap for development.
                   </span>
                 </li>
               </ul>
@@ -164,31 +155,22 @@ const ProcessA = () => {
             <div className="col-md-4">
               <div className="d-flex align-items-start phase-title-img">
                 <Image src={ulStar} width={"100%"} height={"100%"} alt="star" />
-                <h4 className="phase-title mb-0">Design Phase</h4>
+                <h4 className="phase-title mb-0">Design and Prototyping</h4>
               </div>
             </div>
 
             <div className="col-md-8">
               <ul>
                 <li>
-                  Wireframing:&nbsp;
                   <span>
-                    We create wireframes to outline the layout and structure of
-                    your website, focusing on user experience and navigation.
+                    Creating wireframes and prototypes to visualize the app
+                    structure and flow.
                   </span>
                 </li>
                 <li>
-                  Visual Design:&nbsp;
                   <span>
-                    Our designers work on creating mockups and visual concepts
-                    that align with your brand identity and preferences.
-                  </span>
-                </li>
-                <li>
-                  Feedback and Iteration:&nbsp;
-                  <span>
-                    We gather feedback from you and iterate on the designs until
-                    they meet your expectations.
+                    Designing the user interface with a focus on aesthetics and
+                    usability.
                   </span>
                 </li>
               </ul>
@@ -199,33 +181,21 @@ const ProcessA = () => {
             <div className="col-md-4">
               <div className="d-flex align-items-start phase-title-img">
                 <Image src={ulStar} width={"100%"} height={"100%"} alt="star" />
-                <h4 className="phase-title mb-0">Development Phase</h4>
+                <h4 className="phase-title mb-0">Development</h4>
               </div>
             </div>
 
             <div className="col-md-8">
               <ul>
                 <li>
-                  Front-End Development:&nbsp;
                   <span>
-                    Our front-end developers bring the designs to life using
-                    HTML, CSS, and JavaScript, ensuring responsiveness and
-                    cross-browser compatibility.
+                    Coding the app using the latest technologies and frameworks.
                   </span>
                 </li>
                 <li>
-                  Back-End Development:&nbsp;
                   <span>
-                    Our back-end developers build the server-side logic and
-                    database architecture using technologies like PHP, Node.js.
-                  </span>
-                </li>
-                <li>
-                  Integration and Testing:&nbsp;
-                  <span>
-                    We integrate third-party services, APIs, and
-                    functionalities, rigorously testing the website for
-                    performance, security, and functionality.
+                    Integrating necessary features and functionalities tailored
+                    to your requirements.
                   </span>
                 </li>
               </ul>
@@ -236,31 +206,22 @@ const ProcessA = () => {
             <div className="col-md-4">
               <div className="d-flex align-items-start phase-title-img">
                 <Image src={ulStar} width={"100%"} height={"100%"} alt="star" />
-                <h4 className="phase-title mb-0">Deployment Phase</h4>
+                <h4 className="phase-title mb-0">Testing</h4>
               </div>
             </div>
 
             <div className="col-md-8">
               <ul>
                 <li>
-                  Launch Preparation:&nbsp;
                   <span>
-                    We prepare for the website launch by setting up hosting,
-                    domain configuration, and SSL certificates.
+                    Comprehensive testing to identify and fix any bugs or
+                    issues.
                   </span>
                 </li>
                 <li>
-                  Deployment:&nbsp;
                   <span>
-                    We deploy the website to the live server, ensuring a smooth
-                    transition from development to production.
-                  </span>
-                </li>
-                <li>
-                  Post-Launch Testing:&nbsp;
-                  <span>
-                    We conduct final testing to verify that everything is
-                    working as expected in the live environment.
+                    Ensuring the app is optimized for performance and user
+                    experience.
                   </span>
                 </li>
               </ul>
@@ -271,25 +232,22 @@ const ProcessA = () => {
             <div className="col-md-4">
               <div className="d-flex align-items-start phase-title-img">
                 <Image src={ulStar} width={"100%"} height={"100%"} alt="star" />
-                <h4 className="phase-title mb-0">Maintenance and Support</h4>
+                <h4 className="phase-title mb-0">Launch</h4>
               </div>
             </div>
 
             <div className="col-md-8">
               <ul>
                 <li>
-                  Ongoing Support:&nbsp;
+                 
                   <span>
-                    We provide post-launch support and maintenance services to
-                    address any issues and ensure the website's continued
-                    performance.
+                  Deploying the app to the respective app stores.
                   </span>
                 </li>
                 <li>
-                  Updates and Enhancements:&nbsp;
+                 
                   <span>
-                    We work with you to implement updates, enhancements, and new
-                    features based on user feedback and changing business needs.
+                  Monitoring the launch to ensure a smooth release.
                   </span>
                 </li>
               </ul>

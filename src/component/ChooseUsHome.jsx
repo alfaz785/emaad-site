@@ -178,7 +178,7 @@ const ChooseUsHome = () => {
                       </div>
                     </div>
                     <div className="content">
-                      <h4>Value for Money</h4>
+                      <h4>Value For Money</h4>
                       <p className="mb-0">
                         We offer competitive pricing without compromising on
                         quality. Our goal is to deliver maximum value for your

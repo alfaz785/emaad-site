@@ -58,6 +58,14 @@ const SliderHome = () => {
           <div className="swiper-wrapper">
             <div className="swiper-slide back_one">
               <div className="slider-text">
+              <div className="Technologies-use-title">
+                  <div className="industries-text">
+                    <h4>
+                      Industries <span>We Serve</span>
+                    </h4>
+                  </div>
+                </div>
+
                 <h5 className="mb_40">Healthcare</h5>
                 <p className="mb-0">
                   By designing highly efficient and cross-platform apps, we
@@ -78,7 +86,6 @@ const SliderHome = () => {
               </div>
             </div>
             <div className="swiper-slide back_two">
-              
               <div className="slider-text">
                 {/* <!-- <h5 className="mb_40">
               Leading ECommerce Software Development Company
@@ -129,6 +136,13 @@ const SliderHome = () => {
                   <span className="letter">n</span>
                   <span className="letter">y</span>
                 </h5> */}
+                <div className="Technologies-use-title">
+                  <div className="industries-text">
+                    <h4>
+                      Industries <span>We Serve</span>
+                    </h4>
+                  </div>
+                </div>
                 <h5 className="mb_40">Manufacturing</h5>
                 <p className="mb-0 leading">
                   The manufacturing industry faces unique challenges and
@@ -150,8 +164,14 @@ const SliderHome = () => {
               </div>
             </div>
             <div className="swiper-slide back_three">
-              
               <div className="slider-text">
+              <div className="Technologies-use-title">
+                  <div className="industries-text">
+                    <h4>
+                      Industries <span>We Serve</span>
+                    </h4>
+                  </div>
+                </div>
                 <h5 className="mb_40"> Charity Organization</h5>
                 <p className="mb-0">
                   By our comprehensive strategies, we help organizations to
@@ -169,8 +189,14 @@ const SliderHome = () => {
               </div>
             </div>
             <div className="swiper-slide back_four">
-             
               <div className="slider-text">
+              <div className="Technologies-use-title">
+                  <div className="industries-text">
+                    <h4>
+                      Industries <span>We Serve</span>
+                    </h4>
+                  </div>
+                </div>
                 <h5 className="mb_40"> Financial & Insurance</h5>
                 <p className="mb-0">
                   We work with a lending agencies, insurance companies for
@@ -189,8 +215,14 @@ const SliderHome = () => {
               </div>
             </div>
             <div className="swiper-slide back_five">
-             
               <div className="slider-text">
+              <div className="Technologies-use-title">
+                  <div className="industries-text">
+                    <h4>
+                      Industries <span>We Serve</span>
+                    </h4>
+                  </div>
+                </div>
                 <h5 className="mb_40">Sports & Fitness</h5>
                 <p className="mb-0">
                   Our service to clients in the sports and fitness industry is
@@ -212,8 +244,14 @@ const SliderHome = () => {
               </div>
             </div>
             <div className="swiper-slide back_six">
-             
               <div className="slider-text">
+              <div className="Technologies-use-title">
+                  <div className="industries-text">
+                    <h4>
+                      Industries <span>We Serve</span>
+                    </h4>
+                  </div>
+                </div>
                 <h5 className="mb_40">Education</h5>
                 <p className="mb-0">
                   Education lies at the heart of any community’s progress. Our
@@ -232,8 +270,14 @@ const SliderHome = () => {
               </div>
             </div>
             <div className="swiper-slide back_seven">
-              
               <div className="slider-text">
+              <div className="Technologies-use-title">
+                  <div className="industries-text">
+                    <h4>
+                      Industries <span>We Serve</span>
+                    </h4>
+                  </div>
+                </div>
                 <h5 className="mb_40">Tourism & Hospitality </h5>
                 <p className="mb-0">
                   An attractive site is must for the growth of any sector. We
@@ -252,8 +296,14 @@ const SliderHome = () => {
               </div>
             </div>
             <div className="swiper-slide back_eight">
-      
               <div className="slider-text">
+              <div className="Technologies-use-title">
+                  <div className="industries-text">
+                    <h4>
+                      Industries <span>We Serve</span>
+                    </h4>
+                  </div>
+                </div>
                 <h5 className="mb_40">Real Estate </h5>
                 <p className="mb-0">
                   In the real estate sector, we strive to offer instant and
@@ -274,6 +324,13 @@ const SliderHome = () => {
             <div className="swiper-slide back_nine">
               <div className="overlay"></div>
               <div className="slider-text">
+              <div className="Technologies-use-title">
+                  <div className="industries-text">
+                    <h4>
+                      Industries <span>We Serve</span>
+                    </h4>
+                  </div>
+                </div>
                 <h5 className="mb_40">Information & Technology </h5>
                 <p className="mb-0">
                   No industry in the world can succeed without managing its
@@ -292,8 +349,14 @@ const SliderHome = () => {
               </div>
             </div>
             <div className="swiper-slide back_ten">
-              
               <div className="slider-text">
+              <div className="Technologies-use-title">
+                  <div className="industries-text">
+                    <h4>
+                      Industries <span>We Serve</span>
+                    </h4>
+                  </div>
+                </div>
                 <h5 className="mb_40">Food Processing </h5>
                 <p className="mb-0">
                   We are witnessing high-speed growth in the food processing

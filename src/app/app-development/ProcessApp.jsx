@@ -17,7 +17,7 @@ const ProcessApp = () => {
             <Image src={ourProcess} alt="arrow" /> Process
           </h3>
           <p className="lead">
-            At <span className="company-name">Emaad Infotech</span>, our
+            At <span className="company-name">Emaad Infotech®</span>, our
             streamlined development approach ensures a seamless journey from
             concept to launch. Here’s how we transform your vision into a
             dynamic mobile app:

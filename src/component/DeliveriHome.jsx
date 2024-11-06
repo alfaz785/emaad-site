@@ -183,7 +183,7 @@ const DeliveriHome = () => {
             </div>
             <p className="mb-0 delivering-main-card">
               Expand your market reach and improve your user experience by
-              developing mobile apps for Android, iOS, & windows.
+              developing mobile apps for Android, iOS & Windows.
             </p>
             <hr />
             <div className="app-development-group d-flex gap-5">
