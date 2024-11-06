@@ -111,7 +111,7 @@ const ChooseUs = () => {
                   fostering lasting connections that propel your brand forward.
                 </p>
               </div>
-              <Link className="get-quote" href="#">Get A Quote Now</Link>
+              <Link className="get-quote" href="/get-in-touch">Get A Quote Now</Link>
             </div>
           </div>
         </div>

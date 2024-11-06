@@ -65,12 +65,10 @@ const Information = () => {
             </h4>
             <p>
               We take your privacy seriously and ensure that your personal
-              information is shared only
-            </p>
-            <p>
-              under specific and controlled circumstances. Here are the
+              information is shared only under specific and controlled circumstances. Here are the
               scenarios where information sharing may occur.
             </p>
+            
           </div>
           <div className="privacy-hover-accordian-design">
             {/* <!-- first --> */}

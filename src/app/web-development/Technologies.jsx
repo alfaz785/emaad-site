@@ -9,6 +9,22 @@ import coreldrawImg from "../../assets/images/corel-draw.png";
 import adobeImg from "../../assets/images/adobe-creative-cloud.png";
 import adobesImg from "../../assets/images/adobe.png";
 import adobeprimerImg from "../../assets/images/adobe-premier.png";
+import cssImg from "../../assets/images/css.png";
+import wordpress from "../../assets/images/wordpress.png";
+import js from "../../assets/images/javascript.png";
+import ts from "../../assets/images/typescript.png";
+import node from "../../assets/images/nodejs.png";
+import php from "../../assets/images/php.png";
+import python from "../../assets/images/python.png";
+import mongo from "../../assets/images/mongo-db.png";
+import mysql from "../../assets/images/mysql.png";
+import flutter from "../../assets/images/flutter.png";
+import dart from "../../assets/images/dart.png";
+import tailwind from "../../assets/images/tailwind.png";
+import sketch from "../../assets/images/sketch.png";
+import sass from "../../assets/images/sass.png";
+
+
 
 // import technologieFlutterImg from "../../assets/images/technologieFlutterImg";
 // import technologieionicImg from "../../assets/images/technologieionicImg";
@@ -74,7 +90,7 @@ const Technologies = ({ isUiUX = false }) => {
             <div className="Technologies-app rotate">
               <Image
                 src={isUiUX ? indesignImg : technologiesAImg}
-                alt="Indesign"
+                alt={isUiUX ? "indesignImg" : "technologiesAImg"}
               />
             </div>
           </SwiperSlide>
@@ -82,7 +98,7 @@ const Technologies = ({ isUiUX = false }) => {
             <div className="Technologies-app rotate">
               <Image
                 src={isUiUX ? illustratorImg : technologiesBootstrapImg}
-                alt="Indesign"
+                alt={isUiUX ? "illustratorImg" : "technologiesBootstrapImg"}
               />
             </div>
           </SwiperSlide>
@@ -90,7 +106,7 @@ const Technologies = ({ isUiUX = false }) => {
             <div className="Technologies-app rotate1">
               <Image
                 src={isUiUX ? figmaImg : technologiesReactImg}
-                alt="Illustrator"
+                alt={isUiUX ? "figmaImg" : "technologiesReactImg"}
               />
             </div>
           </SwiperSlide>
@@ -98,7 +114,7 @@ const Technologies = ({ isUiUX = false }) => {
             <div className="Technologies-app rotate2">
               <Image
                 src={isUiUX ? photoshopImg : technologiesHTMLImg}
-                alt="Figma"
+                alt={isUiUX ? "photoshopImg" : "technologiesHTMLImg"}
               />
             </div>
           </SwiperSlide>
@@ -106,67 +122,108 @@ const Technologies = ({ isUiUX = false }) => {
             <div className="Technologies-app rotate3">
               <Image
                 src={isUiUX ? xdImg : technologiesVueImg}
-                alt="Photoshop"
+                alt={isUiUX ? "xdImg" : "technologiesVueImg"}
+              />
+            </div>
+          </SwiperSlide>
+          {!isUiUX && (
+            <SwiperSlide className="swiper-slide Technologies-card">
+              <div className="Technologies-app rotate3">
+                <Image src={cssImg} alt="cssImg" />
+              </div>
+            </SwiperSlide>
+          )}
+
+          {!isUiUX && (
+            <SwiperSlide className="swiper-slide Technologies-card">
+              <div className="Technologies-app rotate3">
+                <Image src={wordpress} alt="wordpress" />
+              </div>
+            </SwiperSlide>
+          )}
+          {!isUiUX && (
+            <SwiperSlide className="swiper-slide Technologies-card">
+              <div className="Technologies-app rotate3">
+                <Image src={js} alt="js" />
+              </div>
+            </SwiperSlide>
+          )}
+
+          <SwiperSlide className="swiper-slide Technologies-card">
+            <div className="Technologies-app rotate3">
+              <Image
+                src={isUiUX ? coreldrawImg : ts}
+                alt={isUiUX ? "coreldrawImg" : "ts"}
               />
             </div>
           </SwiperSlide>
           <SwiperSlide className="swiper-slide Technologies-card">
             <div className="Technologies-app rotate3">
               <Image
-                src={isUiUX ? photoshopImg : technologiesVueImg}
-                alt="Photoshop"
+                src={isUiUX ? adobesImg : node}
+                alt={isUiUX ? "adobesImg" : "node"}
               />
             </div>
           </SwiperSlide>
           <SwiperSlide className="swiper-slide Technologies-card">
             <div className="Technologies-app rotate3">
               <Image
-                src={isUiUX ? photoshopImg : technologiesVueImg}
-                alt="Photoshop"
+                src={isUiUX ? adobeImg : mysql}
+                alt={isUiUX ? "adobeImg" : "mysql"}
               />
             </div>
           </SwiperSlide>
           <SwiperSlide className="swiper-slide Technologies-card">
             <div className="Technologies-app rotate3">
               <Image
-                src={isUiUX ? photoshopImg : technologiesHTMLImg}
-                alt="Photoshop"
+                src={isUiUX ? adobeprimerImg : mongo}
+                alt={isUiUX ? "adobeprimerImg" : "mongo"}
               />
             </div>
           </SwiperSlide>
           <SwiperSlide className="swiper-slide Technologies-card">
             <div className="Technologies-app rotate3">
               <Image
-                src={isUiUX ? coreldrawImg : technologiesHTMLImg}
-                alt="Photoshop"
+                src={isUiUX ? sketch : php}
+                alt={isUiUX ? "sketch" : "php"}
               />
             </div>
           </SwiperSlide>
-          <SwiperSlide className="swiper-slide Technologies-card">
-            <div className="Technologies-app rotate3">
-              <Image
-                src={isUiUX ? adobesImg : technologiesHTMLImg}
-                alt="Photoshop"
-              />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="swiper-slide Technologies-card">
-            <div className="Technologies-app rotate3">
-              <Image
-                src={isUiUX ? adobeImg : technologiesHTMLImg}
-                alt="Photoshop"
-              />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="swiper-slide Technologies-card">
-            <div className="Technologies-app rotate3">
-              <Image
-                src={isUiUX ? adobeprimerImg : technologiesHTMLImg}
-                alt="Photoshop"
-              />
-            </div>
-          </SwiperSlide>
-          
+          {!isUiUX && (
+            <SwiperSlide className="swiper-slide Technologies-card">
+              <div className="Technologies-app rotate3">
+                <Image src={sass} alt="sass" />
+              </div>
+            </SwiperSlide>
+          )}
+          {!isUiUX && (
+            <SwiperSlide className="swiper-slide Technologies-card">
+              <div className="Technologies-app rotate3">
+                <Image src={python} alt="python" />
+              </div>
+            </SwiperSlide>
+          )}
+          {!isUiUX && (
+            <SwiperSlide className="swiper-slide Technologies-card">
+              <div className="Technologies-app rotate3">
+                <Image src={flutter} alt="flutter" />
+              </div>
+            </SwiperSlide>
+          )}
+          {!isUiUX && (
+            <SwiperSlide className="swiper-slide Technologies-card">
+              <div className="Technologies-app rotate3">
+                <Image src={dart} alt="dart" />
+              </div>
+            </SwiperSlide>
+          )}
+          {!isUiUX && (
+            <SwiperSlide className="swiper-slide Technologies-card">
+              <div className="Technologies-app rotate3">
+                <Image src={tailwind} alt="tailwind" />
+              </div>
+            </SwiperSlide>
+          )}
         </Swiper>
       </div>
     </>
