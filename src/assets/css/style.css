@@ -630,7 +630,7 @@ body {
 }
 .call-num h5,
 .call-num h2 {
-  font-size: 14px;
+  font-size: 17px;
   line-height: 14px;
   color: #d0d6e4;
 }
@@ -643,7 +643,7 @@ body {
   gap: 15px;
 }
 .calling-text h5 {
-  font-size: 14px;
+  font-size: 17px;
   line-height: 14px;
   color: #d0d6e4;
   font-family: "Syne-Regular";
@@ -4551,7 +4551,7 @@ body {
     rgba(42, 47, 61, 0.9) 75.25%,
     #2a2f3d 96%
   );
- 
+
   margin-top: 90px;
   padding-bottom: 50px;
 }
@@ -4632,7 +4632,7 @@ body {
 .Benefits-hover-image {
   position: absolute;
   top: -100px;
-  right: 50px;
+  right: 90px;
   opacity: 0;
   transition: opacity 0.5s ease;
   pointer-events: none;
@@ -4655,15 +4655,15 @@ body {
 }
 
 .hover-image {
-    position: absolute;
-    top: -50px;
-    right: 50px;
-    width: 272.53px;
+  position: absolute;
+  top: -50px;
+  right: 90px;
+  width: 272.53px;
   height: 343.13px;
-    opacity: 0;
-    transition: opacity 0.5s ease;
-    pointer-events: none;
-    rotate: 12.12deg;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
+  rotate: 12.12deg;
 }
 
 .benifits-design-accordian:hover {
@@ -4681,7 +4681,7 @@ body {
 .benifits-hover-image3 {
   position: absolute;
   top: -50px;
-  right: 50px;
+  right: 105px;
   width: 272.53px;
   height: 343.13px;
   opacity: 0;
@@ -4706,7 +4706,7 @@ body {
 .benifits-hover-image4 {
   position: absolute;
   top: -50px;
-  right: 50px;
+  right: 100px;
   width: 272.53px;
   height: 343.13px;
   opacity: 0;
@@ -4868,7 +4868,7 @@ body {
 .vision-web-design .ui-to-info {
   margin-top: 39px;
   padding-left: 32px;
-  padding-bottom: 113px;
+  padding-bottom: 114px;
 }
 .vision-web-design .bordr {
   border: 1px solid var(--dark-grey-color) !important;
@@ -5131,14 +5131,25 @@ body {
 }
 
 .process-tab-design-content {
-  display: none;
   opacity: 0;
-  transition: opacity 0.5s ease;
+  max-height: 0;
+  overflow: hidden;
+  transition:
+    opacity 0.3s ease,
+    max-height 0.3s ease;
 }
+
 .process-tab-design-content.show {
+  opacity: 1;
+  max-height: 500px;
+}
+
+.process-tab-wrapper .active + .process-tab-design-content {
   display: block;
   opacity: 1;
+  max-height: 500px;
 }
+
 .hide {
   display: none;
 }
@@ -6168,6 +6179,7 @@ a {
   outline: 0;
   background: #2a2f3d;
 }
+
 .out-expertise-section .accordion-header {
   background: #0d111c;
   color: #fff;
@@ -6262,6 +6274,7 @@ a {
   margin-top: 125px;
   font-family: "Assistant-Light";
   margin-bottom: 0;
+  padding-right: 43%;
 }
 .client-contact-box {
   background: #434c5e;
@@ -6323,7 +6336,12 @@ a {
 
 /* bulk sms email service page css  */
 /* bulk sms email service css  */
-bulk-sms-email-marketing .ui-moon-img {
+
+.service-card-grabe {
+  margin-bottom: 60px;
+}
+
+.bulk-sms-email-marketing .ui-moon-img {
   position: relative;
 }
 .bulk-sms-email-marketing .ui-bg-img {
@@ -6524,22 +6542,19 @@ bulk-sms-email-marketing .ui-moon-img {
 .text-item-service span.material-symbols-outlined {
   font-size: 46.25px;
 }
-.service-card-grabe {
-  position: relative;
-  width: 100%;
-  /* height: 100vh; */
-  margin-left: 40px;
-  justify-content: center;
-}
 
 /* card */
 .why-choose-our-service {
-  display: flex;
+  position: relative;
   margin-top: 65px;
 }
 .service-design-card {
   position: absolute;
   z-index: 1;
+  right: 44px;
+  top: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 /* .service-card-hover,
 .service-card-hover2,
@@ -7268,6 +7283,7 @@ body.no-scroll {
 }
 
 .information-titel p {
+  text-indent: 28vw;
   font-size: 24px;
   line-height: 33.6px;
   color: var(--footer-text);
@@ -7863,13 +7879,6 @@ body.no-scroll {
 }
 .border-bottom {
   border-bottom: 1px solid #434c5e !important;
-}
-.process-tab-design-content {
-  display: none;
-}
-
-.process-tab-wrapper .active + .process-tab-design-content {
-  display: block;
 }
 
 .text-item-service .material-symbols-outlined {

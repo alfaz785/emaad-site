@@ -5,7 +5,7 @@ import rightAccorianImg from "../../assets/images/right-accordian.svg";
 import Image from "next/image";
 import { toggleAccordion } from "../../../commFun";
 
-const dDigitalExpertise = () => {
+const DigitalExpertise = () => {
   return (
     <>
       <div className="out-expertise-section">
@@ -27,9 +27,9 @@ const dDigitalExpertise = () => {
         <div className="our-expertise-accordian">
           <div className="accordion">
             {/* <!-- first --> */}
-            <div className="expertice-digital accordion-item">
+            <div className="expertice-digital accordion-item " >
               <button
-                className="accordion-header"
+                className="accordion-header "
                 onClick={(event) => toggleAccordion(event.currentTarget)}
               >
                 <span>Search Engine Optimization (SEO)</span>
@@ -37,7 +37,7 @@ const dDigitalExpertise = () => {
                   <Image src={rightAccorianImg} alt="img" />
                 </span>
               </button>
-              <div className="accordion-content">
+              <div className="accordion-content active">
                 <div className="our-expertise-text-accordian">
                   <h4>On-Page And Off-Page SEO</h4>
                   <p>
@@ -290,16 +290,7 @@ const dDigitalExpertise = () => {
                     "Download now for a better experience!" or "Join our
                     community of users today!"
                   </p>
-                  <div className="acordian-text-our">
-                    <h4>Regular Updates</h4>
-                    <p>
-                      Personalized Tracking: Monitor your daily steps, calorie
-                      intake, and water consumption effortlessly. Health
-                      Insights: Get personalized insights based on your data to
-                      help you reach your goals. Community Support: Join a
-                      vibrant community of users and share your health journey.
-                    </p>
-                  </div>
+                 
                 </div>
               </div>
             </div>

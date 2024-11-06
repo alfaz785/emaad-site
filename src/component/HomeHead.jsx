@@ -154,8 +154,8 @@ const HomeHead = () => {
           </div>
           <div className="grow-with-info">
             <p>
-              We turn great ideas into working products we focus on good
-              communication and understanding your business
+              We turn great ideas into working products by focusing on clear
+              communication and understanding your business.
             </p>
           </div>
 
