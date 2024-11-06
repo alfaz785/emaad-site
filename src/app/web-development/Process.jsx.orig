@@ -109,7 +109,11 @@ const Process = () => {
         <div className="process-section-data">
           <h3 className="mb-0">
             Our
+<<<<<<< HEAD
             &nbsp;
+=======
+      
+>>>>>>> 45899b7994e73a0ce6d6a10bdb7d664dac447c70
             <Image
               width={"100%"}
               height={"100%"}

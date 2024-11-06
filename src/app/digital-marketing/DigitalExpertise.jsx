@@ -116,18 +116,23 @@ const DigitalExpertise = () => {
               </button>
               <div className="accordion-content">
                 <div className="our-expertise-text-accordian">
-                  <h4>Define Your Brand Voice and Aesthetic</h4>
+                  <h4>Targeted Audience Engagement and Community Management</h4>
                   <p>
-                    Consistency is key! Develop a tone, color palette, and
-                    visual style that reflects your brand’s personality and
-                    values. This ensures recognizability across all platforms.
+                    Engage your audience with our tailored strategies for social
+                    media marketing. We focus on building meaningful connections
+                    by understanding your target demographic and creating
+                    content that resonates. Our community management approach
+                    ensures timely interactions, fostering brand loyalty and
+                    encouraging conversations around your products or services.
                   </p>
                   <div className="acordian-text-our">
-                    <h4>Understand Your Audience</h4>
+                    <h4>Content Creation and Brand Storytelling</h4>
                     <p>
-                      Research your audience demographics, interests, and
-                      behaviors on different platforms. Tailor your content to
-                      speak directly to their needs and preferences.
+                      Enhance your brand's narrative with visually appealing and
+                      shareable content. We create engaging graphics and
+                      impactful videos that tell your story, foster audience
+                      engagement, and strengthen your brand identity across all
+                      platforms.
                     </p>
                   </div>
                 </div>
@@ -146,19 +151,25 @@ const DigitalExpertise = () => {
               </button>
               <div className="accordion-content">
                 <div className="our-expertise-text-accordian">
-                  <h4>Overview</h4>
+                  <h4>Strategic Content Development and Distribution</h4>
                   <p>
-                    Repurposing content for various platforms maximizes reach
-                    and engagement while reducing workload.
+                    Transform your brand's message with our strategic content
+                    marketing services. We craft high-quality, relevant content
+                    tailored to your audience's needs, ensuring it resonates and
+                    drives engagement. Our multi-channel distribution approach
+                    maximizes reach and impact, helping you build authority and
+                    foster customer loyalty.
                   </p>
                   <div className="acordian-text-our">
-                    <h4>Key Points</h4>
+                    <h4>Performance Tracking and Optimization</h4>
                     <p>
-                      Transforming blog posts into videos, infographics, or
-                      podcasts. Adapting content to fit the unique requirements
-                      of platforms like Instagram, LinkedIn, or email. Benefits
-                      include increased visibility, improved SEO, and extended
-                      content lifespan.
+                      Achieve your content marketing goals with our detailed
+                      performance tracking and optimization strategies. We
+                      analyze key metrics to assess the effectiveness of your
+                      content and make data-driven adjustments. This continuous
+                      improvement process ensures your content delivers maximum
+                      ROI, enhances brand visibility, and supports your business
+                      objectives.
                     </p>
                   </div>
                 </div>
@@ -177,26 +188,25 @@ const DigitalExpertise = () => {
               </button>
               <div className="accordion-content">
                 <div className="our-expertise-text-accordian">
-                  <h4>Product Use Cases and Success</h4>
+                  <h4>Targeted Email Campaigns and List Management</h4>
                   <p>
-                    Share real-life use cases, customer testimonials, and
-                    success stories. Highlight how your product or service has
-                    helped solve specific problems or improve users' lives.
-                    Include relatable scenarios and, if possible, brief metrics
-                    to show measurable success. This gives potential customers a
-                    clearer view of how they might benefit directly and builds
-                    trust through authentic endorsements.
+                    Maximize your outreach with targeted email campaigns
+                    designed to engage your audience. We segment your email list
+                    to deliver personalized content that resonates with your
+                    subscribers. From captivating subject lines to compelling
+                    calls to action, our email marketing strategies drive
+                    conversions and build lasting customer relationships.
                   </p>
                   <div className="acordian-text-our">
-                    <h4>Exclusive Educational Content or Tips</h4>
+                    <h4>Performance Analysis and A/B Testing</h4>
                     <p>
-                      Offer tips, best practices, or industry insights related
-                      to your product or service. For example, if you’re a SaaS
-                      company, provide a series on optimizing workflows,
-                      improving productivity, or the latest trends in your
-                      niche. This positions you as an authority in the field and
-                      keeps your audience engaged by adding real value to their
-                      inbox.
+                      Optimize your email marketing efforts with in-depth
+                      performance analysis and A/B testing. We track key metrics
+                      such as open rates, click-through rates, and conversions
+                      to evaluate campaign effectiveness. By testing different
+                      elements, we refine your emails for better engagement,
+                      ensuring every campaign contributes to your business
+                      goals.
                     </p>
                   </div>
                 </div>
@@ -215,25 +225,15 @@ const DigitalExpertise = () => {
               </button>
               <div className="accordion-content">
                 <div className="our-expertise-text-accordian">
-                  <h4>Industry Innovations</h4>
+                  <h4>Strategic Campaign Setup and Ad Creation</h4>
                   <p>
-                    Focus on how your company is contributing to innovations in
-                    your industry. Highlight any new technologies, practices, or
-                    products you’ve developed that set your company apart from
-                    competitors. For example, if you're in the tech sector, you
-                    could showcase advancements in AI or software solutions that
-                    improve efficiency.
+                    Drive targeted traffic to your website with our strategic
+                    Google Ads services. We design customized ad campaigns
+                    tailored to your business goals, focusing on effective
+                    keyword targeting and compelling ad copy. Our approach
+                    ensures your ads reach the right audience at the right time,
+                    maximizing visibility and conversions.
                   </p>
-                  <div className="acordian-text-our">
-                    <h4> Customer Success Stories</h4>
-                    <p>
-                      Share testimonials or case studies that demonstrate how
-                      your products or services have positively impacted your
-                      clients. This approach not only showcases your offerings
-                      but also builds trust with potential customers by
-                      highlighting real-world applications and outcomes.
-                    </p>
-                  </div>
                 </div>
               </div>
             </div>

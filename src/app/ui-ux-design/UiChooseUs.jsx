@@ -1,7 +1,8 @@
 "use client";
 import React, { useEffect } from "react";
-import UiUxImg from "../../assets/images/ui-ux-image.png";
+import ElevateImg from "../../assets/images/Elevate.png";
 import Image from "next/image";
+import Link from "next/link";
 
 const ChooseUs = () => {
   useEffect(() => {
@@ -80,7 +81,7 @@ const ChooseUs = () => {
       <div className="why-choose-us-section">
         <div className="why-choose-sec">
           <div className="why-choose-img">
-            <Image src={UiUxImg} alt="img" width={"100%"} height={"100%"} />
+            <Image src={ElevateImg} alt="img" width={"100%"} height={"100%"} />
           </div>
           <div className="container-fluid">
             <div className="why-choose-title-section">
@@ -110,7 +111,7 @@ const ChooseUs = () => {
                   fostering lasting connections that propel your brand forward.
                 </p>
               </div>
-              <div className="get-quote">Get A Quote Now</div>
+              <Link className="get-quote" href="#">Get A Quote Now</Link>
             </div>
           </div>
         </div>

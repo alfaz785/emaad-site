@@ -60,15 +60,8 @@ const Comprehensive = () => {
                           your online business, there are some other options
                           that may be better suited for your needs.
                         </p>
-                        <br />
-                        <p className="mb-0">
-                          The most important point about a domain name
-                          registration is that it gives you personality and
-                          recognized identity to your business. Once you
-                          register a domain name, the information about its
-                          owner is publicly available. The price for a domain
-                          name registration varies greatly on its extension.
-                        </p>
+                   
+                        
                         <div className="domain-button-main d-flex">
                           <div className="domain-button">
                             <p className="mb-0">.com</p>
@@ -113,7 +106,7 @@ const Comprehensive = () => {
                           Web hosting is a paid service that allows us to post a
                           website or web pages onto the Internet by web hosting
                           service provider. Websites or webpages are hosted /
-                          stored on special computers called serverwhich are
+                          stored on special computers called server which are
                           provided 24 * 365 internet backup. When Internet users
                           type your website address or domain into their
                           browser, computer will then connect to your server and
@@ -125,19 +118,19 @@ const Comprehensive = () => {
                         </p>
                         <div className="domain-button-main d-flex">
                           <div className="domain-button">
-                            <p className="mb-0">.com</p>
+                            <p className="mb-0">Proxy Server</p>
                           </div>
                           <div className="domain-button">
-                            <p className="mb-0">.in</p>
+                            <p className="mb-0">Mail Server</p>
                           </div>
                           <div className="domain-button">
-                            <p className="mb-0">.edu</p>
+                            <p className="mb-0">Web & Application Server</p>
                           </div>
                           <div className="domain-button">
-                            <p className="mb-0">.org</p>
+                            <p className="mb-0">Cloud computing</p>
                           </div>
                           <div className="domain-button">
-                            <p className="mb-0">.net</p>
+                            <p className="mb-0">Real-time communication server</p>
                           </div>
                         </div>
                       </div>
@@ -178,38 +171,9 @@ const Comprehensive = () => {
                           practices and eliminating the vulnerabilities which
                           are not accepted by the applications.
                         </p>
-                        <br />
-                        <p className="mb-0">
-                          Web application security, as a part of data security,
-                          is about the protection of information, applications
-                          and networks from unauthorized access, whether by the
-                          user or not, whether the user is the owner of the
-                          system or not. A web application security is usually
-                          performed at the server end by checking the SQL
-                          statements before running them on the database. This
-                          is the reason why it is very important to protect the
-                          external techniques used for obtaining sensitive
-                          information or security vulnerabilities of a website
-                          by not allowing the user to execute the SQL statements
-                          on the database, applications or the webserver.
-                        </p>
-                        <div className="domain-button-main d-flex">
-                          <div className="domain-button">
-                            <p className="mb-0">.com</p>
-                          </div>
-                          <div className="domain-button">
-                            <p className="mb-0">.in</p>
-                          </div>
-                          <div className="domain-button">
-                            <p className="mb-0">.edu</p>
-                          </div>
-                          <div className="domain-button">
-                            <p className="mb-0">.org</p>
-                          </div>
-                          <div className="domain-button">
-                            <p className="mb-0">.net</p>
-                          </div>
-                        </div>
+                        
+                        
+                  
                       </div>
                     </div>
                   </div>
@@ -248,38 +212,24 @@ const Comprehensive = () => {
                           PayPal team is the leading player in the digital
                           payment gateway business in India.
                         </p>
-                        <br />
-                        <p className="mb-0">
-                          This solution is available at cost-effective rates and
-                          is ideal for small scale and medium-sized enterprises.
-                          PayPal is a user-friendly solution that enables you to
-                          accept credit and debit cards seamlessly from any
-                          online shopping portal. For ease and security of
-                          processing payments, PayPal has incorporated advanced
-                          secure algorithms and encryption technology that
-                          safeguarding the data at all times. You can obtain a
-                          payment gateway service easily and inexpensively. You
-                          can also give referrals to your customers in order to
-                          grow your business and become a leading online
-                          retailer..
-                        </p>
                         <div className="domain-button-main d-flex">
                           <div className="domain-button">
-                            <p className="mb-0">.com</p>
+                            <p className="mb-0">PayPal</p>
                           </div>
                           <div className="domain-button">
-                            <p className="mb-0">.in</p>
+                            <p className="mb-0">Stripe</p>
                           </div>
                           <div className="domain-button">
-                            <p className="mb-0">.edu</p>
+                            <p className="mb-0">PhonPe</p>
                           </div>
                           <div className="domain-button">
-                            <p className="mb-0">.org</p>
+                            <p className="mb-0">CCAvenue</p>
                           </div>
                           <div className="domain-button">
-                            <p className="mb-0">.net</p>
+                            <p className="mb-0">Razorpay</p>
                           </div>
                         </div>
+                      
                       </div>
                     </div>
                   </div>

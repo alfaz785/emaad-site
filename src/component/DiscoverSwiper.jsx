@@ -32,8 +32,8 @@ const DiscoverSwiper = ({ firstTxt, secondTxt, isAbout }) => {
       // loop: true,
 
       navigation: {
-        nextEl: ".swiper-button-prev-discover",
-        prevEl: ".swiper-button-next-discover",
+        prevEl: ".swiper-button-prev-discover",
+        nextEl: ".swiper-button-next-discover",
       },
 
       breakpoints: {

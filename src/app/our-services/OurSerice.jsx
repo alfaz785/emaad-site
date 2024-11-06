@@ -18,10 +18,16 @@ const OurSerice = () => {
   useEffect(() => {
     // Equivalent to $(document).ready in jQuery
     const rotatedElement = document.getElementById("rotated");
+    rotatedElement.innerHTML = 'Expert software solutions for your success .';
 
     if (rotatedElement) {
       // Initialize circular text
       const circleType = new CircleType(rotatedElement);
+      const span = document.createElement('span');
+      span.innerHTML = ' ';
+      // circleType._letters.push(span);
+      console.log(circleType);
+      
       circleType.radius(80);
     }
   }, []);
@@ -58,9 +64,7 @@ const OurSerice = () => {
               </h1>
               <div className="circle-container">
                 <div className="circular-text">
-                  <span id="rotated">
-                  Expert software solutions for your success 
-                  </span>
+                  <span id="rotated"></span>
                 </div>
                 <div className="star-image">
                   <Image src={successStart} alt="Star Image" />

@@ -392,12 +392,12 @@ export function setupAnimations() {
 
 export function emaadSectionFC() {
   // Animate the "Why" text
-  gsap.to(".emmad-title h5", {
+  gsap.to(".emaad-title h5", {
     duration: 1,
     x: "100%",
     ease: "power2.out",
     scrollTrigger: {
-      trigger: ".emmad-title",
+      trigger: ".emaad-title",
       start: "top 90%",
       scrub: 2,
       toggleActions: "play none none none",
@@ -405,13 +405,13 @@ export function emaadSectionFC() {
   });
 
   // Animate the "Emaad" text and image
-  gsap.to(".emmad-title-2 h1", {
+  gsap.to(".emaad-title-2 h1", {
     duration: 1.5,
     x: "110%",
     ease: "power2.out",
     delay: 0.5,
     scrollTrigger: {
-      trigger: ".emmad-title",
+      trigger: ".emaad-title",
       start: "top 90%",
       scrub: 2,
       toggleActions: "play none none none",
@@ -425,7 +425,7 @@ export function emaadSectionFC() {
     ease: "power2.out",
     delay: 0.5,
     scrollTrigger: {
-      trigger: ".emmad-title",
+      trigger: ".emaad-title",
       start: "top 50%",
       scrub: 2,
       toggleActions: "play none none none",
@@ -869,16 +869,34 @@ export const AboutUsData = [
       "Optimize speed, enhance security, and ensure a seamless, secure experience for users and search engines.",
   },
   {
-    icon: "domain",
-    title: "Domain & Hosting Services",
+    icon: "dns",
+    title: "Domain & Hosting ",
     description:
-      "Choose the perfect domain name for your business. We offer a wide range of domain extensions (TLDs) to suit your needs, whether you’re starting a blog, launching an e-commerce site, or establishing a corporate presence.",
+      "Domain and Hosting are essential for any website, providing a unique web address (domain) and server space (hosting) for online accessibility.",
   },
   {
     icon: "payments",
     title: "Payment Gateway Integration",
     description:
-      "Enable secure, seamless transactions with flexible payment gateway integration for any platform.Accept payments worldwide with reliable, multi-currency support and top-tier security.",
+      "Enable secure, seamless transactions with flexible payment gateway integration for any platform. Accept payments worldwide with reliable, multi-currency support and top-tier security.",
+  },
+  {
+    icon: "sms",
+    title: "Bulk SMS & Email Services",
+    description:
+      "Quickly reach large audiences with targeted promotions and updates through our efficient Bulk Messaging Services via SMS and email.",
+  },
+  {
+    icon: "code",
+    title: "PSD to HTML",
+    description:
+      "Our PSD to HTML conversion process is streamlined and efficient, delivering high-quality results on time and within budget",
+  },
+  {
+    icon: "workspace_premium",
+    title: "SSL Certificates",
+    description:
+      "SSL Certificates secure your website by encrypting data exchanged between the server and users, enhancing trust and protecting sensitive information.",
   },
 ];
 export const BulkSmsData = [
@@ -889,22 +907,28 @@ export const BulkSmsData = [
       "At Emaad Infotech® we pride ourselves on our extensive capabilities and expertise in delivering innovative solutions to meet the diverse needs of our clients.",
   },
   {
-    icon: "history_toggle_off",
+    icon: "supervisor_account",
     title: "Personalization",
     description:
       "Customize messages with recipient names and other personal details for a more engaging experience.",
   },
   {
-    icon: "supervisor_account",
+    icon: "history_toggle_off",
     title: "Scheduling",
     description:
       "Ensure your messages reach their recipients with our reliable network.",
   },
   {
-    icon: "analytics",
-    title: "Analytics & Reporting",
+    icon: "bar_chart",
+    title: "Real-Time Analytics",
     description:
-      "Gain insights with detailed analytics on message delivery, open rates, and engagement to refine your communication strategy Analytics jevo icon hoy aey muki deje and total 4 thava joiye card",
+      "Track your campaign’s performance instantly with detailed analytics on delivery, opens, clicks, and user engagement",
+  },
+  {
+    icon: "unsubscribe",
+    title: "Smart Unsubscribe Handling",
+    description:
+      "Simplify opt-outs with automated management, ensuring compliance and maintaining an accurate, engaged audience list effortlessly.",
   },
 
   // {
@@ -920,20 +944,24 @@ export const bulkHead = [
     title: "Customizable Templates",
     description:
       "We provide a wide selection of professionally designed templates that you can customize to reflect your brand’s unique identity. Alternatively, you can create your own templates from scratch, ensuring your emails always align with your brand’s look and feel.",
+    serviceImg: "../../assets/images/service-img",
   },
   {
     title: "Segmentation",
     description:
       "Increase engagement by targeting specific segments of your audience. Our advanced segmentation tools allow you to send tailored messages to different customer groups based on their preferences, behaviors, and demographics, ensuring your communications are relevant and impactful.",
+    serviceImg: "../../assets/images/service-img",
   },
   {
     title: "Automated Campaigns",
     description:
       "Save time and enhance efficiency with our automated email campaign features. You can set up sequences that automatically nurture leads, onboard new customers, or re-engage inactive subscribers, ensuring consistent and timely communication without manual intervention.",
+    serviceImg: "../../assets/images/service-img",
   },
   {
     title: "Analytics",
     description:
       "Our comprehensive analytics provide you with valuable insights into your email campaigns. Track open rates, click-through rates, conversions, and overall performance to understand what works best for your audience. Use this data to refine your strategies and achieve better results.",
+    serviceImg: "../../assets/images/service-img",
   },
 ];

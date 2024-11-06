@@ -261,8 +261,8 @@ const DeliveriHome = () => {
               <h5 className="mb-0">03</h5>
             </div>
             <p className="mb-0 delivering-main-card">
-              We follow end-to-end agile product development approach to Deliver
-              robust & scalable Digital Products.
+              We follow end-to-end agile product development approach to deliver
+              robust & scalable digital products.
             </p>
             <hr />
             <div className="app-development-group d-flex gap-5">
@@ -270,7 +270,7 @@ const DeliveriHome = () => {
                 <div className="app-development-back">
                   <Image src={projectImg} alt="" />
                 </div>
-                <p className="mb-0">Project Discovery & Design Sprit</p>
+                <p className="mb-0">Project Discovery & Design Sprint</p>
               </div>
               <div className="app-development">
                 <div className="app-development-back">
@@ -298,7 +298,7 @@ const DeliveriHome = () => {
             </div>
             <p className="mb-0 delivering-main-card">
               In today's digital age, the key to business success lies in
-              effective digital marketing strategies
+              effective digital marketing strategies.
             </p>
             <hr />
             <div className="app-development-group d-flex gap-5">

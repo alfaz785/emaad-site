@@ -1,11 +1,21 @@
 "use client";
 import React, { useEffect } from "react";
-import digitalImg from "../assets/images/digital.png";
+import awsImg from "../assets/images/aws.png";
 import marqueImg from "../assets/images/marque svg.svg";
-import vortexImg from "../assets/images/vortex.png";
-import travelImg from "../assets/images/travel.png";
+import paypalImg from "../assets/images/paypal.png";
+import googelcoloudImg from "../assets/images/googelcoloud.png";
+import herokuImg from "../assets/images/heroku.png";
+import stripImg from "../assets/images/stripe.png";
 import mediaImg from "../assets/images/media.png";
-import fuzionImg from "../assets/images/fuzion.png";
+import sendgridImg from "../assets/images/sendgrid.png";
+import segmentImg from "../assets/images/segment.png";
+// import gauthImg from "../assets/images/gauth.png";
+import digitaloceanImg from "../assets/images/digitalocean.png";
+
+
+import firebaseImg from "../assets/images/firebase.png";
+import mapboxImg from "../assets/images/mapbox.png";
+
 import Image from "next/image";
 import { gsap } from "gsap";
 
@@ -28,6 +38,7 @@ SlideSection = () => {
         });
       } else {
         gsap.to(".marque", {
+          
           transform: "translateX(0%)",
           duration: 4,
           repeat: -1,
@@ -44,67 +55,26 @@ SlideSection = () => {
       <div className="scrollpage2">
         <div className="move">
           <div className="marque">
-            <Image src={digitalImg} alt="digital" />
+            <Image src={awsImg} alt="digital" />
             {/* <div className="whell">
               <Image src={marqueImg} alt="marque" />
             </div> */}
           </div>
           <div className="marque">
-            <Image src={vortexImg} alt="vortex" />
+            <Image src={herokuImg} alt="vortex" />
             {/* <div className="whell">
               <Image src={marqueImg} alt="marque" />
             </div> */}
           </div>
           <div className="marque">
-            <Image src={travelImg} alt="travel" />
+            <Image src={googelcoloudImg} alt="travel" />
             {/* <div className="whell">
               <Image src={marqueImg} alt="marque" />
             </div> */}
           </div>
+         
           <div className="marque">
-            <Image src={fuzionImg} alt="fuzion" />
-            {/* <div className="whell">
-              <Image src={marqueImg} alt="marque" />
-            </div> */}
-          </div>
-          <div className="marque">
-            <Image src={mediaImg} alt="media" />
-            {/* <div className="whell">
-              <Image src={marqueImg} alt="marque" />
-            </div> */}
-          </div>
-          <div className="marque">
-            <Image src={digitalImg} alt="digital" />
-            {/* <div className="whell">
-              <Image src={marqueImg} alt="marque" />
-            </div> */}
-          </div>
-          <div className="marque">
-            <Image src={vortexImg} alt="vortex" />
-            {/* <div className="whell">
-              <Image src={marqueImg} alt="marque" />
-            </div> */}
-          </div>
-          <div className="marque">
-            <Image src={digitalImg} alt="digital" />
-            {/* <div className="whell">
-              <Image src={marqueImg} alt="marque" />
-            </div> */}
-          </div>
-          <div className="marque">
-            <Image src={vortexImg} alt="vortex" />
-            {/* <div className="whell">
-              <Image src={marqueImg} alt="marque" />
-            </div> */}
-          </div>
-          <div className="marque">
-            <Image src={travelImg} alt="travel" />
-            {/* <div className="whell">
-              <Image src={marqueImg} alt="marque" />
-            </div> */}
-          </div>
-          <div className="marque">
-            <Image src={fuzionImg} alt="fuzion" />
+            <Image src={segmentImg} alt="fuzion" />
             {/* <div className="whell">
               <Image src={marqueImg} alt="marque" />
             </div> */}
@@ -116,17 +86,43 @@ SlideSection = () => {
             </div> */}
           </div>
           <div className="marque">
-            <Image src={digitalImg} alt="digital" />
+            <Image src={stripImg} alt="vortex" />
             {/* <div className="whell">
               <Image src={marqueImg} alt="marque" />
             </div> */}
           </div>
           <div className="marque">
-            <Image src={vortexImg} alt="vortex" />
+            <Image src={paypalImg} alt="vortex" />
             {/* <div className="whell">
               <Image src={marqueImg} alt="marque" />
             </div> */}
           </div>
+          <div className="marque">
+            <Image src={sendgridImg} alt="vortex" />
+            {/* <div className="whell">
+              <Image src={marqueImg} alt="marque" />
+            </div> */}
+          </div>
+          <div className="marque">
+            <Image src={firebaseImg} alt="vortex" />
+            {/* <div className="whell">
+              <Image src={marqueImg} alt="marque" />
+            </div> */}
+          </div>
+          <div className="marque">
+            <Image src={mapboxImg} alt="vortex" />
+            {/* <div className="whell">
+              <Image src={marqueImg} alt="marque" />
+            </div> */}
+          </div>
+          <div className="marque">
+            <Image src={digitaloceanImg} alt="vortex" />
+            {/* <div className="whell">
+              <Image src={marqueImg} alt="marque" />
+            </div> */}
+          </div>
+        
+
         </div>
       </div>
     </>
