@@ -4,6 +4,7 @@ import { TextPlugin } from "gsap/TextPlugin";
 import bulkServicesImg from "../src/assets/images/bulk-services1.png";
 
 gsap.registerPlugin(ScrollTrigger, TextPlugin);
+ 
 const productcontents = [
   {
     title: "Real Estate Script",
