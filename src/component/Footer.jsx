@@ -27,15 +27,15 @@ const Footer = () => {
                     info@emaadinfotech.com
                   </a>
                 </div>
-                <div className="contact-info d-flex align-items-center gap-3  ">
+                <div className="contact-info d-flex  gap-3  ">
                   <div className="icon_bg">
                     <span className="material-symbols-outlined">
                       phone_in_talk
                     </span>
                   </div>
                   <div className="d-flex flex-wrap">
-                    <a href="tel:+917600145260">+91 76001 45260,</a>
-                    <a href="tel:+919428901392">+91 94289 01392</a>
+                    <a href="tel:+919428901392">+91 94289 01392, </a>
+                    <a href="tel:+917600145260"> +91 76001 45260</a>
                   </div>
                 </div>
                 <div className="contact-info d-flex align-items-start gap-3 ">
