@@ -17,8 +17,7 @@ const DigitalContact = () => {
               <div className="client-info">
                 <p>
                   Have a question about our services or can't find what you're
-                  looking for? Our dedicated team is here to help!looking for?
-                  Our dedicated team is here to help!
+                  looking for? Our dedicated team is here to help!
                 </p>
                 <div className="-client-call-button">
                   <Link href="/get-in-touch">

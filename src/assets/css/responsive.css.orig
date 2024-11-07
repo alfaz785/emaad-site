@@ -691,7 +691,12 @@
 
   /* let's go text css */
   .lets-get-to-title {
+<<<<<<< HEAD
+    background: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)),
+      url(../images/services-section-bg.png);
+=======
     background: linear-gradient(rgb(0 0 0 / 76%), rgb(0 0 0 / 49%)), url(../images/services-section-bg.png);
+>>>>>>> sub-developer
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -712,7 +717,12 @@
     font-size: 55px;
   }
   .vision-web-design {
+<<<<<<< HEAD
+    background: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)),
+      url(../images/services-section-bg.png);
+=======
     background: linear-gradient(rgb(0 0 0 / 76%), rgb(0 0 0 / 49%)), url(../images/services-section-bg.png);
+>>>>>>> sub-developer
     background-repeat: no-repeat;
     background-position: calc(100% - 0px) center;
     background-size: contain;
@@ -780,7 +790,12 @@
 
   /* ui-ux page  */
   .ui-text-design {
+<<<<<<< HEAD
+    background: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)),
+      url(../images/ui-image.png);
+=======
     background: linear-gradient(rgb(0 0 0 / 76%), rgb(0 0 0 / 49%)), url(../images/ui-image.png);
+>>>>>>> sub-developer
     background-repeat: no-repeat;
     background-position: calc(100% - 0px) center;
     background-size: contain;
@@ -840,7 +855,12 @@
     background-position: calc(100% - 0px) center;
   }
   .go-mobile-section {
+<<<<<<< HEAD
+    background-image: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)),
+      url(../images/services-section-bg.png);
+=======
     background-image: linear-gradient(rgb(0 0 0 / 76%), rgb(0 0 0 / 49%)), url(../images/services-section-bg.png);
+>>>>>>> sub-developer
     background-position: calc(100% - 0px) center;
   }
 
@@ -896,7 +916,12 @@
   }
   /* digital marketing section css */
   .bost-online-success {
+<<<<<<< HEAD
+    background: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)),
+      url(../images/services-section-bg.png);
+=======
     background: linear-gradient(rgb(0 0 0 / 76%), rgb(0 0 0 / 49%)), url(../images/services-section-bg.png);
+>>>>>>> sub-developer
     background-repeat: no-repeat;
     background-position: calc(100% - 0px) center;
     background-size: contain;
@@ -926,7 +951,12 @@
     max-width: 100%;
   }
   .bulk-sms-email-marketing {
+<<<<<<< HEAD
+    background: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)),
+      url(../images/services-section-bg.png);
+=======
     background: linear-gradient(rgb(0 0 0 / 76%), rgb(0 0 0 / 49%)), url(../images/services-section-bg.png);
+>>>>>>> sub-developer
     background-repeat: no-repeat;
     background-position: calc(100% - 0px) center;
     background-size: contain;
@@ -1029,7 +1059,12 @@
     width: 100%;
   }
   .get-in-touch-section {
+<<<<<<< HEAD
+    background-image: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)),
+      url(../images/services-section-bg.png);
+=======
     background-image: linear-gradient(rgb(0 0 0 / 76%), rgb(0 0 0 / 49%)), url(../images/services-section-bg.png);
+>>>>>>> sub-developer
     background-position: calc(100% - 0px) center;
   }
   .get-in-touch-section {
@@ -1043,7 +1078,12 @@
   /* privacy policy page css */
   /* privacy policy text */
   .privacy-policy-section {
+<<<<<<< HEAD
+    background: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)),
+      url(../images/services-section-bg.png);
+=======
     background: linear-gradient(rgb(0 0 0 / 76%), rgb(0 0 0 / 49%)), url(../images/services-section-bg.png);
+>>>>>>> sub-developer
     background-repeat: no-repeat;
     background-position: calc(100% - 0px) center;
     background-size: contain;
@@ -1092,7 +1132,12 @@
   /* privacy policy page css */
   /* privacy policy text */
   .privacy-policy-section {
+<<<<<<< HEAD
+    background: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)),
+      url(../images/services-section-bg.png);
+=======
     background: linear-gradient(rgb(0 0 0 / 76%), rgb(0 0 0 / 49%)), url(../images/services-section-bg.png);
+>>>>>>> sub-developer
     background-repeat: no-repeat;
     background-position: calc(100% - 0px) center;
     background-size: contain;
@@ -1188,7 +1233,12 @@
     font-size: 55px;
   }
   .our-journey-section {
+<<<<<<< HEAD
+    background-image: linear-gradient(rgb(0 0 0 / 24%), rgb(0 0 0 / 49%)),
+      url(../images/services-section-bg.png);
+=======
     background-image: linear-gradient(rgb(0 0 0 / 76%), rgb(0 0 0 / 49%)), url(../images/services-section-bg.png);
+>>>>>>> sub-developer
     background-position: calc(100% - 0px) center;
   }
   .our-journey-section p {
@@ -2224,7 +2274,61 @@
   .service-card-grabe {
     width: 100%;
     height: 57vh;
+<<<<<<< HEAD
+  }
+  .follow-us-section .follow-us-title {
+    font-size: 40px;
+  }
+  .follow-us-section {
+    margin-top: 50px !important;
+  }
+  .contact-touch-form .form-control {
+    margin-bottom: 30px;
+  }
+  .explore_main li {
+    margin-top: 10px;
+  }
+  .footer_product li {
+    margin-top: 10px;
+  }
+  .intro-text p {
+    font-size: 16px;
+  }
+  .reveal-section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .process-section-data .lead {
+    margin-top: 20px;
+  }
+  .phase-text-main {
+    padding: 22px 0;
+  }
+  .Technologies-we-use {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .lats-start-project {
+    margin-top: 50px;
+  }
+  .our-platforms-section {
+    padding: 30px 0 30px 0;
+  }
+  .unlock-tab-container {
+    margin-top: 30px;
+  }
+  .our-platforms-main .title-para {
+    font-size: 18px;
+  }
+  .our-platforms-main .tab-content p {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .our-platforms-main .custom-margin {
+    margin-bottom: 15px;
+=======
     justify-content: unset;
+>>>>>>> sub-developer
   }
 }
 
@@ -2662,6 +2766,27 @@
   }
   .service-card-grabe {
     width: 100%;
+<<<<<<< HEAD
+    height: 50vh;
+  }
+  .get-in-touch-title h1 {
+    font-size: 40px;
+  }
+  .app-development-group .app-development p {
+    font-size: 14px;
+  }
+  .go-mobile-section {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .industries-text h4 span::before {
+    width: 170px;
+    height: 40px;
+  }
+  .industries-text h4 {
+    font-size: 35px;
+=======
     height: 57vh;
+>>>>>>> sub-developer
   }
 }

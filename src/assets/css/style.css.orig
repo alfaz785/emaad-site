@@ -4673,7 +4673,11 @@ body {
 .hover-image {
   position: absolute;
   top: -50px;
+<<<<<<< HEAD
+  right: 50px;
+=======
   right: 90px;
+>>>>>>> sub-developer
   width: 272.53px;
   height: 343.13px;
   opacity: 0;

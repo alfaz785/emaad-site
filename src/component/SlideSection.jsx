@@ -6,7 +6,6 @@ import paypalImg from "../assets/images/paypal.png";
 import googelcoloudImg from "../assets/images/googelcoloud.png";
 import herokuImg from "../assets/images/heroku.png";
 import stripImg from "../assets/images/stripe.png";
-import mediaImg from "../assets/images/media.png";
 import sendgridImg from "../assets/images/sendgrid.png";
 import segmentImg from "../assets/images/segment.png";
 // import gauthImg from "../assets/images/gauth.png";
@@ -79,12 +78,7 @@ SlideSection = () => {
               <Image src={marqueImg} alt="marque" />
             </div> */}
           </div>
-          <div className="marque">
-            <Image src={mediaImg} alt="media" />
-            {/* <div className="whell">
-              <Image src={marqueImg} alt="marque" />
-            </div> */}
-          </div>
+          
           <div className="marque">
             <Image src={stripImg} alt="vortex" />
             {/* <div className="whell">

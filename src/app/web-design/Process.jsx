@@ -39,7 +39,7 @@ const Process = () => {
                 <p>
                   Welcome to our Web Design services, where innovation meets
                   functionality to create captivating digital experiences. At &nbsp;
-                  <strong>Emaad Infotech</strong>, we specialize in crafting
+                  <strong>Emaad Infotech®</strong>, we specialize in crafting
                   bespoke websites tailored to your unique brand identity and
                   objectives.
                 </p>

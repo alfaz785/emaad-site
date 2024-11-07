@@ -30,7 +30,7 @@ const Privacy = () => {
               <span className="highlight-titel" id="privacy2"></span>
             </h1>
             <p className="privacy-policy-pra">
-              At <strong>Emaad Infotech®</strong>, we prioritize your privacy.
+              At <strong>Emaad Infotech®,</strong> we prioritize your privacy.
               This Privacy Policy explains how we collect, use, and protect your
               information when you use our services and website at
               <a

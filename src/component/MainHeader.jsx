@@ -495,7 +495,7 @@ const MainHeader = () => {
                     <div className="drowp-0">
                       <li className="hover">
                         <Link
-                          href="https://emaad-infotech.com/product/e-pharma/"
+                          href="/get-in-touch"
                           className="nav-drowpdown1 p-0"
                           onClick={handleNavigate}
                         >
@@ -504,7 +504,7 @@ const MainHeader = () => {
                       </li>
                       <li className="hover">
                         <Link
-                          href="https://www.emaad-infotech.com/product/real-estate/"
+                          href="/get-in-touch"
                           className="nav-drowpdown1 p-0"
                           onClick={handleNavigate}
                         >
@@ -513,7 +513,7 @@ const MainHeader = () => {
                       </li>
                       <li className="hover">
                         <Link
-                          href="https://emaad-infotech.com/product/online-shopping/"
+                          href="/get-in-touch"
                           className="nav-drowpdown1 p-0"
                           onClick={handleNavigate}
                         >
@@ -522,7 +522,7 @@ const MainHeader = () => {
                       </li>
                       <li className="hover">
                         <Link
-                          href="https://www.emaad-infotech.com/product/ngo/"
+                          href="/get-in-touch"
                           className="nav-drowpdown1 p-0"
                           onClick={handleNavigate}
                         >
@@ -531,7 +531,7 @@ const MainHeader = () => {
                       </li>
                       <li className="hover">
                         <Link
-                          href="https://emaad-infotech.com/product/tours-travel/"
+                          href="/get-in-touch"
                           className="nav-drowpdown1 p-0"
                           onClick={handleNavigate}
                         >
@@ -542,7 +542,7 @@ const MainHeader = () => {
                     <div className="drowp-2">
                       <li className="hover">
                         <Link
-                          href="https://www.emaad-infotech.com/product/housing-society/"
+                          href="/get-in-touch"
                           className="nav-drowpdown1 p-0"
                           onClick={handleNavigate}
                         >
@@ -551,7 +551,7 @@ const MainHeader = () => {
                       </li>
                       <li className="hover">
                         <Link
-                          href="https://www.emaad-infotech.com/product/just-one-click/"
+                          href="/get-in-touch"
                           className="nav-drowpdown1 p-0"
                           onClick={handleNavigate}
                         >
@@ -560,7 +560,7 @@ const MainHeader = () => {
                       </li>
                       <li className="hover">
                         <Link
-                          href="https://hospital-management.emaad-infotech.com/"
+                          href="/get-in-touch"
                           className="nav-drowpdown1 p-0"
                           onClick={handleNavigate}
                         >
@@ -569,7 +569,7 @@ const MainHeader = () => {
                       </li>
                       <li className="hover">
                         <Link
-                          href="https://jobsaspire.com/"
+                          href="/get-in-touch"
                           className="nav-drowpdown1 p-0"
                           onClick={handleNavigate}
                         >
@@ -774,78 +774,72 @@ const MainHeader = () => {
           </ul>
 
           <div className="social-iocn cursor-scale small">
-            <div className="youtube">
-              <a
-                href="https://wa.me/919428901392"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+            <a
+              href="https://wa.me/919428901392"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="youtube">
                 <Image
                   width={100}
                   height={100}
                   src={whatsappImg}
                   alt="WhatsApp"
                 />
-              </a>
-            </div>
-            <div className="youtube">
-              <a
-                href="https://www.instagram.com/emaadinfotech/"
-                target="_blank"
-              >
+              </div>
+            </a>
+            <a href="https://www.instagram.com/emaadinfotech/" target="_blank">
+              <div className="youtube">
                 {" "}
                 <Image src={instImg} alt="img" />
-              </a>
-            </div>
-            <div className="youtube">
-              <a
-                href="https://www.linkedin.com/company/emaad-infotech/"
-                target="_blank"
-              >
+              </div>
+            </a>
+            <a
+              href="https://www.linkedin.com/company/emaad-infotech/"
+              target="_blank"
+            >
+              <div className="youtube">
                 <Image
                   width={100}
                   height={100}
                   src={linkedinImg}
                   alt="LinkedIn"
                 />
-              </a>
-            </div>
-            <div className="youtube">
-              <a href="https://t.me/emaad_infotech" target="_blank">
+              </div>
+            </a>
+            <a href="https://t.me/emaad_infotech" target="_blank">
+              <div className="youtube">
                 <Image
                   width={100}
                   height={100}
                   src={teligrameImg}
-                  alt="LinkedIn"
+                  alt="teligrame"
                 />
-              </a>
-            </div>
-            <div className="youtube">
-              <a
-                href="https://www.facebook.com/emaad.developer/"
-                target="_blank"
-              >
+              </div>
+            </a>
+            <a href="https://www.facebook.com/emaad.developer/" target="_blank">
+              <div className="youtube">
                 <Image
                   width={100}
                   height={100}
                   src={facebookImg}
                   alt="Facebook"
                 />
-              </a>
-            </div>
-            <div className="youtube">
-              <a
-                href="https://x.com/i/flow/login?redirect_after_login=%2FEmaadInfotech"
-                target="_blank"
-              >
+              </div>
+            </a>
+            <a
+              href="https://x.com/i/flow/login?redirect_after_login=%2FEmaadInfotech"
+              target="_blank"
+            >
+              <div className="youtube">
                 <Image
                   width={100}
                   height={100}
                   src={twitterImg}
-                  alt="Facebook"
+                  alt="twitter"
                 />
-              </a>
-            </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
