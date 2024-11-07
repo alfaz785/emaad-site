@@ -1,6 +1,54 @@
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
 
 const DomainHostiong = () => {
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+
+    // Animating the section title
+    gsap.from(".hosting-solutions h3.custom-font", {
+      scrollTrigger: {
+        trigger: ".hosting-solutions",
+        start: "top 80%",
+        end: "bottom 20%",
+        toggleActions: "play none none reverse",
+      },
+      y: -50,
+      opacity: 0,
+      duration: 1.2,
+      ease: "power2.out",
+    });
+
+    // Animating all content boxes simultaneously
+    gsap.from(".main-box", {
+      scrollTrigger: {
+        trigger: ".hosting-solutions",
+        start: "top 85%",
+        end: "bottom 20%",
+        toggleActions: "play none none reverse",
+      },
+      opacity: 0,
+      y: 100,
+      duration: 1.5,
+      ease: "power2.out",
+    });
+  }, []);
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.from(".amendments-section p", {
+      scrollTrigger: {
+        trigger: ".amendments-title",
+        start: "top 85%",
+        toggleActions: "play none none reverse",
+      },
+      opacity: 0,
+      y: 50, // Slide up
+      duration: 1.2,
+      stagger: 0.3, // Stagger animation for each paragraph
+      ease: "power3.out",
+    });
+  }, []);
   return (
     <>
       <div className="hosting-solutions">
@@ -8,7 +56,9 @@ const DomainHostiong = () => {
           <div className="row">
             <div className="col-lg-3 border-right">
               <div className="d-flex align-items-center">
-                <h3>Our Robust Hosting Solutions</h3>
+                <h3 className="custom-font" style={{ fontSize: 20 }}>
+                  Our Robust Hosting Solutions
+                </h3>
                 <span className="material-symbols-outlined"> south_east </span>
               </div>
             </div>

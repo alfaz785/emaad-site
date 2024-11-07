@@ -259,11 +259,12 @@ const MasonaryGallery = ({ images }) => {
       <div id="modal" className="modal">
         <div className="modal-header">
           <span className="modal-title">El.</span>
-          <div className="d-flex gap-3 align-items-center">
+          <div
+            onClick={() => closeModal(gallery10Img)}
+            className="d-flex gap-3 align-items-center"
+          >
             <span className="close-text">Close</span>
-            <span className="close" onClick={() => closeModal(gallery10Img)}>
-              &times;
-            </span>
+            <span className="close">&times;</span>
           </div>
         </div>
         <Image className="modal-content" id="modalImage" />

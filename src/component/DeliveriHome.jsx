@@ -19,9 +19,6 @@ import webDevelop from "../assets/images/Web-Develop.svg";
 import pwaDevelop from "../assets/images/PWA-Development.svg";
 import chatBot from "../assets/images/ChatBot-Development.svg";
 
-
-
-
 import { ScrollTrigger } from "gsap/all";
 
 const DeliveriHome = () => {
@@ -54,8 +51,7 @@ const DeliveriHome = () => {
           .to("#card-four", { width: "80%" }, "e");
       },
 
-      // Between 1200px and 1500px
-      "(min-width: 1200px) and (max-width: 1499px)": function () {
+      "(min-width: 1200px) and (max-width: 1500px)": function () {
         const tl = gsap.timeline({
           scrollTrigger: {
             trigger: deliveringSection,
@@ -66,20 +62,43 @@ const DeliveriHome = () => {
           },
         });
 
-        tl.to(".text", { top: "21px" }, "a")
-          .to("#card-one", { top: "40%" }, "a")
+        tl.to(".text", { top: "2%" }, "a")
+          .to("#card-one", { top: "41%" }, "a")
           .to("#card-two", { top: "120%" }, "a")
-          .to("#card-two", { top: "45%" }, "b")
+          .to("#card-two", { top: "43%" }, "b")
           .to("#card-one", { width: "60%" }, "b")
           .to("#card-three", { top: "125%" }, "b")
-          .to("#card-three", { top: "50%" }, "c")
+          .to("#card-three", { top: "46%" }, "c")
           .to("#card-two", { width: "65%" }, "c")
           .to("#card-four", { top: "125%" }, "c")
-          .to("#card-four", { top: "53%" }, "d")
+          .to("#card-four", { top: "48%" }, "d")
           .to("#card-three", { width: "70%" }, "d")
           .to("#card-four", { width: "75%" }, "e");
       },
+      "(min-width: 972px) and (max-width: 1199px)": function () {
+        const tl = gsap.timeline({
+          scrollTrigger: {
+            trigger: deliveringSection,
+            start: "top top",
+            end: "bottom bottom",
+            scrub: true,
+            pin: true,
+          },
+        });
 
+        tl.to(".text", { top: "2%" }, "a")
+          .to("#card-one", { top: "38%" }, "a")
+          .to("#card-two", { top: "120%" }, "a")
+          .to("#card-two", { top: "42%" }, "b")
+          .to("#card-one", { width: "60%" }, "b")
+          .to("#card-three", { top: "125%" }, "b")
+          .to("#card-three", { top: "47%" }, "c")
+          .to("#card-two", { width: "65%" }, "c")
+          .to("#card-four", { top: "130%" }, "c")
+          .to("#card-four", { top: "50%" }, "d")
+          .to("#card-three", { width: "70%" }, "d")
+          .to("#card-four", { width: "75%" }, "e");
+      },
       "(min-width: 768px) and (max-width: 972px)": function () {
         const tl = gsap.timeline({
           scrollTrigger: {
@@ -232,7 +251,7 @@ const DeliveriHome = () => {
             <div className="app-development-group d-flex gap-5">
               <div className="app-development">
                 <div className="app-development-back">
-                <Image src={webDevelop} alt="" />
+                  <Image src={webDevelop} alt="" />
                 </div>
                 <p className="mb-0">Web Development</p>
               </div>
@@ -244,7 +263,7 @@ const DeliveriHome = () => {
               </div>
               <div className="app-development">
                 <div className="app-development-back">
-                <Image src={chatBot} alt="" />
+                  <Image src={chatBot} alt="" />
                 </div>
                 <p className="mb-0">ChatBot Development</p>
               </div>
