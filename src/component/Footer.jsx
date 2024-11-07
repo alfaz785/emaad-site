@@ -34,7 +34,7 @@ const Footer = () => {
                     </span>
                   </div>
                   <div className="d-flex flex-wrap">
-                    <a href="tel:+919428901392">+91 94289 01392, </a>
+                    <a href="tel:+919428901392">+91 94289 01392,&nbsp; </a>
                     <a href="tel:+917600145260"> +91 76001 45260</a>
                   </div>
                 </div>
