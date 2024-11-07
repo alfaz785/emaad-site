@@ -2,13 +2,30 @@
 import gsap from "gsap";
 import React, { useEffect, useState } from "react";
 import webDesignImg from "../../assets/images/Web-Design.svg";
+import webDesignImg1 from "../../assets/images/hover-image1.png";
+import webDesignImg2 from "../../assets/images/web-design2.png";
+import webDesignImg3 from "../../assets/images/web-design3.png";
+import webDesignImg4 from "../../assets/images/web-design3.png";
 import webDevelopmentImg from "../../assets/images/Web-Development.svg";
+import webDevelopmentImg1 from "../../assets/images/web-developer1.png";
+import webDevelopmentImg2 from "../../assets/images/web-developer2.png";
+import webDevelopmentImg3 from "../../assets/images/web-developer3.png";
+import webDevelopmentImg4 from "../../assets/images/web-developer4.png";
 import digitalMarketingImg from "../../assets/images/Digital-Marketing.svg";
+import digitalMarketingImg1 from "../../assets/images/digital1.png";
+import digitalMarketingImg2 from "../../assets/images/digital2.png";
+import digitalMarketingImg3 from "../../assets/images/digital3.png";
+import digitalMarketingImg4 from "../../assets/images/digital4.png";
 import mobileAppImg from "../../assets/images/Mobile-App-Developing.svg";
+import mobileAppImg1 from "../../assets/images/app-development1.png";
+import mobileAppImg2 from "../../assets/images/app-development2.png";
+import mobileAppImg3 from "../../assets/images/app-development3.png";
+import mobileAppImg4 from "../../assets/images/app-development4.png";
+import uiuxDesign1 from "../../assets/images/UI-UX1.png";
+import uiuxDesign2 from "../../assets/images/UI-UX2.png";
+import uiuxDesign3 from "../../assets/images/UI-UX3.png";
+import uiuxDesign4 from "../../assets/images/UI-UX4.png";
 import uiuxDesign from "../../assets/images/uiux-design.svg";
-import hover2Img from "../../assets/images/hover-image1.png";
-import hover3Img from "../../assets/images/hover-image2.png";
-import hover4Img from "../../assets/images/hover-image3.png";
 import Image from "next/image";
 
 const ServiceUiUx = () => {
@@ -141,49 +158,92 @@ const ServiceUiUx = () => {
   useEffect(() => {
     const titles = document.querySelectorAll(".uiux-title-main");
     const cursorCircle = document.getElementById("cursor-circle");
-    console.log(cursorCircle);
     let currentIndex = 0;
 
-    // Array of image URLs
-    const imageUrls = [hover2Img.src, hover3Img.src, hover4Img.src];
+    const imageUrls1 = [
+      uiuxDesign1.src,
+      uiuxDesign2.src,
+      uiuxDesign3.src,
+      uiuxDesign4.src,
+    ];
+    const imageUrls2 = [
+      webDesignImg1.src,
+      webDesignImg2.src,
+      webDesignImg3.src,
+      webDesignImg4.src,
+    ];
+    const imageUrls3 = [
+      webDevelopmentImg1.src,
+      webDevelopmentImg2.src,
+      webDevelopmentImg3.src,
+      webDevelopmentImg4.src,
+    ];
+
+    const imageUrls4 = [
+      digitalMarketingImg1.src,
+      digitalMarketingImg2.src,
+      digitalMarketingImg3.src,
+      digitalMarketingImg4.src,
+    ];
+    const imageUrls5 = [
+      mobileAppImg1.src,
+      mobileAppImg2.src,
+      mobileAppImg3.src,
+      mobileAppImg4.src,
+    ];
 
     let intervalId;
 
-    const updateCircleImage = () => {
-      if (cursorCircle) {
-        cursorCircle.style.backgroundImage = `url(${imageUrls[currentIndex]})`;
+    const updateCircleImage = (imageArray) => {
+      if (cursorCircle && imageArray.length) {
+        cursorCircle.style.backgroundImage = `url(${imageArray[currentIndex]})`;
+        currentIndex = (currentIndex + 1) % imageArray.length;
       }
-      currentIndex = (currentIndex + 1) % imageUrls.length;
     };
 
-    const handleMouseEnter = () => {
+    const handleMouseEnter = (id) => {
       if (cursorCircle) cursorCircle.style.display = "block";
-      updateCircleImage();
-      intervalId = setInterval(updateCircleImage, 2000);
+
+      clearInterval(intervalId);
+
+      const imageArray =
+        id === 1
+          ? imageUrls1
+          : id === 2
+          ? imageUrls2
+          : id === 3
+          ? imageUrls3
+          : id === 4
+          ? imageUrls4
+          : imageUrls5;
+
+      updateCircleImage(imageArray);
+
+      intervalId = setInterval(() => updateCircleImage(imageArray), 1500);
     };
 
     const handleMouseLeave = () => {
       if (cursorCircle) cursorCircle.style.display = "none";
       clearInterval(intervalId);
+      currentIndex = 0;
     };
 
     const handleMouseMove = (e) => {
-      const x = e.clientX - 100; // Adjust to center the circle
-      const y = e.clientY - 100; // Adjust to center the circle
+      const x = e.clientX - 100;
+      const y = e.clientY - 100;
       if (cursorCircle) {
         cursorCircle.style.left = `${x}px`;
         cursorCircle.style.top = `${y}px`;
       }
     };
 
-    titles.forEach((title) => {
-      title.addEventListener("mouseenter", handleMouseEnter);
+    titles.forEach((title, index) => {
+      title.addEventListener("mouseenter", () => handleMouseEnter(index + 1));
       title.addEventListener("mouseleave", handleMouseLeave);
     });
 
     document.addEventListener("mousemove", handleMouseMove);
 
-    // Cleanup function to remove event listeners
     return () => {
       titles.forEach((title) => {
         title.removeEventListener("mouseenter", handleMouseEnter);
@@ -334,7 +394,10 @@ const ServiceUiUx = () => {
                     point having an amazing website, if nobody knows it’s there,
                     right?
                   </p>
-                  <a href="/digital-marketing" className="btn btn-primary btn-lg">
+                  <a
+                    href="/digital-marketing"
+                    className="btn btn-primary btn-lg"
+                  >
                     Digital Marketing Services
                   </a>
                 </div>

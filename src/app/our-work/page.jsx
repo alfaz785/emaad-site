@@ -30,7 +30,7 @@ const OurWork = () => {
       {/* <!-- Technologies we use section end  --> */}
 
       {/* <!-- Awesome section start --> */}
-    
+
       <Awesome />
 
       {/* <!--/.  Awesome section end --> */}

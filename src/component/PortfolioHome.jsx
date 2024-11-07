@@ -11,7 +11,7 @@ import satisfactionImg6 from "../assets/images/Hospital-Management.png";
 import Image from "next/image";
 import { gsap } from "gsap";
 
-const PortfolioHome = () => {
+const PortfolioHome = ({ title }) => {
   useEffect(() => {
     const head = document.querySelector(".sec-title-1");
     if (head) {
@@ -96,7 +96,6 @@ const PortfolioHome = () => {
       navigation: {
         prevEl: ".pp-next",
         nextEl: ".pp-prev",
-        
       },
       thumbs: {
         swiper: portfolio_project_thumbs,
@@ -163,12 +162,14 @@ const PortfolioHome = () => {
                     </a>
                   </div>
                   <div className="swiper-slide pp-slide">
+
                       <a target="_blank" href="https://www.emaadinfotech.com/non-profit-website">
                     <div className="pp-slide-img">
                         <Image
                           src={satisfactionImg1}
                           alt="Portfolio Thumbnail"
                         />
+
                       <div className="overlay">
                         <div className="overlay-text">Non Profit Website</div>
                       </div>
@@ -260,8 +261,6 @@ const PortfolioHome = () => {
               </div>
               <div className=" pp-prev swipper-btn">Next</div>
               <div className="pp-next swipper-btn"> prev</div>
-              
-              
             </div>
           </div>
 
@@ -270,36 +269,42 @@ const PortfolioHome = () => {
               <div className="swiper-wrapper">
                 <div className="swiper-slide">
                   <div className="pp-slide-thumb">
+
                     <h3 className="pp-slide-title"> <a href="https://emaad-infotech.com/product/e-pharma/" target="_blank" rel="noopener noreferrer">Online Pharmacy</a></h3>
                     <p>Website</p>
                   </div>
                 </div>
                 <div className="swiper-slide">
                   <div className="pp-slide-thumb">
+
                     <h3 className="pp-slide-title"><a href="https://www.emaad-infotech.com/product/ngo/" target="_blank" rel="noopener noreferrer">Non Profit Website</a></h3>
                     <p>Website</p>
                   </div>
                 </div>
                 <div className="swiper-slide">
                   <div className="pp-slide-thumb">
+
                     <h3 className="pp-slide-title"><a href="https://www.emaad-infotech.com/product/housing-society/" target="_blank" rel="noopener noreferrer">Housing Society</a></h3>
                     <p>Website & Application</p>
                   </div>
                 </div>
                 <div className="swiper-slide">
                   <div className="pp-slide-thumb">
+
                     <h3 className="pp-slide-title"><a href="https://www.emaad-infotech.com/product/real-estate/" target="_blank" rel="noopener noreferrer">Real Estate</a></h3>
                     <p>Website</p>
                   </div>
                 </div>
                 <div className="swiper-slide">
                   <div className="pp-slide-thumb">
+
                     <h3 className="pp-slide-title"><a href="https://emaad-infotech.com/product/online-shopping/" target="_blank" rel="noopener noreferrer">E-commerce Solution</a></h3>
                     <p>Mother's Day Website</p>
                   </div>
                 </div>
                 <div className="swiper-slide">
                   <div className="pp-slide-thumb">
+
                     <h3 className="pp-slide-title"><a href="https://www.emaad-infotech.com/product/just-one-click/">Business Directory</a></h3>
                     <p>Website</p>
                   </div>
@@ -307,9 +312,9 @@ const PortfolioHome = () => {
                 <div className="swiper-slide">
                   <div className="pp-slide-thumb">
                     <h3 className="pp-slide-title">
+
                     <a href="https://hospital-management.emaad-infotech.com/" target="_blank" rel="noopener noreferrer"> Hospital Management System</a>
-                     
-                    </h3>
+                      </h3>
                     <p>Website</p>
                   </div>
                 </div>

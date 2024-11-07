@@ -1,7 +1,11 @@
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { TextPlugin } from "gsap/TextPlugin";
+import bulkServicesImg from "../src/assets/images/bulk-services1.png";
+import Image from "next/image";
+
 gsap.registerPlugin(ScrollTrigger, TextPlugin);
+ 
 const productcontents = [
   {
     title: "Real Estate Script",
@@ -111,7 +115,7 @@ export const animateTabTitles = () => {
           }
         });
       },
-      { threshold: 0.1 }
+      { threshold: 0.1 },
     );
 
     // Observe the tab title for intersection
@@ -173,7 +177,7 @@ export const subUnlockFc = () => {
           }
         });
       },
-      { threshold: 0.1 } // Trigger when 10% of the element is in view
+      { threshold: 0.1 }, // Trigger when 10% of the element is in view
     );
 
     observer.observe(tabTitle);
@@ -194,7 +198,7 @@ export function textTypingEffect(
   uiTextClassStart,
   uiTextClassEnd,
   i = 0,
-  contentIndex = 0
+  contentIndex = 0,
 ) {
   if (i < type.length) {
     setTimeout(() => {
@@ -209,7 +213,7 @@ export function textTypingEffect(
             uiTextClassStart,
             uiTextClassEnd,
             i + 1,
-            contentIndex + 1
+            contentIndex + 1,
           );
         });
       } else {
@@ -221,7 +225,7 @@ export function textTypingEffect(
           uiTextClassStart,
           uiTextClassEnd,
           i + 1,
-          contentIndex
+          contentIndex,
         );
       }
     }, 56);
@@ -449,7 +453,7 @@ export function emaadSectionFC() {
           scrub: 1,
           toggleActions: "play reverse play reverse",
         },
-      }
+      },
     );
   });
 }
@@ -497,7 +501,7 @@ export function InformationPrivacyFC() {
   });
 }
 
-export function toggleAccordion(element) {
+export function   toggleAccordion(element) {
   const header = element;
   const content = header?.nextElementSibling;
   const icon = header?.querySelector(".accordion-icon");
@@ -588,7 +592,7 @@ export function MainDomainPeragraphFC() {
           }
         });
       },
-      { threshold: 0.1 }
+      { threshold: 0.1 },
     );
 
     observer.observe(paragraph);
@@ -665,7 +669,7 @@ export function updateContent() {
       gsap.fromTo(
         "#content-container",
         { y: 20, opacity: 0 },
-        { y: 0, opacity: 1, duration: 0.5 }
+        { y: 0, opacity: 1, duration: 0.5 },
       );
     },
   });
@@ -717,84 +721,84 @@ export const deliveryCard = () => {
     {
       top: "2%",
     },
-    "a"
+    "a",
   )
     .to(
       "#card-one",
       {
         top: "33%",
       },
-      "a"
+      "a",
     )
     .to(
       "#card-two",
       {
         top: "130%",
       },
-      "a"
+      "a",
     )
     .to(
       "#card-two",
       {
         top: "35%",
       },
-      "b"
+      "b",
     )
     .to(
       "#card-one",
       {
         width: "65%",
       },
-      "b"
+      "b",
     )
     .to(
       "#card-three",
       {
         top: "130%",
       },
-      "b"
+      "b",
     )
     .to(
       "#card-three",
       {
         top: "38%",
       },
-      "c"
+      "c",
     )
     .to(
       "#card-two",
       {
         width: "70%",
       },
-      "c"
+      "c",
     )
     .to(
       "#card-four",
       {
         top: "130%",
       },
-      "c"
+      "c",
     )
     .to(
       "#card-four",
       {
         top: "41%",
       },
-      "d"
+      "d",
     )
     .to(
       "#card-three",
       {
         width: "75%",
       },
-      "d"
+      "d",
     )
     .to(
       "#card-four",
       {
         width: "80%",
       },
-      "e"
+      "e",
     );
 };
 
@@ -863,23 +867,12 @@ export const AboutUsData = [
       "Our Figma to HTML conversion process is streamlined and efficient, delivering high-quality results on time and within budget.",
   },
   {
-    icon: "shield",
-    title: "Web Performance & Security",
-    description:
-      "Optimize speed, enhance security, and ensure a seamless, secure experience for users and search engines.",
-  },
-  {
-    icon: "dns",
+    icon: "img",
     title: "Domain & Hosting ",
     description:
       "Domain and Hosting are essential for any website, providing a unique web address (domain) and server space (hosting) for online accessibility.",
   },
-  {
-    icon: "payments",
-    title: "Payment Gateway Integration",
-    description:
-      "Enable secure, seamless transactions with flexible payment gateway integration for any platform. Accept payments worldwide with reliable, multi-currency support and top-tier security.",
-  },
+ 
   {
     icon: "sms",
     title: "Bulk SMS & Email Services",
@@ -944,24 +937,24 @@ export const bulkHead = [
     title: "Customizable Templates",
     description:
       "We provide a wide selection of professionally designed templates that you can customize to reflect your brand’s unique identity. Alternatively, you can create your own templates from scratch, ensuring your emails always align with your brand’s look and feel.",
-    serviceImg: "../../assets/images/service-img",
+    serviceImg: bulkServicesImg,
   },
   {
     title: "Segmentation",
     description:
       "Increase engagement by targeting specific segments of your audience. Our advanced segmentation tools allow you to send tailored messages to different customer groups based on their preferences, behaviors, and demographics, ensuring your communications are relevant and impactful.",
-    serviceImg: "../../assets/images/service-img",
+    // serviceImg: "../../assets/images/service-img",
   },
   {
     title: "Automated Campaigns",
     description:
       "Save time and enhance efficiency with our automated email campaign features. You can set up sequences that automatically nurture leads, onboard new customers, or re-engage inactive subscribers, ensuring consistent and timely communication without manual intervention.",
-    serviceImg: "../../assets/images/service-img",
+    // serviceImg: "../../assets/images/service-img",
   },
   {
     title: "Analytics",
     description:
       "Our comprehensive analytics provide you with valuable insights into your email campaigns. Track open rates, click-through rates, conversions, and overall performance to understand what works best for your audience. Use this data to refine your strategies and achieve better results.",
-    serviceImg: "../../assets/images/service-img",
+    // serviceImg: "../../assets/images/service-img",
   },
 ];

@@ -11,7 +11,7 @@ const DomainElevate = () => {
     { id: "part8", text: " Services" },
   ];
   useEffect(() => {
-    MultiTypingEffect(parts, 100);
+    MultiTypingEffect(parts, 50);
   }, []);
   return (
     <>
