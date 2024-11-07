@@ -3249,12 +3249,12 @@ body {
 .digital-potential-section {
   padding: 45px 0;
   background: linear-gradient(
-  0deg,
-  rgba(42, 47, 61, 0) 0.7%,
-  rgba(42, 47, 61, 0.531057) 48%,
-  rgba(42, 47, 61, 0.9) 75.25%,
-  #2a2f3d 96%
-);
+    0deg,
+    rgba(42, 47, 61, 0) 0.7%,
+    rgba(42, 47, 61, 0.531057) 48%,
+    rgba(42, 47, 61, 0.9) 75.25%,
+    #2a2f3d 96%
+  );
   border-top: 1px solid var(--dark-grey-color);
 }
 .digital-potential-section .unlock-title h2 {
@@ -3643,7 +3643,6 @@ body {
 }
 
 /*digital-potential-section  start*/
-
 
 .digital-potential-section .unlock-title h2 {
   font-size: 58px;
@@ -4191,7 +4190,6 @@ body {
 }
 
 /*digital-potential-section  start*/
-
 
 .digital-potential-section .unlock-title h2 {
   font-size: 58px;
@@ -5158,9 +5156,7 @@ body {
   opacity: 0;
   max-height: 0;
   overflow: hidden;
-  transition:
-    opacity 0.3s ease,
-    max-height 0.3s ease;
+  transition: opacity 0.3s ease, max-height 0.3s ease;
 }
 
 .process-tab-design-content.show {
@@ -5500,6 +5496,7 @@ body {
   background-repeat: no-repeat;
   background-position: calc(100% - 70px) center;
   border-bottom: 2px solid #434c5e;
+  background-size: contain;
 }
 .elevate-online-title h1 {
   font-size: 65px;
@@ -5610,7 +5607,7 @@ body {
   font-family: "Assistant-Regular";
   color: var(--footer-text);
   font-size: 18px;
-  width: 65%;
+  width: 80%;
   margin-top: 30px;
 }
 .domain-extension {
@@ -5830,9 +5827,9 @@ body {
   background-size: contain;
 }
 .get-in-touch-title h1 {
-  font-size: 70px;
+  font-size: 80px;
   font-family: "Syne-Bold";
-  width: 33%;
+  width: 45%;
   color: var(--white-color);
 }
 .get-in-touch-title .highlight-jobs {
@@ -6315,7 +6312,7 @@ a {
 .client-contact-box {
   background: #434c5e;
   padding: 15px 30px;
-  border-radius: 5px;
+  border-radius: 6px;
   transition: background-color 0.3s, transform 0.3s;
   cursor: pointer;
 }
@@ -6873,6 +6870,9 @@ a {
 }
 
 /* map section start */
+.map-main-section{
+  margin-top: 80px;
+}
 .map-container {
   /* width: 1200px; */
   height: 625px;
@@ -7040,6 +7040,7 @@ a {
   background-repeat: no-repeat;
   background-position: calc(100% - 70px) center;
   border-bottom: solid var(--dark-grey-color);
+  background-size: contain;
 }
 .our-journey-title h1 {
   font-size: 80px;
@@ -7069,6 +7070,7 @@ a {
   font-size: 100px;
   color: var(--white-color);
   font-family: "Syne-Bold";
+  text-align: center;
 }
 .standard-gallery .tabs {
   display: flex;
@@ -7102,6 +7104,7 @@ a {
 }
 .standard-gallery .masonry img {
   width: 100%;
+  height: 100%;
   margin-bottom: 20px;
   cursor: pointer;
 }
@@ -7115,12 +7118,29 @@ a {
 .standard-gallery .load-more {
   background-color: transparent;
   color: #fff;
-  border-bottom: 2px solid var(--white-color) !important;
   border: none;
   cursor: pointer;
   font-size: 34px;
   font-family: "Syne-Bold";
   margin-top: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.standard-gallery .load-more::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--white-color);
+  transform: scaleX(0);
+  transform-origin: 0% 50%;
+  transition: transform 0.3s ease;
+}
+
+.standard-gallery .load-more:hover::after {
+  transform: scaleX(1);
 }
 .load-more-container {
   display: flex;
@@ -7130,7 +7150,7 @@ a {
 .modal {
   display: none;
   position: fixed;
-  z-index: 1;
+  z-index: 99;
   padding-top: 100px;
   left: 0;
   top: 0;
@@ -7143,8 +7163,10 @@ a {
 .modal-header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 20px;
+  /* align-items: center; */
+  /* padding: 20px; */
+  border-bottom: 1px solid #434c5e !important;
+  padding: 0;
   background-color: #000;
   color: #fff;
   position: fixed;
@@ -7156,14 +7178,20 @@ a {
   font-size: 35px;
   font-family: "Syne-Bold";
   color: var(--white-color);
+  padding: 25px 40px;
 }
 
+.close-btn-main {
+  padding: 25px 40px;
+  border-left: 1px solid #434c5e;
+}
 .modal-header .close {
   color: #f1f1f1;
-  font-size: 30px;
+  font-size: 40px;
   cursor: pointer;
+  margin-bottom: 5px;
 }
-.modal-header.close-text {
+.modal-header .close-text {
   font-size: 20px;
   color: var(--white-color);
   font-family: "Syne-Regular";
@@ -7175,6 +7203,7 @@ a {
   margin-top: 41px;
   height: calc(100vh - 160px);
   object-fit: cover;
+  border-radius: 0 !important;
 }
 .modal-header .close:hover,
 .close:focus {
@@ -7925,7 +7954,6 @@ body.no-scroll {
 .show > .btn-primary.dropdown-toggle:focus {
   box-shadow: none;
 }
-
 
 .industries-text h4 {
   margin: 0 auto;

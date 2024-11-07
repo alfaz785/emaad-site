@@ -50,7 +50,7 @@ const MasonaryGallery = ({ images }) => {
         duration: 0.5,
         ease: "power3.out",
       },
-      "-=0.5",
+      "-=0.5"
     );
 
     // Gallery images animation
@@ -63,7 +63,7 @@ const MasonaryGallery = ({ images }) => {
         duration: 2.5,
         ease: "power3.out",
       },
-      "-=0.5",
+      "-=0.5"
     );
 
     galleryTimeline.from(
@@ -74,7 +74,7 @@ const MasonaryGallery = ({ images }) => {
         duration: 0.5,
         ease: "power2.out",
       },
-      "-=1",
+      "-=1"
     );
   }, []);
 
@@ -259,7 +259,7 @@ const MasonaryGallery = ({ images }) => {
       <div id="modal" className="modal">
         <div className="modal-header">
           <span className="modal-title">El.</span>
-          <div className="d-flex gap-3 align-items-center">
+          <div className="d-flex gap-3 align-items-center close-btn-main">
             <span className="close-text">Close</span>
             <span className="close" onClick={() => closeModal(gallery10Img)}>
               &times;
