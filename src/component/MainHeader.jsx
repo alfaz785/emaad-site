@@ -14,6 +14,7 @@ import Link from "next/link";
 import { gsap, Power2 } from "gsap";
 import { usePathname } from "next/navigation";
 import { handleNavigate } from "../../commFun";
+import cardioload from "../assets/images/cardioload.svg";
 
 const MainHeader = () => {
   const pathname = usePathname();
@@ -247,7 +248,7 @@ const MainHeader = () => {
                     </li>
                     <div className="menu-drowp">
                       <div className="drow  p-0">
-                        <li className="hover">
+                        <li className="hover icon">
                           <Link
                             href="/web-design"
                             className="nav-drowpdown1 p-0"
@@ -256,7 +257,7 @@ const MainHeader = () => {
                             Web Design
                           </Link>
                         </li>
-                        <li className="hover">
+                        <li className="hover icon">
                           <Link
                             href="/web-development"
                             className="nav-drowpdown1 p-0"
@@ -266,7 +267,7 @@ const MainHeader = () => {
                           </Link>
                         </li>
 
-                        <li className="hover">
+                        <li className="hover icon">
                           <Link
                             href="/app-development"
                             className="nav-drowpdown1 p-0"
@@ -275,7 +276,7 @@ const MainHeader = () => {
                             Mobile App Development
                           </Link>
                         </li>
-                        <li className="hover">
+                        <li className="hover icon">
                           <Link
                             href="/ui-ux-design"
                             className="nav-drowpdown1 p-0"
@@ -286,7 +287,7 @@ const MainHeader = () => {
                         </li>
                       </div>
                       <div className="drowp-2">
-                        <li className="hover">
+                        <li className="hover icon">
                           <Link
                             href="/digital-marketing"
                             className="nav-drowpdown1 p-0"
@@ -295,7 +296,7 @@ const MainHeader = () => {
                             Digital Marketing
                           </Link>
                         </li>
-                        <li className="hover">
+                        <li className="hover icon">
                           <Link
                             href="/domain-hosting"
                             className="nav-drowpdown1 p-0"
@@ -304,7 +305,7 @@ const MainHeader = () => {
                             Domain & Hosting Services
                           </Link>
                         </li>
-                        <li className="hover">
+                        <li className="hover icon">
                           <Link
                             href="/bulk-sms-email-service"
                             className="nav-drowpdown1 p-0"
@@ -412,9 +413,7 @@ const MainHeader = () => {
                           </li>
                         </div>
                         <div className="icon">
-                          <span className="material-symbols-outlined">
-                            cardiology
-                          </span>
+                          <Image src={cardioload} alt="cardioloadF" />
                           <li className="hover">
                             <Link
                               href="/get-in-touch"

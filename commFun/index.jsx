@@ -1,6 +1,9 @@
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { TextPlugin } from "gsap/TextPlugin";
+
+import Image from "next/image";
+
 gsap.registerPlugin(ScrollTrigger, TextPlugin);
 const productcontents = [
   {
@@ -497,7 +500,7 @@ export function InformationPrivacyFC() {
   });
 }
 
-export function toggleAccordion(element) {
+export function   toggleAccordion(element) {
   const header = element;
   const content = header?.nextElementSibling;
   const icon = header?.querySelector(".accordion-icon");
@@ -863,23 +866,12 @@ export const AboutUsData = [
       "Our Figma to HTML conversion process is streamlined and efficient, delivering high-quality results on time and within budget.",
   },
   {
-    icon: "shield",
-    title: "Web Performance & Security",
-    description:
-      "Optimize speed, enhance security, and ensure a seamless, secure experience for users and search engines.",
-  },
-  {
-    icon: "dns",
+    icon: "img",
     title: "Domain & Hosting ",
     description:
       "Domain and Hosting are essential for any website, providing a unique web address (domain) and server space (hosting) for online accessibility.",
   },
-  {
-    icon: "payments",
-    title: "Payment Gateway Integration",
-    description:
-      "Enable secure, seamless transactions with flexible payment gateway integration for any platform. Accept payments worldwide with reliable, multi-currency support and top-tier security.",
-  },
+ 
   {
     icon: "sms",
     title: "Bulk SMS & Email Services",

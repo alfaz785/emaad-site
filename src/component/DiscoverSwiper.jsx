@@ -53,7 +53,7 @@ const DiscoverSwiper = ({ firstTxt, secondTxt, isAbout }) => {
     <>
       <div className="tag-contetnt">
         <div className="tagline">
-          <h5>services</h5>
+          <h5 className="mb-0">services</h5>
         </div>
       </div>
       <div className="discover-text-swiper-button">
@@ -83,13 +83,14 @@ const DiscoverSwiper = ({ firstTxt, secondTxt, isAbout }) => {
       </div>
       <div className="slide-container swiper">
         <div className="slide-content">
-          <div className="card-wrapper swiper-wrapper">
+          <div className="card-wrapper swiper-wrapper pb-5">
             {(isAbout ? AboutUsData : BulkSmsData).map((card, index) => (
               <MainSwiper
                 key={index}
                 icon={card.icon}
                 title={card.title}
                 description={card.description}
+                isAbout={isAbout}
               />
             ))}
             {/* <div
