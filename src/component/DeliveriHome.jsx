@@ -18,8 +18,6 @@ import mvpDev from "../assets/images/MVP-Development.svg";
 import webDevelop from "../assets/images/Web-Develop.svg";
 import pwaDevelop from "../assets/images/PWA-Development.svg";
 import chatBot from "../assets/images/ChatBot-Development.svg";
-import androidImg from "../assets/images/Android-App.svg";
-import crossImg from "../assets/images/Cross-Platform.svg";
 
 import { ScrollTrigger } from "gsap/all";
 
@@ -64,18 +62,18 @@ const DeliveriHome = () => {
           },
         });
 
-        tl.to(".text", { top: "2%" }, "a")
-          .to("#card-one", { top: "41%" }, "a")
-          .to("#card-two", { top: "120%" }, "a")
-          .to("#card-two", { top: "43%" }, "b")
-          .to("#card-one", { width: "60%" }, "b")
-          .to("#card-three", { top: "125%" }, "b")
-          .to("#card-three", { top: "46%" }, "c")
-          .to("#card-two", { width: "65%" }, "c")
-          .to("#card-four", { top: "125%" }, "c")
-          .to("#card-four", { top: "48%" }, "d")
-          .to("#card-three", { width: "70%" }, "d")
-          .to("#card-four", { width: "75%" }, "e");
+        tl.to(".text", { top: "2%" }, "start")
+          .to("#card-one", { top: "33%" }, "start")
+          .to("#card-two", { top: "120%" }, "start+=0.3")
+          .to("#card-two", { top: "37%" }, "second")
+          .to("#card-three", { top: "120%" }, "second+=0.5")
+          .to("#card-three", { top: "41%" }, "third")
+          .to("#card-four", { top: "125%" }, "third+=0.5")
+          .to("#card-four", { top: "44%" }, "fourth")
+          .to("#card-one", { width: "60%" }, "second")
+          .to("#card-two", { width: "65%" }, "third")
+          .to("#card-three", { width: "70%" }, "fourth")
+          .to("#card-four", { width: "75%" }, "end");
       },
       "(min-width: 972px) and (max-width: 1199px)": function () {
         const tl = gsap.timeline({
@@ -210,7 +208,10 @@ const DeliveriHome = () => {
             <div className="app-development-group d-flex gap-5">
               <div className="app-development">
                 <div className="app-development-back">
-                <Image src={androidImg} alt="" />
+                  <span className="material-symbols-outlined">
+                    {" "}
+                    phone_iphone{" "}
+                  </span>
                 </div>
                 <p className="mb-0">Android App Development</p>
               </div>
@@ -222,7 +223,10 @@ const DeliveriHome = () => {
               </div>
               <div className="app-development">
                 <div className="app-development-back">
-                <Image src={crossImg} alt="" />
+                  <span className="material-symbols-outlined">
+                    {" "}
+                    developer_mode{" "}
+                  </span>
                 </div>
                 <p className="mb-0">Cross-Platform App Development</p>
               </div>

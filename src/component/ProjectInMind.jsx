@@ -27,7 +27,6 @@ const ProjectInMind = ({ mainTxt }) => {
                     </span>
                   ))}
                   <span className="space">&nbsp;</span>{" "}
-                  {/* Adds space between words */}
                 </span>
               ))}
             </h3>
