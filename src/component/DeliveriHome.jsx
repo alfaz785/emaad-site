@@ -18,6 +18,8 @@ import mvpDev from "../assets/images/MVP-Development.svg";
 import webDevelop from "../assets/images/Web-Develop.svg";
 import pwaDevelop from "../assets/images/PWA-Development.svg";
 import chatBot from "../assets/images/ChatBot-Development.svg";
+import androidImg from "../assets/images/Android-App.svg";
+import crossImg from "../assets/images/Cross-Platform.svg";
 
 import { ScrollTrigger } from "gsap/all";
 
@@ -208,10 +210,7 @@ const DeliveriHome = () => {
             <div className="app-development-group d-flex gap-5">
               <div className="app-development">
                 <div className="app-development-back">
-                  <span className="material-symbols-outlined">
-                    {" "}
-                    phone_iphone{" "}
-                  </span>
+                <Image src={androidImg} alt="" />
                 </div>
                 <p className="mb-0">Android App Development</p>
               </div>
@@ -223,10 +222,7 @@ const DeliveriHome = () => {
               </div>
               <div className="app-development">
                 <div className="app-development-back">
-                  <span className="material-symbols-outlined">
-                    {" "}
-                    developer_mode{" "}
-                  </span>
+                <Image src={crossImg} alt="" />
                 </div>
                 <p className="mb-0">Cross-Platform App Development</p>
               </div>

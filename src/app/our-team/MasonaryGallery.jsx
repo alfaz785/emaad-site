@@ -50,7 +50,7 @@ const MasonaryGallery = ({ images }) => {
         duration: 0.5,
         ease: "power3.out",
       },
-      "-=0.5",
+      "-=0.5"
     );
 
     // Gallery images animation
@@ -63,7 +63,7 @@ const MasonaryGallery = ({ images }) => {
         duration: 2.5,
         ease: "power3.out",
       },
-      "-=0.5",
+      "-=0.5"
     );
 
     galleryTimeline.from(
@@ -74,7 +74,7 @@ const MasonaryGallery = ({ images }) => {
         duration: 0.5,
         ease: "power2.out",
       },
-      "-=1",
+      "-=1"
     );
   }, []);
 

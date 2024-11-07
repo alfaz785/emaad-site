@@ -3,20 +3,22 @@ import React from "react";
 const TouchGoogle = () => {
   return (
     <>
-      <div className="mt_100">
-      <div className="container">
-  <div className="map-container" style={{ height: '400px' }}> {/* Set height here */}
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.670030439953!2d72.9404096377291!3d23.616164094008806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395db95d730ab56b%3A0xf76af9cb55a3b659!2sEmaad%20Infotech%C2%AE!5e0!3m2!1sen!2sin!4v1729938825658!5m2!1sen!2sin"
-      width="100%"    
-      height="100%"   
-      style={{ border: 0 }}
-      allowFullScreen=""
-      loading="lazy"
-      referrerPolicy="no-referrer-when-downgrade"
-    ></iframe>
-  </div>
-</div>
+      <div className="map-main-section">
+        <div className="container">
+          <div className="map-container" style={{ height: "400px" }}>
+            {" "}
+            {/* Set height here */}
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.670030439953!2d72.9404096377291!3d23.616164094008806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395db95d730ab56b%3A0xf76af9cb55a3b659!2sEmaad%20Infotech%C2%AE!5e0!3m2!1sen!2sin!4v1729938825658!5m2!1sen!2sin"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
 
         {/* <div className="container">
           <div className="map-container">

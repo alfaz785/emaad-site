@@ -169,7 +169,7 @@ const ChooseUsHome = () => {
                     <div className="overlay"></div>
                     <Image src={moneyImg} alt="transport-card" />
                     <div className="why-choose-box_text">
-                      <h5>Value for Money</h5>
+                      <h5>Value For Money</h5>
                       <div className="circle">
                         <span className="material-symbols-outlined">
                           {" "}

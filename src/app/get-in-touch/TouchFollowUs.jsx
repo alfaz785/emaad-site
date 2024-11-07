@@ -4,7 +4,7 @@ import whatsappImg from "../../assets/images/whatsapp.svg";
 import twitterImg from "../../assets/images/twitter.svg";
 import facebookImg from "../../assets/images/facebook.svg";
 import linkedinImg from "../../assets/images/linkedin.svg";
-import skypeImg from "../../assets/images/skype.svg";
+import telegramImg from "../../assets/images/footer-icon-telegram.svg";
 import Image from "next/image";
 
 const TouchFollowUs = () => {
@@ -108,10 +108,10 @@ const TouchFollowUs = () => {
                 </div>
               </div>
               <div className="info-item">
-                <p className="mb-0 title_icon">Skype ID</p>
+                <p className="mb-0 title_icon">Telegram ID </p>
                 <div className="d-flex align-items-center gap-2 info-icon-data">
                   <div className="icon_bg">
-                    <Image src={skypeImg} alt="img" />
+                    <Image src={telegramImg} alt="img" />
                   </div>
                   <p className="mb-0">Emaad Infotech</p>
                 </div>
