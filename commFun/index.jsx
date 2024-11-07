@@ -2,6 +2,7 @@ import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { TextPlugin } from "gsap/TextPlugin";
 import bulkServicesImg from "../src/assets/images/bulk-services1.png";
+import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger, TextPlugin);
  
