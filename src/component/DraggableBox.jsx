@@ -3,7 +3,7 @@ import React from "react";
 const DraggableBox = () => {
   return (
     <>
-      <div className="mt_100">
+      <div className="">
         <div className="draggable-boxes-main">
           <div className="container-fluid draggable-boxes">
             <div className="draggable" id="item1" draggable="true">

@@ -18,7 +18,7 @@ import php from "../../assets/images/php.png";
 import python from "../../assets/images/python.png";
 import mongo from "../../assets/images/mongo-db.png";
 import mysql from "../../assets/images/mysql.png";
-import flutter from "../../assets/images/flutter.png";
+import flutter from "../../assets/images/Flutter.png";
 import dart from "../../assets/images/dart.png";
 import tailwind from "../../assets/images/tailwind.png";
 import sketch from "../../assets/images/sketch.png";

@@ -167,7 +167,7 @@ const Unlock = () => {
                   Development Services{" "}
                 </h5>
                 <p className="mb-0 tap-para">
-                  At <span>Emaad Infotech</span>, we offer comprehensive website
+                  At <span>Emaad Infotech®</span>, we offer comprehensive website
                   development services to bring your digital vision to life. Our
                   experienced team handles every aspect of the development
                   process, ensuring that your website is designed, coded, and
@@ -232,7 +232,7 @@ const Unlock = () => {
                 <p className="mb-0 tap-para">
                   Embark on your e-commerce journey with confidence, knowing
                   that&nbsp;
-                  <span>Emaad Infotech</span> is here to guide you every step of
+                  <span>Emaad Infotech®</span> is here to guide you every step of
                   the way. Our comprehensive e-commerce development services are
                   tailored to meet the unique needs of your business, whether
                   you're launching a new online store or seeking to enhance your
@@ -305,7 +305,7 @@ const Unlock = () => {
                 </h5>
                 <p className="mb-0 tap-para">
                   Empower your digital presence with our cutting-edge Content
-                  Management Systems (CMS). At <span>Emaad Infotech</span>, we
+                  Management Systems (CMS). At <span>Emaad Infotech®</span>, we
                   offer robust CMS solutions tailored to streamline your content
                   creation, management, and delivery processes. From
                   user-friendly interfaces to powerful functionality, our CMS
@@ -370,7 +370,7 @@ const Unlock = () => {
                   Elevate your business processes and engage your audience like
                   never before with our Web Application Development services.
                   At&nbsp;
-                  <span>Emaad Infotech</span>, we specialize in creating custom
+                  <span>Emaad Infotech®</span>, we specialize in creating custom
                   web applications that address your unique challenges and
                   empower your digital journey. From concept to deployment, our
                   experienced team works tirelessly to bring your vision to

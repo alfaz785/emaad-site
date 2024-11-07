@@ -57,9 +57,16 @@ const SliderHome = () => {
         <div className="swiper main-slider">
           <div className="swiper-wrapper">
             <div className="swiper-slide back_one">
-              <div className="overlay"></div>
               <div className="slider-text">
-                <h5 className="mb_40">HEALTHCARE</h5>
+              <div className="Technologies-use-title">
+                  <div className="industries-text">
+                    <h4>
+                      Industries <span>We Serve</span>
+                    </h4>
+                  </div>
+                </div>
+
+                <h5 className="mb_40">Healthcare</h5>
                 <p className="mb-0">
                   By designing highly efficient and cross-platform apps, we
                   ensure that our healthcare clients can manage patient data to
@@ -69,17 +76,16 @@ const SliderHome = () => {
                   nearer to our mission at every step we take.
                 </p>
 
-                <Link
+                {/* <Link
                   href="/get-in-touch"
                   className="grow-contact-button mt_40"
                 >
                   Contact Us{" "}
                   <span className="material-symbols-outlined">east</span>
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="swiper-slide back_two">
-              <div className="overlay"></div>
               <div className="slider-text">
                 {/* <!-- <h5 className="mb_40">
               Leading ECommerce Software Development Company
@@ -130,7 +136,14 @@ const SliderHome = () => {
                   <span className="letter">n</span>
                   <span className="letter">y</span>
                 </h5> */}
-                <h5 className="mb_40">MANUFACTURING</h5>
+                <div className="Technologies-use-title">
+                  <div className="industries-text">
+                    <h4>
+                      Industries <span>We Serve</span>
+                    </h4>
+                  </div>
+                </div>
+                <h5 className="mb_40">Manufacturing</h5>
                 <p className="mb-0 leading">
                   The manufacturing industry faces unique challenges and
                   opportunities that can be achieved by an efficient web
@@ -141,38 +154,50 @@ const SliderHome = () => {
                   business growth of our clients.
                 </p>
 
-                <Link
+                {/* <Link
                   href="/get-in-touch"
                   className="grow-contact-button mt_40"
                 >
                   Contact Us{" "}
                   <span className="material-symbols-outlined">east</span>
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="swiper-slide back_three">
-              <div className="overlay"></div>
               <div className="slider-text">
-                <h5 className="mb_40"> CHARITY ORGANIZATION </h5>
+              <div className="Technologies-use-title">
+                  <div className="industries-text">
+                    <h4>
+                      Industries <span>We Serve</span>
+                    </h4>
+                  </div>
+                </div>
+                <h5 className="mb_40"> Charity Organization</h5>
                 <p className="mb-0">
                   By our comprehensive strategies, we help organizations to
                   project their voice through their website, apps and social
                   media presence. We believe it is our community responsibility
                   to help charity clients achieve their goals.
                 </p>
-                <Link
+                {/* <Link
                   href="/get-in-touch"
                   className="grow-contact-button mt_40"
                 >
                   Contact Us{" "}
                   <span className="material-symbols-outlined">east</span>
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="swiper-slide back_four">
-              <div className="overlay"></div>
               <div className="slider-text">
-                <h5 className="mb_40">FINACIAL & INSURANCE</h5>
+              <div className="Technologies-use-title">
+                  <div className="industries-text">
+                    <h4>
+                      Industries <span>We Serve</span>
+                    </h4>
+                  </div>
+                </div>
+                <h5 className="mb_40"> Financial & Insurance</h5>
                 <p className="mb-0">
                   We work with a lending agencies, insurance companies for
                   websites, apps over the years. Our services attract the most
@@ -180,19 +205,25 @@ const SliderHome = () => {
                   from our clients’ investment.
                 </p>
 
-                <Link
+                {/* <Link
                   href="/get-in-touch"
                   className="grow-contact-button mt_40"
                 >
                   Contact Us{" "}
                   <span className="material-symbols-outlined">east</span>
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="swiper-slide back_five">
-              <div className="overlay"></div>
               <div className="slider-text">
-                <h5 className="mb_40">SPORTS & FITNESS</h5>
+              <div className="Technologies-use-title">
+                  <div className="industries-text">
+                    <h4>
+                      Industries <span>We Serve</span>
+                    </h4>
+                  </div>
+                </div>
+                <h5 className="mb_40">Sports & Fitness</h5>
                 <p className="mb-0">
                   Our service to clients in the sports and fitness industry is
                   second to none. We fully understand the importance of
@@ -203,19 +234,25 @@ const SliderHome = () => {
                   clubs.
                 </p>
 
-                <Link
+                {/* <Link
                   href="/get-in-touch"
                   className="grow-contact-button mt_40"
                 >
                   Contact Us{" "}
                   <span className="material-symbols-outlined">east</span>
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="swiper-slide back_six">
-              <div className="overlay"></div>
               <div className="slider-text">
-                <h5 className="mb_40">EDUCATION </h5>
+              <div className="Technologies-use-title">
+                  <div className="industries-text">
+                    <h4>
+                      Industries <span>We Serve</span>
+                    </h4>
+                  </div>
+                </div>
+                <h5 className="mb_40">Education</h5>
                 <p className="mb-0">
                   Education lies at the heart of any community’s progress. Our
                   website solutions help our clients deliver, most comprehensive
@@ -223,19 +260,25 @@ const SliderHome = () => {
                   most pressing needs and concerns.
                 </p>
 
-                <Link
+                {/* <Link
                   href="/get-in-touch"
                   className="grow-contact-button mt_40"
                 >
                   Contact Us{" "}
                   <span className="material-symbols-outlined">east</span>
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="swiper-slide back_seven">
-              <div className="overlay"></div>
               <div className="slider-text">
-                <h5 className="mb_40">TOURISM & HOSPITALITY </h5>
+              <div className="Technologies-use-title">
+                  <div className="industries-text">
+                    <h4>
+                      Industries <span>We Serve</span>
+                    </h4>
+                  </div>
+                </div>
+                <h5 className="mb_40">Tourism & Hospitality </h5>
                 <p className="mb-0">
                   An attractive site is must for the growth of any sector. We
                   walk with clients in the hotels, food and beverage, resort,
@@ -243,19 +286,25 @@ const SliderHome = () => {
                   their site for maximum exposure & delivery.
                 </p>
 
-                <Link
+                {/* <Link
                   href="/get-in-touch"
                   className="grow-contact-button mt_40"
                 >
                   Contact Us{" "}
                   <span className="material-symbols-outlined">east</span>
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="swiper-slide back_eight">
-              <div className="overlay"></div>
               <div className="slider-text">
-                <h5 className="mb_40">REAL ESTATE </h5>
+              <div className="Technologies-use-title">
+                  <div className="industries-text">
+                    <h4>
+                      Industries <span>We Serve</span>
+                    </h4>
+                  </div>
+                </div>
+                <h5 className="mb_40">Real Estate </h5>
                 <p className="mb-0">
                   In the real estate sector, we strive to offer instant and
                   mutually beneficial connections between the buyers and
@@ -263,19 +312,26 @@ const SliderHome = () => {
                   dynamic, allowing millions of transactions securely.
                 </p>
 
-                <Link
+                {/* <Link
                   href="/get-in-touch"
                   className="grow-contact-button mt_40"
                 >
                   Contact Us{" "}
                   <span className="material-symbols-outlined">east</span>
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="swiper-slide back_nine">
               <div className="overlay"></div>
               <div className="slider-text">
-                <h5 className="mb_40">INFORMATION & TECHNOLOGY </h5>
+              <div className="Technologies-use-title">
+                  <div className="industries-text">
+                    <h4>
+                      Industries <span>We Serve</span>
+                    </h4>
+                  </div>
+                </div>
+                <h5 className="mb_40">Information & Technology </h5>
                 <p className="mb-0">
                   No industry in the world can succeed without managing its
                   informational assets efficient. We work with numerous clients
@@ -283,19 +339,25 @@ const SliderHome = () => {
                   their users.
                 </p>
 
-                <Link
+                {/* <Link
                   href="/get-in-touch"
                   className="grow-contact-button mt_40"
                 >
                   Contact Us{" "}
                   <span className="material-symbols-outlined">east</span>
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="swiper-slide back_ten">
-              <div className="overlay"></div>
               <div className="slider-text">
-                <h5 className="mb_40">FOOD PROCESSING </h5>
+              <div className="Technologies-use-title">
+                  <div className="industries-text">
+                    <h4>
+                      Industries <span>We Serve</span>
+                    </h4>
+                  </div>
+                </div>
+                <h5 className="mb_40">Food Processing </h5>
                 <p className="mb-0">
                   We are witnessing high-speed growth in the food processing
                   sector with rising demand in all areas of the supply chain.
@@ -303,9 +365,13 @@ const SliderHome = () => {
                   processing industry as well.
                 </p>
 
-             <Link href="/get-in-touch" className="grow-contact-button mt_40">
-              Contact Us <span className="material-symbols-outlined">east</span>
-            </Link>
+                {/* <Link
+                  href="/get-in-touch"
+                  className="grow-contact-button mt_40"
+                >
+                  Contact Us{" "}
+                  <span className="material-symbols-outlined">east</span>
+                </Link> */}
               </div>
             </div>
           </div>
@@ -314,12 +380,12 @@ const SliderHome = () => {
         <div className="thumb-bottom">
           <div className="position-relative slider-btn-group">
             <div className="slider-btn">
-              <div className="swiper-button-next next-">
+              <div className="swiper-button-prev ">
                 <span className="material-symbols-outlined">
                   keyboard_arrow_left
                 </span>
               </div>
-              <div className="swiper-button-prev">
+              <div className=" swiper-button-next">
                 <span className="material-symbols-outlined">
                   keyboard_arrow_right
                 </span>
@@ -330,45 +396,45 @@ const SliderHome = () => {
           <div className="swiper thumbs">
             <div className="swiper-wrapper">
               <div className="swiper-slide">
-                <div className="overlay"></div>
-                <div className="caption">HEALTHCARE</div>
+                {/* <div className="overlay"></div> */}
+                <div className="caption">Healthcare</div>
               </div>
               <div className="swiper-slide">
-                <div className="overlay"></div>
-                <div className="caption">MANUFACTURING</div>
+                {/* <div className="overlay"></div> */}
+                <div className="caption">Manufacturing</div>
               </div>
               <div className="swiper-slide">
-                <div className="overlay"></div>
-                <div className="caption">CHARITY ORGANISATION</div>
+                {/* <div className="overlay"></div> */}
+                <div className="caption">Charity Organisation</div>
               </div>
               <div className="swiper-slide">
-                <div className="overlay"></div>
-                <div className="caption">FINACIAL & INSURANCE</div>
+                {/* <div className="overlay"></div> */}
+                <div className="caption">Financial & Insurance</div>
               </div>
               <div className="swiper-slide">
-                <div className="overlay"></div>
-                <div className="caption">SPORTS & FITNESS</div>
+                {/* <div className="overlay"></div> */}
+                <div className="caption">Sports & Fitness</div>
               </div>
 
               <div className="swiper-slide">
-                <div className="overlay"></div>
-                <div className="caption">EDUCATION</div>
+                {/* <div className="overlay"></div> */}
+                <div className="caption">Education</div>
               </div>
               <div className="swiper-slide">
-                <div className="overlay"></div>
-                <div className="caption">TOURISM & HOSPITALITY </div>
+                {/* <div className="overlay"></div> */}
+                <div className="caption">Tourism & Hospitality </div>
               </div>
               <div className="swiper-slide">
-                <div className="overlay"></div>
-                <div className="caption">REAL ESTATE </div>
+                {/* <div className="overlay"></div> */}
+                <div className="caption">Real Estate </div>
               </div>
               <div className="swiper-slide">
-                <div className="overlay"></div>
-                <div className="caption">INFORMATION & TECHNOLOGY </div>
+                {/* <div className="overlay"></div> */}
+                <div className="caption">Information & Technology </div>
               </div>
               <div className="swiper-slide">
-                <div className="overlay"></div>
-                <div className="caption"> FOOD PROCESSING </div>
+                {/* <div className="overlay"></div> */}
+                <div className="caption"> Food Processing </div>
               </div>
             </div>
           </div>

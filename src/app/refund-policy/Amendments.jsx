@@ -12,13 +12,13 @@ const Amendments = () => {
             <h3 className="mb-0">Amendments</h3>
           </div>
           <p className="mb-0 mt_25">
-            [Your Company Name] reserves the right to amend this Refund Policy
+            Emaad Infotech® reserves the right to amend this Refund Policy
             at any time. Any changes will be posted on this page and will take
             effect immediately. It is your responsibility to review this policy
             periodically to ensure you are aware of any updates.
           </p>
           <p className="mb-0 mt_30">
-            Thank you for choosing [Your Company Name]. We value your business
+            Thank you for choosing Emaad Infotech®. We value your business
             and are committed to providing you with the highest level of service
             and support.
           </p>

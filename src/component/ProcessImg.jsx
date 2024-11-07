@@ -10,7 +10,7 @@ const ProcessImg = ({ mainImg }) => {
 
   return (
     <>
-      <section className="reveal-section my-5">
+      <section className="reveal-section">
         <div className="logo"></div>
         <div className="header">
           <div className="letters">

@@ -18,7 +18,8 @@ import mapboxImg from "../assets/images/mapbox.png";
 import Image from "next/image";
 import { gsap } from "gsap";
 
-const SlideSection = () => {
+const 
+SlideSection = () => {
   useEffect(() => {
     marqueAnimation();
   }, []);

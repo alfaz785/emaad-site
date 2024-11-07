@@ -6,7 +6,7 @@ import LetsProject from "./LetsProject";
 import Technologies from "./Technologies";
 import { generateMetadata } from "../../../commFun/metadatahelper";
 export const metadata = generateMetadata("web-development");
-import ourProcessImg from "../../assets/images/app-process-bg.png";
+import ourProcessImg from "../../assets/images/process-bg.png";
 import ProcessImg from "@/component/ProcessImg";
 
 const WebDevelopment = () => {

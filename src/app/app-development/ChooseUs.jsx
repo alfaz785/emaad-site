@@ -24,7 +24,7 @@ const ChooseUs = () => {
 
                 <div className="btn_wrapper custom_display_none">
                   <a
-                    href="#"
+                    href="/get-in-touch"
                     className="wc-btn-primary btn btn-outline-light mt_40"
                   >
                     Quick <br />
@@ -153,7 +153,7 @@ const ChooseUs = () => {
               </div>
               <div className="btn_wrapper custom_display_block d-none">
                 <a
-                  href="#"
+                  href="/get-in-touch"
                   className="wc-btn-primary btn btn-outline-light mt_40"
                 >
                   Quick <br />

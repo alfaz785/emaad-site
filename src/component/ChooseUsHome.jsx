@@ -9,7 +9,7 @@ import moneyImg from "../assets/images/money.png";
 import Image from "next/image";
 import { wcButtonFC } from "../../commFun";
 import Link from "next/link";
-import {gsap} from "gsap";
+import { gsap } from "gsap";
 
 const ChooseUsHome = () => {
   useEffect(() => {
@@ -43,7 +43,7 @@ const ChooseUsHome = () => {
             }
           });
         },
-        { threshold: 0.1 },
+        { threshold: 0.1 }
       );
 
       const section = document.querySelector("p.most");
@@ -105,12 +105,12 @@ const ChooseUsHome = () => {
                       </div>
                     </div>
                     <div className="content">
-                      <h4>Value for Money</h4>
+                      <h4>Cutting-Edge Technology</h4>
                       <p className="mb-0">
-                        We offer competitive pricing without compromising on
-                        quality. Our goal is to deliver maximum value for your
-                        investment, helping you achieve your business objectives
-                        efficiently and cost-effectively.
+                        Leverage the latest advancements in technology to stay
+                        ahead. Our services integrate the most innovative tools
+                        and systems, ensuring fast, secure, and efficient
+                        communication solutions tailored to meet modern demands.
                       </p>
                     </div>
                   </div>
@@ -129,12 +129,12 @@ const ChooseUsHome = () => {
                       </div>
                     </div>
                     <div className="content">
-                      <h4>Value for Money</h4>
+                      <h4>Dedicated Team</h4>
                       <p className="mb-0">
-                        We offer competitive pricing without compromising on
-                        quality. Our goal is to deliver maximum value for your
-                        investment, helping you achieve your business objectives
-                        efficiently and cost-effectively.
+                        Our experienced and committed team is here to support
+                        your goals at every step. With a focus on excellence and
+                        customer satisfaction, we work closely with you to
+                        deliver tailored solutions that drive success.
                       </p>
                     </div>
                   </div>
@@ -153,12 +153,13 @@ const ChooseUsHome = () => {
                       </div>
                     </div>
                     <div className="content">
-                      <h4>Value for Money</h4>
+                      <h4>Client Satisfaction</h4>
                       <p className="mb-0">
-                        We offer competitive pricing without compromising on
-                        quality. Our goal is to deliver maximum value for your
-                        investment, helping you achieve your business objectives
-                        efficiently and cost-effectively.
+                        We prioritize our clients' success, consistently
+                        delivering results that exceed expectations. Our
+                        commitment to quality, responsiveness, and personalized
+                        support ensures a positive experience and lasting
+                        partnerships.
                       </p>
                     </div>
                   </div>
@@ -177,7 +178,7 @@ const ChooseUsHome = () => {
                       </div>
                     </div>
                     <div className="content">
-                      <h4>Value for Money</h4>
+                      <h4>Value For Money</h4>
                       <p className="mb-0">
                         We offer competitive pricing without compromising on
                         quality. Our goal is to deliver maximum value for your

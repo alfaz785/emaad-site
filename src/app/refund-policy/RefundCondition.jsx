@@ -68,7 +68,7 @@ const RefundCondition = () => {
                   <div className="col-lg-6 mb_37">
                     <div className="main-box">
                       <h3 className="card-title mb-0">
-                        Eligibility for Refund
+                        Eligibility For Refund
                       </h3>
                       <p className="card-text mb-0">
                         Refunds are available within 30 days of purchase. To be

@@ -109,7 +109,7 @@ const Process = () => {
         <div className="process-section-data">
           <h3 className="mb-0">
             Our
-      
+            &nbsp;
             <Image
               width={"100%"}
               height={"100%"}
@@ -119,7 +119,7 @@ const Process = () => {
             Process
           </h3>
           <p className="lead">
-            At <span className="company-name">Emaad Infotech</span>, we follow a
+            At <span className="company-name">Emaad Infotech®</span>, we follow a
             systematic approach to ensure the success of your web development
             project. Our process is designed to deliver high-quality results
             while maintaining transparency and collaboration throughout the
