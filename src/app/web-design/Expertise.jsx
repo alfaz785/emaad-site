@@ -147,8 +147,9 @@ const Expertise = () => {
                 </div>
                 <div className="expertise-text">
                   <p>
-                    Our team comprises highly skilled designers and developers
-                    with years of experience in the industry.
+                    deger sitortor quis libero rhoncus efficitur vel sit amet
+                    tellus dapibus est non tortor tristique eleifend metus
+                    luctus velit justo
                   </p>
                 </div>
               </div>
@@ -165,8 +166,9 @@ const Expertise = () => {
                 </div>
                 <div className="expertise-text2">
                   <p>
-                    We prioritize clear and consistent communication throughout
-                    the project.
+                    There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered alteration in some
+                    form, by injected humour
                   </p>
                 </div>
               </div>
@@ -191,9 +193,9 @@ const Expertise = () => {
               </div>
               <div className="expertise-choose-text">
                 <p>
-                  Expertise, innovation, and tailored solutions. We deliver
-                  responsive designs, proven results, and ongoing support to
-                  ensure your success.
+                  deger sitortor quis libero rhoncus efficitur vel sit amet
+                  tellus dapibus est non tortor tristique eleifend metus luctus
+                  velit justo
                 </p>
               </div>
               <div className="software-experience-image">

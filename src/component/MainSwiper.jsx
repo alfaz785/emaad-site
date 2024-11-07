@@ -1,8 +1,9 @@
 import Image from "next/image";
 import React from "react";
 import personCelebrate from "../assets/images/person_celebrate.svg";
+import aboutImg from "../assets/images/host.svg";
 
-const MainSwiper = ({ icon, title, description }) => {
+const MainSwiper = ({ icon, title, description, isAbout }) => {
   return (
     <>
       <div
@@ -14,7 +15,7 @@ const MainSwiper = ({ icon, title, description }) => {
       >
         <div className="card-icon">
           {icon === "img" ? (
-            <Image src={personCelebrate} alt="" />
+            <Image src={isAbout ? aboutImg : personCelebrate} alt="" />
           ) : (
             <span className="material-symbols-outlined">{icon}</span>
           )}

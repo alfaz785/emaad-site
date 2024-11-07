@@ -449,9 +449,7 @@ body {
   /* gap: 100px; */
   justify-content: space-between;
 }
-.dropdown li {
-  margin-bottom: 20px;
-}
+
 .hover a:hover {
   color: var(--white-color);
 }
@@ -523,16 +521,24 @@ body {
 }
 .icon {
   display: flex;
-  /* align-items: center; */
+  align-items: center;
   gap: 15px;
+  margin-bottom: 20px;
 }
+
 .icon:hover {
   color: var(--white-color);
   /* padding-left: 15px; */
   transition: all 0.3s ease-in-out;
+  
 }
-.icon a:hover {
-  color: var(--white-color);
+.icon span,
+.icon span :hover {
+  color: #d0d6e4;
+}
+.icon img {
+  width: 24px;
+  height: 24px;
 }
 /* product drowpdown */
 .product-drowpdown {
@@ -2303,6 +2309,10 @@ body {
 }
 
 /* discover-capabilites css */
+.card-discover {
+  /* Adjust as needed */
+}
+
 .discover-capabilites {
   margin-top: 92px;
 }
@@ -2421,8 +2431,21 @@ body {
   margin-top: 29px;
   height: auto;
   position: relative;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
 }
-
+.card-discover::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 6px; /* Adjust the thickness of the border */
+  background: linear-gradient(90deg, #2d9cdb 0%, #2dc97a 88.31%); /* Gradient colors */
+  border-bottom-left-radius: 8px; /* Match the card's border radius */
+  border-bottom-right-radius: 8px; /* Match the card's border radius */
+}
 .discover-capabilites .awesome_section .swiper-slide {
   display: flex;
   justify-content: center;
@@ -2510,9 +2533,7 @@ body {
 .discover-capabilites .sec-title-wrapper {
   margin-bottom: 20px;
 }
-.slide-container.swiper {
-  margin-bottom: 100px;
-}
+
 /* ======customers section start ===== */
 
 .customer-experiences {
@@ -6195,6 +6216,7 @@ a {
 }
 
 /*  ====== our expertise css start accordian ===== */
+
 .out-expertise-section .accordion {
   border-radius: 5px;
   overflow: hidden;
