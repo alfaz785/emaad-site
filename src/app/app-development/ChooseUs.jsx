@@ -4,6 +4,7 @@ import userCentrictImg from "../../assets/images/User-Centric-Approach.png";
 import qualityAssuranceImg from "../../assets/images/Quality-Assurance.png";
 import postLanchImg from "../../assets/images/Post-Launch-Support.png";
 import Image from "next/image";
+import Link from "next/link";
 
 const ChooseUs = () => {
   return (
@@ -23,7 +24,7 @@ const ChooseUs = () => {
                 </p>
 
                 <div className="btn_wrapper custom_display_none">
-                  <a
+                  <Link
                     href="/get-in-touch"
                     className="wc-btn-primary btn btn-outline-light mt_40"
                   >
@@ -33,7 +34,7 @@ const ChooseUs = () => {
                       arrow_right_alt
                     </span>
                     <span className="circle"></span>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-lg-2 col-md-2"></div>
@@ -152,7 +153,7 @@ const ChooseUs = () => {
                 </div>
               </div>
               <div className="btn_wrapper custom_display_block d-none">
-                <a
+                <Link
                   href="/get-in-touch"
                   className="wc-btn-primary btn btn-outline-light mt_40"
                 >
@@ -163,7 +164,7 @@ const ChooseUs = () => {
                     arrow_right_alt{" "}
                   </span>
                   <span className="circle"></span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

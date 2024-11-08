@@ -48,6 +48,54 @@ const CurrentOpening = () => {
     }
   }, []);
 
+  useEffect(() => {
+    function splitTextToCharsWithSpaces(element) {
+      if (element) {
+        const words = element.innerText.split(" ");
+        const charactersWithSpaces = words
+          .map((word) => word.split("").concat("&nbsp;"))
+          .flat();
+        element.innerHTML = charactersWithSpaces
+          .map((char) => `<span class="char">${char}</span>`)
+          .join("");
+      }
+    }
+
+    const text2 = document.getElementById("current-openings");
+    splitTextToCharsWithSpaces(text2);
+
+    const chars2 = document.querySelectorAll("#current-openings .char");
+    if (chars2) {
+      for (let index = 7; index <= 15; index++) {
+        chars2[index].setAttribute(
+          "style",
+          `
+              background: linear-gradient(104.02deg, #2d9cdb 0%, #2dc97a 88.31%);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            `,
+        );
+      }
+      gsap.registerPlugin(ScrollTrigger);
+
+      const tl2 = gsap.timeline({
+        scrollTrigger: {
+          trigger: "#openings",
+          start: "top 80%",
+          toggleActions: "play none none none",
+        },
+      });
+
+      tl2.from(chars2, {
+        duration: 1,
+        opacity: 0,
+        y: 50,
+        ease: "elastic.out(1, 0.5)",
+        stagger: 0.05,
+      });
+    }
+  }, []);
+
   return (
     <>
       {" "}
@@ -112,7 +160,10 @@ const CurrentOpening = () => {
                       </p>
                       <p className="card-location-num mb-0">3</p>
                     </div>
-                    <a href="/get-in-touch" className="btn btn-primary btn-block">
+                    <a
+                      href="/get-in-touch"
+                      className="btn btn-primary btn-block"
+                    >
                       Apply Now
                     </a>
                   </div>
@@ -150,7 +201,10 @@ const CurrentOpening = () => {
                       </p>
                       <p className="card-location-num mb-0">5</p>
                     </div>
-                    <a href="/get-in-touch" className="btn btn-primary btn-block">
+                    <a
+                      href="/get-in-touch"
+                      className="btn btn-primary btn-block"
+                    >
                       Apply Now
                     </a>
                   </div>
@@ -188,7 +242,10 @@ const CurrentOpening = () => {
                       </p>
                       <p className="card-location-num mb-0">2</p>
                     </div>
-                    <a href="/get-in-touch" className="btn btn-primary btn-block">
+                    <a
+                      href="/get-in-touch"
+                      className="btn btn-primary btn-block"
+                    >
                       Apply Now
                     </a>
                   </div>
@@ -229,7 +286,10 @@ const CurrentOpening = () => {
                       </p>
                       <p className="card-location-num mb-0">9</p>
                     </div>
-                    <a href="/get-in-touch" className="btn btn-primary btn-block">
+                    <a
+                      href="/get-in-touch"
+                      className="btn btn-primary btn-block"
+                    >
                       Apply Now
                     </a>
                   </div>
@@ -270,7 +330,10 @@ const CurrentOpening = () => {
                       </p>
                       <p className="card-location-num mb-0">1</p>
                     </div>
-                    <a href="/get-in-touch" className="btn btn-primary btn-block">
+                    <a
+                      href="/get-in-touch"
+                      className="btn btn-primary btn-block"
+                    >
                       Apply Now
                     </a>
                   </div>
@@ -308,7 +371,10 @@ const CurrentOpening = () => {
                       </p>
                       <p className="card-location-num mb-0">4</p>
                     </div>
-                    <a href="/get-in-touch" className="btn btn-primary btn-block">
+                    <a
+                      href="/get-in-touch"
+                      className="btn btn-primary btn-block"
+                    >
                       Apply Now
                     </a>
                   </div>

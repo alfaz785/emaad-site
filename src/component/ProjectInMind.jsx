@@ -6,11 +6,13 @@ import Link from "next/link";
 import { Router } from "react-router-dom";
 import { useRouter } from "next/navigation";
 
-const ProjectInMind = ({ mainTxt }) => {
+const ProjectInMind = ({ mainTxt, isStartProject = false }) => {
   const router = useRouter();
   useEffect(() => {
-    animateLetters();
     wcButtonFC();
+  }, []);
+  useEffect(() => {
+    animateLetters();
   }, []);
 
   return (
@@ -40,7 +42,7 @@ const ProjectInMind = ({ mainTxt }) => {
               href="/get-in-touch"
               className="wc-btn-primary btn btn-outline-light work-btn mt_40"
             >
-              Let's Talk
+              {isStartProject ? "Start a Project" : "Let's Talk"}{" "}
               <span className="material-symbols-outlined">
                 {" "}
                 arrow_right_alt{" "}

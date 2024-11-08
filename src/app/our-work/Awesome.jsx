@@ -71,7 +71,7 @@ const Awesome = () => {
             <div className="col-xxl-7 col-xl-7 col-lg-6 col-md-6 col-sm-12">
               <div className="sec-title-wrapper">
                 <h4 className="sec-title-1 text-wrapper">
-                  {"Realted Projects".split(" ").map((word, index) => (
+                  {"Related Projects".split(" ").map((word, index) => (
                     <div key={index} className="word">
                       {word === " " ? "\u00A0" : word}
                     </div>
