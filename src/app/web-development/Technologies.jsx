@@ -84,7 +84,7 @@ const Technologies = ({ isUiUX = false }) => {
               spaceBetween: 50,
             },
           }}
-          className="swiper-container Technologies-us-card pb-20"
+          className="swiper-container Technologies-us-card pb-20 app_swiper"
         >
           <SwiperSlide className="swiper-slide Technologies-card">
             <div className="Technologies-app rotate">

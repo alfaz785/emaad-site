@@ -228,7 +228,7 @@ const EasyHome = () => {
                   </span>
                 </li>
                 <li className="mb_30">
-                  Prototyping :&nbsp;
+                  Prototyping:&nbsp;
                   <span>
                     We develop interactive prototypes and mockups to give you a
                     visual representation of the final product, allowing for
@@ -244,7 +244,7 @@ const EasyHome = () => {
               </div>
               <ul className="disc anim">
                 <li className="mb_30">
-                  Agile Development :&nbsp;
+                  Agile Development:&nbsp;
                   <span>
                     Using agile methodologies, our development team begins
                     coding and building the software in iterative sprints,

@@ -527,6 +527,9 @@
   .menu-drowpdown {
     flex-wrap: wrap;
   }
+  .privacy-policy-title h1 {
+    width: 100%;
+  }
 
   .menu-drowp-icons {
     flex-wrap: wrap;
@@ -2282,6 +2285,12 @@
   }
   .get-in-touch-title h1 {
     font-size: 40px;
+  }
+  .privacy-policy-Jurisdiction {
+    margin-top: 30px;
+  }
+  .information-titel {
+    margin-top: 30px;
   }
 }
 

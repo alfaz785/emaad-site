@@ -49,7 +49,7 @@ const WorkSection = () => {
                 <div className="info-item col-md-6">
                   <h3>01. Dynamic Work Environment</h3>
                   <p className="mb-0">
-                    At Emaad Infotech, we foster a vibrant and inclusive
+                    At Emaad Infotech®, we foster a vibrant and inclusive
                     workplace where creativity and innovation thrive. Our
                     collaborative culture encourages idea-sharing and continuous
                     learning, ensuring that every team member feels valued and
@@ -71,7 +71,7 @@ const WorkSection = () => {
                   <p className="mb-0">
                     We are committed to your professional development. Benefit
                     from regular training sessions, workshops, and opportunities
-                    to attend industry conferences. At Emaad Infotech, your
+                    to attend industry conferences. At Emaad Infotech®, your
                     growth is our priority.
                   </p>
                 </div>

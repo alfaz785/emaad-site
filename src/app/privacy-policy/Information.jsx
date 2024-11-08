@@ -144,7 +144,7 @@ const Information = () => {
               <h4>Jurisdiction </h4>
               <p>
                 This website is developed, maintained, operated by Emaad
-                Infotech Himmatnagar, India. Himmatnagar and Ahmedabad shall be
+                Infotech® Himmatnagar, India. Himmatnagar and Ahmedabad shall be
                 the legal venue for any or all dispute(s) if arising out from or
                 in connection with this website by any mean.
               </p>

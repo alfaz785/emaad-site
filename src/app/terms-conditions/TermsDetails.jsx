@@ -54,7 +54,7 @@ const TermsDetails = () => {
           {/* <!-- Delivery of Product Section --> */}
           <p className="mb-0 product-para blur-text">
             Welcome to www.emaadinfotech.com. This website is developed, owned
-            and operated by Emaad Infotech and may be utilized for informational
+            and operated by Emaad Infotech® and may be utilized for informational
             purposes only. By using our site or downloading any content from the
             site, you accept the terms and conditions written in this notice &
             also provided by E-mail which is sent to you once confirm to start
@@ -62,15 +62,15 @@ const TermsDetails = () => {
             please do not use the website or download any content from our
             website. We hold rights to change or modify any of Terms &
             Conditions anytime without prior notice to users. This site is the
-            property of Emaad Infotech and is copyrighted and protected by
+            property of Emaad Infotech® and is copyrighted and protected by
             worldwide copyright laws. You agree to obey all copyright laws
             worldwide in use of our website and to prevent any unauthorized
             copying of the texts/images. You can not copyright the script
-            purchased from Emaad Infotech, unless you changed it fully or whole
+            purchased from Emaad Infotech®, unless you changed it fully or whole
             design part of the website.
           </p>
           <p className="mb-0 mt_30 product-para blur-text">
-            Emaad Infotech does not violate rights under any patents, trademarks
+            Emaad Infotech® does not violate rights under any patents, trademarks
             or copyrights. If by mistake any texts / images / copyrighted
             materials belong to you, kindly write to us about violation of
             rights and we will delete it immediately.
@@ -130,7 +130,7 @@ const TermsDetails = () => {
                 </li>
                 <li>We can deliver only source code as per deal.</li>
                 <li>
-                  We may place visible/non-visible link of Emaad Infotech ie.
+                  We may place visible/non-visible link of Emaad Infotech® ie.
                   https://www.emaadinfotech.com in footer as per deal which you can
                   remove after purchasing the script.
                 </li>

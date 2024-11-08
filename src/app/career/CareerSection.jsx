@@ -5,8 +5,8 @@ import { MultiTypingEffect } from "../../../commFun";
 const CareerSection = () => {
   const careerSection = [
     { id: "part1", text: "We Don’t Offer " },
-    { id: "part2", text: "Jobs." },
-    { id: "part3", text: "We Offer " },
+    { id: "part2", text: "Jobs. " },
+    { id: "part3", text: " We Offer " },
     { id: "part4", text: "Careers." },
   ];
   useEffect(() => {

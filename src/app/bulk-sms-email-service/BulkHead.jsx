@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect } from "react";
-import serviceImg from "../../assets/images/service-img.png";
+import serviceImg from "../../assets/images/bulk-services1.png";
 import Image from "next/image";
 import { bulkHead, textTypingEffect } from "../../../commFun";
 
@@ -106,7 +106,7 @@ const BulkHead = () => {
                       <h4>{data?.title}</h4>
                     </div>
                     <div className="benifits-descripation">
-                      <p>{data?.description}</p>
+                      <p className="mb=0">{data?.description}</p>
                     </div>
                   </div>
                   <div className="benifits-btn-arrow">
