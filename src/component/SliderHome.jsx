@@ -58,7 +58,7 @@ const SliderHome = () => {
           <div className="swiper-wrapper">
             <div className="swiper-slide back_one">
               <div className="slider-text">
-              <div className="Technologies-use-title">
+                <div className="Technologies-use-title">
                   <div className="industries-text">
                     <h4>
                       Industries <span>We Serve</span>
@@ -165,7 +165,7 @@ const SliderHome = () => {
             </div>
             <div className="swiper-slide back_three">
               <div className="slider-text">
-              <div className="Technologies-use-title">
+                <div className="Technologies-use-title">
                   <div className="industries-text">
                     <h4>
                       Industries <span>We Serve</span>
@@ -190,7 +190,7 @@ const SliderHome = () => {
             </div>
             <div className="swiper-slide back_four">
               <div className="slider-text">
-              <div className="Technologies-use-title">
+                <div className="Technologies-use-title">
                   <div className="industries-text">
                     <h4>
                       Industries <span>We Serve</span>
@@ -216,7 +216,7 @@ const SliderHome = () => {
             </div>
             <div className="swiper-slide back_five">
               <div className="slider-text">
-              <div className="Technologies-use-title">
+                <div className="Technologies-use-title">
                   <div className="industries-text">
                     <h4>
                       Industries <span>We Serve</span>
@@ -245,7 +245,7 @@ const SliderHome = () => {
             </div>
             <div className="swiper-slide back_six">
               <div className="slider-text">
-              <div className="Technologies-use-title">
+                <div className="Technologies-use-title">
                   <div className="industries-text">
                     <h4>
                       Industries <span>We Serve</span>
@@ -271,7 +271,7 @@ const SliderHome = () => {
             </div>
             <div className="swiper-slide back_seven">
               <div className="slider-text">
-              <div className="Technologies-use-title">
+                <div className="Technologies-use-title">
                   <div className="industries-text">
                     <h4>
                       Industries <span>We Serve</span>
@@ -297,7 +297,7 @@ const SliderHome = () => {
             </div>
             <div className="swiper-slide back_eight">
               <div className="slider-text">
-              <div className="Technologies-use-title">
+                <div className="Technologies-use-title">
                   <div className="industries-text">
                     <h4>
                       Industries <span>We Serve</span>
@@ -324,7 +324,7 @@ const SliderHome = () => {
             <div className="swiper-slide back_nine">
               <div className="overlay"></div>
               <div className="slider-text">
-              <div className="Technologies-use-title">
+                <div className="Technologies-use-title">
                   <div className="industries-text">
                     <h4>
                       Industries <span>We Serve</span>
@@ -350,7 +350,7 @@ const SliderHome = () => {
             </div>
             <div className="swiper-slide back_ten">
               <div className="slider-text">
-              <div className="Technologies-use-title">
+                <div className="Technologies-use-title">
                   <div className="industries-text">
                     <h4>
                       Industries <span>We Serve</span>

@@ -216,8 +216,8 @@ const Awesome = () => {
                     </div>
                   </div>
                 </div>
-                <div className=" pp-prev swipper-btn">Next</div>
-                <div className="pp-next swipper-btn"> prev</div>
+                <div className=" pp-prev swipper-btn">Prev</div>
+                <div className="pp-next swipper-btn"> Next</div>
               </div>
             </div>
 

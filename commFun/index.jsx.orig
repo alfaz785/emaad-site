@@ -1,14 +1,14 @@
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { TextPlugin } from "gsap/TextPlugin";
-import bulkServicesImg1 from "../src/assets/images/bulk-services1.png";
-import bulkServicesImg2 from "../src/assets/images/service-img.png";
-import bulkServicesImg3 from "../src/assets/images/bulk-services3.png";
-import bulkServicesImg4 from "../src/assets/images/bulk-services4.png";
+<<<<<<< HEAD
+import bulkServicesImg from "../src/assets/images/bulk-services1.png";
+=======
+
 import Image from "next/image";
+>>>>>>> 9c5883aee4b3f82aa539422cae95065c39db6d14
 
 gsap.registerPlugin(ScrollTrigger, TextPlugin);
-
 const productcontents = [
   {
     title: "Real Estate Script",
@@ -504,7 +504,7 @@ export function InformationPrivacyFC() {
   });
 }
 
-export function toggleAccordion(element) {
+export function   toggleAccordion(element) {
   const header = element;
   const content = header?.nextElementSibling;
   const icon = header?.querySelector(".accordion-icon");
@@ -875,7 +875,7 @@ export const AboutUsData = [
     description:
       "Domain and Hosting are essential for any website, providing a unique web address (domain) and server space (hosting) for online accessibility.",
   },
-
+ 
   {
     icon: "sms",
     title: "Bulk SMS & Email Services",
@@ -940,24 +940,24 @@ export const bulkHead = [
     title: "Customizable Templates",
     description:
       "We provide a wide selection of professionally designed templates that you can customize to reflect your brand’s unique identity. Alternatively, you can create your own templates from scratch, ensuring your emails always align with your brand’s look and feel.",
-    serviceImg: bulkServicesImg1,
+    serviceImg: bulkServicesImg,
   },
   {
     title: "Segmentation",
     description:
       "Increase engagement by targeting specific segments of your audience. Our advanced segmentation tools allow you to send tailored messages to different customer groups based on their preferences, behaviors, and demographics, ensuring your communications are relevant and impactful.",
-    serviceImg: bulkServicesImg2,
+    // serviceImg: "../../assets/images/service-img",
   },
   {
     title: "Automated Campaigns",
     description:
       "Save time and enhance efficiency with our automated email campaign features. You can set up sequences that automatically nurture leads, onboard new customers, or re-engage inactive subscribers, ensuring consistent and timely communication without manual intervention.",
-    serviceImg: bulkServicesImg3,
+    // serviceImg: "../../assets/images/service-img",
   },
   {
     title: "Analytics",
     description:
       "Our comprehensive analytics provide you with valuable insights into your email campaigns. Track open rates, click-through rates, conversions, and overall performance to understand what works best for your audience. Use this data to refine your strategies and achieve better results.",
-    serviceImg: bulkServicesImg4,
+    // serviceImg: "../../assets/images/service-img",
   },
 ];

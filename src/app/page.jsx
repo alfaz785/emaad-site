@@ -11,6 +11,10 @@ import SliderHome from "@/component/SliderHome";
 import { generateMetadata } from "../../commFun/metadatahelper";
 export const metadata = generateMetadata("");
 
+// to run app on cloudflare edges
+export const runtime = "edge";
+// It won't work without this
+
 export default function Home() {
   return (
     <>
