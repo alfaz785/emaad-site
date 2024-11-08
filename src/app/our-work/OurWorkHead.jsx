@@ -28,9 +28,7 @@ const OurWorkHead = () => {
 
     observer.observe(textElement);
   }, []);
-  useEffect(() => {
-    animateLetters();
-  }, []);
+
   return (
     <>
       <div className="our-work-section">
@@ -43,13 +41,35 @@ const OurWorkHead = () => {
           {/* <!-- our-work-titel --> */}
           <div className="ideas-wait-text mt_40 sec-title-2 our-work-titel">
             <h3 className="mb-0 text-wrapper text-center" id="text">
-              {"Real Estate software solution"
-                .split("")
-                .map((letter, index) => (
-                  <span key={index} className="letter">
-                    {letter === " " ? "\u00A0" : letter}{" "}
-                  </span>
-                ))}
+              <span className="letter">R</span>
+              <span className="letter">e</span>
+              <span className="letter">a</span>
+              <span className="letter">l</span>&nbsp;
+              <span className="letter">E</span>
+              <span className="letter">s</span>
+              <span className="letter">t</span>
+              <span className="letter">a</span>
+              <span className="letter">t</span>
+              <span className="letter">e</span>&nbsp;
+              <span className="letter">s</span>
+              <span className="letter">o</span>
+              <span className="letter">f</span>
+              <span className="letter">t</span>
+              <span className="letter">w</span>
+              <span className="letter">a</span>
+              <span className="letter">r</span>
+              <span className="letter">e</span>
+              <span className="letter-wrapper"></span>
+              <br />
+              <span className="letter">s</span>
+              <span className="letter">o</span>
+              <span className="letter">l</span>
+              <span className="letter">u</span>
+              <span className="letter">a</span>
+              <span className="letter">t</span>
+              <span className="letter">i</span>
+              <span className="letter">o</span>
+              <span className="letter">n</span>
             </h3>
           </div>
           {/* <!-- /.===  our-work-end === --> */}
