@@ -29,46 +29,8 @@ const OurWorkHead = () => {
     observer.observe(textElement);
   }, []);
   useEffect(() => {
-    // Wait a small delay to ensure elements are fully rendered
-    setTimeout(() => {
-      const titles = document.querySelectorAll(".sec-title-2");
-
-      const options = {
-        threshold: 0.5,
-      };
-
-      const observer = new IntersectionObserver((entries, observer) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            const letters = entry.target.querySelectorAll(".letter");
-
-            // Ensure letters are inline-block and visible initially
-            gsap.set(letters, { display: "inline-block", opacity: 1 });
-
-            gsap.fromTo(
-              letters,
-              { opacity: 0, scale: 0.3, rotation: 90 },
-              {
-                // duration: 1,
-                opacity: 1,
-                scale: 1,
-                rotation: 0,
-                ease: "back.out(1.7)",
-                stagger: {
-                  amount: 1,
-                },
-              },
-            );
-
-            observer.unobserve(entry.target); // Stop observing after animation
-          }
-        });
-      }, options);
-
-      titles.forEach((title) => observer.observe(title));
-    }, 1000); // Small delay to ensure elements are rendered
+    animateLetters();
   }, []);
-
   return (
     <>
       <div className="our-work-section">

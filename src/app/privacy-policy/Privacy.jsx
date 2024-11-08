@@ -38,7 +38,7 @@ const Privacy = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span className="policy-mail"> www.emaadinfotech.com.</span>{" "}
+                <span className="policy-mail"> www.emaadinfotech.com</span>{" "}
               </a>
               By using our services, you consent to the practices described in
               this policy.

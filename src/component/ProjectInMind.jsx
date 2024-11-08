@@ -9,8 +9,10 @@ import { useRouter } from "next/navigation";
 const ProjectInMind = ({ mainTxt }) => {
   const router = useRouter();
   useEffect(() => {
-    animateLetters();
     wcButtonFC();
+  }, []);
+  useEffect(() => {
+    animateLetters();
   }, []);
 
   return (
@@ -27,6 +29,7 @@ const ProjectInMind = ({ mainTxt }) => {
                     </span>
                   ))}
                   <span className="space">&nbsp;</span>{" "}
+                  {/* Adds space between words */}
                 </span>
               ))}
             </h3>
