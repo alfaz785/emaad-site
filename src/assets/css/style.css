@@ -4631,6 +4631,7 @@ body {
   font-family: "Assistant-Light";
   margin-top: 31px;
   width: 76%;
+  margin-bottom: 0;
 }
 .benifits-arrow-des {
   display: flex;
@@ -6534,7 +6535,10 @@ a {
   opacity: 0;
   transition: opacity 0.5s ease;
   pointer-events: none;
-  rotate: 12.12deg;
+  /* rotate: 12.12deg; */
+  height: 420px;
+  object-fit: cover;
+  width: 350px;
 }
 .bulk-service-email-desing:hover {
   cursor: none;
@@ -7009,6 +7013,7 @@ a {
   background-image: url(../images/services-section-bg.png);
   background-repeat: no-repeat;
   background-position: calc(100% - 70px) center;
+  background-size: contain;
 }
 .refund-policy-title h1 {
   font-size: 80px;
@@ -7211,7 +7216,7 @@ a {
   color: #f1f1f1;
   font-size: 40px;
   cursor: pointer;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 .modal-header .close-text {
   font-size: 20px;
@@ -8002,4 +8007,7 @@ body.no-scroll {
   background: linear-gradient(104.02deg, #2d9cdb 0%, #2dc97a 88.31%);
   transform: translate(-50%, -50%) rotate(-2.74deg);
   z-index: -1;
+}
+.app_swiper{
+  padding-bottom: 50px !important;
 }

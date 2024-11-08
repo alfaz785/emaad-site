@@ -111,7 +111,7 @@ const Comprehensive = () => {
                           type your website address or domain into their
                           browser, computer will then connect to your server and
                           your webpages will be delivered to them through the
-                          browser. Emaad infotech, Being best Web Hosting
+                          browser. Emaad infotech®, Being best Web Hosting
                           Company in Himmatnagar, provides website hosting
                           service along with proper domain name and Website
                           Migration/Transfer Service.

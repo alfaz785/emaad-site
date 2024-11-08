@@ -71,10 +71,10 @@ const CurrentOpening = () => {
           </div>
           <p className="text-center title-para mb-0">
             Join our team of innovative thinkers and tech enthusiasts at Emaad
-            Infotech. We are always on the lookout for talented individuals who
+            Infotech®. We are always on the lookout for talented individuals who
             are passionate about technology and eager to make an impact. Explore
             our current openings and discover exciting career opportunities that
-            align with your skills and aspirations. At Emaad Infotech, we offer
+            align with your skills and aspirations. At Emaad Infotech®, we offer
             a dynamic work environment, continuous learning, and the chance to
             work on cutting-edge projects.
           </p>
@@ -90,7 +90,7 @@ const CurrentOpening = () => {
                     </div>
                     <p className="card-text mb-0">
                       We are looking for a skilled React JS Developer to join
-                      our dynamic team at Emaad Infotech.
+                      our dynamic team at Emaad Infotech®.
                     </p>
                     <ul className="list-inline">
                       <li className="list-inline-item badge badge-primary">
@@ -128,7 +128,7 @@ const CurrentOpening = () => {
                     </div>
                     <p className="card-text mb-0">
                       We are looking for an experienced Angular Developer to
-                      join our team at Emaad Infotech.
+                      join our team at Emaad Infotech®.
                     </p>
                     <ul className="list-inline">
                       <li className="list-inline-item badge badge-primary">
@@ -166,7 +166,7 @@ const CurrentOpening = () => {
                     </div>
                     <p className="card-text mb-0">
                       We are seeking a talented Flutter Developer to join our
-                      team at Emaad Infotech.
+                      team at Emaad Infotech®.
                     </p>
                     <ul className="list-inline">
                       <li className="list-inline-item badge badge-primary">
@@ -204,7 +204,7 @@ const CurrentOpening = () => {
                     </div>
                     <p className="card-text mb-0">
                       We are looking for a skilled NodeJS Developer to join our
-                      dynamic team at Emaad Infotech.
+                      dynamic team at Emaad Infotech®.
                     </p>
                     <ul className="list-inline">
                       <li className="list-inline-item badge badge-primary">
@@ -245,7 +245,7 @@ const CurrentOpening = () => {
                     </div>
                     <p className="card-text mb-0">
                       We are looking for a skilled PHP Developer to join our
-                      dynamic team at Emaad Infotech.
+                      dynamic team at Emaad Infotech®.
                     </p>
                     <ul className="list-inline">
                       <li className="list-inline-item badge badge-primary">
@@ -286,7 +286,7 @@ const CurrentOpening = () => {
                     </div>
                     <p className="card-text mb-0">
                       We are looking for a skilled React JS Developer to join
-                      our dynamic team at Emaad Infotech.
+                      our dynamic team at Emaad Infotech®.
                     </p>
                     <ul className="list-inline">
                       <li className="list-inline-item badge badge-primary">
