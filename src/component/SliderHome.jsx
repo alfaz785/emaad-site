@@ -58,7 +58,7 @@ const SliderHome = () => {
           <div className="swiper-wrapper">
             <div className="swiper-slide back_one">
               <div className="slider-text">
-              <div className="Technologies-use-title">
+                <div className="Technologies-use-title">
                   <div className="industries-text">
                     <h4>
                       Industries <span>We Serve</span>
@@ -87,55 +87,6 @@ const SliderHome = () => {
             </div>
             <div className="swiper-slide back_two">
               <div className="slider-text">
-                {/* <!-- <h5 className="mb_40">
-              Leading ECommerce Software Development Company
-            </h5> --> */}
-                {/* <h5 className="sec-title-3 mb_40">
-                  <span className="letter">L</span>
-                  <span className="letter">e</span>
-                  <span className="letter">a</span>
-                  <span className="letter">d</span>
-                  <span className="letter">i</span>
-                  <span className="letter">n</span>
-                  <span className="letter">g</span>{" "}
-                  <span className="letter">E</span>
-                  <span className="letter">C</span>
-                  <span className="letter">o</span>
-                  <span className="letter">m</span>
-                  <span className="letter">m</span>
-                  <span className="letter">e</span>
-                  <span className="letter">r</span>
-                  <span className="letter">c</span>
-                  <span className="letter">e</span>
-                  <span className="letter">S</span>
-                  <span className="letter">o</span>
-                  <span className="letter">f</span>
-                  <span className="letter">t</span>
-                  <span className="letter">w</span>
-                  <span className="letter">a</span>
-                  <span className="letter">r</span>
-                  <span className="letter">e</span>
-                  <span className="letter-wrapper"></span>
-                  <br />
-                  <span className="letter">D</span>
-                  <span className="letter">e</span>
-                  <span className="letter">v</span>
-                  <span className="letter">e</span>
-                  <span className="letter">l</span>
-                  <span className="letter">o</span>
-                  <span className="letter">p</span>
-                  <span className="letter">m</span>
-                  <span className="letter">e</span>
-                  <span className="letter">n</span>
-                  <span className="letter">t</span>{" "}
-                  <span className="letter">C</span>
-                  <span className="letter">o</span>
-                  <span className="letter">m</span>
-                  <span className="letter">p</span>
-                  <span className="letter">a</span>
-                  <span className="letter">n</span>
-                  <span className="letter">y</span>
-                </h5> */}
                 <div className="Technologies-use-title">
                   <div className="industries-text">
                     <h4>
@@ -165,7 +116,7 @@ const SliderHome = () => {
             </div>
             <div className="swiper-slide back_three">
               <div className="slider-text">
-              <div className="Technologies-use-title">
+                <div className="Technologies-use-title">
                   <div className="industries-text">
                     <h4>
                       Industries <span>We Serve</span>
@@ -190,7 +141,7 @@ const SliderHome = () => {
             </div>
             <div className="swiper-slide back_four">
               <div className="slider-text">
-              <div className="Technologies-use-title">
+                <div className="Technologies-use-title">
                   <div className="industries-text">
                     <h4>
                       Industries <span>We Serve</span>
@@ -216,7 +167,7 @@ const SliderHome = () => {
             </div>
             <div className="swiper-slide back_five">
               <div className="slider-text">
-              <div className="Technologies-use-title">
+                <div className="Technologies-use-title">
                   <div className="industries-text">
                     <h4>
                       Industries <span>We Serve</span>
@@ -245,7 +196,7 @@ const SliderHome = () => {
             </div>
             <div className="swiper-slide back_six">
               <div className="slider-text">
-              <div className="Technologies-use-title">
+                <div className="Technologies-use-title">
                   <div className="industries-text">
                     <h4>
                       Industries <span>We Serve</span>
@@ -271,7 +222,7 @@ const SliderHome = () => {
             </div>
             <div className="swiper-slide back_seven">
               <div className="slider-text">
-              <div className="Technologies-use-title">
+                <div className="Technologies-use-title">
                   <div className="industries-text">
                     <h4>
                       Industries <span>We Serve</span>
@@ -297,7 +248,7 @@ const SliderHome = () => {
             </div>
             <div className="swiper-slide back_eight">
               <div className="slider-text">
-              <div className="Technologies-use-title">
+                <div className="Technologies-use-title">
                   <div className="industries-text">
                     <h4>
                       Industries <span>We Serve</span>
@@ -324,7 +275,7 @@ const SliderHome = () => {
             <div className="swiper-slide back_nine">
               <div className="overlay"></div>
               <div className="slider-text">
-              <div className="Technologies-use-title">
+                <div className="Technologies-use-title">
                   <div className="industries-text">
                     <h4>
                       Industries <span>We Serve</span>
@@ -350,7 +301,7 @@ const SliderHome = () => {
             </div>
             <div className="swiper-slide back_ten">
               <div className="slider-text">
-              <div className="Technologies-use-title">
+                <div className="Technologies-use-title">
                   <div className="industries-text">
                     <h4>
                       Industries <span>We Serve</span>

@@ -1809,6 +1809,15 @@
   .advanced-security-right h5 {
     font-size: 40px;
   }
+  .sec-title-1 br {
+    display: none !important;
+  }
+  .sec-title-1 {
+    font-size: 45px;
+  }
+  .letter-wrapper {
+    margin-left: 10px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -1926,9 +1935,7 @@
   .sec-title-1 {
     font-size: 50px;
   }
-  .sec-title-1 br {
-    display: none !important;
-  }
+
   /* Customers Experiences section */
   .customer-experiences h3 {
     font-size: 60px;
@@ -2373,7 +2380,7 @@
 
   /* awesome section start */
   .sec-title-1 {
-    font-size: 37px;
+    font-size: 35px;
   }
   .customer-experiences h3 {
     font-size: 40px;

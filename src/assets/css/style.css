@@ -1745,6 +1745,7 @@ body {
   height: 53px;
   border: 1px solid var(--white-color) !important;
   border-radius: 50%;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 .thumb-bottom {
   display: flex;
@@ -8010,4 +8011,8 @@ body.no-scroll {
 }
 .app_swiper{
   padding-bottom: 50px !important;
+}
+.swiper-button-prev:hover, .swiper-button-next:hover {
+  background-color: var(--white-color); 
+  color: black !important;
 }
